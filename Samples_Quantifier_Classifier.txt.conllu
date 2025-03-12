@@ -1,0 +1,266 @@
+# sent_id = 1
+# text = หมูหลายตัว
+# text_en = several pigs
+# tokenised text = หมู หลาย ตัว
+# gloss = pig several body(used as a classifier)
+# translit = /mǒo/ /lǎj/ /tua/
+1	หมู	_	NOUN	_	_	0	root	_	_
+2	หลาย	_	DET	_	_	3	det	_	_
+3	ตัว	_	NOUN	_	_	1	classifying	_	_
+
+# sent_id = 2
+# text = หมูหลายตัวนี้
+# text_en = several of these pigs
+# tokenised text = หมู หลาย ตัว นี้
+# gloss = pig several body(used as a classifier) this
+# translit = /mǒo/ /lǎj/ /tua/ /níi/
+1	หมู	_	NOUN	_	_	0	root	_	_
+2	หลาย	_	DET	_	_	3	det	_	_
+3	ตัว	_	NOUN	_	_	1	classifying	_	_
+4	นี้	_	DET	_	_	3	det	_	_
+
+# sent_id = 3
+# text = หมูเล็กหลายตัว
+# text_en = several small pigs
+# tokenised text = หมู เล็ก หลาย ตัว
+# gloss = pig small several body(used as a classifier)
+# translit = /mǒo/ /lék/ /lǎj/ /tua/ 
+1	หมู	_	NOUN	_	_	0	root	_	_
+2	เล็ก	_	ADJ	_	_	1	amod	_	_
+3	หลาย	_	DET	_	_	4	det	_	_
+4	ตัว	_	NOUN	_	_	1	classifying	_	_
+
+# sent_id = 4
+# text = หมูตัวเล็กหลายตัว
+# text_en = several small-sized pigs
+# tokenised text = หมู ตัว เล็ก หลาย ตัว
+# gloss = pig body(used as a classifier) small several body(used as a classifier)
+# translit = /mǒo/ /tua/ /lék/ /lǎj/ /tua/ 
+1	หมู	_	NOUN	_	_	0	root	_	_
+2	ตัว	_	NOUN	_	_	1	classifying	_	_
+3	เล็ก	_	ADJ	_	_	2	amod	_	_
+4	หลาย	_	DET	_	_	5	det	_	_
+5	ตัว	_	NOUN	_	_	1	classifying	_	_
+
+# sent_id = 5
+# text = หมูตัวเล็กหลายตัวเหล่านั้นเป็นของเพื่อนฉัน
+# text_en = That group of several small-sized pigs belongs to my friend.
+# tokenised text = หมู ตัว เล็ก หลาย ตัว เหล่า นั้น เป็น ของ เพื่อน ฉัน
+# gloss = pig body(used as a classifier) small several body(used as a classifier) group that BE thing friend I
+# translit = /mǒo/ /tua/ /lék/ /lǎj/ /tua/ /làw/ /nán/ /pen/ /khɔ̌ɔŋ/ /phɯ̂an/ /chán/
+1	หมู	_	NOUN	_	_	9	nsubj	_	_
+2	ตัว	_	NOUN	_	_	1	classifying	_	_
+3	เล็ก	_	ADJ	_	_	2	amod	_	_
+4	หลาย	_	DET	_	_	5	det	_	_
+5	ตัว	_	NOUN	_	_	2	classifying	_	_
+6	เหล่า	_	NOUN	_	_	5	nmod	_	_
+7	นั้น	_	DET	_	_	6	det	_	_
+8	เป็น	_	AUX	_	_	9	cop	_	_
+9	ของ	_	NOUN	_	_	0	root	_	_
+10	เพื่อน	_	NOUN	_	_	9	nmod:poss	_	_
+11	ฉัน	_	PRON	_	_	10	nmod:poss	_	_
+
+# sent_id = 5.1
+# text = หมูตัวเล็กหลายตัวเหล่านั้นเป็นของเพื่อนฉัน
+# text_en = That group of several small-sized pigs belongs to my friend.
+# tokenised text = หมู ตัว เล็ก หลาย ตัว เหล่า นั้น เป็น ของ เพื่อน ฉัน
+# gloss = pig body(used as a classifier) small several body(used as a classifier) group that BE thing friend I
+# translit = /mǒo/ /tua/ /lék/ /lǎj/ /tua/ /làw/ /nán/ /pen/ /khɔ̌ɔŋ/ /phɯ̂an/ /chán/
+1	หมู	_	NOUN	_	_	9	nsubj	_	_
+2	ตัว	_	NOUN	_	_	1	classifying	_	_
+3	เล็ก	_	ADJ	_	_	2	amod	_	_
+4	หลาย	_	DET	_	_	5	det	_	_
+5	ตัว	_	NOUN	_	_	1	classifying	_	_
+6	เหล่า	_	NOUN	_	_	5	nmod	_	_
+7	นั้น	_	DET	_	_	6	det	_	_
+8	เป็น	_	AUX	_	_	9	cop	_	_
+9	ของ	_	NOUN	_	_	0	root	_	_
+10	เพื่อน	_	NOUN	_	_	9	nmod:poss	_	_
+11	ฉัน	_	PRON	_	_	10	nmod:poss	_	_
+
+# sent_id = 5.2
+# text = หมูตัวเล็กหลายตัวเหล่านั้นเป็นของเพื่อนฉัน
+# text_en = That group of several small-sized pigs belongs to my friend.
+# tokenised text = หมู ตัว เล็ก หลาย ตัว เหล่า นั้น เป็น ของ เพื่อน ฉัน
+# gloss = pig body(used as a classifier) small several body(used as a classifier) group that BE thing friend I
+# translit = /mǒo/ /tua/ /lék/ /lǎj/ /tua/ /làw/ /nán/ /pen/ /khɔ̌ɔŋ/ /phɯ̂an/ /chán/
+1	หมู	_	NOUN	_	_	9	nsubj	_	_
+2	ตัว	_	NOUN	_	_	1	classifying	_	_
+3	เล็ก	_	ADJ	_	_	2	amod	_	_
+4	หลาย	_	DET	_	_	5	det	_	_
+5	ตัว	_	NOUN	_	_	1	classifying	_	_
+6	เหล่า	_	NOUN	_	_	1	nmod	_	_
+7	นั้น	_	DET	_	_	6	det	_	_
+8	เป็น	_	AUX	_	_	9	cop	_	_
+9	ของ	_	NOUN	_	_	0	root	_	_
+10	เพื่อน	_	NOUN	_	_	9	nmod:poss	_	_
+11	ฉัน	_	PRON	_	_	10	nmod:poss	_	_
+
+# sent_id = 6
+# text = เขาเห็นหมูที่กำลังวิ่งบางตัวมีแผลที่ขาหลัง
+# text_en = He saw the pig that was running had a wound at its hind leg.
+# tokenised text = เขา เห็น หมู ที่ กำลัง วิ่ง บาง ตัว มี แผล ที่ ขา หลัง
+# gloss = he see pig that word(expressing a progressive action) run some body(used as a classifier) have wound at legs back
+# translit = /khǎw/ /hěn/ /mǒo/ /thîi/ /kam-laŋ/ /wîŋ/ /baaŋ/ /tua/ /mii/ /phlɛ̌ɛ/ /thîi/ /khǎa/ /lǎŋ/
+1	เขา	_	PRON	_	_	2	nsubj	_	_
+2	เห็น	_	VERB	_	_	0	root	_	_
+3	หมู	_	NOUN	_	_	2	obj	_	_
+4	ที่	_	PRON	_	_	6	nsubj	_	_
+5	กำลัง	_	ADV	_	_	6	advmod	_	_
+6	วิ่ง	_	VERB	_	_	3	acl:relcl	_	_
+7	บาง	_	DET	_	_	8	det	_	_
+8	ตัว	_	NOUN	_	_	3	classifying	_	_
+9	มี	_	VERB	_	_	3	nsubj	_	_
+10	แผล	_	NOUN	_	_	9	obj	_	_
+11	ที่	_	ADP	_	_	12	case	_	_
+12	ขา	_	NOUN	_	_	10	obl	_	_
+13	หลัง	_	NOUN	_	_	12	nmod	_	_
+
+# sent_id = 7
+# text = หมูตัวเล็กทุกตัวในเล้ามีจุดดำที่ก้น
+# text_en = Every small-sized pig in a sty has black dots at their buttocks.
+# tokenised text = หมู ตัว เล็ก ทุก ตัว ใน เล้า มี จุด ดำ ที่ ก้น
+# gloss = pig body(used as a classifier) small every body(used as a classifier) in sty have dot black at buttocks
+# translit = /mǒo/ /tua/ /lék/ /thúk/ /tua/ /naj/ /láw/ /mii/ /cùt/ /dam/ /thîi/ /kôn/
+1	หมู	_	NOUN	_	_	8	nsubj	_	_
+2	ตัว	_	NOUN	_	_	1	classifying	_	_
+3	เล็ก	_	ADJ	_	_	2	amod	_	_
+4	ทุก	_	DET	_	_	5	det	_	_
+5	ตัว	_	NOUN	_	_	1	classifying	_	_
+6	ใน	_	ADP	_	_	7	case	_	_
+7	เล้า	_	NOUN	_	_	1	obl	_	_
+8	มี	_	VERB	_	_	0	root	_	_
+9	จุด	_	NOUN	_	_	8	obj	_	_
+10	ดำ	_	ADJ	_	_	9	amod	_	_
+11	ที่	_	ADP	_	_	12	case	_	_
+12	ก้น	_	NOUN	_	_	9	obl	_	_
+
+# sent_id = 8
+# text = ในหมู่บ้านถัดไปบ้านทุกสองหลังติดกล้องวงจรปิดไว้หน้าบ้าน
+# text_en = At the next village, every two houses has a security camera installed at the front yard.
+# tokenised text = ใน หมู่ บ้าน ถัด ไป บ้าน ทุก สอง หลัง ติด กล้อง วงจร ปิด ไว้ หน้า บ้าน
+# gloss = in group house next go house every two word(used as a classifier) attach camera system close hold front house
+# translit = /naj/ /mòo/ /bâan/ /thàt/ /paj/ /bâan/ /thúk/ /sɔ̌ɔŋ/ /lǎŋ/ /tìt/ /klɔ̂ɔŋ/ /woŋ-cɔɔn/ /pìt/ /wáj/ /nâa/ /bâan/
+1	ใน	_	ADP	_	_	2	case	_	_
+2	หมู่	_	NOUN	_	_	6	obl	_	_
+3	บ้าน	_	NOUN	_	_	2	nmod:compound	_	_
+4	ถัด	_	ADJ	_	_	2	amod	_	_
+5	ไป	_	ADV	_	_	4	advmod	_	_
+6	บ้าน	_	NOUN	_	_	10	nsubj	_	_
+7	ทุก	_	DET	_	_	9	det	_	_
+8	สอง	_	NUM	_	_	9	nummod	_	_
+9	หลัง	_	NOUN	_	_	6	classifying	_	_
+10	ติด	_	VERB	_	_	0	root	_	_
+11	กล้อง	_	NOUN	_	_	10	obj	_	_
+12	วงจร	_	NOUN	_	_	11	nmod:compound	_	_
+13	ปิด	_	VERB	_	_	11	acl:compound	_	_
+14	ไว้	_	ADV	_	_	10	advmod	_	_
+15	หน้า	_	ADP	_	_	16	case	_	_
+16	บ้าน	_	NOUN	_	_	10	obl	_	_
+
+
+# sent_id = 9
+# text = บางหน้าในหนังสือเล่มที่เธอซื้อให้ฉันมีรอยขีดฆ่ามาแล้ว
+# text_en = Some pages in the book that you bought for me have been crossed out.
+# tokenised text = บาง หน้า ใน หนังสือ เล่ม ที่ เธอ ซื้อ ให้ ฉัน มี รอย ขีด ฆ่า มา แล้ว
+# gloss = some page in book word(used as a classifier) that you buy for I have scratch mark kill come already
+# translit = /baaŋ/ /nâa/ /naj/ /nǎŋ-sɯ̌ɯ/ /lêm/ /thîi/ /thɤɤ/ /sɯ́ɯ/ /hâj/ /chán/ /mii/ /rɔɔj/ /khìit/ /khâa/ /maa/ /lɛ́ɛw/
+1	บาง	_	DET	_	_	2	det	_	_
+2	หน้า	_	NOUN	_	_	11	nsubj	_	_
+3	ใน	_	ADP	_	_	4	case	_	_
+4	หนังสือ	_	NOUN	_	_	2	obl	_	_
+5	เล่ม	_	NOUN	_	_	4	classifying	_	_
+6	ที่	_	PRON	_	_	8	obj	_	_
+7	เธอ	_	PRON	_	_	8	nsubj	_	_
+8	ซื้อ	_	VERB	_	_	5	acl:relcl	_	_
+9	ให้	_	ADP	_	_	10	case	_	_
+10	ฉัน	_	PRON	_	_	8	obl	_	_
+11	มี	_	VERB	_	_	0	root	_	_
+12	รอย	_	NOUN	_	_	11	obj	_	_
+13	ขีด	_	VERB	_	_	12	acl:compound	_	_
+14	ฆ่า	_	VERB	_	_	13	acl:compound	_	_
+15	มา	_	ADV	_	_	11	advmod	_	_
+16	แล้ว	_	ADV	_	_	11	advmod	_	_
+
+# sent_id = 10
+# text = มีกี่หน้าและหน้าไหนบ้าง
+# text_en = How many pages (with the scratches) are there? And which pages are they?
+# tokenised text = มี กี่ หน้า และ หน้า ไหน บ้าง
+# gloss = have how-many page and page which word(used to express a sense of some amounts of the mentioned thing)
+# translit = /mii/ /kìi/ /nâa/ /lɛ́ʔ/ /nâa/ /nǎj/ /bâaŋ/
+1	มี	_	VERB	_	_	0	root	_	_
+2	กี่	_	DET	_	_	3	det	_	_
+3	หน้า	_	NOUN	_	_	1	obj	_	_
+4	และ	_	CCONJ	_	_	5	cc	_	_
+5	หน้า	_	NOUN	_	_	3	conj	_	_
+6	ไหน	_	ADJ	_	_	5	amod	_	_
+7	บ้าง	_	ADJ	_	_	5	amod	_	_
+
+# sent_id = 11
+# text = มีประมาณสองสามหน้า หน้าแรก หน้าที่ห้า และหน้าสุดท้าย
+# text_en = There are two or three pages, the first page, the fifth one, and the final one.
+# tokenised text = มี ประมาณ สอง สาม หน้า หน้า แรก หน้า ที่ ห้า และ หน้า สุด ท้าย
+# gloss = have approximate two three page page first page position five and page end rear
+# translit = /mii/ /pràʔ-maan/ /sɔ̌ɔŋ/ /sǎam/ /nâa/ /nâa/ /rɛ̂ɛk/ /nâa/ /thîi/ /hâa/ /lɛ́ʔ/ /nâa/ /sùt/ /tháaj/
+1	มี	_	VERB	_	_	0	root	_	_
+2	ประมาณ	_	DET	_	_	5	det	_	_
+3	สอง	_	NUM	_	_	5	nummod	_	_
+4	สาม	_	NUM	_	_	5	nummod	_	_
+5	หน้า	_	NOUN	_	_	1	obj	_	_
+6	หน้า	_	NOUN	_	_	5	parataxis	_	_
+7	แรก	_	ADJ	_	_	6	amod	_	_
+8	หน้า	_	NOUN	_	_	6	conj	_	_
+9	ที่	_	NOUN	_	_	8	nmod	_	_
+10	ห้า	_	NUM	_	_	9	nmod	_	_
+11	และ	_	CCONJ	_	_	12	cc	_	_
+12	หน้า	_	NOUN	_	_	6	conj	_	_
+13	สุด	_	VERB	_	_	12	acl:compound	_	_
+14	ท้าย	_	NOUN	_	_	13	acl:compound	_	_
+
+# sent_id = 12
+# text = เค้กครึ่งชิ้นเป็นรสวนิลา อีกครึ่งชิ้นเป็นรสส้ม
+# text_en = One half of a cake is vanilla-flavoured, (and) the other half is orange-flavoured.
+# tokenised text = เค้ก ครึ่ง ชิ้น เป็น รส วนิลา อีก ครึ่ง ชิ้น เป็น รส ส้ม
+# gloss = cake half piece(used as a classifier) BE flavour vanilla another half piece(used as a classifier) BE flavour orange
+# translit = /khéek/ /khrɯ̂ŋ/ /chín/ /pen/ /rót/ /wá-ní-laa/ /ʔìik/ /khrɯ̂ŋ/ /chín/ /pen/ /rót/ /sôm/
+1	เค้ก	_	NOUN	_	_	5	nsubj	_	_
+2	ครึ่ง	_	DET	_	_	3	det	_	_
+3	ชิ้น	_	NOUN	_	_	1	classifying	_	_
+4	เป็น	_	AUX	_	_	5	cop	_	_
+5	รส	_	NOUN	_	_	0	root	_	_
+6	วนิลา	_	NOUN	_	_	5	nmod	_	_
+7	อีก	_	DET	_	_	9	det	_	_
+8	ครึ่ง	_	DET	_	_	9	det	_	_
+9	ชิ้น	_	NOUN	_	_	11	nsubj	_	_
+10	เป็น	_	AUX	_	_	11	cop	_	_
+11	รส	_	NOUN	_	_	5	conj	_	_
+12	ส้ม	_	NOUN	_	_	11	nmod	_	_
+
+# sent_id = 13
+# text = บ้านหลายร้อยหลังโดนน้ำท่วม
+# text_en = Several hundred houses have been flooded.
+# tokenised text = บ้าน หลาย ร้อย หลัง โดน น้ำ ท่วม
+# gloss = house several hundred word(used as a classifier) touch water flood
+# translit = /bâan/ /lǎj/ /rɔ́ɔj/ /lǎŋ/ /doon/ /nám/ /thûam/
+1	บ้าน	_	NOUN	_	_	5	nsubj:pass	_	_
+2	หลาย	_	DET	_	_	4	det	_	_
+3	ร้อย	_	NUM	_	_	4	nummod	_	_
+4	หลัง	_	NOUN	_	_	1	classifying	_	_
+5	โดน	_	VERB	_	_	0	root	_	_
+6	น้ำ	_	NOUN	_	_	5	obj	_	_
+7	ท่วม	_	VERB	_	_	5	xcomp	_	_
+
+# sent_id = 13.1
+# text = บ้านหลายร้อยหลังโดนน้ำท่วม
+# text_en = Several hundred houses have been flooded.
+# tokenised text = บ้าน หลาย ร้อย หลัง โดน น้ำ ท่วม
+# gloss = house several hundred word(used as a classifier) touch water flood
+# translit = /bâan/ /lǎj/ /lǎŋ/ /doon/ /nám/ /thûam/
+1	บ้าน	_	NOUN	_	_	5	nsubj:pass	_	_
+2	หลาย	_	DET	_	_	4	det	_	_
+3	ร้อย	_	NUM	_	_	4	nummod	_	_
+4	หลัง	_	NOUN	_	_	1	classifying	_	_
+5	โดน	_	VERB	_	_	0	root	_	_
+6	น้ำ	_	NOUN	_	_	5	obj	_	_
+7	ท่วม	_	VERB	_	_	6	acl:compound	_	_
+

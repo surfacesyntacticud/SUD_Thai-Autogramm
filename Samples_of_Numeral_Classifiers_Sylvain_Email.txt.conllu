@@ -1,0 +1,325 @@
+# sent_id = 1
+# text = หมู 2 ตัว
+# text_en = 2 pigs
+# tokenised text = หมู 2 ตัว
+# gloss = pig 2 body(used as a classifier)
+# translit = /mǒo/ /sɔ̌ɔŋ/ /tua/
+1	หมู	_	NOUN	_	_	0	root	_	_
+2	2	_	NUM	_	_	3	nummod	_	_
+3	ตัว	_	NOUN	_	_	1	classifying	_	_
+
+# sent_id = 2
+# text = หมู 2 ตัวนี้
+# text_en = these 2 pigs
+# tokenised text = หมู 2 ตัว นี้
+# gloss = pig 2 body(used as a classifier) this
+# translit = /mǒo/ /sɔ̌ɔŋ/ /tua/ /níi/
+1	หมู	_	NOUN	_	_	0	root	_	_
+2	2	_	NUM	_	_	3	nummod	_	_
+3	ตัว	_	NOUN	_	_	1	classifying	_	_
+4	นี้	_	DET	_	_	3	det	_	_
+
+# sent_id = 3
+# text = สองตัว
+# text_en = two pigs
+# tokenised text = สอง ตัว
+# gloss = two body(used as a classifier)
+# translit = /sɔ̌ɔŋ/ /tua/
+# note = The head noun "หมู" /mǒo/ is omitted in case we know what we talk about or previously mentioned.
+1	สอง	_	NUM	_	_	2	nummod	_	_
+2	ตัว	_	NOUN	_	_	0	root	_	_
+
+# sent_id = 4
+# text = สองตัวนี้
+# text_en = these two pigs
+# tokenised text = สอง ตัว นี้
+# gloss = two body(used as a classifier) this
+# translit = /sɔ̌ɔŋ/ /tua/ /níi/
+# note = The head noun "หมู" /mǒo/ is omitted in case we know what we talk about or previously mentioned.
+1	สอง	_	NUM	_	_	2	nummod	_	_
+2	ตัว	_	NOUN	_	_	0	root	_	_
+3	นี้	_	DET	_	_	2	det	_	_
+
+# sent_id = 5
+# text = หมูเล็ก 2 ตัว
+# text_en = two small pigs
+# tokenised text = หมู เล็ก 2 ตัว
+# gloss = pig small 2 body(used as a classifier)
+# translit = /mǒo/ /lék/ /sɔ̌ɔŋ/ /tua/
+1	หมู	_	NOUN	_	_	0	root	_	_
+2	เล็ก	_	ADJ	_	_	1	amod	_	_
+3	2	_	NUM	_	_	4	nummod	_	_
+4	ตัว	_	NOUN	_	_	1	classifying	_	_
+
+# sent_id = 6
+# text = หมูตัวเล็ก 2 ตัว
+# text_en = 2 small-sized pigs
+# tokenised text = หมู ตัว เล็ก 2 ตัว
+# gloss = pig body(used as a classifier) small 2 body(used as a classifier)
+# translit = /mǒo/ /tua/ /lék/ /sɔ̌ɔŋ/ /tua/
+1	หมู	_	NOUN	_	_	0	root	_	_
+2	ตัว	_	NOUN	_	_	1	classifying	_	_
+3	เล็ก	_	ADJ	_	_	2	amod	_	_
+4	2	_	NUM	_	_	5	nummod	_	_
+5	ตัว	_	NOUN	_	_	2	classifying	_	_
+
+# sent_id = 6.1
+# text = หมูตัวเล็ก 2 ตัว
+# text_en = 2 small-sized pigs
+# tokenised text = หมู ตัว เล็ก 2 ตัว
+# gloss = pig body(used as a classifier) small 2 body(used as a classifier)
+# translit = /mǒo/ /tua/ /lék/ /sɔ̌ɔŋ/ /tua/
+1	หมู	_	NOUN	_	_	0	root	_	_
+2	ตัว	_	NOUN	_	_	1	classifying	_	_
+3	เล็ก	_	ADJ	_	_	2	amod	_	_
+4	2	_	NUM	_	_	5	nummod	_	_
+5	ตัว	_	NOUN	_	_	1	classifying	_	_
+
+# sent_id = 7
+# text = หมู 2 ตัวเล็ก
+# text_en = 2 pigs are small.
+# tokenised text = หมู 2 ตัว เล็ก
+# gloss = pig 2 body(used as a classifier) small
+# translit = /mǒo/ /sɔ̌ɔŋ/ /tua/ /lék/ 
+1	หมู	_	NOUN	_	_	4	nsubj	_	_
+2	2	_	NUM	_	_	3	nummod	_	_
+3	ตัว	_	NOUN	_	_	1	classifying	_	_
+4	เล็ก	_	VERB	_	_	0	root	_	_
+
+# sent_id = 8
+# text = หมูเล็ก 2 ตัวนี้
+# text_en = these 2 small pigs
+# tokenised text = หมู เล็ก 2 ตัว นี้
+# gloss = pig small 2 body(used as a classifier) this
+# translit = /mǒo/ /lék/ /sɔ̌ɔŋ/ /tua/ /níi/
+1	หมู	_	NOUN	_	_	0	root	_	_
+2	เล็ก	_	ADJ	_	_	1	amod	_	_
+3	2	_	NUM	_	_	4	nummod	_	_
+4	ตัว	_	NOUN	_	_	1	classifying	_	_
+5	นี้	_	DET	_	_	4	det	_	_
+
+# sent_id = 9
+# text = หมูตัวเล็ก 2 ตัวนี้
+# text_en = these 2 small-sized pigs
+# tokenised text = หมู ตัว เล็ก 2 ตัว นี้
+# gloss = pig body(used as a classifier) small 2 body(used as a classifier) this
+# translit = /mǒo/ /tua/ /lék/ /sɔ̌ɔŋ/ /tua/ /níi/
+1	หมู	_	NOUN	_	_	0	root	_	_
+2	ตัว	_	NOUN	_	_	1	classifying	_	_
+3	เล็ก	_	ADJ	_	_	2	amod	_	_
+4	2	_	NUM	_	_	5	nummod	_	_
+5	ตัว	_	NOUN	_	_	2	classifying	_	_
+6	นี้	_	DET	_	_	5	det	_	_
+
+# sent_id = 9.1
+# text = หมูตัวเล็ก 2 ตัวนี้
+# text_en = these 2 small-sized pigs
+# tokenised text = หมู ตัว เล็ก 2 ตัว นี้
+# gloss = pig body(used as a classifier) small 2 body(used as a classifier) this
+# translit = /mǒo/ /tua/ /lék/ /sɔ̌ɔŋ/ /tua/ /níi/
+1	หมู	_	NOUN	_	_	0	root	_	_
+2	ตัว	_	NOUN	_	_	1	classifying	_	_
+3	เล็ก	_	ADJ	_	_	2	amod	_	_
+4	2	_	NUM	_	_	5	nummod	_	_
+5	ตัว	_	NOUN	_	_	1	classifying	_	_
+6	นี้	_	DET	_	_	5	det	_	_
+
+
+# sent_id = 10
+# text = หมู 2 ตัวนี้เล็ก
+# text_en = These 2 pigs are small.
+# tokenised text = หมู 2 ตัว นี้ เล็ก
+# gloss = pig 2 body(used as a classifier) this small
+# translit = /mǒo/ /sɔ̌ɔŋ/ /tua/ /níi/ /lék/
+1	หมู	_	NOUN	_	_	5	nsubj	_	_
+2	2	_	NUM	_	_	3	nummod	_	_
+3	ตัว	_	NOUN	_	_	1	classifying	_	_
+4	นี้	_	DET	_	_	3	det	_	_
+5	เล็ก	_	VERB	_	_	0	root	_	_
+
+# sent_id = 11
+# text = ตัวเล็ก 2 ตัว
+# text_en = two small-sized pigs
+# tokenised text = ตัว เล็ก 2 ตัว
+# gloss = body(used as a classifier) small 2 body(used as a classifier)
+# translit = /tua/ /lék/ /sɔ̌ɔŋ/ /tua/ 
+# note = The head noun "หมู" /mǒo/ is omitted in case we know what we talk about or previously mentioned.
+1	ตัว	_	NOUN	_	_	0	root	_	_
+2	เล็ก	_	ADJ	_	_	1	amod	_	_
+3	2	_	NUM	_	_	4	nummod	_	_
+4	ตัว	_	NOUN	_	_	1	classifying	_	_
+
+# sent_id = 12
+# text = ตัวเล็ก 2 ตัวนี้
+# text_en = these two small-sized pigs
+# tokenised text = ตัว เล็ก 2 ตัว นี้
+# gloss = body(used as a classifier) small 2 body(used as a classifier) this
+# translit = /tua/ /lék/ /sɔ̌ɔŋ/ /tua/ /níi/
+# note = The head noun "หมู" /mǒo/ is omitted in case we know what we talk about or previously mentioned.
+1	ตัว	_	NOUN	_	_	0	root	_	_
+2	เล็ก	_	ADJ	_	_	1	amod	_	_
+3	2	_	NUM	_	_	4	nummod	_	_
+4	ตัว	_	NOUN	_	_	1	classifying	_	_
+5	นี้	_	DET	_	_	4	det	_	_
+
+# sent_id = 13
+# text = สองตัวเล็ก
+# text_en = Two pigs are small.
+# tokenised text = สอง ตัว เล็ก
+# gloss = two body(used as a classifier) small
+# translit = /sɔ̌ɔŋ/ /tua/ /lék/
+# note = The head noun "หมู" /mǒo/ is omitted in case we know what we talk about or previously mentioned.
+1	สอง	_	NUM	_	_	2	nummod	_	_
+2	ตัว	_	NOUN	_	_	3	nsubj	_	_
+3	เล็ก	_	VERB	_	_	0	root	_	_
+
+# sent_id = 13.1
+# text = สองตัวเล็ก
+# text_en = two small pigs 
+# tokenised text = สอง ตัว เล็ก
+# gloss = two body(used as a classifier) small
+# translit = /sɔ̌ɔŋ/ /tua/ /lék/
+# note = The head noun "หมู" /mǒo/ is omitted in case we know what we talk about or previously mentioned.
+1	สอง	_	NUM	_	_	2	nummod	_	_
+2	ตัว	_	NOUN	_	_	0	root	_	_
+3	เล็ก	_	ADJ	_	_	2	amod	_	_
+
+# sent_id = 14
+# text = สองตัวนี้เล็ก
+# text_en = These two pigs are small.
+# tokenised text = สอง ตัว นี้ เล็ก
+# gloss = two body(used as a classifier) this small
+# translit = /sɔ̌ɔŋ/ /tua/ /níi/ /lék/
+# note = The head noun "หมู" /mǒo/ is omitted in case we know what we talk about or previously mentioned.
+1	สอง	_	NUM	_	_	2	nummod	_	_
+2	ตัว	_	NOUN	_	_	4	nsubj	_	_
+3	นี้	_	DET	_	_	2	det	_	_
+4	เล็ก	_	VERB	_	_	0	root	_	_
+
+# sent_id = 15
+# text = สองตัวเล็กนี้น่ารักมาก
+# text_en = These two small pigs are very cute.
+# tokenised text = สอง ตัว เล็ก นี้ น่ารัก มาก
+# gloss = two body(used as a classifier) small this cute very
+# translit = /sɔ̌ɔŋ/ /tua/ /lék/ /níi/ /nâa-rák/ /mâak/
+# note = The head noun "หมู" /mǒo/ is omitted in case we know what we talk about or previously mentioned.
+1	สอง	_	NUM	_	_	2	nummod	_	_
+2	ตัว	_	NOUN	_	_	5	nsubj	_	_
+3	เล็ก	_	ADJ	_	_	2	amod	_	_
+4	นี้	_	DET	_	_	2	det	_	_
+5	น่ารัก	_	VERB	_	_	0	root	_	_
+6	มาก	_	ADV	_	_	5	advmod	_	_
+
+# sent_id = 16
+# text = สองตัวนี้เล็กน่ารักมาก
+# text_en = These two pigs are small (and) very cute.
+# tokenised text = สอง ตัว นี้ เล็ก น่ารัก มาก
+# gloss = two body(used as a classifier) this small cute very
+# translit = /sɔ̌ɔŋ/ /tua/ /níi/ /lék/ /nâa-rák/ /mâak/
+# note = The head noun "หมู" /mǒo/ is omitted in case we know what we talk about or previously mentioned.
+1	สอง	_	NUM	_	_	2	nummod	_	_
+2	ตัว	_	NOUN	_	_	4	nsubj	_	_
+3	นี้	_	DET	_	_	2	det	_	_
+4	เล็ก	_	VERB	_	_	0	root	_	_
+5	น่ารัก	_	VERB	_	_	4	conj	_	_
+6	มาก	_	ADV	_	_	5	advmod	_	_
+
+# sent_id = 17
+# text = หมูดำเล็กอ้วนน่ารักสองตัวนี้กำลังนอนอยู่ข้างรถใหญ่สีแดงคันที่หนึ่ง
+# text_en = These two cute, small, fat, black pigs are sleeping beside the first big red car.
+# tokenised text = หมู ดำ เล็ก อ้วน น่ารัก สอง ตัว นี้ กำลัง นอน อยู่ ข้าง รถ ใหญ่ สี แดง คัน ที่ หนึ่ง
+# gloss = pig black small fat cute two body(used as a classifier) this adverb(expressing a progressive action) sleep stay beside car big color red noun(used as a classifier) position one
+# translit = /mǒo/ /dam/ /lék/ /ʔûan/ /nâa-rák/ /sɔ̌ɔŋ/ /tua/ /níi/ /kam-laŋ/ /nɔɔn/ /jùu/ /khâaŋ/ /rót/ /jàj/ /sǐi/ /dɛɛŋ/ /khan/ /thîi/ /nɯ̀ŋ/
+1	หมู	_	NOUN	_	_	10	nsubj	_	_
+2	ดำ	_	ADJ	_	_	1	amod	_	_
+3	เล็ก	_	ADJ	_	_	1	amod	_	_
+4	อ้วน	_	ADJ	_	_	1	amod	_	_
+5	น่ารัก	_	ADJ	_	_	1	amod	_	_
+6	สอง	_	NUM	_	_	7	nummod	_	_
+7	ตัว	_	NOUN	_	_	1	classifying	_	_
+8	นี้	_	DET	_	_	7	det	_	_
+9	กำลัง	_	ADV	_	_	10	advmod	_	_
+10	นอน	_	VERB	_	_	0	root	_	_
+11	อยู่	_	VERB	_	_	10	compound:svc	_	_
+12	ข้าง	_	ADP	_	_	13	case	_	_
+13	รถ	_	NOUN	_	_	10	obl	_	_
+14	ใหญ่	_	ADJ	_	_	13	amod	_	_
+15	สี	_	NOUN	_	_	13	nmod	_	_
+16	แดง	_	ADJ	_	_	15	amod	_	_
+17	คัน	_	NOUN	_	_	13	classifying	_	_
+18	ที่	_	NOUN	_	_	17	nmod	_	_
+19	หนึ่ง	_	NUM	_	_	18	nmod	_	_
+
+# sent_id = 18
+# text = หมูตัวดำตัวเล็กตัวอ้วนตัวน่ารักสองตัวนี้กำลังนอนอยู่ข้างรถคันใหญ่คันสีแดงคันที่หนึ่ง
+# text_en = These two cute, small, fat, black pigs are sleeping beside the first big red car.
+# tokenised text = หมู ตัว ดำ ตัว เล็ก ตัว อ้วน ตัว น่ารัก สอง ตัว นี้ กำลัง นอน อยู่ ข้าง รถ คัน ใหญ่ คัน สี แดง คัน ที่ หนึ่ง
+# gloss = pig body(used as a classifier) black body(used as a classifier) small body(used as a classifier) fat body(used as a classifier) cute two body(used as a classifier) this adverb(expressing a progressive action) sleep stay beside car noun(used as a classifier) big noun(used as a classifier) color red noun(used as a classifier) position one
+# translit = /mǒo/ /tua/ /dam/ /tua/ /lék/ /tua/ /ʔûan/ /tua/ /nâa-rák/ /sɔ̌ɔŋ/ /tua/ /níi/ /kam-laŋ/ /nɔɔn/ /jùu/ /khâaŋ/ /rót/ /khan/ /jàj/ /khan/ /sǐi/ /dɛɛŋ/ /khan/ /thîi/ /nɯ̀ŋ/
+1	หมู	_	NOUN	_	_	14	nsubj	_	_
+2	ตัว	_	NOUN	_	_	1	classifying	_	_
+3	ดำ	_	ADJ	_	_	2	amod	_	_
+4	ตัว	_	NOUN	_	_	1	classifying	_	_
+5	เล็ก	_	ADJ	_	_	4	amod	_	_
+6	ตัว	_	NOUN	_	_	1	classifying	_	_
+7	อ้วน	_	ADJ	_	_	6	amod	_	_
+8	ตัว	_	NOUN	_	_	1	classifying	_	_
+9	น่ารัก	_	ADJ	_	_	8	amod	_	_
+10	สอง	_	NUM	_	_	11	nummod	_	_
+11	ตัว	_	NOUN	_	_	1	classifying	_	_
+12	นี้	_	DET	_	_	11	det	_	_
+13	กำลัง	_	ADV	_	_	14	advmod	_	_
+14	นอน	_	VERB	_	_	0	root	_	_
+15	อยู่	_	VERB	_	_	14	compound:svc	_	_
+16	ข้าง	_	ADP	_	_	17	case	_	_
+17	รถ	_	NOUN	_	_	14	obl	_	_
+18	คัน	_	NOUN	_	_	17	classifying	_	_
+19	ใหญ่	_	ADJ	_	_	18	amod	_	_
+20	คัน	_	NOUN	_	_	17	classifying	_	_
+21	สี	_	NOUN	_	_	20	nmod	_	_
+22	แดง	_	ADJ	_	_	21	amod	_	_
+23	คัน	_	NOUN	_	_	17	classifying	_	_
+24	ที่	_	NOUN	_	_	23	nmod	_	_
+25	หนึ่ง	_	NUM	_	_	24	nmod	_	_
+
+# sent_id = 19
+# text = หมู 2 ใน 10 ตัวที่เล้าแรกติดเชื้อแบคทีเรีย
+# text_en = 2 of 10 pigs at the first sty are infected with bacteria.
+# tokenised text = หมู 2 ใน 10 ตัว ที่ เล้า แรก ติด เชื้อ แบคทีเรีย
+# gloss = pig 2 in 10 body(used as a classifier) at sty first catch germ bacteria
+# translit = /mǒo/ /sɔ̌ɔŋ/ /naj/ /sìp/ /tua/ /thîi/ /láw/ /rɛ̂ɛk/ /tìt/ /chɯ́a/ /bɛ̀k-thii-ria/
+1	หมู	_	NOUN	_	_	9	nsubj	_	_
+2	2	_	NUM	_	_	5	nummod	_	_
+3	ใน	_	ADP	_	_	5	case	_	_
+4	10	_	NUM	_	_	5	nummod	_	_
+5	ตัว	_	NOUN	_	_	1	classifying	_	_
+6	ที่	_	ADP	_	_	7	case	_	_
+7	เล้า	_	NOUN	_	_	1	obl	_	_
+8	แรก	_	ADJ	_	_	7	amod	_	_
+9	ติด	_	VERB	_	_	0	root	_	_
+10	เชื้อ	_	NOUN	_	_	9	obj	_	_
+11	แบคทีเรีย	_	NOUN	_	_	10	nmod	_	_
+
+# sent_id = 20
+# text = หมูมากกว่าสิบตัวเริ่มกินอาหารได้แล้ว
+# text_en = More than ten pigs started to eat food already.
+# tokenised text = หมู มาก กว่า สิบ ตัว เริ่ม กิน อาหาร ได้ แล้ว
+# gloss = pig very than ten body(used as a classifier) start eat food word(expressing ability) already
+# translit = /mǒo/ /mâak/ /kwàa/ /sìp/ /tua/ /rɤ̂ɤm/ /kin/ /ʔaa-hǎan/ /dâj/ /lɛ́ɛw/
+1	หมู	_	NOUN	_	_	6	nsubj	_	_
+2	มาก	_	ADJ	_	_	1	amod	_	_
+3	กว่า	_	ADP	_	_	5	case	_	_
+4	สิบ	_	NUM	_	_	5	nummod	_	_
+5	ตัว	_	NOUN	_	_	1	classifying	_	_
+6	เริ่ม	_	VERB	_	_	0	root	_	_
+7	กิน	_	VERB	_	_	6	compound:svc	_	_
+8	อาหาร	_	NOUN	_	_	7	obj	_	_
+9	ได้	_	ADV	_	_	7	advmod	_	_
+10	แล้ว	_	ADV	_	_	7	advmod	_	_
+
+
+
+
+
+
+
