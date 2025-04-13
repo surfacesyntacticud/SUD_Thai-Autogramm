@@ -240,7 +240,7 @@
 # text = บ้านหลายร้อยหลังโดนน้ำท่วม
 # text_en = Several hundred houses have been flooded.
 # tokenised text = บ้าน หลาย ร้อย หลัง โดน น้ำ ท่วม
-# gloss = house several hundred word(used as a classifier) touch water flood
+# gloss = house several hundred dwelling(used as a classifier) touch water flood
 # translit = /bâan/ /lǎj/ /rɔ́ɔj/ /lǎŋ/ /doon/ /nám/ /thûam/
 1	บ้าน	_	NOUN	_	_	5	nsubj:pass	_	_
 2	หลาย	_	DET	_	_	4	det	_	_
@@ -254,7 +254,7 @@
 # text = บ้านหลายร้อยหลังโดนน้ำท่วม
 # text_en = Several hundred houses have been flooded.
 # tokenised text = บ้าน หลาย ร้อย หลัง โดน น้ำ ท่วม
-# gloss = house several hundred word(used as a classifier) touch water flood
+# gloss = house several hundred dwelling(used as a classifier) touch water flood
 # translit = /bâan/ /lǎj/ /lǎŋ/ /doon/ /nám/ /thûam/
 1	บ้าน	_	NOUN	_	_	5	nsubj:pass	_	_
 2	หลาย	_	DET	_	_	4	det	_	_
