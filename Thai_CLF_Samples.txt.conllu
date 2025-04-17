@@ -1,0 +1,750 @@
+# sent_id = Thai_CLF_Sample_1
+# text = หมู 2 ตัว
+# text_en = 2 pigs
+# tokenised text = หมู 2 ตัว
+# gloss = pig 2 body(used as a classifier)
+# translit = /mǒo/ /sɔ̌ɔŋ/ /tua/
+# variant = clf-as-head
+1	หมู	หมู	NOUN	_	_	0	root	_	Gloss=pig|Translit=mǒo
+2	2	2	NUM	_	_	3	nummod	_	Translit=sɔ̌ɔŋ
+3	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	Gloss=body|Translit=tua
+
+# sent_id = Thai_CLF_Sample_2
+# text = หมู 2 ตัวนี้
+# text_en = these 2 pigs
+# tokenised text = หมู 2 ตัว นี้
+# gloss = pig 2 body(used as a classifier) this(DEM)
+# translit = /mǒo/ /sɔ̌ɔŋ/ /tua/ /níi/
+# variant = clf-as-head
+1	หมู	หมู	NOUN	_	_	0	root	_	Gloss=pig|Translit=mǒo
+2	2	2	NUM	_	_	3	nummod	_	Translit=sɔ̌ɔŋ
+3	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+4	นี้	นี้	DET	_	_	3	det	_	Gloss=this|Translit=níi
+
+# sent_id = Thai_CLF_Sample_3
+# text = หมู 2 ตัวเล็ก
+# text_en = 2 pigs are small.
+# tokenised text = หมู 2 ตัว เล็ก
+# gloss = pig 2 body(used as a classifier) small
+# translit = /mǒo/ /sɔ̌ɔŋ/ /tua/ /lék/
+# variant = clf-as-head
+1	หมู	หมู	NOUN	_	_	4	nsubj	_	Gloss=pig|Translit=mǒo
+2	2	2	NUM	_	_	3	nummod	_	Translit=sɔ̌ɔŋ
+3	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+4	เล็ก	เล็ก	VERB	_	_	0	root	_	Gloss=small|Translit=lék
+
+# sent_id = Thai_CLF_Sample_4
+# text = หมู 2 ตัวเล็กนี้
+# text_en = these 2 small pigs 
+# tokenised text = หมู 2 ตัว เล็ก นี้
+# gloss = pig 2 body(used as a classifier) small this(DEM)
+# translit = /mǒo/ /sɔ̌ɔŋ/ /tua/ /lék/ /níi/
+# variant = clf-as-head
+1	หมู	หมู	NOUN	_	_	0	root	_	Gloss=pig|Translit=mǒo
+2	2	2	NUM	_	_	3	nummod	_	Translit=sɔ̌ɔŋ
+3	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+4	เล็ก	เล็ก	ADJ	_	_	3	amod	_	SpaceAfter=No|Gloss=small|Translit=lék
+5	นี้	นี้	DET	_	_	3	det	_	Gloss=this|Translit=níi
+
+# sent_id = Thai_CLF_Sample_5
+# text = หมู 2 ตัวนี้เล็ก
+# text_en = These 2 pigs are small.
+# tokenised text = หมู 2 ตัว นี้ เล็ก
+# gloss = pig 2 body(used as a classifier) this(DEM) small
+# translit = /mǒo/ /sɔ̌ɔŋ/ /tua/ /níi/ /lék/
+# variant = clf-as-head
+1	หมู	หมู	NOUN	_	_	5	nsubj	_	Gloss=pig|Translit=mǒo
+2	2	2	NUM	_	_	3	nummod	_	Translit=sɔ̌ɔŋ
+3	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+4	นี้	นี้	DET	_	_	3	det	_	SpaceAfter=No|Gloss=this|Translit=níi
+5	เล็ก	เล็ก	VERB	_	_	0	root	_	Gloss=small|Translit=lék
+
+# sent_id = Thai_CLF_Sample_6
+# text = หมูเล็ก 2 ตัว
+# text_en = two small pigs
+# tokenised text = หมู เล็ก 2 ตัว
+# gloss = pig small 2 body(used as a classifier)
+# translit = /mǒo/ /lék/ /sɔ̌ɔŋ/ /tua/
+# note = The noun phrase "หมูเล็ก" /mǒo/ /lék/ without the noun used as a classifier "ตัว" /tua/ could mean a type of pigs which is micro pigs. It does not only mean the size of pigs, but also the type. However, having the classifier specifies the size clearly. Without it, the meaning of a noun phrase and sentence can be tricky to pinpoint when using this kind of adjective, such as เล็ก /lék/ meaning "small".
+# variant = clf-as-head
+1	หมู	หมู	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=pig|Translit=mǒo
+2	เล็ก	เล็ก	ADJ	_	_	1	amod	_	Gloss=small|Translit=lék
+3	2	2	NUM	_	_	4	nummod	_	Translit=sɔ̌ɔŋ
+4	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	Gloss=body|Translit=tua
+
+# sent_id = Thai_CLF_Sample_7
+# text = หมูเล็ก 2 ตัวนี้
+# text_en = these 2 small pigs
+# tokenised text = หมู เล็ก 2 ตัว นี้
+# gloss = pig small 2 body(used as a classifier) this(DEM)
+# translit = /mǒo/ /lék/ /sɔ̌ɔŋ/ /tua/ /níi/
+# note = The noun phrase "หมูเล็ก" /mǒo/ /lék/ without the noun used as a classifier "ตัว" /tua/ could mean a type of pigs which is micro pigs. It does not only mean the size of pigs, but also the type. However, having the classifier specifies the size clearly. Without it, the meaning of a noun phrase and sentence can be tricky to pinpoint when using this kind of adjective, such as เล็ก /lék/ meaning "small".
+# variant = clf-as-head
+1	หมู	หมู	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=pig|Translit=mǒo
+2	เล็ก	เล็ก	ADJ	_	_	1	amod	_	Gloss=small|Translit=lék
+3	2	2	NUM	_	_	4	nummod	_	Translit=sɔ̌ɔŋ
+4	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+5	นี้	นี้	DET	_	_	4	det	_	Gloss=this|Translit=níi
+
+# sent_id = Thai_CLF_Sample_8
+# text = สองตัว
+# text_en = two (pigs)
+# tokenised text = สอง ตัว
+# gloss = two body(used as a classifier)
+# translit = /sɔ̌ɔŋ/ /tua/
+# note = The head noun "หมู" /mǒo/ is omitted in case we know what we talk about or previously mentioned. The noun used as a classifier becomes the head of the numeric phrase.
+# variant = clf-as-head
+1	สอง	สอง	NUM	_	_	2	nummod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ɔŋ
+2	ตัว	ตัว	NOUN	_	NounType=Clf	0	root	_	Gloss=body|Translit=tua
+
+# sent_id = Thai_CLF_Sample_9
+# text = สองตัวนี้
+# text_en = these two (pigs)
+# tokenised text = สอง ตัว นี้
+# gloss = two body(used as a classifier) this(DEM)
+# translit = /sɔ̌ɔŋ/ /tua/ /níi/
+# note = The head noun "หมู" /mǒo/ is omitted in case we know what we talk about or previously mentioned. The noun used as a classifier becomes the head of the noun phrase.
+# variant = clf-as-head
+1	สอง	สอง	NUM	_	_	2	nummod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ɔŋ
+2	ตัว	ตัว	NOUN	_	NounType=Clf	0	root	_	SpaceAfter=No|Gloss=body|Translit=tua
+3	นี้	นี้	DET	_	_	2	det	_	Gloss=this|Translit=níi
+
+# sent_id = Thai_CLF_Sample_10
+# text = สองตัวนี้เล็ก
+# text_en = These two (pigs) are small.
+# tokenised text = สอง ตัว นี้ เล็ก
+# gloss = two body(used as a classifier) this(DEM) small
+# translit = /sɔ̌ɔŋ/ /tua/ /níi/ /lék/
+# note = The head noun "หมู" /mǒo/ is omitted in case we know what we talk about or previously mentioned. The noun used as a classifier becomes the head of the noun phrase.
+# variant = clf-as-head
+1	สอง	สอง	NUM	_	_	2	nummod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ɔŋ
+2	ตัว	ตัว	NOUN	_	NounType=Clf	4	nsubj	_	SpaceAfter=No|Gloss=body|Translit=tua
+3	นี้	นี้	DET	_	_	2	det	_	SpaceAfter=No|Gloss=this|Translit=níi
+4	เล็ก	เล็ก	VERB	_	_	0	root	_	Gloss=small|Translit=lék
+
+# sent_id = Thai_CLF_Sample_11
+# text = สองตัวเล็ก
+# text_en = Two (pigs) are small.
+# tokenised text = สอง ตัว เล็ก
+# gloss = two body(used as a classifier) small
+# translit = /sɔ̌ɔŋ/ /tua/ /lék/
+# note = The head noun "หมู" /mǒo/ is omitted in case we know what we talk about or previously mentioned. The noun used as a classifier becomes the head of the numeric phrase.
+# variant = clf-as-head
+1	สอง	สอง	NUM	_	_	2	nummod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ɔŋ
+2	ตัว	ตัว	NOUN	_	NounType=Clf	3	nsubj	_	SpaceAfter=No|Gloss=body|Translit=tua
+3	เล็ก	เล็ก	VERB	_	_	0	root	_	Gloss=small|Translit=lék
+
+# sent_id = Thai_CLF_Sample_12
+# text = สองตัวเล็กนี้
+# text_en = these two small (pigs)
+# tokenised text = สอง ตัว เล็ก นี้
+# gloss = two body(used as a classifier) small this(DEM)
+# translit = /sɔ̌ɔŋ/ /tua/ /lék/ /níi/
+# note = The head noun "หมู" /mǒo/ is omitted in case we know what we talk about or previously mentioned. The noun used as a classifier becomes the head of the noun phrase.
+# variant = clf-as-head
+1	สอง	สอง	NUM	_	_	2	nummod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ɔŋ
+2	ตัว	ตัว	NOUN	_	NounType=Clf	0	root	_	SpaceAfter=No|Gloss=body|Translit=tua
+3	เล็ก	เล็ก	ADJ	_	_	2	amod	_	SpaceAfter=No|Gloss=small|Translit=lék
+4	นี้	นี้	DET	_	_	2	det	_	Gloss=this|Translit=níi
+
+# sent_id = Thai_CLF_Sample_13
+# text = สองตัวเล็กนี้น่ารักมาก
+# text_en = These two small (pigs) are very cute.
+# tokenised text = สอง ตัว เล็ก นี้ น่ารัก มาก
+# gloss = two body(used as a classifier) small this(DEM) cute very
+# translit = /sɔ̌ɔŋ/ /tua/ /lék/ /níi/ /nâa-rák/ /mâak/
+# note = The head noun "หมู" /mǒo/ is omitted in case we know what we talk about or previously mentioned.The noun used as a classifier becomes the head of the noun phrase.
+# variant = clf-as-head
+1	สอง	สอง	NUM	_	_	2	nummod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ɔŋ
+2	ตัว	ตัว	NOUN	_	NounType=Clf	5	nsubj	_	SpaceAfter=No|Gloss=body|Translit=tua
+3	เล็ก	เล็ก	ADJ	_	_	2	amod	_	SpaceAfter=No|Gloss=small|Translit=lék
+4	นี้	นี้	DET	_	_	2	det	_	SpaceAfter=No|Gloss=this|Translit=níi
+5	น่ารัก	น่ารัก	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=cute|Translit=nâa-rák
+6	มาก	มาก	ADV	_	_	5	advmod	_	Gloss=very|Translit=mâak
+
+# sent_id = Thai_CLF_Sample_14
+# text = สองตัวนี้เล็กน่ารักมาก
+# text_en = These two (pigs) are small (and) very cute.
+# tokenised text = สอง ตัว นี้ เล็ก น่ารัก มาก
+# gloss = two body(used as a classifier) this(DEM) small cute very
+# translit = /sɔ̌ɔŋ/ /tua/ /níi/ /lék/ /nâa-rák/ /mâak/
+# note = The head noun "หมู" /mǒo/ is omitted in case we know what we talk about or previously mentioned. The noun used as a classifier becomes the head of the noun phrase.
+# variant = clf-as-head
+1	สอง	สอง	NUM	_	_	2	nummod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ɔŋ
+2	ตัว	ตัว	NOUN	_	NounType=Clf	4	nsubj	_	SpaceAfter=No|Gloss=body|Translit=tua
+3	นี้	นี้	DET	_	_	2	det	_	SpaceAfter=No|Gloss=this|Translit=níi
+4	เล็ก	เล็ก	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=small|Translit=lék
+5	น่ารัก	น่ารัก	VERB	_	_	4	conj	_	SpaceAfter=No|Gloss=cute|Translit=nâa-rák
+6	มาก	มาก	ADV	_	_	5	advmod	_	Gloss=very|Translit=mâak
+
+# sent_id = Thai_CLF_Sample_15
+# text = หมูตัวเล็ก 2 ตัว
+# text_en = 2 small-sized pigs
+# tokenised text = หมู ตัว เล็ก 2 ตัว
+# gloss = pig body(used as a classifier) small 2 body(used as a classifier)
+# translit = /mǒo/ /tua/ /lék/ /sɔ̌ɔŋ/ /tua/
+# variant = clf-as-head
+1	หมู	หมู	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=pig|Translit=mǒo
+2	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+3	เล็ก	เล็ก	ADJ	_	_	2	amod	_	Gloss=small|Translit=lék
+4	2	2	NUM	_	_	5	nummod	_	Translit=sɔ̌ɔŋ
+5	ตัว	ตัว	NOUN	_	NounType=Clf	2	classifying	_	Gloss=body|Translit=tua
+
+# sent_id = Thai_CLF_Sample_15_Variant
+# text = หมูตัวเล็ก 2 ตัว
+# text_en = 2 small-sized pigs
+# tokenised text = หมู ตัว เล็ก 2 ตัว
+# gloss = pig body(used as a classifier) small 2 body(used as a classifier)
+# translit = /mǒo/ /tua/ /lék/ /sɔ̌ɔŋ/ /tua/
+# variant = clf-as-head
+1	หมู	หมู	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=pig|Translit=mǒo
+2	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+3	เล็ก	เล็ก	ADJ	_	_	2	amod	_	Gloss=small|Translit=lék
+4	2	2	NUM	_	_	5	nummod	_	Translit=sɔ̌ɔŋ
+5	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	Gloss=body|Translit=tua
+
+# sent_id = Thai_CLF_Sample_16
+# text = หมูตัวเล็ก 2 ตัวนี้
+# text_en = these 2 small-sized pigs
+# tokenised text = หมู ตัว เล็ก 2 ตัว นี้
+# gloss = pig body(used as a classifier) small 2 body(used as a classifier) this(DEM)
+# translit = /mǒo/ /tua/ /lék/ /sɔ̌ɔŋ/ /tua/ /níi/
+# variant = clf-as-head
+1	หมู	หมู	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=pig|Translit=mǒo
+2	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+3	เล็ก	เล็ก	ADJ	_	_	2	amod	_	Gloss=small|Translit=lék
+4	2	2	NUM	_	_	5	nummod	_	Translit=sɔ̌ɔŋ
+5	ตัว	ตัว	NOUN	_	NounType=Clf	2	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+6	นี้	นี้	DET	_	_	5	det	_	Gloss=this|Translit=níi
+
+# sent_id = Thai_CLF_Sample_16_Variant
+# text = หมูตัวเล็ก 2 ตัวนี้
+# text_en = these 2 small-sized pigs
+# tokenised text = หมู ตัว เล็ก 2 ตัว นี้
+# gloss = pig body(used as a classifier) small 2 body(used as a classifier) this(DEM)
+# translit = /mǒo/ /tua/ /lék/ /sɔ̌ɔŋ/ /tua/ /níi/
+# variant = clf-as-head
+1	หมู	หมู	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=pig|Translit=mǒo
+2	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+3	เล็ก	เล็ก	ADJ	_	_	2	amod	_	Gloss=small|Translit=lék
+4	2	2	NUM	_	_	5	nummod	_	Translit=sɔ̌ɔŋ
+5	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+6	นี้	นี้	DET	_	_	5	det	_	Gloss=this|Translit=níi
+
+# sent_id = Thai_CLF_Sample_17
+# text = ตัวเล็ก 2 ตัว
+# text_en = two small-sized (pigs)
+# tokenised text = ตัว เล็ก 2 ตัว
+# gloss = body(used as a classifier) small 2 body(used as a classifier)
+# translit = /tua/ /lék/ /sɔ̌ɔŋ/ /tua/ 
+# note = The head noun "หมู" /mǒo/ is omitted in case we know what we talk about or previously mentioned. The first noun used as a classifier becomes the head of the noun phrase, while the second noun used as a classifier is the head of the numeric phrase.
+# variant = clf-as-head
+1	ตัว	ตัว	NOUN	_	NounType=Clf	0	root	_	SpaceAfter=No|Gloss=body|Translit=tua
+2	เล็ก	เล็ก	ADJ	_	_	1	amod	_	Gloss=small|Translit=lék
+3	2	2	NUM	_	_	4	nummod	_	Translit=sɔ̌ɔŋ
+4	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	Gloss=body|Translit=tua
+
+# sent_id = Thai_CLF_Sample_18
+# text = ตัวเล็ก 2 ตัวนี้
+# text_en = these two small-sized (pigs)
+# tokenised text = ตัว เล็ก 2 ตัว นี้
+# gloss = body(used as a classifier) small 2 body(used as a classifier) this(DEM)
+# translit = /tua/ /lék/ /sɔ̌ɔŋ/ /tua/ /níi/
+# note = The head noun "หมู" /mǒo/ is omitted in case we know what we talk about or previously mentioned. The first noun used as a classifier becomes the head of the main noun phrase, while the second noun used as a classifier is the head of the second noun phrase.
+# variant = clf-as-head
+1	ตัว	ตัว	NOUN	_	NounType=Clf	0	root	_	SpaceAfter=No|Gloss=body|Translit=tua
+2	เล็ก	เล็ก	ADJ	_	_	1	amod	_	Gloss=small|Translit=lék
+3	2	2	NUM	_	_	4	nummod	_	Translit=sɔ̌ɔŋ
+4	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+5	นี้	นี้	DET	_	_	4	det	_	Gloss=this|Translit=níi
+
+# sent_id = Thai_CLF_Sample_19
+# text = แมวสามตัว
+# text_en = three cats
+# tokenised text = แมว สาม ตัว
+# gloss = cat three body(used as a classifier)
+# translit = /mɛɛw/ /sǎam/ /tua/
+# variant = clf-as-head
+1	แมว	แมว	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=cat|Translit=mɛɛw
+2	สาม	สาม	NUM	_	_	3	nummod	_	SpaceAfter=No|Gloss=three|Translit=sǎam
+3	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	Gloss=body|Translit=tua
+
+# sent_id = Thai_CLF_Sample_20
+# text = แมวดำสามตัว
+# text_en = three black cats
+# tokenised text = แมว ดำ สาม ตัว
+# gloss = cat black three body(used as a classifier)
+# translit = /mɛɛw/ /dam/ /sǎam/ /tua/
+# variant = clf-as-head
+1	แมว	แมว	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=cat|Translit=mɛɛw
+2	ดำ	ดำ	ADJ	_	_	1	amod	_	SpaceAfter=No|Gloss=black|Translit=dam
+3	สาม	สาม	NUM	_	_	4	nummod	_	SpaceAfter=No|Gloss=three|Translit=sǎam
+4	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	Gloss=body|Translit=tua
+
+# sent_id = Thai_CLF_Sample_21
+# text = แมวดำสามตัวนี้
+# text_en = these three black cats
+# tokenised text = แมว ดำ สาม ตัว นี้
+# gloss = cat black three body(used as a classifier) this(DEM)
+# translit = /mɛɛw/ /dam/ /sǎam/ /tua/ /níi/
+# variant = clf-as-head
+1	แมว	แมว	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=cat|Translit=mɛɛw
+2	ดำ	ดำ	ADJ	_	_	1	amod	_	SpaceAfter=No|Gloss=black|Translit=dam
+3	สาม	สาม	NUM	_	_	4	nummod	_	SpaceAfter=No|Gloss=three|Translit=sǎam
+4	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+5	นี้	นี้	DET	_	_	1	det	_	Gloss=this|Translit=níi
+
+# sent_id = Thai_CLF_Sample_22
+# text = แมวดำตัวที่อยู่บนโต๊ะ
+# text_en = a black cat that is on a table
+# tokenised text = แมว ดำ ตัว ที่ อยู่ บน โต๊ะ
+# gloss = cat black body(used as a classifier) that(REL) stay on table
+# translit = /mɛɛw/ /dam/ /tua/ /thîi/ /jùu/ /bon/ /tóʔ/
+# variant = clf-as-head
+1	แมว	แมว	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=cat|Translit=mɛɛw
+2	ดำ	ดำ	ADJ	_	_	1	amod	_	SpaceAfter=No|Gloss=black|Translit=dam
+3	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+4	ที่	ที่	PRON	_	_	5	nsubj	_	SpaceAfter=No|Gloss=that|Translit=thîi
+5	อยู่	อยู่	VERB	_	_	3	acl:relc	_	SpaceAfter=No|Gloss=stay|Translit=jùu
+6	บน	บน	ADP	_	_	7	case	_	SpaceAfter=No|Gloss=on|Translit=bon
+7	โต๊ะ	โต๊ะ	NOUN	_	_	5	obl	_	Gloss=table|Translit=tóʔ
+
+# sent_id = Thai_CLF_Sample_23
+# text = หมูหลายตัว
+# text_en = several pigs
+# tokenised text = หมู หลาย ตัว
+# gloss = pig several body(used as a classifier)
+# translit = /mǒo/ /lǎaj/ /tua/
+# variant = clf-as-head
+1	หมู	หมู	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=pig|Translit=mǒo
+2	หลาย	หลาย	DET	_	_	3	det	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
+3	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	Gloss=body|Translit=tua
+
+# sent_id = Thai_CLF_Sample_24
+# text = หมูหลายตัวนี้
+# text_en = several of these pigs
+# tokenised text = หมู หลาย ตัว นี้
+# gloss = pig several body(used as a classifier) this(DEM)
+# translit = /mǒo/ /lǎaj/ /tua/ /níi/
+# variant = clf-as-head
+1	หมู	หมู	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=pig|Translit=mǒo
+2	หลาย	หลาย	DET	_	_	3	det	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
+3	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+4	นี้	นี้	DET	_	_	3	det	_	Gloss=this|Translit=níi
+
+# sent_id = Thai_CLF_Sample_25
+# text = หมูหลายตัวเล็ก
+# text_en = Several pigs are small.
+# tokenised text = หมู หลาย ตัว เล็ก
+# gloss = pig several body(used as a classifier) small
+# translit = /mǒo/ /lǎaj/ /tua/ /lék/
+# variant = clf-as-head
+1	หมู	หมู	NOUN	_	_	4	nsubj	_	SpaceAfter=No|Gloss=pig|Translit=mǒo
+2	หลาย	หลาย	DET	_	_	3	det	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
+3	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+4	เล็ก	เล็ก	VERB	_	_	0	root	_	Gloss=small|Translit=lék
+
+# sent_id = Thai_CLF_Sample_26
+# text = หมูหลายตัวเล็กนี้
+# text_en = several of these small pigs
+# tokenised text = หมู หลาย ตัว เล็ก นี้
+# gloss = pig several body(used as a classifier) small this(DEM)
+# translit = /mǒo/ /lǎaj/ /tua/ /lék/ /níi/
+# variant = clf-as-head
+1	หมู	หมู	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=pig|Translit=mǒo
+2	หลาย	หลาย	DET	_	_	3	det	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
+3	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+4	เล็ก	เล็ก	ADJ	_	_	3	amod	_	SpaceAfter=No|Gloss=small|Translit=lék
+5	นี้	นี้	DET	_	_	3	det	_	Gloss=this|Translit=níi
+
+# sent_id = Thai_CLF_Sample_27
+# text = หมูหลายตัวนี้เล็ก
+# text_en = Several of these pigs are small.
+# tokenised text = หมู หลาย ตัว นี้ เล็ก 
+# gloss = pig several body(used as a classifier) this(DEM) small
+# translit = /mǒo/ /lǎaj/ /tua/ /níi/ /lék/
+# variant = clf-as-head
+1	หมู	หมู	NOUN	_	_	5	nsubj	_	SpaceAfter=No|Gloss=pig|Translit=mǒo
+2	หลาย	หลาย	DET	_	_	3	det	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
+3	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+4	นี้	นี้	DET	_	_	3	det	_	SpaceAfter=No|Gloss=this|Translit=níi
+5	เล็ก	เล็ก	VERB	_	_	0	root	_	Gloss=small|Translit=lék
+
+# sent_id = Thai_CLF_Sample_28
+# text = หมูเล็กหลายตัว
+# text_en = several small pigs
+# tokenised text = หมู เล็ก หลาย ตัว
+# gloss = pig small several body(used as a classifier)
+# translit = /mǒo/ /lék/ /lǎaj/ /tua/ 
+# note = The noun phrase "หมูเล็ก" /mǒo/ /lék/ without the noun used as a classifier "ตัว" /tua/ could mean a type of pigs which is micro pigs. It does not only mean the size of pigs, but also the type. However, having the classifier specifies the size clearly. Without it, the meaning of a noun phrase and sentence can be tricky to pinpoint when using this kind of adjective, such as เล็ก /lék/ meaning "small".
+# variant = clf-as-head
+1	หมู	หมู	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=pig|Translit=mǒo
+2	เล็ก	เล็ก	ADJ	_	_	1	amod	_	SpaceAfter=No|Gloss=small|Translit=lék
+3	หลาย	หลาย	DET	_	_	4	det	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
+4	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	Gloss=body|Translit=tua
+
+# sent_id = Thai_CLF_Sample_29
+# text = หมูเล็กหลายตัวนี้
+# text_en = several of these small pigs
+# tokenised text = หมู เล็ก หลาย ตัว นี้ 
+# gloss = pig small several body(used as a classifier) this(DEM)
+# translit = /mǒo/ /lék/ /lǎaj/ /tua/ /níi/
+# note = The noun phrase "หมูเล็ก" /mǒo/ /lék/ without the noun used as a classifier "ตัว" /tua/ could mean a type of pigs which is micro pigs. It does not only mean the size of pigs, but also the type. However, having the classifier specifies the size clearly. Without it, the meaning of a noun phrase and sentence can be tricky to pinpoint when using this kind of adjective, such as เล็ก /lék/ meaning "small".
+# variant = clf-as-head
+1	หมู	หมู	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=pig|Translit=mǒo
+2	เล็ก	เล็ก	ADJ	_	_	1	amod	_	SpaceAfter=No|Gloss=small|Translit=lék
+3	หลาย	หลาย	DET	_	_	4	det	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
+4	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+5	นี้	นี้	DET	_	_	4	det	_	Gloss=this|Translit=níi
+
+# sent_id = Thai_CLF_Sample_30
+# text = หมูตัวเล็กหลายตัว
+# text_en = several small-sized pigs
+# tokenised text = หมู ตัว เล็ก หลาย ตัว
+# gloss = pig body(used as a classifier) small several body(used as a classifier)
+# translit = /mǒo/ /tua/ /lék/ /lǎaj/ /tua/ 
+# variant = clf-as-head
+1	หมู	หมู	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=pig|Translit=mǒo
+2	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+3	เล็ก	เล็ก	ADJ	_	_	2	amod	_	SpaceAfter=No|Gloss=small|Translit=lék
+4	หลาย	หลาย	DET	_	_	5	det	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
+5	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	Gloss=body|Translit=tua
+
+# sent_id = Thai_CLF_Sample_31
+# text = หมูตัวเล็กหลายตัวนี้
+# text_en = several of these small-sized pigs
+# tokenised text = หมู ตัว เล็ก หลาย ตัว นี้
+# gloss = pig body(used as a classifier) small several body(used as a classifier) this(DEM)
+# translit = /mǒo/ /tua/ /lék/ /lǎaj/ /tua/ /níi/
+# variant = clf-as-head
+1	หมู	หมู	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=pig|Translit=mǒo
+2	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+3	เล็ก	เล็ก	ADJ	_	_	2	amod	_	SpaceAfter=No|Gloss=small|Translit=lék
+4	หลาย	หลาย	DET	_	_	5	det	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
+5	ตัว	ตัว	NOUN	_	NounType=Clf	2	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+6	นี้	นี้	DET	_	_	5	det	_	Gloss=this|Translit=níi
+
+# sent_id = Thai_CLF_Sample_32
+# text = หลายตัว
+# text_en = several (pigs)
+# tokenised text = หลาย ตัว
+# gloss = several body(used as a classifier)
+# translit = /lǎaj/ /tua/
+# note = The head noun "หมู" /mǒo/ is omitted in case we know what we talk about or previously mentioned. The noun used as a classifier becomes the head of the noun phrase.
+# variant = clf-as-head
+1	หลาย	หลาย	DET	_	_	2	det	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
+2	ตัว	ตัว	NOUN	_	NounType=Clf	0	root	_	Gloss=body|Translit=tua
+
+# sent_id = Thai_CLF_Sample_33
+# text = หลายตัวนี้
+# text_en = several of these (pigs)
+# tokenised text = หลาย ตัว นี้
+# gloss = several body(used as a classifier) this(DEM)
+# translit = /lǎaj/ /tua/ /níi/
+# note = The head noun "หมู" /mǒo/ is omitted in case we know what we talk about or previously mentioned. The noun used as a classifier becomes the head of the noun phrase.
+# variant = clf-as-head
+1	หลาย	หลาย	DET	_	_	2	det	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
+2	ตัว	ตัว	NOUN	_	NounType=Clf	0	root	_	SpaceAfter=No|Gloss=body|Translit=tua
+3	นี้	นี้	DET	_	_	2	det	_	Gloss=this|Translit=níi
+
+# sent_id = Thai_CLF_Sample_34
+# text = หลายตัวเล็ก
+# text_en = Several (pigs) are small.
+# tokenised text = หลาย ตัว เล็ก
+# gloss = several body(used as a classifier) small
+# translit = /lǎaj/ /tua/ /lék/
+# note = The head noun "หมู" /mǒo/ is omitted in case we know what we talk about or previously mentioned. The noun used as a classifier becomes the head of the noun phrase.
+# variant = clf-as-head
+1	หลาย	หลาย	DET	_	_	2	det	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
+2	ตัว	ตัว	NOUN	_	NounType=Clf	3	nsubj	_	SpaceAfter=No|Gloss=body|Translit=tua
+3	เล็ก	เล็ก	VERB	_	_	0	root	_	Gloss=small|Translit=lék
+
+# sent_id = Thai_CLF_Sample_35
+# text = หลายตัวเล็กนี้
+# text_en = several of these small (pigs)
+# tokenised text = หลาย ตัว เล็ก นี้
+# gloss = several body(used as a classifier) small this(DEM)
+# translit = /lǎaj/ /tua/ /lék/ /níi/
+# note = The head noun "หมู" /mǒo/ is omitted in case we know what we talk about or previously mentioned. The noun used as a classifier becomes the head of the noun phrase.
+# variant = clf-as-head
+1	หลาย	หลาย	DET	_	_	2	det	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
+2	ตัว	ตัว	NOUN	_	NounType=Clf	0	root	_	SpaceAfter=No|Gloss=body|Translit=tua
+3	เล็ก	เล็ก	ADJ	_	_	2	amod	_	SpaceAfter=No|Gloss=small|Translit=lék
+4	นี้	นี้	DET	_	_	2	det	_	Gloss=this|Translit=níi
+
+# sent_id = Thai_CLF_Sample_36
+# text = หลายตัวนี้เล็ก
+# text_en = Several of these (pigs) are small.
+# tokenised text = หลาย ตัว นี้ เล็ก 
+# gloss = several body(used as a classifier) this(DEM) small
+# translit = /lǎaj/ /tua/ /níi/ /lék/
+# note = The head noun "หมู" /mǒo/ is omitted in case we know what we talk about or previously mentioned. The noun used as a classifier becomes the head of the noun phrase.
+# variant = clf-as-head
+1	หลาย	หลาย	DET	_	_	2	det	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
+2	ตัว	ตัว	NOUN	_	NounType=Clf	4	nsubj	_	SpaceAfter=No|Gloss=body|Translit=tua
+3	นี้	นี้	DET	_	_	2	det	_	SpaceAfter=No|Gloss=this|Translit=níi
+4	เล็ก	เล็ก	VERB	_	_	0	root	_	Gloss=small|Translit=lék
+
+# sent_id = Thai_CLF_Sample_37
+# text = ตัวเล็กหลายตัว
+# text_en = several small-sized (pigs)
+# tokenised text = ตัว เล็ก หลาย ตัว
+# gloss = body(used as a classifier) small several body(used as a classifier)
+# translit = /tua/ /lék/ /lǎaj/ /tua/ 
+# note = The head noun "หมู" /mǒo/ is omitted in case we know what we talk about or previously mentioned. The first noun used as a classifier becomes the head of the main noun phrase, while the second noun used as a classifier is the head of the numeric phrase.
+# variant = clf-as-head
+1	ตัว	ตัว	NOUN	_	NounType=Clf	0	root	_	SpaceAfter=No|Gloss=body|Translit=tua
+2	เล็ก	เล็ก	ADJ	_	_	1	amod	_	SpaceAfter=No|Gloss=small|Translit=lék
+3	หลาย	หลาย	DET	_	_	4	det	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
+4	ตัว	ตัว	NOUN	_	NounType=Clf	1	clf	_	Gloss=body|Translit=tua
+
+# sent_id = Thai_CLF_Sample_38
+# text = ตัวเล็กหลายตัวนี้
+# text_en = several of these small-sized pigs
+# tokenised text = ตัว เล็ก หลาย ตัว นี้
+# gloss = body(used as a classifier) small several body(used as a classifier) this(DEM)
+# translit = /tua/ /lék/ /lǎaj/ /tua/ /níi/
+# note = The head noun "หมู" /mǒo/ is omitted in case we know what we talk about or previously mentioned. The first noun used as a classifier becomes the head of the main noun phrase, while the second noun used as a classifier is the head of the noun phrase.
+# variant = clf-as-head
+1	ตัว	ตัว	NOUN	_	NounType=Clf	0	root	_	SpaceAfter=No|Gloss=body|Translit=tua
+2	เล็ก	เล็ก	ADJ	_	_	1	amod	_	SpaceAfter=No|Gloss=small|Translit=lék
+3	หลาย	หลาย	DET	_	_	4	det	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
+4	ตัว	ตัว	NOUN	_	NounType=Clf	1	clf	_	SpaceAfter=No|Gloss=body|Translit=tua
+5	นี้	นี้	DET	_	_	4	det	_	Gloss=this|Translit=níi
+
+# sent_id = Thai_CLF_Sample_39
+# text = หนังสือเล่มที่ 1
+# text_en = the 1st book
+# tokenised text = หนังสือ เล่ม ที่ 1
+# gloss = book book(used as a classifier) rank 1
+# translit = /nǎŋ-sɯ̌ɯ/ /lêm/ /thîi/ /nɯ̀ŋ/
+# variant = clf-as-head            
+1	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+2	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+3	ที่	ที่	NOUN	_	_	2	nmod	_	Gloss=rank|Translit=thîi
+4	1	1	NUM	_	_	3	nmod	_	Translit=nɯ̀ŋ
+
+# sent_id = Thai_CLF_Sample_40
+# text = ข้าวจานที่ 1
+# text_en = the 1st plate of rice
+# tokenised text = ข้าว จาน ที่ 1
+# gloss = rice plate(used as a classifier) rank 1
+# translit = /khâaw/ /caan/ /thîi/ /nɯ̀ŋ/ 
+# variant = clf-as-head  
+1	ข้าว	ข้าว	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=rice|Translit=khâaw
+2	จาน	จาน	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=plate|Translit=caan
+3	ที่	ที่	NOUN	_	_	2	nmod	_	Gloss=rank|Translit=thîi
+4	1	1	NUM	_	_	3	nmod	_	Translit=nɯ̀ŋ
+
+# sent_id = Thai_CLF_Sample_41
+# text = บทละครบทที่ 1
+# text_en = the 1st play script
+# tokenised text = บท ละคร บท ที่ 1
+# gloss = chapter play chapter(used as a classifier) rank 1
+# translit = /bòt/ /là-khɔɔn/ /bòt/ /thîi/ /nɯ̀ŋ/
+# variant = clf-as-head                
+1	บท	บท	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=chapter|Translit=bòt
+2	ละคร	ละคร	NOUN	_	_	1	nmod:compound	_	SpaceAfter=No|Gloss=play|Translit=là-khɔɔn
+3	บท	บท	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=chapter|Translit=bòt
+4	ที่	ที่	NOUN	_	_	3	nmod	_	Gloss=rank|Translit=thîi
+5	1	1	NUM	_	_	4	nmod	_	Translit=nɯ̀ŋ
+
+# sent_id = Thai_CLF_Sample_42
+# text = หนังสือสีแดงเล่มที่ 1
+# text_en = the 1st red book
+# tokenised text = หนังสือ สี แดง เล่ม ที่ 1
+# gloss = book color red book(used as a classifier) rank 1
+# translit = /nǎŋ-sɯ̌ɯ/ /sǐi/ /dɛɛŋ/ /lêm/ /thîi/ /nɯ̀ŋ/
+# variant = clf-as-head 
+1	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+2	สี	สี	NOUN	_	_	1	nmod:compound	_	SpaceAfter=No|Gloss=color|Translit=sǐi
+3	แดง	แดง	ADJ	_	_	2	amod	_	SpaceAfter=No|Gloss=red|Translit=dɛɛŋ
+4	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+5	ที่	ที่	NOUN	_	_	4	nmod	_	Gloss=rank|Translit=thîi
+6	1	1	NUM	_	_	5	nmod	_	Translit=nɯ̀ŋ
+
+# sent_id = Thai_CLF_Sample_43
+# text = หนังสือใหม่เล่มที่ 1
+# text_en = the 1st new book
+# tokenised text = หนังสือ ใหม่ เล่ม ที่ 1
+# gloss = book new book(used as a classifier) rank 1
+# translit = /nǎŋ-sɯ̌ɯ/ /màj/ /lêm/ /thîi/ /nɯ̀ŋ/
+# variant = clf-as-head
+1	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+2	ใหม่	ใหม่	ADJ	_	_	1	amod	_	SpaceAfter=No|Gloss=new|Translit=màj
+3	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+4	ที่	ที่	NOUN	_	_	3	nmod	_	Gloss=rank|Translit=thîi
+5	1	1	NUM	_	_	4	nmod	_	Translit=nɯ̀ŋ
+
+# sent_id = Thai_CLF_Sample_44
+# text = คนพูดภาษาจีนคนที่ 1
+# text_en = the 1st Chinese-speaking person 
+# tokenised text = คน พูด ภาษา จีน คน ที่ 1
+# gloss = person speak language China person(used as a classifier) rank 1
+# translit = /khon/ /phûut/ /phaa-sǎa/ /ciin/ /khon/ /thîi/ /nɯ̀ŋ/
+# variant = clf-as-head
+1	คน	คน	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=person|Translit=khon
+2	พูด	พูด	VERB	_	_	1	acl:compound	_	SpaceAfter=No|Gloss=speak|Translit=phûut
+3	ภาษา	ภาษา	NOUN	_	_	2	obj	_	SpaceAfter=No|Gloss=language|Translit=phaa-sǎa
+4	จีน	จีน	NOUN	_	_	3	nmod:compound	_	SpaceAfter=No|Gloss=China|Translit=ciin
+5	คน	คน	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=person|Translit=khon
+6	ที่	ที่	NOUN	_	_	5	nmod	_	Gloss=rank|Translit=thîi
+7	1	1	NUM	_	_	6	nmod	_	Translit=nɯ̀ŋ
+
+# sent_id = Thai_CLF_Sample_45
+# text = หนังสือใหม่สีแดงเล่มที่ 1
+# text_en = the 1st red new book
+# tokenised text = หนังสือ ใหม่ สี แดง เล่ม ที่ 1
+# gloss = book new color red book(used as a classifier) rank 1
+# translit = /nǎŋ-sɯ̌ɯ/ /màj/ /sǐi/ /dɛɛŋ/ /lêm/ /thîi/ /nɯ̀ŋ/
+# variant = clf-as-head
+1	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+2	ใหม่	ใหม่	ADJ	_	_	1	amod	_	SpaceAfter=No|Gloss=new|Translit=màj
+3	สี	สี	NOUN	_	_	1	nmod:compound	_	SpaceAfter=No|Gloss=color|Translit=sǐi
+4	แดง	แดง	ADJ	_	_	3	amod	_	SpaceAfter=No|Gloss=red|Translit=dɛɛŋ
+5	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+6	ที่	ที่	NOUN	_	_	5	nmod	_	Gloss=rank|Translit=thîi
+7	1	1	NUM	_	_	6	nmod	_	Translit=nɯ̀ŋ
+
+# sent_id = Thai_CLF_Sample_46
+# text = หนังสือสีแดงเล่มใหม่เล่มที่ 1
+# text_en = the 1st red new book
+# tokenised text = หนังสือ สี แดง เล่ม ใหม่ เล่ม ที่ 1
+# gloss = book color red book(used as a classifier) new book(used as a classifier) rank 1
+# translit = /nǎŋ-sɯ̌ɯ/ /sǐi/ /dɛɛŋ/ /lêm/ /màj/ /lêm/ /thîi/ /nɯ̀ŋ/
+# variant = clf-as-head
+1	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+2	สี	สี	NOUN	_	_	1	nmod:compound	_	SpaceAfter=No|Gloss=color|Translit=sǐi
+3	แดง	แดง	ADJ	_	_	2	amod	_	SpaceAfter=No|Gloss=red|Translit=dɛɛŋ
+4	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+5	ใหม่	ใหม่	ADJ	_	_	4	amod	_	SpaceAfter=No|Gloss=new|Translit=màj
+6	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+7	ที่	ที่	NOUN	_	_	6	nmod	_	Gloss=rank|Translit=thîi
+8	1	1	NUM	_	_	7	nmod	_	Translit=nɯ̀ŋ
+
+# sent_id = Thai_CLF_Sample_47
+# text = อาคารเรียนรวมสีขาวหลังที่สอง
+# text_en = the second white common school building
+# tokenised text = อาคาร เรียน รวม สี ขาว หลัง ที่ สอง
+# gloss = building study assemble color white dwelling(used as a classifier) rank two
+# translit = /ʔaa-khaan/ /rian/ /ruam/ /sǐi/ /khǎaw/ /lǎŋ/ /thîi/ /sɔ̌ɔŋ/
+# variant = clf-as-head
+1	อาคาร	อาคาร	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=building|Translit=ʔaa-khaan
+2	เรียน	เรียน	VERB	_	_	1	acl:compound	_	SpaceAfter=No|Gloss=study|Translit=rian
+3	รวม	รวม	ADV	_	_	2	advmod	_	SpaceAfter=No|Gloss=assemble|Translit=ruam
+4	สี	สี	NOUN	_	_	1	nmod:compound	_	SpaceAfter=No|Gloss=color|Translit=sǐi
+5	ขาว	ขาว	ADJ	_	_	4	amod	_	SpaceAfter=No|Gloss=white|Translit=khǎaw
+6	หลัง	หลัง	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=dwelling|Translit=lǎŋ
+7	ที่	ที่	NOUN	_	_	6	nmod	_	SpaceAfter=No|Gloss=rank|Translit=thîi
+8	สอง	สอง	NUM	_	_	7	nmod	_	Gloss=two|Translit=sɔ̌ɔŋ
+
+# sent_id = Thai_CLF_Sample_48
+# text = หนังสือเล่มใหม่เล่มที่ 1
+# text_en = the 1st new book
+# tokenised text = หนังสือ เล่ม ใหม่ เล่ม ที่ 1
+# gloss = book book(used as a classifier) new book(used as a classifier) rank 1
+# translit = /nǎŋ-sɯ̌ɯ/ /lêm/ /màj/ /lêm/ /thîi/ /nɯ̀ŋ/
+# variant = clf-as-head
+1	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+2	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+3	ใหม่	ใหม่	ADJ	_	_	2	amod	_	SpaceAfter=No|Gloss=new|Translit=màj
+4	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+5	ที่	ที่	NOUN	_	_	4	nmod	_	Gloss=rank|Translit=thîi
+6	1	1	NUM	_	_	5	nmod	_	Translit=nɯ̀ŋ
+
+# sent_id = Thai_CLF_Sample_49
+# text = หนังสือเล่มที่ 1 สีแดง
+# text_en = the 1st red book
+# tokenised text = หนังสือ เล่ม ที่ 1 สี แดง
+# gloss = book book(used as a classifier) rank 1 color red
+# translit = /nǎŋ-sɯ̌ɯ/ /lêm/ /thîi/ /nɯ̀ŋ/ /sǐi/ /dɛɛŋ/
+# variant = clf-as-head
+1	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+2	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+3	ที่	ที่	NOUN	_	_	2	nmod	_	Gloss=rank|Translit=thîi
+4	1	1	NUM	_	_	3	nmod	_	Translit=nɯ̀ŋ
+5	สี	สี	NOUN	_	_	1	nmod	_	SpaceAfter=No|Gloss=color|Translit=sǐi
+6	แดง	แดง	ADJ	_	_	5	amod	_	Gloss=red|Translit=dɛɛŋ
+
+# sent_id = Thai_CLF_Sample_49_Variant
+# text = หนังสือเล่มที่ 1 สีแดง
+# text_en = the 1st red book
+# tokenised text = หนังสือ เล่ม ที่ 1 สี แดง
+# gloss = book book(used as a classifier) rank 1 color red
+# translit = /nǎŋ-sɯ̌ɯ/ /lêm/ /thîi/ /nɯ̀ŋ/ /sǐi/ /dɛɛŋ/
+# variant = clf-as-head
+1	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+2	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+3	ที่	ที่	NOUN	_	_	2	nmod	_	Gloss=rank|Translit=thîi
+4	1	1	NUM	_	_	3	nmod	_	Translit=nɯ̀ŋ
+5	สี	สี	NOUN	_	_	2	nmod	_	SpaceAfter=No|Gloss=color|Translit=sǐi
+6	แดง	แดง	ADJ	_	_	5	amod	_	Gloss=red|Translit=dɛɛŋ
+
+# sent_id = Thai_CLF_Sample_50
+# text = หนังสือเล่มที่ 1 ของฉัน
+# text_en = my 1st book
+# tokenised text = หนังสือ เล่ม ที่ 1 ของ ฉัน
+# gloss = book (used as a classifier) position/rank one of I
+# translit = /nǎŋ-sɯ̌ɯ/ /lêm/ /thîi/ /nɯ̀ŋ/ /khɔ̌ɔŋ/ /chǎn/
+# variant = clf-as-head
+1	หนังสือ	_	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+2	เล่ม	_	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+3	ที่	_	NOUN	_	_	2	nmod	_	Gloss=rank|Translit=thîi
+4	1	1	NUM	_	_	3	nmod	_	Translit=nɯ̀ŋ
+5	ของ	_	ADP	_	_	6	case	_	SpaceAfter=No|Gloss=of|Translit=khɔ̌ɔŋ
+6	ฉัน	_	PRON	_	_	1	nmod	_	Gloss=I|Translit=chǎn
+
+# sent_id = Thai_CLF_Sample_50_Variant
+# text = หนังสือเล่มที่ 1 ของฉัน
+# text_en = my 1st book
+# tokenised text = หนังสือ เล่ม ที่ 1 ของ ฉัน
+# gloss = book book(used as a classifier) rank 1 of I
+# translit = /nǎŋ-sɯ̌ɯ/ /lêm/ /thîi/ /nɯ̀ŋ/ /khɔ̌ɔŋ/ /chǎn/
+# variant = clf-as-head
+1	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+2	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+3	ที่	ที่	NOUN	_	_	2	nmod	_	Gloss=rank|Translit=thîi
+4	1	1	NUM	_	_	3	nmod	_	Translit=nɯ̀ŋ
+5	ของ	ของ	ADP	_	_	6	case	_	SpaceAfter=No|Gloss=of|Translit=khɔ̌ɔŋ
+6	ฉัน	ฉัน	PRON	_	_	2	nmod	_	Gloss=I|Translit=chǎn
+
+# sent_id = Thai_CLF_Sample_51
+# text = หนังสือเล่มที่ 1 พ่อซื้อให้ฉัน
+# text_en = The 1st book (my) father bought for me.
+# tokenised text = หนังสือ เล่ม ที่ 1 พ่อ ซื้อ ให้ ฉัน
+# gloss = book book(used as a classifier) rank 1 father buy give I
+# translit = /nǎŋ-sɯ̌ɯ/ /lêm/ /thîi/ /nɯ̀ŋ/ /phɔ̂ɔ/ /sɯ́ɯ/ /hâj/ /chǎn/
+# variant = clf-as-head
+1	หนังสือ	หนังสือ	NOUN	_	_	6	dislocated	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+2	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+3	ที่	ที่	NOUN	_	_	2	nmod	_	Gloss=rank|Translit=thîi
+4	1	1	NUM	_	_	3	nmod	_	Translit=nɯ̀ŋ
+5	พ่อ	พ่อ	NOUN	_	_	6	nsubj	_	SpaceAfter=No|Gloss=father|Translit=phɔ̂ɔ
+6	ซื้อ	ซื้อ	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=buy|Translit=sɯ́ɯ
+7	ให้	ให้	ADP	_	_	8	case	_	SpaceAfter=No|Gloss=give|Translit=hâj
+8	ฉัน	ฉัน	PRON	_	_	6	obl	_	Gloss=I|Translit=chǎn
+
+# sent_id = Thai_CLF_Sample_52
+# text = หนังสือเล่มแรก
+# text_en = the first book
+# tokenised text = หนังสือ เล่ม แรก
+# gloss = book book(used as a classifier) first
+# translit = /nǎŋ-sɯ̌ɯ/ /lêm/ /rɛ̂ɛk/
+# variant = clf-as-head
+1	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+2	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+3	แรก	แรก	ADJ	_	_	2	amod	_	Gloss=first|Translit=rɛ̂ɛk
+
+# sent_id = Thai_CLF_Sample_53
+# text = หนังสือเล่มกลาง
+# text_en = the middle book
+# tokenised text = หนังสือ เล่ม กลาง
+# gloss = book book(used as a classifier) middle
+# translit = /nǎŋ-sɯ̌ɯ/ /lêm/ /klaaŋ/ 
+# variant = clf-as-head
+1	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+2	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+3	กลาง	กลาง	ADJ	_	_	2	amod	_	Gloss=middle|Translit=klaaŋ
+
+
+
