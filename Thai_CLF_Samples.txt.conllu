@@ -1031,5 +1031,238 @@
 2	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
 3	กลาง	กลาง	ADJ	_	_	2	amod	_	Gloss=middle|Translit=klaaŋ
 
+# sent_id = Thai_CLF_Sample_54
+# text = หนังสือเล่มก่อน
+# text_en = the previous book
+# tokenised text = หนังสือ เล่ม ก่อน
+# gloss = book  book(used as a classifier) previous
+# translit = /nǎŋ-sɯ̌ɯ/ /lêm/ /kɔ̀ɔn/ 
+# phrase_type = noun phrase
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+2	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+3	ก่อน	ก่อน	ADJ	_	_	2	amod	_	Gloss=previous|Translit=kɔ̀ɔn
+
+# sent_id = Thai_CLF_Sample_55
+# text = หนังสือเล่มหน้า
+# text_en = the next book
+# tokenised text = หนังสือ เล่ม หน้า
+# gloss = book book(used as a classifier) next
+# translit = /nǎŋ-sɯ̌ɯ/ /lêm/ /nâa/
+# phrase_type = noun phrase
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025 
+1	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+2	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+3	หน้า	หน้า	ADJ	_	_	2	amod	_	Gloss=next|Translit=nâa
+
+# sent_id = Thai_CLF_Sample_56
+# text = รถคันหลัง
+# text_en = the car parked behind the other car
+# tokenised text = รถ คัน หลัง
+# gloss = car stick(used as a classifier) behind
+# translit = /rót/ /khan/ /lǎŋ/
+# phrase_type = noun phrase
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	รถ	รถ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=car|Translit=rót
+2	คัน	คัน	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=stick|Translit=khan
+3	หลัง	หลัง	ADJ	_	_	2	amod	_	Gloss=behind|Translit=lǎŋ 
+
+# sent_id = Thai_CLF_Sample_57
+# text = ผู้ชายคนหลัง
+# text_en = a man at the back
+# tokenised text = ผู้ ชาย คน หลัง
+# gloss = person male person(used as a classifier) behind
+# translit = /phûu/ /chaaj/ /khon/ /lǎŋ/
+# phrase_type = noun phrase
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	ผู้	ผู้	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=person|Translit=phûu
+2	ชาย	ชาย	NOUN	_	_	1	nmod:compound	_	SpaceAfter=No|Gloss=male|Translit=chaaj
+3	คน	คน	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=person|Translit=khon
+4	หลัง	หลัง	ADJ	_	_	3	amod	_	Gloss=behind|Translit=lǎŋ 
+
+# sent_id = Thai_CLF_Sample_58
+# text = หนังสือ 2 เล่มแรก
+# text_en = the first 2 books
+# tokenised text = หนังสือ 2 เล่ม แรก
+# gloss = book two book(used as a classifier) first
+# translit = /nǎŋ-sɯ̌ɯ/ /sɔ̌ɔŋ/ /lêm/ /rɛ̂ɛk/
+# phrase_type = noun phrase
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+2	2	2	NUM	_	_	3	nummod	_	Gloss=two|Translit=sɔ̌ɔŋ
+3	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+4	แรก	แรก	ADJ	_	_	3	amod	_	Gloss=first|Translit=rɛ̂ɛk
+
+# sent_id = Thai_CLF_Sample_59
+# text = หนังสือเล่ม 1
+# text_en = the 1st book
+# tokenised text = หนังสือ เล่ม 1
+# gloss = book book(used as a classifier) 1
+# translit = /nǎŋ-sɯ̌ɯ/ /lêm/ /nɯ̀ŋ/
+# phrase_type = noun phrase
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+2	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	SpaceAfter=No|Gloss=book|Translit=lêm	_
+3	1	1	NOUN	_	_	2	nmod	_	Gloss=one|Translit=nɯ̀ŋ
+
+# sent_id = Thai_CLF_Sample_60
+# text = จานใบแรก
+# text_en = the first plate
+# tokenised text = จาน ใบ แรก
+# gloss = plate leaf(used as a classifier) first 
+# translit = /caan/ /baj/ /rɛ̂ɛk/
+# phrase_type = noun phrase
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	จาน	จาน	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=plate|Translit=caan
+2	ใบ	ใบ	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=leaf|Translit=baj
+3	แรก	แรก	ADJ	_	_	2	amod	_	Gloss=first|Translit=rɛ̂ɛk
+
+# sent_id = Thai_CLF_Sample_61
+# text = คนที่ 1
+# text_en = the 1st person
+# tokenised text = คน ที่ 1
+# gloss = person(used as a classifier) rank 1
+# translit = /khon/ /thîi/ /nɯ̀ŋ/ 
+# phrase_type = noun phrase
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+# note = The noun คน /khon/ uses the same word คน /khon/ as a classifier. When it is used with a classifier, it as a head noun is omitted. If it is remained in a noun phrase, it is used for emphasis. 
+1	คน	คน	NOUN	_	NounType=Clf	0	root	_	SpaceAfter=No|Gloss=person|Translit=khon
+2	ที่	ที่	NOUN	_	_	1	nmod	_	Gloss=rank|Translit=thîi
+3	1	1	NUM	_	_	2	nmod	_	Gloss=one|Translit=nɯ̀ŋ
+
+# sent_id = Thai_CLF_Sample_62
+# text = โรงภาพยนตร์โรงที่ 1
+# text_en = the 1st movie theater
+# tokenised text = โรง ภาพยนตร์ โรง ที่ 1
+# gloss = building movie building(used as a classifier) rank 1
+# translit = /rooŋ/ /phâap-pháʔ-jon/ /rooŋ/ /thîi/ /nɯ̀ŋ/
+# phrase_type = noun phrase
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+# note = When the noun โรง /rooŋ/ its compounded with another noun as the head noun of a phrase to mean a building used for some particular purpose, it uses the same word โรง /rooŋ/ as a classifier in a noun phrase.
+1	โรง	โรง	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=building|Translit=rooŋ
+2	ภาพยนตร์	ภาพยนตร์	NOUN	_	_	1	nmod:compound	_	SpaceAfter=No|Gloss=movie|Translit=phâap-pháʔ-jon
+3	โรง	โรง	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=building|Translit=phâap-pháʔ-jon
+4	ที่	ที่	NOUN	_	_	3	nmod	_	Gloss=rank|Translit=thîi
+5	1	1	NUM	_	_	4	nmod	_	Gloss=one|Translit=nɯ̀ŋ
+
+# sent_id = Thai_CLF_Sample_63
+# text = โรงที่ 1
+# text_en = the 1st (movie) theater
+# tokenised text = โรง ที่ 1
+# gloss = building(used as a classifier) rank 1
+# translit = /rooŋ/ /thîi/ /nɯ̀ŋ/
+# phrase_type = noun phrase
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+# note = The head noun โรงภาพยนตร์ /rooŋ/ /phâap-pháʔ-jon/, which means a movie theater, is omitted in case it is previously mentioned or it is previously recognised. The noun used as a classifier โรง /rooŋ/ is then used in the noun phrase to refer to the head noun.
+1	โรง	โรง	NOUN	_	NounType=Clf	0	root	_	SpaceAfter=No|Gloss=building|Translit=rooŋ
+2	ที่	ที่	NOUN	_	_	1	nmod	_	Gloss=rank|Translit=thîi
+3	1	1	NUM	_	_	2	nmod	_	Gloss=one|Translit=nɯ̀ŋ
+
+# sent_id = Thai_CLF_Sample_64
+# text = โรง 1
+# text_en = the 1st (movie) theater
+# tokenised text = โรง 1
+# gloss = building(used as a classifier) 1
+# translit = /rooŋ/ /nɯ̀ŋ/
+# phrase_type = noun phrase
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+# note = The head noun โรงภาพยนตร์ /rooŋ/ /phâap-pháʔ-jon/, which means a movie theater, is omitted in case it is previously mentioned or it is previously recognised. The noun used as a classifier โรง /rooŋ/ is then used in the noun phrase to refer to the head noun. And when the noun ที่ /thîi/, which means "a rank", is omitted, placing the numeral 1 /nɯ̀ŋ/ after the noun used as a classifier โรง /rooŋ/ can signify sequences.
+1	โรง	โรง	NOUN	_	NounType=Clf	0	root	_	SpaceAfter=No|Gloss=building|Translit=rooŋ
+2	1	1	NUM	_	_	1	nmod	_	Gloss=one|Translit=nɯ̀ŋ
+
+# sent_id = Thai_CLF_Sample_65
+# text = ช้างเชือกแรก
+# text_en = the first tamed elephant
+# tokenised text = ช้าง เชือก แรก
+# gloss = elephant string(used as a classifier) first
+# translit = /cháaŋ/ /chɯ̂ak/ /rɛ̂ɛk/
+# phrase_type = noun phrase
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+# note = The noun เชือก /chɯ̂ak/, which means "strings", is also used as a classifier especially for tamed elephants. 
+1	ช้าง	ช้าง	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=elephant|Translit=cháaŋ
+2	เชือก	เชือก	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=string|Translit=chɯ̂ak
+3	แรก	แรก	ADJ	_	_	2	amod	_	Gloss=first|Translit=rɛ̂ɛk
+
+# sent_id = Thai_CLF_Sample_66
+# text = เชือกแรก
+# text_en = the first (tamed elephant)
+# tokenised text = เชือก แรก
+# gloss = string(used as a classifier) first
+# translit = /chɯ̂ak/ /rɛ̂ɛk/
+# phrase_type = noun phrase
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+# note = The noun เชือก /chɯ̂ak/ is used as a classifier especially for tamed elephants. When the head noun ช้าง /cháaŋ/ is omitted, apart from the context, it can still be predicted even it is not previously mentioned or known.
+1	เชือก	เชือก	NOUN	_	NounType=Clf	0	root	_	SpaceAfter=No|Gloss=string|Translit=chɯ̂ak
+2	แรก	แรก	ADJ	_	_	1	amod	_	Gloss=first|Translit=rɛ̂ɛk
+
+# sent_id = Thai_CLF_Sample_67
+# text = ช้างห้าตัว
+# text_en = five wild elephants
+# tokenised text = ช้าง ห้า ตัว
+# gloss = elephant five body(used as a classifier)
+# translit = /cháaŋ/ /hâa/ /tua/
+# phrase_type = noun phrase
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+# note = The noun ตัว /tua/ is used as a classifier generally for animals. When it is used to classify elephants, it is meant only for wild elephants. 
+1	ช้าง	ช้าง	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=elephant|Translit=cháaŋ
+2	ห้า	ห้า	NUM	_	_	3	nummod	_	SpaceAfter=No|Gloss=five|Translit=hâa
+3	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	Gloss=body|Translit=tua
+
 
 
