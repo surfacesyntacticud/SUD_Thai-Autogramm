@@ -1127,7 +1127,7 @@
 # year = 2025
 # note = When the noun ที่ /thîi/, which means "a rank", is omitted, placing the numeral 1 /nɯ̀ŋ/ after the noun used as a classifier เล่ม /lêm/ can signify sequences.
 1	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
-2	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	SpaceAfter=No|Gloss=book|Translit=lêm	_
+2	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
 3	1	1	NOUN	_	_	2	nmod	_	Gloss=one|Translit=nɯ̀ŋ
 
 # sent_id = Thai_CLF_Sample_60
