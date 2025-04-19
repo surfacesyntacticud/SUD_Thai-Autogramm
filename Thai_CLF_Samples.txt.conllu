@@ -1175,7 +1175,7 @@
 # source = coined
 # genre = informal_writing
 # year = 2025
-# note = When the noun โรง /rooŋ/ its compounded with another noun as the head noun of a phrase to mean a building used for some particular purpose, it uses the same word โรง /rooŋ/ as a classifier in a noun phrase.
+# note = When the noun โรง /rooŋ/ is compounded with another noun as the head noun of a phrase to mean a building used for some particular purpose, it uses the same word โรง /rooŋ/ as a classifier in a noun phrase.
 1	โรง	โรง	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=building|Translit=rooŋ
 2	ภาพยนตร์	ภาพยนตร์	NOUN	_	_	1	nmod:compound	_	SpaceAfter=No|Gloss=movie|Translit=phâap-pháʔ-jon
 3	โรง	โรง	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=building|Translit=phâap-pháʔ-jon
