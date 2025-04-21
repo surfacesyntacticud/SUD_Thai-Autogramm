@@ -209,10 +209,10 @@
 
 # sent_id = Thai_CLF_Sample_13
 # text = สองตัวเล็กนี้น่ารักมาก
-# text_en = These two small (pigs) are very cute.
-# tokenised text = สอง ตัว เล็ก นี้ น่ารัก มาก
-# gloss = two body(used as a classifier) small this(DEM) cute very
-# translit = /sɔ̌ɔŋ/ /tua/ /lék/ /níi/ /nâa-rák/ /mâak/
+# text_en = These two small (pigs) are very lovely.
+# tokenised text = สอง ตัว เล็ก นี้ น่า รัก มาก
+# gloss = two body(used as a classifier) small this(DEM) should love very
+# translit = /sɔ̌ɔŋ/ /tua/ /lék/ /níi/ /nâa/ /rák/ /mâak/
 # phrase_type = sentence
 # acceptability = ?* at the noun phrase used as a subject
 # variant = clf-as-head
@@ -221,18 +221,19 @@
 # year = 2025
 # note = The head noun "หมู" /mǒo/ is omitted in case we know what we talk about or previously mentioned.The noun used as a classifier becomes the head of the noun phrase.
 1	สอง	สอง	NUM	_	_	2	nummod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ɔŋ
-2	ตัว	ตัว	NOUN	_	NounType=Clf	5	nsubj	_	SpaceAfter=No|Gloss=body|Translit=tua
+2	ตัว	ตัว	NOUN	_	NounType=Clf	6	nsubj	_	SpaceAfter=No|Gloss=body|Translit=tua
 3	เล็ก	เล็ก	ADJ	_	_	2	amod	_	SpaceAfter=No|Gloss=small|Translit=lék
 4	นี้	นี้	DET	_	_	2	det	_	SpaceAfter=No|Gloss=this|Translit=níi
-5	น่ารัก	น่ารัก	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=cute|Translit=nâa-rák
-6	มาก	มาก	ADV	_	_	5	advmod	_	Gloss=very|Translit=mâak
+5	น่า	น่า	AUX	_	_	6	aux	_	SpaceAfter=No|Gloss=should|Translit=nâa
+6	รัก	รัก	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=love|Translit=rák
+7	มาก	มาก	ADV	_	_	6	advmod	_	Gloss=very|Translit=mâak
 
 # sent_id = Thai_CLF_Sample_14
 # text = สองตัวนี้เล็กน่ารักมาก
-# text_en = These two (pigs) are small (and) very cute.
+# text_en = These two (pigs) are small (and) very lovely.
 # tokenised text = สอง ตัว นี้ เล็ก น่ารัก มาก
-# gloss = two body(used as a classifier) this(DEM) small cute very
-# translit = /sɔ̌ɔŋ/ /tua/ /níi/ /lék/ /nâa-rák/ /mâak/
+# gloss = two body(used as a classifier) this(DEM) small should love very
+# translit = /sɔ̌ɔŋ/ /tua/ /níi/ /lék/ /nâa/ /rák/ /mâak/
 # phrase_type = sentence
 # acceptability = OK
 # variant = clf-as-head
@@ -244,8 +245,9 @@
 2	ตัว	ตัว	NOUN	_	NounType=Clf	4	nsubj	_	SpaceAfter=No|Gloss=body|Translit=tua
 3	นี้	นี้	DET	_	_	2	det	_	SpaceAfter=No|Gloss=this|Translit=níi
 4	เล็ก	เล็ก	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=small|Translit=lék
-5	น่ารัก	น่ารัก	VERB	_	_	4	conj	_	SpaceAfter=No|Gloss=cute|Translit=nâa-rák
-6	มาก	มาก	ADV	_	_	5	advmod	_	Gloss=very|Translit=mâak
+5	น่า	น่า	AUX	_	_	6	aux	_	SpaceAfter=No|Gloss=should|Translit=nâa
+6	รัก	รัก	VERB	_	_	4	conj	_	SpaceAfter=No|Gloss=love|Translit=rák
+7	มาก	มาก	ADV	_	_	6	advmod	_	Gloss=very|Translit=mâak
 
 # sent_id = Thai_CLF_Sample_15
 # text = หมูตัวเล็ก 2 ตัว
@@ -759,7 +761,7 @@
 # genre = informal_writing
 # year = 2025                
 1	บท	บท	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=chapter|Translit=bòt
-2	ละคร	ละคร	NOUN	_	_	1	nmod:compound	_	SpaceAfter=No|Gloss=play|Translit=là-khɔɔn
+2	ละคร	ละคร	NOUN	_	_	1	nmod	_	SpaceAfter=No|Gloss=play|Translit=là-khɔɔn
 3	บท	บท	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=chapter|Translit=bòt
 4	ที่	ที่	NOUN	_	_	3	nmod	_	Gloss=rank|Translit=thîi
 5	1	1	NUM	_	_	4	nmod	_	Gloss=one|Translit=nɯ̀ŋ
@@ -777,7 +779,7 @@
 # genre = informal_writing
 # year = 2025 
 1	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
-2	สี	สี	NOUN	_	_	1	nmod:compound	_	SpaceAfter=No|Gloss=color|Translit=sǐi
+2	สี	สี	NOUN	_	_	1	nmod	_	SpaceAfter=No|Gloss=color|Translit=sǐi
 3	แดง	แดง	ADJ	_	_	2	amod	_	SpaceAfter=No|Gloss=red|Translit=dɛɛŋ
 4	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
 5	ที่	ที่	NOUN	_	_	4	nmod	_	Gloss=rank|Translit=thîi
@@ -814,9 +816,9 @@
 # genre = informal_writing
 # year = 2025
 1	คน	คน	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=person|Translit=khon
-2	พูด	พูด	VERB	_	_	1	acl:compound	_	SpaceAfter=No|Gloss=speak|Translit=phûut
+2	พูด	พูด	VERB	_	_	1	compound	_	SpaceAfter=No|Gloss=speak|Translit=phûut
 3	ภาษา	ภาษา	NOUN	_	_	2	obj	_	SpaceAfter=No|Gloss=language|Translit=phaa-sǎa
-4	จีน	จีน	NOUN	_	_	3	nmod:compound	_	SpaceAfter=No|Gloss=China|Translit=ciin
+4	จีน	จีน	NOUN	_	_	3	nmod	_	SpaceAfter=No|Gloss=China|Translit=ciin
 5	คน	คน	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=person|Translit=khon
 6	ที่	ที่	NOUN	_	_	5	nmod	_	Gloss=rank|Translit=thîi
 7	1	1	NUM	_	_	6	nmod	_	Gloss=one|Translit=nɯ̀ŋ
@@ -835,7 +837,7 @@
 # year = 2025
 1	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
 2	ใหม่	ใหม่	ADJ	_	_	1	amod	_	SpaceAfter=No|Gloss=new|Translit=màj
-3	สี	สี	NOUN	_	_	1	nmod:compound	_	SpaceAfter=No|Gloss=color|Translit=sǐi
+3	สี	สี	NOUN	_	_	1	nmod	_	SpaceAfter=No|Gloss=color|Translit=sǐi
 4	แดง	แดง	ADJ	_	_	3	amod	_	SpaceAfter=No|Gloss=red|Translit=dɛɛŋ
 5	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
 6	ที่	ที่	NOUN	_	_	5	nmod	_	Gloss=rank|Translit=thîi
@@ -854,7 +856,7 @@
 # genre = informal_writing
 # year = 2025
 1	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
-2	สี	สี	NOUN	_	_	1	nmod:compound	_	SpaceAfter=No|Gloss=color|Translit=sǐi
+2	สี	สี	NOUN	_	_	1	nmod	_	SpaceAfter=No|Gloss=color|Translit=sǐi
 3	แดง	แดง	ADJ	_	_	2	amod	_	SpaceAfter=No|Gloss=red|Translit=dɛɛŋ
 4	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
 5	ใหม่	ใหม่	ADJ	_	_	4	amod	_	SpaceAfter=No|Gloss=new|Translit=màj
@@ -875,9 +877,9 @@
 # genre = informal_writing
 # year = 2025
 1	อาคาร	อาคาร	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=building|Translit=ʔaa-khaan
-2	เรียน	เรียน	VERB	_	_	1	acl:compound	_	SpaceAfter=No|Gloss=study|Translit=rian
+2	เรียน	เรียน	VERB	_	_	1	compound	_	SpaceAfter=No|Gloss=study|Translit=rian
 3	รวม	รวม	ADV	_	_	2	advmod	_	SpaceAfter=No|Gloss=assemble|Translit=ruam
-4	สี	สี	NOUN	_	_	1	nmod:compound	_	SpaceAfter=No|Gloss=color|Translit=sǐi
+4	สี	สี	NOUN	_	_	1	nmod	_	SpaceAfter=No|Gloss=color|Translit=sǐi
 5	ขาว	ขาว	ADJ	_	_	4	amod	_	SpaceAfter=No|Gloss=white|Translit=khǎaw
 6	หลัง	หลัง	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=dwelling|Translit=lǎŋ
 7	ที่	ที่	NOUN	_	_	6	nmod	_	SpaceAfter=No|Gloss=rank|Translit=thîi
@@ -997,7 +999,7 @@
 5	พ่อ	พ่อ	NOUN	_	_	6	nsubj	_	SpaceAfter=No|Gloss=father|Translit=phɔ̂ɔ
 6	ซื้อ	ซื้อ	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=buy|Translit=sɯ́ɯ
 7	ให้	ให้	ADP	_	_	8	case	_	SpaceAfter=No|Gloss=give|Translit=hâj
-8	ฉัน	ฉัน	PRON	_	_	6	obl	_	Gloss=I|Translit=chǎn
+8	ฉัน	ฉัน	PRON	_	PronType=Prs|Person=1	6	obl	_	Gloss=I|Translit=chǎn
 
 # sent_id = Thai_CLF_Sample_52
 # text = หนังสือเล่มแรก
@@ -1092,7 +1094,7 @@
 # genre = informal_writing
 # year = 2025
 1	ผู้	ผู้	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=person|Translit=phûu
-2	ชาย	ชาย	NOUN	_	_	1	nmod:compound	_	SpaceAfter=No|Gloss=male|Translit=chaaj
+2	ชาย	ชาย	NOUN	_	_	1	nmod	_	SpaceAfter=No|Gloss=male|Translit=chaaj
 3	คน	คน	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=person|Translit=khon
 4	หลัง	หลัง	ADJ	_	_	3	amod	_	Gloss=behind|Translit=lǎŋ 
 
@@ -1166,9 +1168,9 @@
 # sent_id = Thai_CLF_Sample_62
 # text = โรงภาพยนตร์โรงที่ 1
 # text_en = the 1st movie theater
-# tokenised text = โรง ภาพยนตร์ โรง ที่ 1
-# gloss = building movie building(used as a classifier) rank 1
-# translit = /rooŋ/ /phâap-pháʔ-jon/ /rooŋ/ /thîi/ /nɯ̀ŋ/
+# tokenised text = โรง ภาพ ยนตร์ โรง ที่ 1
+# gloss = building picture machine building(used as a classifier) rank 1
+# translit = /rooŋ/ /phâap-pháʔ/ /jon/ /rooŋ/ /thîi/ /nɯ̀ŋ/
 # phrase_type = noun phrase
 # acceptability = OK
 # variant = clf-as-head
@@ -1177,10 +1179,11 @@
 # year = 2025
 # note = When the noun โรง /rooŋ/ is compounded with another noun as the head noun of a phrase to mean a building used for some particular purpose, it uses the same word โรง /rooŋ/ as a classifier in a noun phrase.
 1	โรง	โรง	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=building|Translit=rooŋ
-2	ภาพยนตร์	ภาพยนตร์	NOUN	_	_	1	nmod:compound	_	SpaceAfter=No|Gloss=movie|Translit=phâap-pháʔ-jon
-3	โรง	โรง	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=building|Translit=phâap-pháʔ-jon
-4	ที่	ที่	NOUN	_	_	3	nmod	_	Gloss=rank|Translit=thîi
-5	1	1	NUM	_	_	4	nmod	_	Gloss=one|Translit=nɯ̀ŋ
+2	ภาพ	ภาพ	NOUN	_	_	1	nmod	_	SpaceAfter=No|Gloss=picture|Translit=phâap-pháʔ
+3	ยนตร์	ยนตร์	NOUN	_	_	2	compound	_	SpaceAfter=No|Gloss=machine|Translit=jon
+4	โรง	โรง	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=building|Translit=rooŋ
+5	ที่	ที่	NOUN	_	_	4	nmod	_	Gloss=rank|Translit=thîi
+6	1	1	NUM	_	_	5	nmod	_	Gloss=one|Translit=nɯ̀ŋ
 
 # sent_id = Thai_CLF_Sample_63
 # text = โรงที่ 1
@@ -1264,6 +1267,266 @@
 1	ช้าง	ช้าง	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=elephant|Translit=cháaŋ
 2	ห้า	ห้า	NUM	_	_	3	nummod	_	SpaceAfter=No|Gloss=five|Translit=hâa
 3	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	Gloss=body|Translit=tua
+
+# sent_id = Thai_CLF_Sample_68
+# text = หนังสือเล่มสุดท้าย
+# text_en = the last book
+# tokenised text = หนังสือ เล่ม สุด ท้าย
+# gloss = book book(used as a classifier) end rear
+# translit = /nǎŋ-sɯ̌ɯ/ /lêm/ /sùt/ /tháaj/ 
+# phrase_type = noun phrase
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+2	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+3	สุด	สุด	VERB	_	_	2	compound	_	SpaceAfter=No|Gloss=end|Translit=sùt
+4	ท้าย	ท้าย	NOUN	_	_	3	compound	_	Gloss=rear|Translit=tháaj
+
+# sent_id = Thai_CLF_Sample_69
+# text = หนังสือเล่มหลัง
+# text_en = the book placed next to the other book
+# tokenised text = หนังสือ เล่ม หลัง
+# gloss = book book(used as a classifier) back
+# translit = /nǎŋ-sɯ̌ɯ/ /lêm/ /lǎŋ/ 
+# phrase_type = noun phrase
+# acceptability = ?
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+# note = Due to insufficient context, the word หลัง /lǎŋ/, which means "back", could indicate that the book will be published as the next edition, or that the book is placed after another book when the word is used with the noun หนังสือ /nǎŋ-sɯ̌ɯ/, meaning "a book". The noun phrase is ambiguous and slightly odd with the word หลัง /lǎŋ/ used to modify the classifier for books.
+1	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+2	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+3	หลัง	หลัง	ADJ	_	_	2	amod	_	Gloss=back|Translit=lǎŋ
+
+# sent_id = Thai_CLF_Sample_70
+# text = หนังสือเล่มใหม่ที่ 1
+# text_en = the 1st new book
+# tokenised text = หนังสือ เล่ม ใหม่ ที่ 1
+# gloss = book book(used as a classifier) new rank 1
+# translit = /nǎŋ-sɯ̌ɯ/ /lêm/ /màj/ /thîi/ /nɯ̀ŋ/
+# phrase_type = noun phrase
+# acceptability = *
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+# note = The noun phrase is ungrammatical and unacceptable because the noun เล่ม /lêm/, which is used as a classifier, is missing at the ordinal-number phrase ที่ 1 /thîi/ /nɯ̀ŋ/, which means "the 1st". That is, the phrase does not have the head noun which is the noun used as a classifier เล่ม /lêm/ and is supposed to be modified by the ordinal-number phrase. This classifier is required to make context clearer as well as make the entire noun phrase sound more natural.
+1	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+2	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+3	ใหม่	ใหม่	ADJ	_	_	2	amod	_	SpaceAfter=No|Gloss=new|Translit=màj
+4	ที่	ที่	NOUN	_	_	2	nmod	_	Gloss=rank|Translit=thîi
+5	1	1	NUM	_	_	4	nmod	_	Gloss=one|Translit=nɯ̀ŋ
+
+# sent_id = Thai_CLF_Sample_71
+# text = หนังสือ 2 เล่มที่ 1
+# text_en = the first 2 books
+# tokenised text = หนังสือ 2 เล่ม ที่ 1
+# gloss = book two book(used as a classifier) rank 1
+# translit = /nǎŋ-sɯ̌ɯ/ /sɔ̌ɔŋ/ /lêm/ /thîi/ /nɯ̀ŋ/
+# phrase_type = noun phrase
+# acceptability = *
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+# note = The noun phrase is ungrammatical and unnatural because the noun used as a classifier เล่ม /lêm/ at the ordinal-number phrase is missing. The phrase lacks the head noun. 
+1	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+2	2	2	NUM	_	_	3	nummod	_	Gloss=two|Translit=sɔ̌ɔŋ
+3	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+4	ที่	ที่	NOUN	_	_	3	nmod	_	Gloss=two|Translit=thîi
+5	1	1	NUM	_	_	4	nmod	_	Gloss=one|Translit=nɯ̀ŋ
+
+# sent_id = Thai_CLF_Sample_72
+# text = สุดาหยิบปากกาบนโต๊ะด้ามที่สองไป
+# text_en = Suda took the second pen on a table.
+# tokenised text = สุดา หยิบ ปาก กา บน โต๊ะ ด้าม ที่ สอง ไป
+# gloss = Suda(woman name) pick mouth crow on table shaft(used as a classifier) rank two go(showing the direction of the pen taken by Suda and the speaker's view)
+# translit = /sù-daa/ /jìp/ /pàak/ /kaa/ /bon/ /tóʔ/ /dâam/ /thîi/ /sɔ̌ɔŋ/ /paj/
+# phrase_type = sentence
+# acceptability = ?
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+# note = This sentence sounds a bit odd because the noun phrase with the classifier and ordinal-number phrase ด้ามที่สอง /dâam/ /thîi/ /sɔ̌ɔŋ/ (shaft rank two) should be placed next to the head noun which is a compound, ปากกา /pàak/ /kaa/ (mouth crow) to modify it. Placing a modifier far from a head noun could make the context ambiguous and unclear. It is uncertain if a modifier modifies an actual head noun or a word preceding it. Although the classifier ด้าม /dâam/ (shaft) is used to classify pens or pen-like objects, the context is a bit unnatural. Enunciating this sentence is not smooth enough.
+1	สุดา	สุดา	PROPN	_	_	2	nsubj	_	SpaceAfter=No|Gloss=Suda|Translit=sù-daa
+2	หยิบ	หยิบ	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=pick|Translit=jìp
+3	ปาก	ปาก	NOUN	_	_	2	obj	_	SpaceAfter=No|Gloss=mouth|Translit=pàak
+4	กา	กา	NOUN	_	_	3	compound	_	SpaceAfter=No|Gloss=crow|Translit=kaa
+5	บน	บน	ADP	_	_	6	case	_	SpaceAfter=No|Gloss=on|Translit=bon
+6	โต๊ะ	โต๊ะ	NOUN	_	_	3	nmod	_	SpaceAfter=No|Gloss=table|Translit=tóʔ
+7	ด้าม	ด้าม	NOUN	_	NounType=Clf	3	classifying	_	SpaceAfter=No|Gloss=shaft|Translit=dâam
+8	ที่	ที่	NOUN	_	_	7	nmod	_	SpaceAfter=No|Gloss=rank|Translit=thîi
+9	สอง	สอง	NUM	_	_	8	nmod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ɔŋ
+10	ไป	ไป	ADV	_	_	2	advmod	_	Gloss=go|Translit=paj
+
+# sent_id = Thai_CLF_Sample_73
+# text = สุดาหยิบปากกาด้ามที่สองบนโต๊ะไป
+# text_en = Suda took the second pen on a table.
+# tokenised text = สุดา หยิบ ปาก กา ด้าม ที่ สอง บน โต๊ะ ไป
+# gloss = Suda(woman name) pick mouth crow shaft(used as a classifier) rank two on table go(showing the direction of the pen taken by Suda and the speaker's view)
+# translit = /sù-daa/ /jìp/ /pàak/ /kaa/ /dâam/ /thîi/ /sɔ̌ɔŋ/ /bon/ /tóʔ/ /paj/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	สุดา	_	PROPN	_	_	2	nsubj	_	SpaceAfter=No|Gloss=Suda|Translit=sù-daa
+2	หยิบ	_	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=pick|Translit=jìp
+3	ปาก	_	NOUN	_	_	2	obj	_	SpaceAfter=No|Gloss=mouth|Translit=pàak
+4	กา	_	NOUN	_	_	3	compound	_	SpaceAfter=No|Gloss=crow|Translit=kaa
+5	ด้าม	_	NOUN	_	NounType=Clf	3	classifying	_	SpaceAfter=No|Gloss=shaft|Translit=dâam
+6	ที่	_	NOUN	_	_	5	nmod	_	SpaceAfter=No|Gloss=rank|Translit=thîi
+7	สอง	_	NUM	_	_	6	nmod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ɔŋ
+8	บน	_	ADP	_	_	9	case	_	SpaceAfter=No|Gloss=on|Translit=bon
+9	โต๊ะ	_	NOUN	_	_	3	nmod	_	SpaceAfter=No|Gloss=table|Translit=tóʔ
+10	ไป	_	ADV	_	_	2	advmod	_	Gloss=go|Translit=paj
+
+# sent_id = Thai_CLF_Sample_74
+# text = คนกำลังวิ่งในสวนคนที่หนึ่งสอนภาษาจีน
+# text_en = The first person running in a garden teaches Chinese language.
+# tokenised text = คน กำลัง วิ่ง ใน สวน คน ที่ หนึ่ง สอน ภาษา จีน
+# gloss = person power(expressing a progressive action) run in garden person(used as a classifier) rank one teach language China
+# translit = /khon/ /kam-laŋ/ /wîŋ/ /naj/ /sǔan/ /khon/ /thîi/ /nɯ̀ŋ/ /sɔ̌ɔn/ /phaasǎa/ /ciin/ 
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	คน	คน	NOUN	_	_	9	nsubj	_	SpaceAfter=No|Gloss=person|Translit=khon
+2	กำลัง	กำลัง	ADV	_	_	3	advmod	_	SpaceAfter=No|Gloss=power|Translit=kam-laŋ
+3	วิ่ง	วิ่ง	VERB	_	_	1	compound	_	SpaceAfter=No|Gloss=run|Translit=wîŋ
+4	ใน	ใน	ADP	_	_	5	case	_	SpaceAfter=No|Gloss=in|Translit=naj
+5	สวน	สวน	NOUN	_	_	3	obl	_	SpaceAfter=No|Gloss=garden|Translit=sǔan
+6	คน	คน	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=person|Translit=khon
+7	ที่	ที่	NOUN	_	_	6	nmod	_	SpaceAfter=No|Gloss=rank|Translit=thîi
+8	หนึ่ง	หนึ่ง	NUM	_	_	7	nmod	_	SpaceAfter=No|Gloss=one|Translit=nɯ̀ŋ
+9	สอน	สอน	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=teach|Translit=sɔ̌ɔn
+10	ภาษา	ภาษา	NOUN	_	_	9	obj	_	SpaceAfter=No|Gloss=language|Translit=phaa-sǎa
+11	จีน	จีน	NOUN	_	_	10	nmod	_	Gloss=China|Translit=ciin
+
+# sent_id = Thai_CLF_Sample_74
+# text = คนที่กำลังวิ่งในสวนคนที่หนึ่งสอนภาษาจีน
+# text_en = The first person who is running in a garden teaches Chinese language.
+# tokenised text = คน ที่ กำลัง วิ่ง ใน สวน คน ที่ หนึ่ง สอน ภาษา จีน
+# gloss = person who(REL) power(expressing a progressive action) run in garden person(used as a classifier) rank one teach language China
+# translit = /khon/ /thîi/ /kam-laŋ/ /wîŋ/ /naj/ /sǔan/ /khon/ /thîi/ /nɯ̀ŋ/ /sɔ̌ɔn/ /phaa-sǎa/ /ciin/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025 
+1	คน	คน	NOUN	_	_	10	nsubj	_	SpaceAfter=No|Gloss=person|Translit=khon
+2	ที่	ที่	PRON	_	_	4	nsubj	_	SpaceAfter=No|Gloss=who|Translit=thîi
+3	กำลัง	กำลัง	ADV	_	_	4	advmod	_	SpaceAfter=No|Gloss=power|Translit=kam-laŋ
+4	วิ่ง	วิ่ง	VERB	_	_	1	acl:relcl	_	SpaceAfter=No|Gloss=run|Translit=wîŋ
+5	ใน	ใน	ADP	_	_	6	case	_	SpaceAfter=No|Gloss=in|Translit=naj
+6	สวน	สวน	NOUN	_	_	4	obl	_	SpaceAfter=No|Gloss=garden|Translit=sǔan
+7	คน	คน	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=person|Translit=khon
+8	ที่	ที่	NOUN	_	_	7	nmod	_	SpaceAfter=No|Gloss=rank|Translit=thîi
+9	หนึ่ง	หนึ่ง	NUM	_	_	8	nmod	_	SpaceAfter=No|Gloss=one|Translit=nɯ̀ŋ
+10	สอน	สอน	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=teach|Translit=sɔ̌ɔn
+11	ภาษา	ภาษา	NOUN	_	_	10	obj	_	SpaceAfter=No|Gloss=language|Translit=phaa-sǎa
+12	จีน	จีน	NOUN	_	_	11	nmod	_	Gloss=China|Translit=ciin
+
+# sent_id = Thai_CLF_Sample_75
+# text = หนังสือเล่มที่ 1 วางอยู่บนโต๊ะ
+# text_en = The 1st book is placed on a table.
+# tokenised text = หนังสือ เล่ม ที่ 1 วาง อยู่ บน โต๊ะ
+# gloss = book book(used as a classifier) rank 1 place stay(expressing the condition of being at the moment) on table
+# translit = /nǎŋ-sɯ̌ɯ/ /lêm/ /thîi/ /nɯ̀ŋ/ /waaŋ/ /jùu/ /bon/ /tóʔ/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	หนังสือ	_	NOUN	_	_	5	nsubj	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+2	เล่ม	_	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+3	ที่	_	NOUN	_	_	2	nmod	_	Gloss=rank|Translit=thîi
+4	1	1	NUM	_	_	3	nmod	_	Gloss=one|Translit=nɯ̀ŋ
+5	วาง	_	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=place|Translit=waaŋ
+6	อยู่	_	VERB	_	_	5	compound:svc	_	SpaceAfter=No|Gloss=stay|Translit=jùu
+7	บน	_	ADP	_	_	8	case	_	SpaceAfter=No|Gloss=on|Translit=bon
+8	โต๊ะ	_	NOUN	_	_	5	obl	_	SpaceAfter=No|Gloss=table|Translit=tóʔ
+
+# sent_id = Thai_CLF_Sample_76
+# text = หนังสือเล่มที่ 1 ใหม่มาก
+# text_en = The 1st book is very new.
+# tokenised text = หนังสือ เล่ม ที่ 1 ใหม่ มาก
+# gloss = book book(used as a classifier) rank 1 new very
+# translit = /nǎŋ-sɯ̌ɯ/ /lêm/ /thîi/ /nɯ̀ŋ/ /màj/ /mâak/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	หนังสือ	หนังสือ	NOUN	_	_	5	nsubj	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+2	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+3	ที่	ที่	NOUN	_	_	2	nmod	_	Gloss=rank|Translit=thîi
+4	1	1	NUM	_	_	3	nmod	_	Gloss=one|Translit=nɯ̀ŋ
+5	ใหม่	ใหม่	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=new|Translit=màj
+6	มาก	มาก	ADV	_	_	5	advmod	_	Gloss=very|Translit=mâak
+
+# sent_id = Thai_CLF_Sample_77
+# text = หนังสือเล่มที่ 1 ที่วางอยู่บนโต๊ะเป็นหนังสือวิทยาศาสตร์
+# text_en = The 1st book which is placed on a table is a science book.
+# tokenised text = หนังสือ เล่ม ที่ 1 ที่ วาง อยู่ บน โต๊ะ เป็น หนังสือ วิทยา ศาสตร์
+# gloss = book book(used as a classifier) rank 1 which(REL) place stay(expressing the condition of being at the moment) on table BE book knowledge science
+# translit = /nǎŋ-sɯ̌ɯ/ /lêm/ /thîi/ /nɯ̀ŋ/ /thîi/ /waaŋ/ /jùu/ /bon/ /tóʔ/ /pen/ /nǎŋ-sɯ̌ɯ/ /wít-thà-yaa/ /sàat/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	หนังสือ	หนังสือ	NOUN	_	_	11	nsubj	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+2	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+3	ที่	ที่	NOUN	_	_	2	nmod	_	Gloss=rank|Translit=thîi
+4	1	1	NUM	_	_	3	nmod	_	Gloss=one|Translit=nɯ̀ŋ
+5	ที่	ที่	PRON	_	_	6	nsubj	_	SpaceAfter=No|Gloss=which|Translit=thîi
+6	วาง	วาง	VERB	_	_	1	acl:relcl	_	SpaceAfter=No|Gloss=place|Translit=waaŋ
+7	อยู่	อยู่	VERB	_	_	6	compound:svc	_	SpaceAfter=No|Gloss=stay|Translit=jùu
+8	บน	บน	ADP	_	_	9	case	_	SpaceAfter=No|Gloss=on|Translit=bon
+9	โต๊ะ	โต๊ะ	NOUN	_	_	6	obl	_	SpaceAfter=No|Gloss=table|Translit=tóʔ
+10	เป็น	เป็น	AUX	_	_	11	cop	_	SpaceAfter=No|Gloss=BE|Translit=pen
+11	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+12	วิทยา	วิทยา	NOUN	_	_	11	nmod	_	SpaceAfter=No|Gloss=knowledge|Translit=wít-thà-yaa
+13	ศาสตร์	ศาสตร์	NOUN	_	_	12	compound	_	Gloss=science|Translit=sàat
+
+# sent_id = Thai_CLF_Sample_77_Variant
+# text = หนังสือเล่มที่ 1 ที่วางอยู่บนโต๊ะเป็นหนังสือวิทยาศาสตร์
+# text_en = The 1st book which is placed on a table is a science book.
+# tokenised text = หนังสือ เล่ม ที่ 1 ที่ วาง อยู่ บน โต๊ะ เป็น หนังสือ วิทยา ศาสตร์
+# gloss = book book(used as a classifier) rank 1 which(REL) place stay(expressing the condition of being at the moment) on table BE book knowledge science
+# translit = /nǎŋ-sɯ̌ɯ/ /lêm/ /thîi/ /nɯ̀ŋ/ /thîi/ /waaŋ/ /jùu/ /bon/ /tóʔ/ /pen/ /nǎŋ-sɯ̌ɯ/ /wít-thà-yaa/ /sàat/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	หนังสือ	หนังสือ	NOUN	_	_	11	nsubj	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+2	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+3	ที่	ที่	NOUN	_	_	2	nmod	_	Gloss=rank|Translit=thîi
+4	1	1	NUM	_	_	3	nmod	_	Gloss=one|Translit=nɯ̀ŋ
+5	ที่	ที่	PRON	_	_	6	nsubj	_	SpaceAfter=No|Gloss=which|Translit=thîi
+6	วาง	วาง	VERB	_	_	2	acl:relcl	_	SpaceAfter=No|Gloss=place|Translit=waaŋ
+7	อยู่	อยู่	VERB	_	_	6	compound:svc	_	SpaceAfter=No|Gloss=stay|Translit=jùu
+8	บน	บน	ADP	_	_	9	case	_	SpaceAfter=No|Gloss=on|Translit=bon
+9	โต๊ะ	โต๊ะ	NOUN	_	_	6	obl	_	SpaceAfter=No|Gloss=table|Translit=tóʔ
+10	เป็น	เป็น	AUX	_	_	11	cop	_	SpaceAfter=No|Gloss=BE|Translit=pen
+11	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+12	วิทยา	วิทยา	NOUN	_	_	11	nmod	_	SpaceAfter=No|Gloss=knowledge|Translit=wít-thà-yaa
+13	ศาสตร์	ศาสตร์	NOUN	_	_	12	compound	_	Gloss=science|Translit=sàat
 
 
 
