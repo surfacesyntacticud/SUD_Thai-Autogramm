@@ -1564,7 +1564,7 @@
 
 # sent_id = Thai_CLF_Sample_81
 # text = หมูตัวเล็กหลายตัวเหล่านั้นเป็นของเพื่อนฉัน
-# text_en = That group of several small-sized pigs belongs to my friend.
+# text_en = Several of those small-sized pigs belong to my friend.
 # tokenised text = หมู ตัว เล็ก หลาย ตัว เหล่า นั้น เป็น ของ เพื่อน ฉัน
 # gloss = pig body(used as a classifier) small several body(used as a classifier) group that(DEM) BE thing friend I
 # translit = /mǒo/ /tua/ /lék/ /lǎaj/ /tua/ /làw/ /nán/ /pen/ /khɔ̌ɔŋ/ /phɯ̂an/ /chán/
@@ -1588,7 +1588,7 @@
 
 # sent_id = Thai_CLF_Sample_81_Variant_1
 # text = หมูตัวเล็กหลายตัวเหล่านั้นเป็นของเพื่อนฉัน
-# text_en = That group of several small-sized pigs belongs to my friend.
+# text_en = Several of those small-sized pigs belong to my friend.
 # tokenised text = หมู ตัว เล็ก หลาย ตัว เหล่า นั้น เป็น ของ เพื่อน ฉัน
 # gloss = pig body(used as a classifier) small several body(used as a classifier) group that(DEM) BE thing friend I
 # translit = /mǒo/ /tua/ /lék/ /lǎaj/ /tua/ /làw/ /nán/ /pen/ /khɔ̌ɔŋ/ /phɯ̂an/ /chán/
@@ -1612,7 +1612,7 @@
 
 # sent_id = Thai_CLF_Sample_81_Variant_2
 # text = หมูตัวเล็กหลายตัวเหล่านั้นเป็นของเพื่อนฉัน
-# text_en = That group of several small-sized pigs belongs to my friend.
+# text_en = Several of those small-sized pigs belong to my friend.
 # tokenised text = หมู ตัว เล็ก หลาย ตัว เหล่า นั้น เป็น ของ เพื่อน ฉัน
 # gloss = pig body(used as a classifier) small several body(used as a classifier) group that(DEM) BE thing friend I
 # translit = /mǒo/ /tua/ /lék/ /lǎaj/ /tua/ /làw/ /nán/ /pen/ /khɔ̌ɔŋ/ /phɯ̂an/ /chán/
@@ -1941,7 +1941,7 @@
 
 # sent_id = Thai_CLF_Sample_94
 # text = จานขาวทุกสามใบแรกเป็นของฉัน
-# text_en = Every group of the first three white plates belong to me.
+# text_en = Every group of the first three white plates belongs to me.
 # tokenised text = จาน ขาว ทุก สาม ใบ แรก เป็น ของ ฉัน
 # gloss = plate white every three leaf(used as a classifier) first BE thing I
 # translit = /caan/ /khǎaw/ /thúk/ /sǎam/ /baj/ /rɛ̂ɛk/ /pen/ /khɔ̌ɔŋ/ /chǎn/
