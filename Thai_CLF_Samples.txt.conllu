@@ -999,7 +999,7 @@
 5	พ่อ	พ่อ	NOUN	_	_	6	nsubj	_	SpaceAfter=No|Gloss=father|Translit=phɔ̂ɔ
 6	ซื้อ	ซื้อ	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=buy|Translit=sɯ́ɯ
 7	ให้	ให้	ADP	_	_	8	case	_	SpaceAfter=No|Gloss=give|Translit=hâj
-8	ฉัน	ฉัน	PRON	_	PronType=Prs|Person=1	6	obl	_	Gloss=I|Translit=chǎn
+8	ฉัน	ฉัน	PRON	_	PronType=Prs|Person=1|Number=Sing	6	obl	_	Gloss=I|Translit=chǎn
 
 # sent_id = Thai_CLF_Sample_52
 # text = หนังสือเล่มแรก
@@ -1322,6 +1322,40 @@
 5	1	1	NUM	_	_	4	nmod	_	Gloss=one|Translit=nɯ̀ŋ
 
 # sent_id = Thai_CLF_Sample_71
+# text = บทเรียนหนึ่ง
+# text_en = the first lesson
+# tokenised text = บท เรียน หนึ่ง
+# gloss = chapter study one
+# translit = /bòt/ /rian/ /nɯ̀ŋ/
+# phrase_type = noun phrase
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+# note = When the noun used as a classifier บท /bòt/, meaning "chapter" and the noun ที่ /thîi/, meaning "rank", are not used in an ordinal-number phrase, placing a numeral after a head noun or head noun phrase can signify sequences.
+1	บท	บท	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=chapter|Translit=bòt
+2	เรียน	เรียน	VERB	_	_	1	compound	_	SpaceAfter=No|Gloss=study|Translit=rian
+3	หนึ่ง	หนึ่ง	NUM	_	_	1	nmod	_	Gloss=one|Translit=nɯ̀ŋ
+
+# sent_id = Thai_CLF_Sample_72
+# text = บทเรียนแรก
+# text_en = the first lesson
+# tokenised text = บท เรียน แรก
+# gloss = chapter study first
+# translit = /bòt/ /rian/ /rɛ̂ɛk/
+# phrase_type = noun phrase
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+# note = The noun used as a classifier บท /bòt/, meaning "chapter" and the noun ที่ /thîi/, meaning "rank", are not used in an ordinal-number phrase. The adjective แรก /rɛ̂ɛk/, which means "first", signifies sequences.
+1	บท	บท	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=chapter|Translit=bòt
+2	เรียน	เรียน	VERB	_	_	1	compound	_	SpaceAfter=No|Gloss=study|Translit=rian
+3	แรก	แรก	ADJ	_	_	1	amod	_	Gloss=first|Translit=rɛ̂ɛk
+
+# sent_id = Thai_CLF_Sample_73
 # text = หนังสือ 2 เล่มที่ 1
 # text_en = the first 2 books
 # tokenised text = หนังสือ 2 เล่ม ที่ 1
@@ -1340,7 +1374,7 @@
 4	ที่	ที่	NOUN	_	_	3	nmod	_	Gloss=two|Translit=thîi
 5	1	1	NUM	_	_	4	nmod	_	Gloss=one|Translit=nɯ̀ŋ
 
-# sent_id = Thai_CLF_Sample_72
+# sent_id = Thai_CLF_Sample_74
 # text = สุดาหยิบปากกาบนโต๊ะด้ามที่สองไป
 # text_en = Suda took the second pen on a table.
 # tokenised text = สุดา หยิบ ปาก กา บน โต๊ะ ด้าม ที่ สอง ไป
@@ -1364,7 +1398,7 @@
 9	สอง	สอง	NUM	_	_	8	nmod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ɔŋ
 10	ไป	ไป	ADV	_	_	2	advmod	_	Gloss=go|Translit=paj
 
-# sent_id = Thai_CLF_Sample_73
+# sent_id = Thai_CLF_Sample_75
 # text = สุดาหยิบปากกาด้ามที่สองบนโต๊ะไป
 # text_en = Suda took the second pen on a table.
 # tokenised text = สุดา หยิบ ปาก กา ด้าม ที่ สอง บน โต๊ะ ไป
@@ -1387,7 +1421,7 @@
 9	โต๊ะ	_	NOUN	_	_	3	nmod	_	SpaceAfter=No|Gloss=table|Translit=tóʔ
 10	ไป	_	ADV	_	_	2	advmod	_	Gloss=go|Translit=paj
 
-# sent_id = Thai_CLF_Sample_74
+# sent_id = Thai_CLF_Sample_76
 # text = คนกำลังวิ่งในสวนคนที่หนึ่งสอนภาษาจีน
 # text_en = The first person running in a garden teaches Chinese language.
 # tokenised text = คน กำลัง วิ่ง ใน สวน คน ที่ หนึ่ง สอน ภาษา จีน
@@ -1411,7 +1445,7 @@
 10	ภาษา	ภาษา	NOUN	_	_	9	obj	_	SpaceAfter=No|Gloss=language|Translit=phaa-sǎa
 11	จีน	จีน	NOUN	_	_	10	nmod	_	Gloss=China|Translit=ciin
 
-# sent_id = Thai_CLF_Sample_74
+# sent_id = Thai_CLF_Sample_77
 # text = คนที่กำลังวิ่งในสวนคนที่หนึ่งสอนภาษาจีน
 # text_en = The first person who is running in a garden teaches Chinese language.
 # tokenised text = คน ที่ กำลัง วิ่ง ใน สวน คน ที่ หนึ่ง สอน ภาษา จีน
@@ -1436,7 +1470,7 @@
 11	ภาษา	ภาษา	NOUN	_	_	10	obj	_	SpaceAfter=No|Gloss=language|Translit=phaa-sǎa
 12	จีน	จีน	NOUN	_	_	11	nmod	_	Gloss=China|Translit=ciin
 
-# sent_id = Thai_CLF_Sample_75
+# sent_id = Thai_CLF_Sample_78
 # text = หนังสือเล่มที่ 1 วางอยู่บนโต๊ะ
 # text_en = The 1st book is placed on a table.
 # tokenised text = หนังสือ เล่ม ที่ 1 วาง อยู่ บน โต๊ะ
@@ -1457,7 +1491,7 @@
 7	บน	_	ADP	_	_	8	case	_	SpaceAfter=No|Gloss=on|Translit=bon
 8	โต๊ะ	_	NOUN	_	_	5	obl	_	SpaceAfter=No|Gloss=table|Translit=tóʔ
 
-# sent_id = Thai_CLF_Sample_76
+# sent_id = Thai_CLF_Sample_79
 # text = หนังสือเล่มที่ 1 ใหม่มาก
 # text_en = The 1st book is very new.
 # tokenised text = หนังสือ เล่ม ที่ 1 ใหม่ มาก
@@ -1476,7 +1510,7 @@
 5	ใหม่	ใหม่	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=new|Translit=màj
 6	มาก	มาก	ADV	_	_	5	advmod	_	Gloss=very|Translit=mâak
 
-# sent_id = Thai_CLF_Sample_77
+# sent_id = Thai_CLF_Sample_80
 # text = หนังสือเล่มที่ 1 ที่วางอยู่บนโต๊ะเป็นหนังสือวิทยาศาสตร์
 # text_en = The 1st book which is placed on a table is a science book.
 # tokenised text = หนังสือ เล่ม ที่ 1 ที่ วาง อยู่ บน โต๊ะ เป็น หนังสือ วิทยา ศาสตร์
@@ -1500,9 +1534,9 @@
 10	เป็น	เป็น	AUX	_	_	11	cop	_	SpaceAfter=No|Gloss=BE|Translit=pen
 11	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
 12	วิทยา	วิทยา	NOUN	_	_	11	nmod	_	SpaceAfter=No|Gloss=knowledge|Translit=wít-thà-yaa
-13	ศาสตร์	ศาสตร์	NOUN	_	_	12	compound	_	Gloss=science|Translit=sàat
+13	ศาสตร์	ศาสตร์	NOUN	_	_	12	nmod	_	Gloss=science|Translit=sàat
 
-# sent_id = Thai_CLF_Sample_77_Variant
+# sent_id = Thai_CLF_Sample_80_Variant
 # text = หนังสือเล่มที่ 1 ที่วางอยู่บนโต๊ะเป็นหนังสือวิทยาศาสตร์
 # text_en = The 1st book which is placed on a table is a science book.
 # tokenised text = หนังสือ เล่ม ที่ 1 ที่ วาง อยู่ บน โต๊ะ เป็น หนังสือ วิทยา ศาสตร์
@@ -1526,7 +1560,552 @@
 10	เป็น	เป็น	AUX	_	_	11	cop	_	SpaceAfter=No|Gloss=BE|Translit=pen
 11	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
 12	วิทยา	วิทยา	NOUN	_	_	11	nmod	_	SpaceAfter=No|Gloss=knowledge|Translit=wít-thà-yaa
-13	ศาสตร์	ศาสตร์	NOUN	_	_	12	compound	_	Gloss=science|Translit=sàat
+13	ศาสตร์	ศาสตร์	NOUN	_	_	12	nmod	_	Gloss=science|Translit=sàat
+
+# sent_id = Thai_CLF_Sample_81
+# text = หมูตัวเล็กหลายตัวเหล่านั้นเป็นของเพื่อนฉัน
+# text_en = That group of several small-sized pigs belongs to my friend.
+# tokenised text = หมู ตัว เล็ก หลาย ตัว เหล่า นั้น เป็น ของ เพื่อน ฉัน
+# gloss = pig body(used as a classifier) small several body(used as a classifier) group that(DEM) BE thing friend I
+# translit = /mǒo/ /tua/ /lék/ /lǎaj/ /tua/ /làw/ /nán/ /pen/ /khɔ̌ɔŋ/ /phɯ̂an/ /chán/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	หมู	หมู	NOUN	_	_	9	nsubj	_	SpaceAfter=No|Gloss=pig|Translit=mǒo
+2	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+3	เล็ก	เล็ก	ADJ	_	_	2	amod	_	SpaceAfter=No|Gloss=small|Translit=lék
+4	หลาย	หลาย	DET	_	_	5	det	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
+5	ตัว	ตัว	NOUN	_	NounType=Clf	2	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+6	เหล่า	เหล่า	NOUN	_	_	5	nmod	_	SpaceAfter=No|Gloss=group|Translit=làw
+7	นั้น	นั้น	DET	_	_	6	det	_	SpaceAfter=No|Gloss=that|Translit=nán
+8	เป็น	เป็น	AUX	_	_	9	cop	_	SpaceAfter=No|Gloss=BE|Translit=pen
+9	ของ	ของ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=thing|Translit=khɔ̌ɔŋ
+10	เพื่อน	เพื่อน	NOUN	_	_	9	nmod:poss	_	SpaceAfter=No|Gloss=friend|Translit=phɯ̂an
+11	ฉัน	ฉัน	PRON	_	PronType=Prs|Person=1|Number=Sing	10	nmod:poss	_	Gloss=I|Translit=chán
+
+# sent_id = Thai_CLF_Sample_81_Variant_1
+# text = หมูตัวเล็กหลายตัวเหล่านั้นเป็นของเพื่อนฉัน
+# text_en = That group of several small-sized pigs belongs to my friend.
+# tokenised text = หมู ตัว เล็ก หลาย ตัว เหล่า นั้น เป็น ของ เพื่อน ฉัน
+# gloss = pig body(used as a classifier) small several body(used as a classifier) group that(DEM) BE thing friend I
+# translit = /mǒo/ /tua/ /lék/ /lǎaj/ /tua/ /làw/ /nán/ /pen/ /khɔ̌ɔŋ/ /phɯ̂an/ /chán/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	หมู	หมู	NOUN	_	_	9	nsubj	_	SpaceAfter=No|Gloss=pig|Translit=mǒo
+2	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+3	เล็ก	เล็ก	ADJ	_	_	2	amod	_	SpaceAfter=No|Gloss=small|Translit=lék
+4	หลาย	หลาย	DET	_	_	5	det	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
+5	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+6	เหล่า	เหล่า	NOUN	_	_	5	nmod	_	SpaceAfter=No|Gloss=group|Translit=làw
+7	นั้น	นั้น	DET	_	_	6	det	_	SpaceAfter=No|Gloss=that|Translit=nán
+8	เป็น	เป็น	AUX	_	_	9	cop	_	SpaceAfter=No|Gloss=BE|Translit=pen
+9	ของ	ของ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=thing|Translit=khɔ̌ɔŋ
+10	เพื่อน	เพื่อน	NOUN	_	_	9	nmod:poss	_	SpaceAfter=No|Gloss=friend|Translit=phɯ̂an
+11	ฉัน	ฉัน	PRON	_	PronType=Prs|Person=1|Number=Sing	10	nmod:poss	_	Gloss=I|Translit=chán
+
+# sent_id = Thai_CLF_Sample_81_Variant_2
+# text = หมูตัวเล็กหลายตัวเหล่านั้นเป็นของเพื่อนฉัน
+# text_en = That group of several small-sized pigs belongs to my friend.
+# tokenised text = หมู ตัว เล็ก หลาย ตัว เหล่า นั้น เป็น ของ เพื่อน ฉัน
+# gloss = pig body(used as a classifier) small several body(used as a classifier) group that(DEM) BE thing friend I
+# translit = /mǒo/ /tua/ /lék/ /lǎaj/ /tua/ /làw/ /nán/ /pen/ /khɔ̌ɔŋ/ /phɯ̂an/ /chán/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	หมู	_	NOUN	_	_	9	nsubj	_	SpaceAfter=No|Gloss=pig|Translit=mǒo
+2	ตัว	_	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+3	เล็ก	_	ADJ	_	_	2	amod	_	SpaceAfter=No|Gloss=small|Translit=lék
+4	หลาย	_	DET	_	_	5	det	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
+5	ตัว	_	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+6	เหล่า	_	NOUN	_	_	1	nmod	_	SpaceAfter=No|Gloss=group|Translit=làw
+7	นั้น	_	DET	_	_	6	det	_	SpaceAfter=No|Gloss=that|Translit=nán
+8	เป็น	_	AUX	_	_	9	cop	_	SpaceAfter=No|Gloss=BE|Translit=pen
+9	ของ	_	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=thing|Translit=khɔ̌ɔŋ
+10	เพื่อน	_	NOUN	_	_	9	nmod:poss	_	SpaceAfter=No|Gloss=friend|Translit=phɯ̂an
+11	ฉัน	_	PRON	_	PronType=Prs|Person=1|Number=Sing	10	nmod:poss	_	Gloss=I|Translit=chán
+
+# sent_id = Thai_CLF_Sample_82
+# text = เขาเห็นหมูที่กำลังวิ่งบางตัวมีแผลที่ขาหลัง
+# text_en = He saw the running pigs some of which had a wounds at their hind legs.
+# tokenised text = เขา เห็น หมู ที่ กำลัง วิ่ง บาง ตัว มี แผล ที่ ขา หลัง
+# gloss = he see pig which(DEM) power(expressing a progressive action) run some body(used as a classifier) have wound at leg back
+# translit = /khǎw/ /hěn/ /mǒo/ /thîi/ /kam-laŋ/ /wîŋ/ /baaŋ/ /tua/ /mii/ /phlɛ̌ɛ/ /thîi/ /khǎa/ /lǎŋ/
+# phrase_type = sentence
+# acceptability = ?
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+# note =This sentence sounds a bit odd because the classifier phrase บางตัว /baaŋ/ /tua/ [some body(used as a classifier)] should be placed next to the head noun หมู /mǒo/ (pig) to modify it. Placing a modifier far from a head noun could make the context ambiguous and unclear. It is uncertain if a modifier modifies an actual head noun or a word preceding it. Although the preceding word is the verb วิ่ง /wîŋ/ (run) which cannot be modified by the classifier phrase, it is still slightly unnatural and odd to enunciate this sentence.
+1	เขา	เขา	PRON	_	PronType=Prs|Person=3|Number=Sing	2	nsubj	_	SpaceAfter=No|Gloss=he|Translit=khǎw
+2	เห็น	เห็น	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=see|Translit=hěn
+3	หมู	หมู	NOUN	_	_	2	obj	_	SpaceAfter=No|Gloss=pig|Translit=mǒo
+4	ที่	ที่	PRON	_	_	6	nsubj	_	SpaceAfter=No|Gloss=which|Translit=thîi
+5	กำลัง	กำลัง	ADV	_	_	6	advmod	_	SpaceAfter=No|Gloss=power|Translit=kam-laŋ
+6	วิ่ง	วิ่ง	VERB	_	_	3	acl:relcl	_	SpaceAfter=No|Gloss=run|Translit=wîŋ
+7	บาง	บาง	DET	_	_	8	det	_	SpaceAfter=No|Gloss=some|Translit=baaŋ
+8	ตัว	ตัว	NOUN	_	NounType=Clf	3	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+9	มี	มี	VERB	_	_	3	nsubj	_	SpaceAfter=No|Gloss=have|Translit=mii
+10	แผล	แผล	NOUN	_	_	9	obj	_	SpaceAfter=No|Gloss=wound|Translit=phlɛ̌ɛ
+11	ที่	ที่	ADP	_	_	12	case	_	SpaceAfter=No|Gloss=at|Translit=thîi
+12	ขา	ขา	NOUN	_	_	10	obl	_	SpaceAfter=No|Gloss=leg|Translit=khǎa
+13	หลัง	หลัง	NOUN	_	_	12	nmod	_	Gloss=back|Translit=lǎŋ
+
+# sent_id = Thai_CLF_Sample_83
+# text = หมูตัวเล็กทุกตัวในเล้ามีจุดดำที่ก้น
+# text_en = Every small-sized pig in a sty has black dots at their buttocks.
+# tokenised text = หมู ตัว เล็ก ทุก ตัว ใน เล้า มี จุด ดำ ที่ ก้น
+# gloss = pig body(used as a classifier) small every body(used as a classifier) in sty have dot black at buttocks
+# translit = /mǒo/ /tua/ /lék/ /thúk/ /tua/ /naj/ /láw/ /mii/ /cùt/ /dam/ /thîi/ /kôn/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	หมู	หมู	NOUN	_	_	8	nsubj	_	SpaceAfter=No|Gloss=pig|Translit=mǒo
+2	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+3	เล็ก	เล็ก	ADJ	_	_	2	amod	_	SpaceAfter=No|Gloss=small|Translit=lék
+4	ทุก	ทุก	DET	_	_	5	det	_	SpaceAfter=No|Gloss=every|Translit=thúk
+5	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+6	ใน	ใน	ADP	_	_	7	case	_	SpaceAfter=No|Gloss=in|Translit=naj
+7	เล้า	เล้า	NOUN	_	_	1	obl	_	SpaceAfter=No|Gloss=sty|Translit=láw
+8	มี	มี	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=have|Translit=mii
+9	จุด	จุด	NOUN	_	_	8	obj	_	SpaceAfter=No|Gloss=dot|Translit=cùt
+10	ดำ	ดำ	ADJ	_	_	9	amod	_	SpaceAfter=No|Gloss=black|Translit=dam
+11	ที่	ที่	ADP	_	_	12	case	_	SpaceAfter=No|Gloss=at|Translit=thîi
+12	ก้น	ก้น	NOUN	_	_	9	obl	_	Gloss=buttocks|Translit=kôn
+
+# sent_id = Thai_CLF_Sample_84
+# text = ในหมู่บ้านถัดไปบ้านทุกสองหลังติดกล้องวงจรปิดไว้หน้าบ้าน
+# text_en = At the next village, every group of two houses has a security camera installed at the front yard.
+# tokenised text = ใน หมู่ บ้าน ถัด ไป บ้าน ทุก สอง หลัง ติด กล้อง วงจร ปิด ไว้ หน้า บ้าน
+# gloss = in group house next go house every two dwelling(used as a classifier) attach camera system close hold front house
+# translit = /naj/ /mòo/ /bâan/ /thàt/ /paj/ /bâan/ /thúk/ /sɔ̌ɔŋ/ /lǎŋ/ /tìt/ /klɔ̂ɔŋ/ /woŋ-cɔɔn/ /pìt/ /wáj/ /nâa/ /bâan/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	ใน	ใน	ADP	_	_	2	case	_	SpaceAfter=No|Gloss=in|Translit=naj
+2	หมู่	หมู่	NOUN	_	_	6	obl	_	SpaceAfter=No|Gloss=group|Translit=mòo
+3	บ้าน	บ้าน	NOUN	_	_	2	nmod	_	SpaceAfter=No|Gloss=house|Translit=bâan
+4	ถัด	ถัด	ADJ	_	_	2	amod	_	SpaceAfter=No|Gloss=next|Translit=thàt
+5	ไป	ไป	ADV	_	_	4	advmod	_	SpaceAfter=No|Gloss=go|Translit=paj
+6	บ้าน	บ้าน	NOUN	_	_	10	nsubj	_	SpaceAfter=No|Gloss=house|Translit=bâan
+7	ทุก	ทุก	DET	_	_	9	det	_	SpaceAfter=No|Gloss=every|Translit=thúk
+8	สอง	สอง	NUM	_	_	9	nummod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ɔŋ
+9	หลัง	หลัง	NOUN	_	NounType=Clf	6	classifying	_	SpaceAfter=No|Gloss=dwelling|Translit=lǎŋ
+10	ติด	ติด	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=attach|Translit=tìt
+11	กล้อง	กล้อง	NOUN	_	_	10	obj	_	SpaceAfter=No|Gloss=camera|Translit=klɔ̂ɔŋ
+12	วงจร	วงจร	NOUN	_	_	11	nmod	_	SpaceAfter=No|Gloss=system|Translit=woŋ-cɔɔn
+13	ปิด	ปิด	VERB	_	_	11	compound	_	SpaceAfter=No|Gloss=close|Translit=pìt
+14	ไว้	ไว้	ADV	_	_	10	advmod	_	SpaceAfter=No|Gloss=hold|Translit=wáj
+15	หน้า	หน้า	ADP	_	_	16	case	_	SpaceAfter=No|Gloss=front|Translit=nâa
+16	บ้าน	บ้าน	NOUN	_	_	10	obl	_	Gloss=house|Translit=bâan
+
+# sent_id = Thai_CLF_Sample_85
+# text = เค้กครึ่งชิ้นเป็นรสวนิลา อีกครึ่งชิ้นเป็นรสส้ม
+# text_en = One half of a cake is vanilla-flavoured, (and) the other half is orange-flavoured.
+# tokenised text = เค้ก ครึ่ง ชิ้น เป็น รส วนิลา อีก ครึ่ง ชิ้น เป็น รส ส้ม
+# gloss = cake half piece(used as a classifier) BE flavour vanilla another half piece(used as a classifier) BE flavour orange
+# translit = /khéek/ /khrɯ̂ŋ/ /chín/ /pen/ /rót/ /wá-ní-laa/ /ʔìik/ /khrɯ̂ŋ/ /chín/ /pen/ /rót/ /sôm/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	เค้ก	เค้ก	NOUN	_	_	5	nsubj	_	SpaceAfter=No|Gloss=cake|Translit=khéek
+2	ครึ่ง	ครึ่ง	DET	_	_	3	det	_	SpaceAfter=No|Gloss=half|Translit=khrɯ̂ŋ
+3	ชิ้น	ชิ้น	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=piece|Translit=chín
+4	เป็น	เป็น	AUX	_	_	5	cop	_	SpaceAfter=No|Gloss=BE|Translit=pen
+5	รส	รส	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=flavour|Translit=rót
+6	วนิลา	วนิลา	NOUN	_	Foreign=Yes	5	nmod	_	SpaceAfter=No|Gloss=vanilla|Translit=wá-ní-laa
+7	อีก	อีก	DET	_	_	9	det	_	SpaceAfter=No|Gloss=another|Translit=ʔìik
+8	ครึ่ง	ครึ่ง	DET	_	_	9	det	_	SpaceAfter=No|Gloss=half|Translit=khrɯ̂ŋ
+9	ชิ้น	ชิ้น	NOUN	_	NounType=Clf	11	nsubj	_	SpaceAfter=No|Gloss=piece|Translit=chín
+10	เป็น	เป็น	AUX	_	_	11	cop	_	SpaceAfter=No|Gloss=BE|Translit=pen
+11	รส	รส	NOUN	_	_	5	conj	_	SpaceAfter=No|Gloss=flavour|Translit=rót
+12	ส้ม	ส้ม	NOUN	_	_	11	nmod	_	Gloss=orange|Translit=sôm
+
+# sent_id = Thai_CLF_Sample_86
+# text = บ้านหลายร้อยหลังโดนน้ำท่วม
+# text_en = Hundreds of houses have been flooded.
+# tokenised text = บ้าน หลาย ร้อย หลัง โดน น้ำ ท่วม
+# gloss = house several hundred dwelling(used as a classifier) touch water flood
+# translit = /bâan/ /lǎaj/ /rɔ́ɔj/ /lǎŋ/ /doon/ /nám/ /thûam/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	บ้าน	บ้าน	NOUN	_	_	5	nsubj:pass	_	SpaceAfter=No|Gloss=house|Translit=bâan
+2	หลาย	หลาย	DET	_	_	4	det	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
+3	ร้อย	ร้อย	NUM	_	_	4	nummod	_	SpaceAfter=No|Gloss=hundred|Translit=rɔ́ɔj
+4	หลัง	หลัง	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=dwelling|Translit=lǎŋ
+5	โดน	โดน	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=touch|Translit=doon
+6	น้ำ	น้ำ	NOUN	_	_	5	obj	_	SpaceAfter=No|Gloss=water|Translit=nám
+7	ท่วม	ท่วม	VERB	_	_	5	xcomp	_	SpaceAfter=No|Gloss=flood|Translit=thûam
+
+# sent_id = Thai_CLF_Sample_86_Variant
+# text = บ้านหลายร้อยหลังโดนน้ำท่วม
+# text_en = Hundreds of houses have been flooded.
+# tokenised text = บ้าน หลาย ร้อย หลัง โดน น้ำ ท่วม
+# gloss = house several hundred dwelling(used as a classifier) touch water flood
+# translit = /bâan/ /lǎaj/ /rɔ́ɔj/ /lǎŋ/ /doon/ /nám/ /thûam/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	บ้าน	บ้าน	NOUN	_	_	5	nsubj:pass	_	SpaceAfter=No|Gloss=house|Translit=bâan
+2	หลาย	หลาย	DET	_	_	4	det	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
+3	ร้อย	ร้อย	NUM	_	_	4	nummod	_	SpaceAfter=No|Gloss=hundred|Translit=rɔ́ɔj
+4	หลัง	หลัง	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=dwelling|Translit=lǎŋ
+5	โดน	โดน	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=touch|Translit=doon
+6	น้ำ	น้ำ	NOUN	_	_	5	obj	_	SpaceAfter=No|Gloss=water|Translit=nám
+7	ท่วม	ท่วม	VERB	_	_	6	compound	_	Gloss=flood|Translit=thûam
+
+# sent_id = Thai_CLF_Sample_87
+# text = หมู 2 ใน 10 ตัวที่เล้าแรกติดเชื้อแบคทีเรีย
+# text_en = 2 of 10 pigs at the first sty are infected with bacteria.
+# tokenised text = หมู 2 ใน 10 ตัว ที่ เล้า แรก ติด เชื้อ แบคทีเรีย
+# gloss = pig 2 in 10 body(used as a classifier) at sty first attach germ bacteria
+# translit = /mǒo/ /sɔ̌ɔŋ/ /naj/ /sìp/ /tua/ /thîi/ /láw/ /rɛ̂ɛk/ /tìt/ /chɯ́a/ /bɛ̀k-thii-ria/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	หมู	หมู	NOUN	_	_	9	nsubj	_	SpaceAfter=No|Gloss=pig|Translit=mǒo
+2	2	2	NUM	_	_	5	nummod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ɔŋ
+3	ใน	ใน	ADP	_	_	5	case	_	SpaceAfter=No|Gloss=in|Translit=naj
+4	10	10	NUM	_	_	5	nummod	_	SpaceAfter=No|Gloss=ten|Translit=sìp
+5	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+6	ที่	ที่	ADP	_	_	7	case	_	SpaceAfter=No|Gloss=at|Translit=thîi
+7	เล้า	เล้า	NOUN	_	_	1	obl	_	SpaceAfter=No|Gloss=sty|Translit=láw
+8	แรก	แรก	ADJ	_	_	7	amod	_	SpaceAfter=No|Gloss=first|Translit=rɛ̂ɛk
+9	ติด	ติด	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=attach|Translit=tìt
+10	เชื้อ	เชื้อ	NOUN	_	_	9	obj	_	SpaceAfter=No|Gloss=germ|Translit=chɯ́a
+11	แบคทีเรีย	แบคทีเรีย	NOUN	_	Foreign=Yes	10	nmod	_	Gloss=bacteria|Translit=bɛ̀k-thii-ria
+
+# sent_id = Thai_CLF_Sample_88
+# text = เขาได้แต่งกลอนสองบทนี้ขึ้นมา
+# text_en = He composed these 2 stanza poems.
+# tokenised text = เขา ได้ แต่ง กลอน สอง บท นี้ ขึ้น มา
+# gloss = he get(expressing the past time) compose poem two stanza(used as a classifier) this(DEM) rise(used after a verb for emphasis) come(expressing aspect)
+# translit = /khǎw/ /dâj/ /tɛ̀ɛŋ/ /klɔɔn/ /sɔ̌ɔŋ/ /bòt/ /níi/ /khɯ̂n/ /maa/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	เขา	เขา	PRON	_	PronType=Prs|Person=3|Number=Sing	3	nsubj	_	SpaceAfter=No|Gloss=he|Translit=khǎw
+2	ได้	ได้	AUX	_	_	3	aux	_	SpaceAfter=No|Gloss=get|Translit=dâj
+3	แต่ง	แต่ง	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=compose|Translit=tɛ̀ɛŋ
+4	กลอน	กลอน	NOUN	_	_	3	obj	_	SpaceAfter=No|Gloss=poem|Translit=klɔɔn
+5	สอง	สอง	NUM	_	_	6	nummod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ɔŋ
+6	บท	บท	NOUN	_	NounType=Clf	4	classifying	_	SpaceAfter=No|Gloss=stanza|Translit=bòt
+7	นี้	นี้	DET	_	_	6	det	_	SpaceAfter=No|Gloss=this|Translit=níi
+8	ขึ้น	ขึ้น	ADV	_	_	3	advmod	_	SpaceAfter=No|Gloss=rise|Translit=khɯ̂n
+9	มา	มา	ADV	_	_	8	advmod	_	Gloss=come|Translit=maa
+
+# sent_id = Thai_CLF_Sample_89
+# text = กลอนประตูสองตัวนี้ทนมาก
+# text_en = These two latches are very durable.
+# tokenised text = กลอน ประตู สอง ตัว นี้ ทน มาก
+# gloss = bolt door two piece(used as a classifier) this(DEM) durable very
+# translit = /klɔɔn/ /pràʔ-tuu/ /sɔ̌ɔŋ/ /tua/ /níi/ /thon/ /mâak/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	กลอน	กลอน	NOUN	_	_	6	nsubj	_	SpaceAfter=No|Gloss=bolt|Translit=klɔɔn
+2	ประตู	ประตู	NOUN	_	_	1	nmod	_	SpaceAfter=No|Gloss=door|Translit=pràʔ-tuu
+3	สอง	สอง	NUM	_	_	4	nummod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ɔŋ
+4	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=piece|Translit=tua
+5	นี้	นี้	DET	_	_	4	det	_	SpaceAfter=No|Gloss=this|Translit=níi
+6	ทน	ทน	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=durable|Translit=thon
+7	มาก	มาก	ADV	_	_	6	advmod	_	Gloss=very|Translit=mâak
+
+# sent_id = Thai_CLF_Sample_90
+# text = เธอสองคนนั้นที่กำลังนั่งคุยกันเคยเรียนที่เดียวกัน
+# text_en = Those two women who are sitting and talking to each other used to go to the same school.
+# tokenised text = เธอ สอง คน นั้น ที่ กำลัง นั่ง คุย กัน เคย เรียน ที่ เดียว กัน
+# gloss = she two person(used as a classifier) that(DEM) that(REL) energy(expressing a progressive action) sit talk together ever study place single together
+# translit = /thɤɤ/ /sɔ̌ɔŋ/ /khon/ /nán/ /thîi/ /kam-laŋ/ /nâŋ/ /khuj/ /kan/ /khɤɤj/ /rian/ /thîi/ /diaw/ /kan/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	เธอ	เธอ	PRON	_	PronType=Prs|Person=3|Number=Sing	11	nsubj	_	SpaceAfter=No|Gloss=she|Translit=thɤɤ
+2	สอง	สอง	NUM	_	_	3	nummod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ɔŋ
+3	คน	คน	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=person|Translit=khon
+4	นั้น	นั้น	DET	_	_	3	det	_	SpaceAfter=No|Gloss=that|Translit=nán
+5	ที่	ที่	PRON	_	_	7	nsubj	_	SpaceAfter=No|Gloss=that|Translit=thîi
+6	กำลัง	กำลัง	ADV	_	_	7	advmod	_	SpaceAfter=No|Gloss=energy|Translit=kam-laŋ
+7	นั่ง	นั่ง	VERB	_	_	1	acl:relc	_	SpaceAfter=No|Gloss=sit|Translit=nâŋ
+8	คุย	คุย	VERB	_	_	7	conj	_	SpaceAfter=No|Gloss=talk|Translit=khuj
+9	กัน	กัน	ADV	_	_	8	advmod	_	SpaceAfter=No|Gloss=together|Translit=kan
+10	เคย	เคย	AUX	_	_	11	aux	_	SpaceAfter=No|Gloss=ever|Translit=khɤɤj
+11	เรียน	เรียน	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=study|Translit=rian
+12	ที่	ที่	NOUN	_	_	11	obl	_	SpaceAfter=No|Gloss=place|Translit=thîi
+13	เดียว	เดียว	ADJ	_	_	12	amod	_	SpaceAfter=No|Gloss=single|Translit=diaw
+14	กัน	กัน	ADV	_	_	13	advmod	_	Gloss=together|Translit=kan
+
+# sent_id = Thai_CLF_Sample_91
+# text = ฉันเห็นสัตว์ใหญ่หลายตัวในป่า
+# text_en = I saw several big animals in a forest.
+# tokenised text = ฉัน เห็น สัตว์ ใหญ่ หลาย ตัว ใน ป่า
+# gloss = I see animal big several body(used as a classifier) in forest
+# translit = /chǎn/ /hěn/ /sàt/ /jàj/ /lǎaj/ /tua/ /naj/ /pàa/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+# note = The noun phrase สัตว์ใหญ่ /sàt/ /jàj/ without the noun used as a classifier ตัว /tua/ added between the head noun and the adjective could be ambiguous. The sentence could mean for one type of animals, such as cows, lions, elephants, whales, horses, etc. They are the biggest types among other animal types.
+1	ฉัน	ฉัน	PRON	_	PronType=Prs|Person=1|Number=Sing	2	nsubj	_	SpaceAfter=No|Gloss=I|Translit=chǎn
+2	เห็น	เห็น	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=see|Translit=hěn
+3	สัตว์	สัตว์	NOUN	_	_	2	obj	_	SpaceAfter=No|Gloss=animal|Translit=sàt
+4	ใหญ่	ใหญ่	ADJ	_	_	3	amod	_	SpaceAfter=No|Gloss=big|Translit=jàj
+5	หลาย	หลาย	DET	_	_	6	det	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
+6	ตัว	ตัว	NOUN	_	NounType=Clf	3	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+7	ใน	ใน	ADP	_	_	8	case	_	SpaceAfter=No|Gloss=in|Translit=naj
+8	ป่า	ป่า	NOUN	_	_	2	obl	_	Gloss=forest|Translit=pàa
+
+# sent_id = Thai_CLF_Sample_92
+# text = ฉันเห็นสัตว์ตัวใหญ่หลายตัวในป่า
+# text_en = I saw several big-sized animals in a forest.
+# tokenised text = ฉัน เห็น สัตว์ ตัว ใหญ่ หลาย ตัว ใน ป่า
+# gloss = I see animal body(used as a classifier) big several body(used as a classifier) in forest
+# translit = /chǎn/ /hěn/ /sàt/ /tua/ /jàj/ /lǎaj/ /tua/ /naj/ /pàa/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+# note = When the noun used as a classifier ตัว /tua/ is used and added between the head noun and the adjective สัตว์ /sàt/ and ใหญ่ /jàj/, it can disambiguate the sentence meaning. The classifier phrase, ตัวใหญ่ /tua/ /jàj/ particularly designates the animal size. It makes the context clearer that any animals have a big size.
+1	ฉัน	ฉัน	PRON	_	PronType=Prs|Person=1|Number=Sing	2	nsubj	_	SpaceAfter=No|Gloss=I|Translit=chǎn
+2	เห็น	เห็น	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=see|Translit=hěn
+3	สัตว์	สัตว์	NOUN	_	_	2	obj	_	SpaceAfter=No|Gloss=animal|Translit=sàt
+4	ตัว	ตัว	NOUN	_	NounType=Clf	3	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+5	ใหญ่	ใหญ่	ADJ	_	_	4	amod	_	SpaceAfter=No|Gloss=big|Translit=jàj
+6	หลาย	หลาย	DET	_	_	7	det	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
+7	ตัว	ตัว	NOUN	_	NounType=Clf	3	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+8	ใน	ใน	ADP	_	_	9	case	_	SpaceAfter=No|Gloss=in|Translit=naj
+9	ป่า	ป่า	NOUN	_	_	2	obl	_	Gloss=forest|Translit=pàa
+
+# sent_id = Thai_CLF_Sample_93
+# text = จานทุก ๆ ใบทำมาจากแก้ว
+# text_en = Every single plate is made of glass.
+# tokenised text = จาน ทุก ๆ ใบ ทำ มา จาก แก้ว
+# gloss = plate every every(repetition punctuation) leaf(used as a classifier) make come from glass
+# translit = /caan/ /thúk/ /thúk/ /baj/ /tham/ /maa/ /càak/ /kɛ̂ɛw/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	จาน	จาน	NOUN	_	_	5	nsubj	_	SpaceAfter=No|Gloss=plate|Translit=caan
+2	ทุก	ทุก	DET	_	_	4	det	_	SpaceAfter=No|Gloss=every|Translit=thúk
+3	ๆ	ๆ	PUNCT	_	_	2	punct	_	SpaceAfter=No|Gloss=every|Translit=thúk
+4	ใบ	ใบ	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=leaf|Translit=baj
+5	ทำ	ทำ	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=make|Translit=tham
+6	มา	มา	VERB	_	_	5	compound:svc	_	SpaceAfter=No|Gloss=come|Translit=maa
+7	จาก	จาก	ADP	_	_	8	case	_	SpaceAfter=No|Gloss=from|Translit=càak
+8	แก้ว	แก้ว	NOUN	_	_	5	obl	_	Gloss=glass|Translit=kɛ̂ɛw
+
+# sent_id = Thai_CLF_Sample_94
+# text = จานขาวทุกสามใบแรกเป็นของฉัน
+# text_en = Every group of the first three white plates belong to me.
+# tokenised text = จาน ขาว ทุก สาม ใบ แรก เป็น ของ ฉัน
+# gloss = plate white every three leaf(used as a classifier) first BE thing I
+# translit = /caan/ /khǎaw/ /thúk/ /sǎam/ /baj/ /rɛ̂ɛk/ /pen/ /khɔ̌ɔŋ/ /chǎn/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	จาน	จาน	NOUN	_	_	8	nsubj	_	SpaceAfter=No|Gloss=plate|Translit=caan
+2	ขาว	ขาว	ADJ	_	_	1	amod	_	SpaceAfter=No|Gloss=white|Translit=khǎaw
+3	ทุก	ทุก	DET	_	_	5	det	_	SpaceAfter=No|Gloss=every|Translit=thúk
+4	สาม	สาม	NUM	_	_	5	nummod	_	SpaceAfter=No|Gloss=three|Translit=sǎam
+5	ใบ	ใบ	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=leaf|Translit=baj
+6	แรก	แรก	ADJ	_	_	5	amod	_	SpaceAfter=No|Gloss=first|Translit=rɛ̂ɛk
+7	เป็น	เป็น	AUX	_	_	8	cop	_	SpaceAfter=No|Gloss=BE|Translit=pen
+8	ของ	ของ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=thing|Translit=khɔ̌ɔŋ
+9	ฉัน	ฉัน	PRON	_	PronType=Prs|Person=1|Number=Sing	8	nmod:poss	_	Gloss=I|Translit=chǎn
+
+# sent_id = Thai_CLF_Sample_95
+# text = จานแบนอีกสองใบหายไป
+# text_en = Other two flat plates were lost.
+# tokenised text = จาน แบน อีก สอง ใบ หาย ไป
+# gloss = plate flat another two leaf(used as a classifier) lost go
+# translit = /caan/ /bɛɛn/ /ʔìik/ /sɔ̌ɔŋ/ /baj/ /hǎaj/ /paj/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	จาน	จาน	NOUN	_	_	6	nsubj	_	SpaceAfter=No|Gloss=plate|Translit=caan
+2	แบน	แบน	ADJ	_	_	1	amod	_	SpaceAfter=No|Gloss=flat|Translit=bɛɛn
+3	อีก	อีก	DET	_	_	5	det	_	SpaceAfter=No|Gloss=another|Translit=ʔìik
+4	สอง	สอง	NUM	_	_	5	nummod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ɔŋ
+5	ใบ	ใบ	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=leaf|Translit=baj
+6	หาย	หาย	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=lost|Translit=hǎaj
+7	ไป	ไป	ADV	_	_	6	advmod	_	Gloss=go|Translit=paj
+
+# sent_id = Thai_CLF_Sample_96
+# text = พืชผลในไร่สวนโดนทำลาย เพราะช้างป่าหลายตัวออกมาหาอาหารกิน
+# text_en = The crops in a farm and plantation were destroyed because several wild elephants foraged food.
+# tokenised text = พืช ผล ใน ไร่ สวน โดน ทำลาย เพราะ ช้าง ป่า หลาย ตัว ออก มา หา อาหาร กิน
+# gloss = crop fruit in farm plantation touch(expressing a passive voice) destroy because elephant forest several body(used as a classifier) exit come find food eat
+# translit = /phɯ̂ɯt/ /phǒn/ /naj/ /râj/ /sǔan/ /doon/ /tham-laaj/ /phrɔ́ʔ/ /cháaŋ/ /pàa/ /lǎaj/ /tua/ /ʔɔ̀ɔk/ /maa/ /hǎa/ /ʔaa-hǎan/ /kin/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	พืช	พืช	NOUN	_	_	7	nsubj:pass	_	SpaceAfter=No|Gloss=crop|Translit=phɯ̂ɯt
+2	ผล	ผล	NOUN	_	_	1	conj	_	SpaceAfter=No|Gloss=fruit|Translit=phǒn
+3	ใน	ใน	ADP	_	_	4	case	_	SpaceAfter=No|Gloss=in|Translit=naj
+4	ไร่	ไร่	NOUN	_	_	1	nmod	_	SpaceAfter=No|Gloss=farm|Translit=râj
+5	สวน	สวน	NOUN	_	_	4	conj	_	SpaceAfter=No|Gloss=plantation|Translit=sǔan
+6	โดน	โดน	VERB	_	_	7	aux:pass	_	SpaceAfter=No|Gloss=touch|Translit=doon
+7	ทำลาย	ทำลาย	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=destroy|Translit=tham-laaj
+8	เพราะ	เพราะ	CCONJ	_	_	13	mark	_	SpaceAfter=No|Gloss=because|Translit=phrɔ́ʔ
+9	ช้าง	ช้าง	NOUN	_	_	13	nsubj	_	SpaceAfter=No|Gloss=elephant|Translit=cháaŋ
+10	ป่า	ป่า	NOUN	_	_	9	nmod	_	SpaceAfter=No|Gloss=forest|Translit=pàa
+11	หลาย	หลาย	DET	_	_	12	det	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
+12	ตัว	ตัว	NOUN	_	NounType=Clf	9	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+13	ออก	ออก	VERB	_	_	7	advcl	_	SpaceAfter=No|Gloss=exit|Translit=ʔɔ̀ɔk
+14	มา	มา	VERB	_	_	13	compound:svc	_	SpaceAfter=No|Gloss=come|Translit=maa
+15	หา	หา	VERB	_	_	13	compound:svc	_	SpaceAfter=No|Gloss=find|Translit=hǎa
+16	อาหาร	อาหาร	NOUN	_	_	15	obj	_	SpaceAfter=No|Gloss=food|Translit=ʔaa-hǎan
+17	กิน	กิน	VERB	_	_	13	compound:svc	_	Gloss=eat|Translit=kin
+
+# sent_id = Thai_CLF_Sample_97
+# text = หมูมากกว่าสิบตัวเริ่มกินอาหารได้แล้ว
+# text_en = More than ten pigs started to eat food already.
+# tokenised text = หมู มาก กว่า สิบ ตัว เริ่ม กิน อาหาร ได้ แล้ว
+# gloss = pig many than ten body(used as a classifier) start eat food get(expressing ability) already
+# translit = /mǒo/ /mâak/ /kwàa/ /sìp/ /tua/ /rɤ̂ɤm/ /kin/ /ʔaa-hǎan/ /dâj/ /lɛ́ɛw/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	หมู	หมู	NOUN	_	_	6	nsubj	_	SpaceAfter=No|Gloss=pig|Translit=mǒo
+2	มาก	มาก	ADJ	_	_	1	amod	_	SpaceAfter=No|Gloss=many|Translit=mâak
+3	กว่า	กว่า	ADP	_	_	5	case	_	SpaceAfter=No|Gloss=than|Translit=kwàa
+4	สิบ	สิบ	NUM	_	_	5	nummod	_	SpaceAfter=No|Gloss=ten|Translit=sìp
+5	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+6	เริ่ม	เริ่ม	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=start|Translit=rɤ̂ɤm
+7	กิน	กิน	VERB	_	_	6	compound:svc	_	SpaceAfter=No|Gloss=eat|Translit=kin
+8	อาหาร	อาหาร	NOUN	_	_	7	obj	_	SpaceAfter=No|Gloss=food|Translit=ʔaa-hǎan
+9	ได้	ได้	AUX	_	_	7	aux	_	SpaceAfter=No|Gloss=get|Translit=dâj
+10	แล้ว	แล้ว	ADV	_	_	7	advmod	_	Gloss=already|Translit=lɛ́ɛw
+
+# sent_id = Thai_CLF_Sample_98
+# text = หมูดำเล็กอ้วนน่ารักสองตัวนี้กำลังนอนอยู่ข้างรถใหญ่สีแดงคันที่หนึ่ง
+# text_en = These two cute, small, fat, black pigs are sleeping beside the first big red car.
+# tokenised text = หมู ดำ เล็ก อ้วน น่า รัก สอง ตัว นี้ กำลัง นอน อยู่ ข้าง รถ ใหญ่ สี แดง คัน ที่ หนึ่ง
+# gloss = pig black small fat should love two body(used as a classifier) this power(expressing a progressive action) sleep stay beside car big color red stick(used as a classifier) rank one
+# translit = /mǒo/ /dam/ /lék/ /ʔûan/ /nâa/ /rák/ /sɔ̌ɔŋ/ /tua/ /níi/ /kam-laŋ/ /nɔɔn/ /jùu/ /khâaŋ/ /rót/ /jàj/ /sǐi/ /dɛɛŋ/ /khan/ /thîi/ /nɯ̀ŋ/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	หมู	หมู	NOUN	_	_	11	nsubj	_	SpaceAfter=No|Gloss=pig|Translit=mǒo
+2	ดำ	ดำ	ADJ	_	_	1	amod	_	SpaceAfter=No|Gloss=black|Translit=dam
+3	เล็ก	เล็ก	ADJ	_	_	2	conj	_	SpaceAfter=No|Gloss=small|Translit=lék
+4	อ้วน	อ้วน	ADJ	_	_	2	conj	_	SpaceAfter=No|Gloss=fat|Translit=ʔûan
+5	น่า	น่า	AUX	_	_	6	aux	_	SpaceAfter=No|Gloss=should|Translit=nâa
+6	รัก	รัก	VERB	_	_	2	conj	_	SpaceAfter=No|Gloss=love|Translit=rák
+7	สอง	สอง	NUM	_	_	8	nummod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ɔŋ
+8	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+9	นี้	นี้	DET	_	_	8	det	_	SpaceAfter=No|Gloss=this|Translit=níi
+10	กำลัง	กำลัง	ADV	_	_	11	advmod	_	SpaceAfter=No|Gloss=power|Translit=kam-laŋ
+11	นอน	นอน	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=sleep|Translit=nɔɔn
+12	อยู่	อยู่	VERB	_	_	11	compound:svc	_	SpaceAfter=No|Gloss=stay|Translit=jùu
+13	ข้าง	ข้าง	ADP	_	_	14	case	_	SpaceAfter=No|Gloss=beside|Translit=khâaŋ
+14	รถ	รถ	NOUN	_	_	11	obl	_	SpaceAfter=No|Gloss=car|Translit=rót
+15	ใหญ่	ใหญ่	ADJ	_	_	14	amod	_	SpaceAfter=No|Gloss=big|Translit=jàj
+16	สี	สี	NOUN	_	_	14	nmod	_	SpaceAfter=No|Gloss=color|Translit=sǐi
+17	แดง	แดง	ADJ	_	_	16	amod	_	SpaceAfter=No|Gloss=red|Translit=dɛɛŋ
+18	คัน	คัน	NOUN	_	NounType=Clf	14	classifying	_	SpaceAfter=No|Gloss=stick|Translit=khan
+19	ที่	ที่	NOUN	_	_	18	nmod	_	SpaceAfter=No|Gloss=rank|Translit=thîi
+20	หนึ่ง	หนึ่ง	NUM	_	_	19	nmod	_	Gloss=one|Translit=nɯ̀ŋ
+
+# sent_id = Thai_CLF_Sample_99
+# text = หมูตัวดำตัวเล็กตัวอ้วนตัวน่ารักสองตัวนี้กำลังนอนอยู่ข้างรถคันใหญ่คันสีแดงคันที่หนึ่ง
+# text_en = These two cute, small, fat, black pigs are sleeping beside the first big red car.
+# tokenised text = หมู ตัว ดำ ตัว เล็ก ตัว อ้วน ตัว น่า รัก สอง ตัว นี้ กำลัง นอน อยู่ ข้าง รถ คัน ใหญ่ คัน สี แดง คัน ที่ หนึ่ง
+# gloss = pig body(used as a classifier) black body(used as a classifier) small body(used as a classifier) fat body(used as a classifier) should love two body(used as a classifier) this power(expressing a progressive action) sleep stay beside car stick(used as a classifier) big stick(used as a classifier) color red stick(used as a classifier) rank one
+# translit = /mǒo/ /tua/ /dam/ /tua/ /lék/ /tua/ /ʔûan/ /tua/ /nâa/ /rák/ /sɔ̌ɔŋ/ /tua/ /níi/ /kam-laŋ/ /nɔɔn/ /jùu/ /khâaŋ/ /rót/ /khan/ /jàj/ /khan/ /sǐi/ /dɛɛŋ/ /khan/ /thîi/ /nɯ̀ŋ/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	หมู	หมู	NOUN	_	_	15	nsubj	_	SpaceAfter=No|Gloss=pig|Translit=mǒo
+2	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+3	ดำ	ดำ	ADJ	_	_	2	amod	_	SpaceAfter=No|Gloss=black|Translit=dam
+4	ตัว	ตัว	NOUN	_	NounType=Clf	2	conj	_	SpaceAfter=No|Gloss=body|Translit=tua
+5	เล็ก	เล็ก	ADJ	_	_	4	amod	_	SpaceAfter=No|Gloss=small|Translit=lék
+6	ตัว	ตัว	NOUN	_	NounType=Clf	2	conj	_	SpaceAfter=No|Gloss=body|Translit=tua
+7	อ้วน	อ้วน	ADJ	_	_	6	amod	_	SpaceAfter=No|Gloss=fat|Translit=ʔûan
+8	ตัว	ตัว	NOUN	_	NounType=Clf	2	conj	_	SpaceAfter=No|Gloss=body|Translit=tua
+9	น่า	น่า	AUX	_	_	10	aux	_	SpaceAfter=No|Gloss=should|Translit=nâa
+10	รัก	รัก	VERB	_	_	8	acl	_	SpaceAfter=No|Gloss=love|Translit=rák
+11	สอง	สอง	NUM	_	_	12	nummod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ɔŋ
+12	ตัว	ตัว	NOUN	_	NounType=Clf	2	conj	_	SpaceAfter=No|Gloss=body|Translit=tua
+13	นี้	นี้	DET	_	_	12	det	_	SpaceAfter=No|Gloss=this|Translit=níi
+14	กำลัง	กำลัง	ADV	_	_	15	advmod	_	SpaceAfter=No|Gloss=power|Translit=kam-laŋ
+15	นอน	นอน	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=sleep|Translit=nɔɔn
+16	อยู่	อยู่	VERB	_	_	15	compound:svc	_	SpaceAfter=No|Gloss=stay|Translit=jùu
+17	ข้าง	ข้าง	ADP	_	_	18	case	_	SpaceAfter=No|Gloss=beside|Translit=khâaŋ
+18	รถ	รถ	NOUN	_	_	15	obl	_	SpaceAfter=No|Gloss=car|Translit=rót
+19	คัน	คัน	NOUN	_	NounType=Clf	18	classifying	_	SpaceAfter=No|Gloss=stick|Translit=khan
+20	ใหญ่	ใหญ่	ADJ	_	_	19	amod	_	SpaceAfter=No|Gloss=big|Translit=jàj
+21	คัน	คัน	NOUN	_	NounType=Clf	19	conj	_	SpaceAfter=No|Gloss=stick|Translit=khan
+22	สี	สี	NOUN	_	_	21	nmod	_	SpaceAfter=No|Gloss=color|Translit=sǐi
+23	แดง	แดง	ADJ	_	_	22	amod	_	SpaceAfter=No|Gloss=red|Translit=dɛɛŋ
+24	คัน	คัน	NOUN	_	NounType=Clf	19	conj	_	SpaceAfter=No|Gloss=stick|Translit=khan
+25	ที่	ที่	NOUN	_	_	24	nmod	_	SpaceAfter=No|Gloss=rank|Translit=thîi
+26	หนึ่ง	หนึ่ง	NUM	_	_	25	nmod	_	Gloss=one|Translit=nɯ̀ŋ
+
 
 
 
