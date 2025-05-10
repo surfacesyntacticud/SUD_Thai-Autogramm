@@ -816,7 +816,7 @@
 # genre = informal_writing
 # year = 2025
 1	คน	คน	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=person|Translit=khon
-2	พูด	พูด	VERB	_	_	1	compound	_	SpaceAfter=No|Gloss=speak|Translit=phûut
+2	พูด	พูด	VERB	_	_	1	acl	_	SpaceAfter=No|Gloss=speak|Translit=phûut
 3	ภาษา	ภาษา	NOUN	_	_	2	obj	_	SpaceAfter=No|Gloss=language|Translit=phaa-sǎa
 4	จีน	จีน	NOUN	_	_	3	nmod	_	SpaceAfter=No|Gloss=China|Translit=ciin
 5	คน	คน	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=person|Translit=khon
@@ -877,8 +877,8 @@
 # genre = informal_writing
 # year = 2025
 1	อาคาร	อาคาร	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=building|Translit=ʔaa-khaan
-2	เรียน	เรียน	VERB	_	_	1	compound	_	SpaceAfter=No|Gloss=study|Translit=rian
-3	รวม	รวม	ADV	_	_	2	advmod	_	SpaceAfter=No|Gloss=assemble|Translit=ruam
+2	เรียน	เรียน	VERB	_	_	1	acl	_	SpaceAfter=No|Gloss=study|Translit=rian
+3	รวม	รวม	VERB	_	_	2	advmod	_	SpaceAfter=No|Gloss=assemble|Translit=ruam
 4	สี	สี	NOUN	_	_	1	nmod	_	SpaceAfter=No|Gloss=color|Translit=sǐi
 5	ขาว	ขาว	ADJ	_	_	4	amod	_	SpaceAfter=No|Gloss=white|Translit=khǎaw
 6	หลัง	หลัง	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=dwelling|Translit=lǎŋ
@@ -954,12 +954,12 @@
 # source = coined
 # genre = informal_writing
 # year = 2025
-1	หนังสือ	_	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
-2	เล่ม	_	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
-3	ที่	_	NOUN	_	_	2	nmod	_	Gloss=rank|Translit=thîi
+1	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+2	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+3	ที่	ที่	NOUN	_	_	2	nmod	_	Gloss=rank|Translit=thîi
 4	1	1	NUM	_	_	3	nmod	_	Gloss=one|Translit=nɯ̀ŋ
-5	ของ	_	ADP	_	_	6	case	_	SpaceAfter=No|Gloss=of|Translit=khɔ̌ɔŋ
-6	ฉัน	_	PRON	_	_	1	nmod	_	Gloss=I|Translit=chǎn
+5	ของ	ของ	ADP	_	_	6	case	_	SpaceAfter=No|Gloss=of|Translit=khɔ̌ɔŋ
+6	ฉัน	ฉัน	PRON	_	PronType=Prs|Person=1|Number=Sing	1	nmod	_	Gloss=I|Translit=chǎn
 
 # sent_id = Thai_CLF_Sample_50_Variant
 # text = หนังสือเล่มที่ 1 ของฉัน
@@ -978,7 +978,7 @@
 3	ที่	ที่	NOUN	_	_	2	nmod	_	Gloss=rank|Translit=thîi
 4	1	1	NUM	_	_	3	nmod	_	Gloss=one|Translit=nɯ̀ŋ
 5	ของ	ของ	ADP	_	_	6	case	_	SpaceAfter=No|Gloss=of|Translit=khɔ̌ɔŋ
-6	ฉัน	ฉัน	PRON	_	_	2	nmod	_	Gloss=I|Translit=chǎn
+6	ฉัน	ฉัน	PRON	_	PronType=Prs|Person=1|Number=Sing	2	nmod	_	Gloss=I|Translit=chǎn
 
 # sent_id = Thai_CLF_Sample_51
 # text = หนังสือเล่มที่ 1 พ่อซื้อให้ฉัน
@@ -1168,9 +1168,9 @@
 # sent_id = Thai_CLF_Sample_62
 # text = โรงภาพยนตร์โรงที่ 1
 # text_en = the 1st movie theater
-# tokenised text = โรง ภาพ ยนตร์ โรง ที่ 1
-# gloss = building picture machine building(used as a classifier) rank 1
-# translit = /rooŋ/ /phâap-pháʔ/ /jon/ /rooŋ/ /thîi/ /nɯ̀ŋ/
+# tokenised text = โรง ภาพยนตร์ โรง ที่ 1
+# gloss = building movie building(used as a classifier) rank 1
+# translit = /rooŋ/ /phâap-phá-jon/ /rooŋ/ /thîi/ /nɯ̀ŋ/
 # phrase_type = noun phrase
 # acceptability = OK
 # variant = clf-as-head
@@ -1179,11 +1179,10 @@
 # year = 2025
 # note = When the noun โรง /rooŋ/ is compounded with another noun as the head noun of a phrase to mean a building used for some particular purpose, it uses the same word โรง /rooŋ/ as a classifier in a noun phrase.
 1	โรง	โรง	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=building|Translit=rooŋ
-2	ภาพ	ภาพ	NOUN	_	_	1	nmod	_	SpaceAfter=No|Gloss=picture|Translit=phâap-pháʔ
-3	ยนตร์	ยนตร์	NOUN	_	_	2	compound	_	SpaceAfter=No|Gloss=machine|Translit=jon
-4	โรง	โรง	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=building|Translit=rooŋ
-5	ที่	ที่	NOUN	_	_	4	nmod	_	Gloss=rank|Translit=thîi
-6	1	1	NUM	_	_	5	nmod	_	Gloss=one|Translit=nɯ̀ŋ
+2	ภาพยนตร์	ภาพยนตร์	NOUN	_	_	1	nmod	_	SpaceAfter=No|Gloss=movie|Translit=phâap-phá-jon
+3	โรง	โรง	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=building|Translit=rooŋ
+4	ที่	ที่	NOUN	_	_	3	nmod	_	Gloss=rank|Translit=thîi
+5	1	1	NUM	_	_	4	nmod	_	Gloss=one|Translit=nɯ̀ŋ
 
 # sent_id = Thai_CLF_Sample_63
 # text = โรงที่ 1
@@ -1282,8 +1281,8 @@
 # year = 2025
 1	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
 2	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
-3	สุด	สุด	VERB	_	_	2	compound	_	SpaceAfter=No|Gloss=end|Translit=sùt
-4	ท้าย	ท้าย	NOUN	_	_	3	compound	_	Gloss=rear|Translit=tháaj
+3	สุด	สุด	VERB	_	_	2	acl	_	SpaceAfter=No|Gloss=end|Translit=sùt
+4	ท้าย	ท้าย	NOUN	_	_	3	obj	_	Gloss=rear|Translit=tháaj
 
 # sent_id = Thai_CLF_Sample_69
 # text = หนังสือเล่มหลัง
@@ -1335,7 +1334,7 @@
 # year = 2025
 # note = When the noun used as a classifier บท /bòt/, meaning "chapter" and the noun ที่ /thîi/, meaning "rank", are not used in an ordinal-number phrase, placing a numeral after a head noun or head noun phrase can signify sequences.
 1	บท	บท	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=chapter|Translit=bòt
-2	เรียน	เรียน	VERB	_	_	1	compound	_	SpaceAfter=No|Gloss=study|Translit=rian
+2	เรียน	เรียน	VERB	_	_	1	acl	_	SpaceAfter=No|Gloss=study|Translit=rian
 3	หนึ่ง	หนึ่ง	NUM	_	_	1	nmod	_	Gloss=one|Translit=nɯ̀ŋ
 
 # sent_id = Thai_CLF_Sample_72
@@ -1352,7 +1351,7 @@
 # year = 2025
 # note = The noun used as a classifier บท /bòt/, meaning "chapter" and the noun ที่ /thîi/, meaning "rank", are not used in an ordinal-number phrase. The adjective แรก /rɛ̂ɛk/, which means "first", signifies sequences.
 1	บท	บท	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=chapter|Translit=bòt
-2	เรียน	เรียน	VERB	_	_	1	compound	_	SpaceAfter=No|Gloss=study|Translit=rian
+2	เรียน	เรียน	VERB	_	_	1	acl	_	SpaceAfter=No|Gloss=study|Translit=rian
 3	แรก	แรก	ADJ	_	_	1	amod	_	Gloss=first|Translit=rɛ̂ɛk
 
 # sent_id = Thai_CLF_Sample_73
@@ -1377,9 +1376,9 @@
 # sent_id = Thai_CLF_Sample_74
 # text = สุดาหยิบปากกาบนโต๊ะด้ามที่สองไป
 # text_en = Suda took the second pen on a table.
-# tokenised text = สุดา หยิบ ปาก กา บน โต๊ะ ด้าม ที่ สอง ไป
-# gloss = Suda(woman name) pick mouth crow on table shaft(used as a classifier) rank two go(showing the direction of the pen taken by Suda and the speaker's view)
-# translit = /sù-daa/ /jìp/ /pàak/ /kaa/ /bon/ /tóʔ/ /dâam/ /thîi/ /sɔ̌ɔŋ/ /paj/
+# tokenised text = สุดา หยิบ ปากกา บน โต๊ะ ด้าม ที่ สอง ไป
+# gloss = Suda(woman name) pick pen on table shaft(used as a classifier) rank two go(showing the direction of the pen taken by Suda and the speaker's view)
+# translit = /sù-daa/ /jìp/ /pàak-kaa/ /bon/ /tóʔ/ /dâam/ /thîi/ /sɔ̌ɔŋ/ /paj/
 # phrase_type = sentence
 # acceptability = ?
 # variant = clf-as-head
@@ -1389,37 +1388,35 @@
 # note = This sentence sounds a bit odd because the noun phrase with the classifier and ordinal-number phrase ด้ามที่สอง /dâam/ /thîi/ /sɔ̌ɔŋ/ (shaft rank two) should be placed next to the head noun which is a compound, ปากกา /pàak/ /kaa/ (mouth crow) to modify it. Placing a modifier far from a head noun could make the context ambiguous and unclear. It is uncertain if a modifier modifies an actual head noun or a word preceding it. Although the classifier ด้าม /dâam/ (shaft) is used to classify pens or pen-like objects, the context is a bit unnatural. Enunciating this sentence is not smooth enough.
 1	สุดา	สุดา	PROPN	_	_	2	nsubj	_	SpaceAfter=No|Gloss=Suda|Translit=sù-daa
 2	หยิบ	หยิบ	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=pick|Translit=jìp
-3	ปาก	ปาก	NOUN	_	_	2	obj	_	SpaceAfter=No|Gloss=mouth|Translit=pàak
-4	กา	กา	NOUN	_	_	3	compound	_	SpaceAfter=No|Gloss=crow|Translit=kaa
-5	บน	บน	ADP	_	_	6	case	_	SpaceAfter=No|Gloss=on|Translit=bon
-6	โต๊ะ	โต๊ะ	NOUN	_	_	3	nmod	_	SpaceAfter=No|Gloss=table|Translit=tóʔ
-7	ด้าม	ด้าม	NOUN	_	NounType=Clf	3	classifying	_	SpaceAfter=No|Gloss=shaft|Translit=dâam
-8	ที่	ที่	NOUN	_	_	7	nmod	_	SpaceAfter=No|Gloss=rank|Translit=thîi
-9	สอง	สอง	NUM	_	_	8	nmod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ɔŋ
-10	ไป	ไป	ADV	_	_	2	advmod	_	Gloss=go|Translit=paj
+3	ปากกา	ปากกา	NOUN	_	_	2	obj	_	SpaceAfter=No|Gloss=pen|Translit=pàak-kaa
+4	บน	บน	ADP	_	_	5	case	_	SpaceAfter=No|Gloss=on|Translit=bon
+5	โต๊ะ	โต๊ะ	NOUN	_	_	3	nmod	_	SpaceAfter=No|Gloss=table|Translit=tóʔ
+6	ด้าม	ด้าม	NOUN	_	NounType=Clf	3	classifying	_	SpaceAfter=No|Gloss=shaft|Translit=dâam
+7	ที่	ที่	NOUN	_	_	6	nmod	_	SpaceAfter=No|Gloss=rank|Translit=thîi
+8	สอง	สอง	NUM	_	_	7	nmod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ɔŋ
+9	ไป	ไป	ADV	_	_	2	advmod	_	Gloss=go|Translit=paj
 
 # sent_id = Thai_CLF_Sample_75
 # text = สุดาหยิบปากกาด้ามที่สองบนโต๊ะไป
 # text_en = Suda took the second pen on a table.
-# tokenised text = สุดา หยิบ ปาก กา ด้าม ที่ สอง บน โต๊ะ ไป
-# gloss = Suda(woman name) pick mouth crow shaft(used as a classifier) rank two on table go(showing the direction of the pen taken by Suda and the speaker's view)
-# translit = /sù-daa/ /jìp/ /pàak/ /kaa/ /dâam/ /thîi/ /sɔ̌ɔŋ/ /bon/ /tóʔ/ /paj/
+# tokenised text = สุดา หยิบ ปากกา ด้าม ที่ สอง บน โต๊ะ ไป
+# gloss = Suda(woman name) pick pen shaft(used as a classifier) rank two on table go(showing the direction of the pen taken by Suda and the speaker's view)
+# translit = /sù-daa/ /jìp/ /pàak-kaa/ /dâam/ /thîi/ /sɔ̌ɔŋ/ /bon/ /tóʔ/ /paj/
 # phrase_type = sentence
 # acceptability = OK
 # variant = clf-as-head
 # source = coined
 # genre = informal_writing
 # year = 2025
-1	สุดา	_	PROPN	_	_	2	nsubj	_	SpaceAfter=No|Gloss=Suda|Translit=sù-daa
-2	หยิบ	_	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=pick|Translit=jìp
-3	ปาก	_	NOUN	_	_	2	obj	_	SpaceAfter=No|Gloss=mouth|Translit=pàak
-4	กา	_	NOUN	_	_	3	compound	_	SpaceAfter=No|Gloss=crow|Translit=kaa
-5	ด้าม	_	NOUN	_	NounType=Clf	3	classifying	_	SpaceAfter=No|Gloss=shaft|Translit=dâam
-6	ที่	_	NOUN	_	_	5	nmod	_	SpaceAfter=No|Gloss=rank|Translit=thîi
-7	สอง	_	NUM	_	_	6	nmod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ɔŋ
-8	บน	_	ADP	_	_	9	case	_	SpaceAfter=No|Gloss=on|Translit=bon
-9	โต๊ะ	_	NOUN	_	_	3	nmod	_	SpaceAfter=No|Gloss=table|Translit=tóʔ
-10	ไป	_	ADV	_	_	2	advmod	_	Gloss=go|Translit=paj
+1	สุดา	สุดา	PROPN	_	_	2	nsubj	_	SpaceAfter=No|Gloss=Suda|Translit=sù-daa
+2	หยิบ	หยิบ	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=pick|Translit=jìp
+3	ปากกา	ปากกา	NOUN	_	_	2	obj	_	SpaceAfter=No|Gloss=pen|Translit=pàak-kaa
+4	ด้าม	ด้าม	NOUN	_	NounType=Clf	3	classifying	_	SpaceAfter=No|Gloss=shaft|Translit=dâam
+5	ที่	ที่	NOUN	_	_	4	nmod	_	SpaceAfter=No|Gloss=rank|Translit=thîi
+6	สอง	สอง	NUM	_	_	5	nmod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ɔŋ
+7	บน	บน	ADP	_	_	8	case	_	SpaceAfter=No|Gloss=on|Translit=bon
+8	โต๊ะ	โต๊ะ	NOUN	_	_	3	nmod	_	SpaceAfter=No|Gloss=table|Translit=tóʔ
+9	ไป	ไป	ADV	_	_	2	advmod	_	Gloss=go|Translit=paj
 
 # sent_id = Thai_CLF_Sample_76
 # text = คนกำลังวิ่งในสวนคนที่หนึ่งสอนภาษาจีน
@@ -1435,7 +1432,7 @@
 # year = 2025
 1	คน	คน	NOUN	_	_	9	nsubj	_	SpaceAfter=No|Gloss=person|Translit=khon
 2	กำลัง	กำลัง	ADV	_	_	3	advmod	_	SpaceAfter=No|Gloss=power|Translit=kam-laŋ
-3	วิ่ง	วิ่ง	VERB	_	_	1	compound	_	SpaceAfter=No|Gloss=run|Translit=wîŋ
+3	วิ่ง	วิ่ง	VERB	_	_	1	acl	_	SpaceAfter=No|Gloss=run|Translit=wîŋ
 4	ใน	ใน	ADP	_	_	5	case	_	SpaceAfter=No|Gloss=in|Translit=naj
 5	สวน	สวน	NOUN	_	_	3	obl	_	SpaceAfter=No|Gloss=garden|Translit=sǔan
 6	คน	คน	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=person|Translit=khon
@@ -1482,14 +1479,14 @@
 # source = coined
 # genre = informal_writing
 # year = 2025
-1	หนังสือ	_	NOUN	_	_	5	nsubj	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
-2	เล่ม	_	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
-3	ที่	_	NOUN	_	_	2	nmod	_	Gloss=rank|Translit=thîi
+1	หนังสือ	หนังสือ	NOUN	_	_	5	nsubj	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+2	เล่ม	เล่ม	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+3	ที่	ที่	NOUN	_	_	2	nmod	_	Gloss=rank|Translit=thîi
 4	1	1	NUM	_	_	3	nmod	_	Gloss=one|Translit=nɯ̀ŋ
-5	วาง	_	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=place|Translit=waaŋ
-6	อยู่	_	VERB	_	_	5	compound:svc	_	SpaceAfter=No|Gloss=stay|Translit=jùu
-7	บน	_	ADP	_	_	8	case	_	SpaceAfter=No|Gloss=on|Translit=bon
-8	โต๊ะ	_	NOUN	_	_	5	obl	_	SpaceAfter=No|Gloss=table|Translit=tóʔ
+5	วาง	วาง	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=place|Translit=waaŋ
+6	อยู่	อยู่	VERB	_	_	5	compound:svc	_	SpaceAfter=No|Gloss=stay|Translit=jùu
+7	บน	บน	ADP	_	_	8	case	_	SpaceAfter=No|Gloss=on|Translit=bon
+8	โต๊ะ	โต๊ะ	NOUN	_	_	5	obl	_	SpaceAfter=No|Gloss=table|Translit=tóʔ
 
 # sent_id = Thai_CLF_Sample_79
 # text = หนังสือเล่มที่ 1 ใหม่มาก
@@ -1513,9 +1510,9 @@
 # sent_id = Thai_CLF_Sample_80
 # text = หนังสือเล่มที่ 1 ที่วางอยู่บนโต๊ะเป็นหนังสือวิทยาศาสตร์
 # text_en = The 1st book which is placed on a table is a science book.
-# tokenised text = หนังสือ เล่ม ที่ 1 ที่ วาง อยู่ บน โต๊ะ เป็น หนังสือ วิทยา ศาสตร์
-# gloss = book book(used as a classifier) rank 1 which(REL) place stay(expressing the condition of being at the moment) on table BE book knowledge science
-# translit = /nǎŋ-sɯ̌ɯ/ /lêm/ /thîi/ /nɯ̀ŋ/ /thîi/ /waaŋ/ /jùu/ /bon/ /tóʔ/ /pen/ /nǎŋ-sɯ̌ɯ/ /wít-thà-yaa/ /sàat/
+# tokenised text = หนังสือ เล่ม ที่ 1 ที่ วาง อยู่ บน โต๊ะ เป็น หนังสือ วิทยาศาสตร์
+# gloss = book book(used as a classifier) rank 1 which(REL) place stay(expressing the condition of being at the moment) on table BE book science
+# translit = /nǎŋ-sɯ̌ɯ/ /lêm/ /thîi/ /nɯ̀ŋ/ /thîi/ /waaŋ/ /jùu/ /bon/ /tóʔ/ /pen/ /nǎŋ-sɯ̌ɯ/ /wít-thà-yaa-sàat/
 # phrase_type = sentence
 # acceptability = OK
 # variant = clf-as-head
@@ -1533,15 +1530,15 @@
 9	โต๊ะ	โต๊ะ	NOUN	_	_	6	obl	_	SpaceAfter=No|Gloss=table|Translit=tóʔ
 10	เป็น	เป็น	AUX	_	_	11	cop	_	SpaceAfter=No|Gloss=BE|Translit=pen
 11	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
-12	วิทยา	วิทยา	NOUN	_	_	11	nmod	_	SpaceAfter=No|Gloss=knowledge|Translit=wít-thà-yaa
-13	ศาสตร์	ศาสตร์	NOUN	_	_	12	nmod	_	Gloss=science|Translit=sàat
+12	วิทยาศาสตร์	วิทยาศาสตร์	NOUN	_	_	11	nmod	_	Gloss=science|Translit=wít-thà-yaa-sàat
+
 
 # sent_id = Thai_CLF_Sample_80_Variant
 # text = หนังสือเล่มที่ 1 ที่วางอยู่บนโต๊ะเป็นหนังสือวิทยาศาสตร์
 # text_en = The 1st book which is placed on a table is a science book.
-# tokenised text = หนังสือ เล่ม ที่ 1 ที่ วาง อยู่ บน โต๊ะ เป็น หนังสือ วิทยา ศาสตร์
-# gloss = book book(used as a classifier) rank 1 which(REL) place stay(expressing the condition of being at the moment) on table BE book knowledge science
-# translit = /nǎŋ-sɯ̌ɯ/ /lêm/ /thîi/ /nɯ̀ŋ/ /thîi/ /waaŋ/ /jùu/ /bon/ /tóʔ/ /pen/ /nǎŋ-sɯ̌ɯ/ /wít-thà-yaa/ /sàat/
+# tokenised text = หนังสือ เล่ม ที่ 1 ที่ วาง อยู่ บน โต๊ะ เป็น หนังสือ วิทยาศาสตร์
+# gloss = book book(used as a classifier) rank 1 which(REL) place stay(expressing the condition of being at the moment) on table BE book science
+# translit = /nǎŋ-sɯ̌ɯ/ /lêm/ /thîi/ /nɯ̀ŋ/ /thîi/ /waaŋ/ /jùu/ /bon/ /tóʔ/ /pen/ /nǎŋ-sɯ̌ɯ/ /wít-thà-yaa-sàat/
 # phrase_type = sentence
 # acceptability = OK
 # variant = clf-as-head
@@ -1559,8 +1556,8 @@
 9	โต๊ะ	โต๊ะ	NOUN	_	_	6	obl	_	SpaceAfter=No|Gloss=table|Translit=tóʔ
 10	เป็น	เป็น	AUX	_	_	11	cop	_	SpaceAfter=No|Gloss=BE|Translit=pen
 11	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
-12	วิทยา	วิทยา	NOUN	_	_	11	nmod	_	SpaceAfter=No|Gloss=knowledge|Translit=wít-thà-yaa
-13	ศาสตร์	ศาสตร์	NOUN	_	_	12	nmod	_	Gloss=science|Translit=sàat
+12	วิทยาศาสตร์	วิทยาศาสตร์	NOUN	_	_	11	nmod	_	SpaceAfter=No|Gloss=science|Translit=wít-thà-yaa-sàat
+
 
 # sent_id = Thai_CLF_Sample_81
 # text = หมูตัวเล็กหลายตัวเหล่านั้นเป็นของเพื่อนฉัน
@@ -1684,7 +1681,7 @@
 9	จุด	จุด	NOUN	_	_	8	obj	_	SpaceAfter=No|Gloss=dot|Translit=cùt
 10	ดำ	ดำ	ADJ	_	_	9	amod	_	SpaceAfter=No|Gloss=black|Translit=dam
 11	ที่	ที่	ADP	_	_	12	case	_	SpaceAfter=No|Gloss=at|Translit=thîi
-12	ก้น	ก้น	NOUN	_	_	9	obl	_	Gloss=buttocks|Translit=kôn
+12	ก้น	ก้น	NOUN	_	_	9	nmod	_	Gloss=buttocks|Translit=kôn
 
 # sent_id = Thai_CLF_Sample_84
 # text = ในหมู่บ้านถัดไปบ้านทุกสองหลังติดกล้องวงจรปิดไว้หน้าบ้าน
@@ -1710,7 +1707,7 @@
 10	ติด	ติด	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=attach|Translit=tìt
 11	กล้อง	กล้อง	NOUN	_	_	10	obj	_	SpaceAfter=No|Gloss=camera|Translit=klɔ̂ɔŋ
 12	วงจร	วงจร	NOUN	_	_	11	nmod	_	SpaceAfter=No|Gloss=system|Translit=woŋ-cɔɔn
-13	ปิด	ปิด	VERB	_	_	11	compound	_	SpaceAfter=No|Gloss=close|Translit=pìt
+13	ปิด	ปิด	VERB	_	_	12	compound	_	SpaceAfter=No|Gloss=close|Translit=pìt
 14	ไว้	ไว้	ADV	_	_	10	advmod	_	SpaceAfter=No|Gloss=hold|Translit=wáj
 15	หน้า	หน้า	ADP	_	_	16	case	_	SpaceAfter=No|Gloss=front|Translit=nâa
 16	บ้าน	บ้าน	NOUN	_	_	10	obl	_	Gloss=house|Translit=bâan
@@ -1798,7 +1795,7 @@
 4	10	10	NUM	_	_	5	nummod	_	SpaceAfter=No|Gloss=ten|Translit=sìp
 5	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
 6	ที่	ที่	ADP	_	_	7	case	_	SpaceAfter=No|Gloss=at|Translit=thîi
-7	เล้า	เล้า	NOUN	_	_	1	obl	_	SpaceAfter=No|Gloss=sty|Translit=láw
+7	เล้า	เล้า	NOUN	_	_	1	nmod	_	SpaceAfter=No|Gloss=sty|Translit=láw
 8	แรก	แรก	ADJ	_	_	7	amod	_	SpaceAfter=No|Gloss=first|Translit=rɛ̂ɛk
 9	ติด	ติด	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=attach|Translit=tìt
 10	เชื้อ	เชื้อ	NOUN	_	_	9	obj	_	SpaceAfter=No|Gloss=germ|Translit=chɯ́a
@@ -2105,6 +2102,486 @@
 24	คัน	คัน	NOUN	_	NounType=Clf	19	conj	_	SpaceAfter=No|Gloss=stick|Translit=khan
 25	ที่	ที่	NOUN	_	_	24	nmod	_	SpaceAfter=No|Gloss=rank|Translit=thîi
 26	หนึ่ง	หนึ่ง	NUM	_	_	25	nmod	_	Gloss=one|Translit=nɯ̀ŋ
+
+# sent_id = Thai_CLF_Sample_100
+# text = ขอบุหรี่สองมวน
+# text_en = Give me two cigarettes.
+# tokenised text = ขอ บุหรี่ สอง มวน
+# gloss = ask cigarette two roll(used as a classifier)
+# translit = /khɔ̌ɔ/ /bù-rìi/ /sɔ̌ɔŋ/ /muan/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	ขอ	ขอ	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=ask|Translit=khɔ̌ɔ
+2	บุหรี่	บุหรี่	NOUN	_	_	1	obj	_	SpaceAfter=No|Gloss=cigarette|Translit=bù-rìi
+3	สอง	สอง	NUM	_	_	4	nummod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ɔŋ
+4	มวน	มวน	NOUN	_	NounType=Clf	2	classifying	_	Gloss=roll|Translit=muan
+
+# sent_id = Thai_CLF_Sample_101
+# text = ขอบุหรี่มวน
+# text_en = Give me a / one cigarette. 
+# tokenised text = ขอ บุหรี่ มวน
+# gloss = ask cigarette roll(used as a classifier)
+# translit = /khɔ̌ɔ/ /bù-rìi/ /muan/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+# note = When a noun used as a classifier is used without a numeral, it means "one". 
+1	ขอ	ขอ	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=ask|Translit=khɔ̌ɔ
+2	บุหรี่	บุหรี่	NOUN	_	_	1	obj	_	SpaceAfter=No|Gloss=cigarette|Translit=bù-rìi
+3	มวน	มวน	NOUN	_	NounType=Clf	2	classifying	_	Gloss=roll|Translit=muan
+
+# sent_id = Thai_CLF_Sample_102
+# text = ขอปากกาแดงด้าม ไม้บรรทัดอัน ยางลบก้อน และสมุดบันทึกลายการ์ตูนเล่มค่ะ
+# text_en = 
+# tokenised text = ขอ ปากกา แดง ด้าม ไม้ บรรทัด อัน ยาง ลบ ก้อน และ สมุด บันทึก ลาย การ์ตูน เล่ม ค่ะ
+# gloss = ask pen red handle(used as a classifier) stick line piece(used as a classifier) rubber erase lump(used as a classifier) and notebook record print cartoon book(used as a classifier) female-final-particle(used to express politeness and confirmation)
+# translit = /khɔ̌ɔ/ /pàak-kaa/ /dɛɛŋ/ /dâam/ /máj/ /ban-that/ /ʔan/ /jaaŋ/ /lóp/ /kɔ̂ɔn/ /lɛ́ʔ/ /sà-mùt/ /ban-thɯ́k/ /laaj/ /kaa-tuun/ /lêm/ /khàʔ/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+# note = When a noun used as a classifier is used without a numeral, it means "one". 
+1	ขอ	ขอ	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=ask|Translit=khɔ̌ɔ
+2	ปากกา	ปากกา	NOUN	_	_	1	obj	_	SpaceAfter=No|Gloss=pen|Translit=pàak-kaa
+3	แดง	แดง	ADJ	_	_	2	amod	_	SpaceAfter=No|Gloss=red|Translit=dɛɛŋ
+4	ด้าม	ด้าม	NOUN	_	NounType=Clf	2	classifying	_	SpaceAfter=No|Gloss=handle|Translit=dâam
+5	ไม้	ไม้	NOUN	_	_	2	conj	_	SpaceAfter=No|Gloss=stick|Translit=máj
+6	บรรทัด	บรรทัด	NOUN	_	_	5	nmod	_	SpaceAfter=No|Gloss=line|Translit=ban-that
+7	อัน	อัน	NOUN	_	NounType=Clf	5	classifying	_	SpaceAfter=No|Gloss=piece|Translit=ʔan
+8	ยาง	ยาง	NOUN	_	_	2	conj	_	SpaceAfter=No|Gloss=rubber|Translit=jaaŋ
+9	ลบ	ลบ	VERB	_	_	8	compound	_	SpaceAfter=No|Gloss=erase|Translit=lóp
+10	ก้อน	ก้อน	NOUN	_	NounType=Clf	8	classifying	_	SpaceAfter=No|Gloss=lump|Translit=kɔ̂ɔn
+11	และ	และ	CCONJ	_	_	12	cc	_	SpaceAfter=No|Gloss=and|Translit=lɛ́ʔ
+12	สมุด	สมุด	NOUN	_	_	2	conj	_	SpaceAfter=No|Gloss=notebook|Translit=sà-mùt
+13	บันทึก	บันทึก	VERB	_	_	12	compound	_	SpaceAfter=No|Gloss=record|Translit=ban-thɯ́k
+14	ลาย	ลาย	NOUN	_	_	12	nmod	_	SpaceAfter=No|Gloss=print|Translit=laaj
+15	การ์ตูน	การ์ตูน	NOUN	_	Foreign=Yes	14	nmod	_	SpaceAfter=No|Gloss=cartoon|Translit=kaa-tuun
+16	เล่ม	เล่ม	NOUN	_	NounType=Clf	12	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+17	ค่ะ	ค่ะ	PART	_	Gender=Fem|Polite=Form	1	discourse	_	Gloss=female-final-particle|Translit=khàʔ
+
+# sent_id = Thai_CLF_Sample_103
+# text = น้องชายฉันซื้อรถมือสองคันใหญ่กับเพื่อนของเขา
+# text_en = My younger brother bought a big second-hand car from his friend.
+# tokenised text = น้อง ชาย ฉัน ซื้อ รถ มือ สอง คัน ใหญ่ กับ เพื่อน ของ เขา
+# gloss = younger-sibling male I buy car hand two stick(used as a classifier) big with friend of he
+# translit = /nɔ́ɔŋ/ /chaaj/ /chǎn/ /sɯ́ɯ/ /rót/ /mɯɯ/ /sɔ̌ɔŋ/ /khan/ /jàj/ /kàp/ /phɯ̂an/ /khɔ̌ɔŋ/ /khǎw/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	น้อง	น้อง	NOUN	_	_	4	nsubj	_	SpaceAfter=No|Gloss=younger-sibling|Translit=nɔ́ɔŋ
+2	ชาย	ชาย	NOUN	_	_	1	nmod	_	SpaceAfter=No|Gloss=male|Translit=chaaj
+3	ฉัน	ฉัน	PRON	_	PronType=Prs|Person=1|Number=Sing	1	nmod:poss	_	SpaceAfter=No|Gloss=I|Translit=chǎn
+4	ซื้อ	ซื้อ	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=buy|Translit=sɯ́ɯ
+5	รถ	รถ	NOUN	_	_	4	obj	_	SpaceAfter=No|Gloss=car|Translit=rót
+6	มือ	มือ	NOUN	_	_	5	nmod	_	SpaceAfter=No|Gloss=hand|Translit=mɯɯ
+7	สอง	สอง	NUM	_	_	6	compound	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ɔŋ
+8	คัน	คัน	NOUN	_	NounType=Clf	5	classifying	_	SpaceAfter=No|Gloss=stick|Translit=khan
+9	ใหญ่	ใหญ่	ADJ	_	_	8	amod	_	SpaceAfter=No|Gloss=big|Translit=jàj
+10	กับ	กับ	ADP	_	_	11	case	_	SpaceAfter=No|Gloss=with|Translit=kàp
+11	เพื่อน	เพื่อน	NOUN	_	_	4	obl	_	SpaceAfter=No|Gloss=friend|Translit=phɯ̂an
+12	ของ	ของ	ADP	_	_	13	case	_	SpaceAfter=No|Gloss=of|Translit=khɔ̌ɔŋ
+13	เขา	เขา	PRON	_	PronType=Prs|Person=3|Number=Sing	11	nmod	_	Gloss=he|Translit=khǎw
+
+# sent_id = Thai_CLF_Sample_104
+# text = ประตูบานสีแดงเสียตั้งแต่เมื่อวาน
+# text_en = A red door has been broken since yesterday.
+# tokenised text = ประตู บาน สี แดง เสีย ตั้งแต่ เมื่อ วาน
+# gloss = door sheet(used as a classifier) color red broken since time yesterday
+# translit = /pràʔ-tuu/ /baan/ /sǐi/ /dɛɛŋ/ /sǐa/ /tâŋ-tɛ̀ɛ/ /mɯ̂a/ /waan/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	ประตู	ประตู	NOUN	_	_	5	nsubj	_	SpaceAfter=No|Gloss=door|Translit=pràʔ-tuu
+2	บาน	บาน	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=sheet|Translit=baan
+3	สี	สี	NOUN	_	_	2	nmod	_	SpaceAfter=No|Gloss=color|Translit=sǐi
+4	แดง	แดง	ADJ	_	_	3	amod	_	SpaceAfter=No|Gloss=red|Translit=dɛɛŋ
+5	เสีย	เสีย	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=broken|Translit=sǐa
+6	ตั้งแต่	ตั้งแต่	ADP	_	_	7	case	_	SpaceAfter=No|Gloss=since|Translit=tâŋ-tɛ̀ɛ
+7	เมื่อ	เมื่อ	NOUN	_	_	5	obl	_	SpaceAfter=No|Gloss=time|Translit=mɯ̂a
+8	วาน	วาน	NOUN	_	_	7	nmod	_	Gloss=yesterday|Translit=waan
+
+# sent_id = Thai_CLF_Sample_105
+# text = บางหน้าในหนังสือเล่มที่เธอซื้อให้ฉันมีรอยขีดฆ่ามาแล้ว
+# text_en = Some pages in the book that you bought for me have been crossed out.
+# tokenised text = บาง หน้า ใน หนังสือ เล่ม ที่ เธอ ซื้อ ให้ ฉัน มี รอย ขีดฆ่า มา แล้ว
+# gloss = some page(used as a classifier) in book book(used as a classifier) that(REL) you buy for I have scratch cross-out come(expressing aspect) already
+# translit = /baaŋ/ /nâa/ /naj/ /nǎŋ-sɯ̌ɯ/ /lêm/ /thîi/ /thɤɤ/ /sɯ́ɯ/ /hâj/ /chán/ /mii/ /rɔɔj/ /khìit-khâa/ /maa/ /lɛ́ɛw/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	บาง	บาง	DET	_	_	2	det	_	SpaceAfter=No|Gloss=some|Translit=baaŋ
+2	หน้า	หน้า	NOUN	_	NounType=Clf	11	nsubj	_	SpaceAfter=No|Gloss=page|Translit=nâa
+3	ใน	ใน	ADP	_	_	4	case	_	SpaceAfter=No|Gloss=in|Translit=naj
+4	หนังสือ	หนังสือ	NOUN	_	_	2	nmod	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
+5	เล่ม	เล่ม	NOUN	_	NounType=Clf	4	classifying	_	SpaceAfter=No|Gloss=book|Translit=lêm
+6	ที่	ที่	PRON	_	_	8	obj	_	SpaceAfter=No|Gloss=that|Translit=thîi
+7	เธอ	เธอ	PRON	_	PronType=Prs|Person=2|Number=Sing	8	nsubj	_	SpaceAfter=No|Gloss=you|Translit=thɤɤ
+8	ซื้อ	ซื้อ	VERB	_	_	5	acl:relcl	_	SpaceAfter=No|Gloss=buy|Translit=sɯ́ɯ
+9	ให้	ให้	ADP	_	_	10	case	_	SpaceAfter=No|Gloss=for|Translit=hâj
+10	ฉัน	ฉัน	PRON	_	_	8	obl	_	SpaceAfter=No|Gloss=I|Translit=chán
+11	มี	มี	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=have|Translit=mii
+12	รอย	รอย	NOUN	_	_	11	obj	_	SpaceAfter=No|Gloss=scratch|Translit=rɔɔj
+13	ขีดฆ่า	ขีดฆ่า	VERB	_	_	12	acl	_	SpaceAfter=No|Gloss=cross-out|Translit=khìit-khâa
+14	มา	มา	ADV	_	_	13	advmod	_	SpaceAfter=No|Gloss=come|Translit=maa
+15	แล้ว	แล้ว	ADV	_	_	13	advmod	_	Gloss=already|Translit=lɛ́ɛw
+
+# sent_id = Thai_CLF_Sample_105_Question
+# text = มีกี่หน้าและหน้าไหนบ้าง
+# text_en = How many pages (with the scratches) are there? And which pages are they?
+# tokenised text = มี กี่ หน้า และ หน้า ไหน บ้าง
+# gloss = have how-many page(used as a classifier) and page(used as a classifier) which some(expressing a sense of some amounts of the mentioned thing)
+# translit = /mii/ /kìi/ /nâa/ /lɛ́ʔ/ /nâa/ /nǎj/ /bâaŋ/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	มี	มี	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=have|Translit=mii
+2	กี่	กี่	DET	_	_	3	det	_	SpaceAfter=No|Gloss=how-many|Translit=kìi
+3	หน้า	หน้า	NOUN	_	NounType=Clf	1	obj	_	SpaceAfter=No|Gloss=page|Translit=nâa
+4	และ	และ	CCONJ	_	_	5	cc	_	SpaceAfter=No|Gloss=and|Translit=lɛ́ʔ
+5	หน้า	หน้า	NOUN	_	NounType=Clf	3	conj	_	SpaceAfter=No|Gloss=page|Translit=nâa
+6	ไหน	ไหน	ADJ	_	_	5	amod	_	SpaceAfter=No|Gloss=which|Translit=nǎj
+7	บ้าง	บ้าง	ADJ	_	_	5	amod	_	Gloss=some|Translit=bâaŋ
+
+# sent_id = Thai_CLF_Sample_105_Answer
+# text = มีประมาณสองสามหน้า หน้าแรก หน้าที่ห้า และหน้าสุดท้าย
+# text_en = There are two or three pages: the first page, the fifth one, and the final one.
+# tokenised text = มี ประมาณ สอง สาม หน้า หน้า แรก หน้า ที่ ห้า และ หน้า สุด ท้าย
+# gloss = have approximate two three page(used as a classifier) page(used as a classifier) first page(used as a classifier) rank five and page(used as a classifier) end rear
+# translit = /mii/ /pràʔ-maan/ /sɔ̌ɔŋ/ /sǎam/ /nâa/ /nâa/ /rɛ̂ɛk/ /nâa/ /thîi/ /hâa/ /lɛ́ʔ/ /nâa/ /sùt/ /tháaj/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	มี	มี	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=have|Translit=mii
+2	ประมาณ	ประมาณ	DET	_	_	5	det	_	SpaceAfter=No|Gloss=approximate|Translit=pràʔ-maan
+3	สอง	สอง	NUM	_	_	5	nummod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ɔŋ
+4	สาม	สาม	NUM	_	_	5	nummod	_	SpaceAfter=No|Gloss=three|Translit=sǎam
+5	หน้า	หน้า	NOUN	_	NounType=Clf	1	obj	_	SpaceAfter=No|Gloss=page|Translit=nâa
+6	หน้า	หน้า	NOUN	_	NounType=Clf	5	parataxis	_	SpaceAfter=No|Gloss=page|Translit=nâa
+7	แรก	แรก	ADJ	_	_	6	amod	_	SpaceAfter=No|Gloss=first|Translit=rɛ̂ɛk
+8	หน้า	หน้า	NOUN	_	NounType=Clf	6	conj	_	SpaceAfter=No|Gloss=time|Translit=nâa
+9	ที่	ที่	NOUN	_	_	8	nmod	_	SpaceAfter=No|Gloss=rank|Translit=thîi
+10	ห้า	ห้า	NUM	_	_	9	nmod	_	SpaceAfter=No|Gloss=five|Translit=hâa
+11	และ	และ	CCONJ	_	_	12	cc	_	SpaceAfter=No|Gloss=and|Translit=lɛ́ʔ
+12	หน้า	หน้า	NOUN	_	NounType=Clf	6	conj	_	SpaceAfter=No|Gloss=page|Translit=nâa
+13	สุด	สุด	VERB	_	_	12	acl	_	SpaceAfter=No|Gloss=end|Translit=sùt
+14	ท้าย	ท้าย	NOUN	_	_	13	obj	_	Gloss=rear|Translit=tháaj
+
+# sent_id = Thai_CLF_Sample_106_Question
+# text = มีแมวกี่ตัว
+# text_en = How many cats are there?
+# tokenised text = มี แมว กี่ ตัว
+# gloss = have cat how-many body(used as a classifier)
+# translit = /mii/ /mɛɛw/ /kìi/ /tua/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	มี	มี	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=have|Translit=mii
+2	แมว	แมว	NOUN	_	_	1	obj	_	SpaceAfter=No|Gloss=cat|Translit=mɛɛw
+3	กี่	กี่	DET	_	_	4	det	_	SpaceAfter=No|Gloss=how-many|Translit=kìi
+4	ตัว	ตัว	NOUN	_	NounType=Clf	2	classifying	_	Gloss=body|Translit=tua
+
+# sent_id = Thai_CLF_Sample_106_Answer
+# text = สามตัว
+# text_en = three (cats)
+# tokenised text = สาม ตัว
+# gloss = three body(used as a classifier)
+# translit = /sǎam/ /tua/
+# phrase_type = noun phrase
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+# note = The head noun "แมว" /mɛɛw/ (cat) is omitted in case we know what we talk about or previously mentioned. The noun used as a classifier turns to be the head of the numeric phrase.
+1	สาม	สาม	NUM	_	_	2	nummod	_	SpaceAfter=No|Gloss=three|Translit=sǎam
+2	ตัว	ตัว	NOUN	_	NounType=Clf	0	root	_	Gloss=body|Translit=tua
+
+# sent_id = Thai_CLF_Sample_107_Question
+# text = มีแมวดำกี่ตัว
+# text_en = How many black cats are there?
+# tokenised text = มี แมว ดำ กี่ ตัว
+# gloss = have cat black how-many body(used as a classifier)
+# translit = /mii/ /mɛɛw/ /dam/ /kìi/ /tua/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	มี	มี	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=have|Translit=mii
+2	แมว	แมว	NOUN	_	_	1	obj	_	SpaceAfter=No|Gloss=cat|Translit=mɛɛw
+3	ดำ	ดำ	ADJ	_	_	2	amod	_	SpaceAfter=No|Gloss=black|Translit=dam
+4	กี่	กี่	DET	_	_	5	det	_	SpaceAfter=No|Gloss=how-many|Translit=kìi
+5	ตัว	ตัว	NOUN	_	NounType=Clf	2	classifying	_	Gloss=body|Translit=tua
+
+# sent_id = Thai_CLF_Sample_107_Answer
+# text = สามตัว
+# text_en = three (black cats)
+# tokenised text = สาม ตัว
+# gloss = three body(used as a classifier)
+# translit = /sǎam/ /tua/
+# phrase_type = noun phrase
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+# note = The noun phrase "แมวดำ" /mɛɛw/ /dam/ (black cat) is omitted in case we know what we talk about or previously mentioned. The noun used as a classifier turns to be the head of the numeric phrase.
+1	สาม	สาม	NUM	_	_	2	nummod	_	SpaceAfter=No|Gloss=three|Translit=sǎam
+2	ตัว	ตัว	NOUN	_	NounType=Clf	0	root	_	Gloss=body|Translit=tua
+
+# sent_id = Thai_CLF_Sample_108_Question
+# text = แมวดำสามตัวไหน
+# text_en = Which three black cats are they?
+# tokenised text = แมว ดำ สาม ตัว ไหน
+# gloss = cat black three body(used as a classifier) which
+# translit = /mɛɛw/ /dam/ /sǎam/ /tua/ /nǎj/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	แมว	แมว	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=cat|Translit=mɛɛw
+2	ดำ	ดำ	ADJ	_	_	1	amod	_	SpaceAfter=No|Gloss=black|Translit=dam
+3	สาม	สาม	NUM	_	_	4	nummod	_	SpaceAfter=No|Gloss=three|Translit=sǎam
+4	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+5	ไหน	ไหน	ADJ	_	_	4	amod	_	Gloss=which|Translit=nǎj
+
+# sent_id = Thai_CLF_Sample_108_Answer
+# text = สามตัวนี้
+# text_en = these three (black cats)
+# tokenised text = สาม ตัว นี้
+# gloss = three body(used as a classifier) this(DEM)
+# translit = /sǎam/ /tua/ /níi/
+# phrase_type = noun phrase
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+# note = The noun phrase "แมวดำ" /mɛɛw/ /dam/ (black cat) is omitted in case we know what we talk about or previously mentioned. The noun used as a classifier turns to be the head of the noun phrase.
+1	สาม	สาม	NUM	_	_	2	nummod	_	SpaceAfter=No|Gloss=three|Translit=sǎam
+2	ตัว	ตัว	NOUN	_	NounType=Clf	0	root	_	SpaceAfter=No|Gloss=body|Translit=tua
+3	นี้	นี้	DET	_	_	2	det	_	Gloss=this|Translit=níi
+
+# sent_id = Thai_CLF_Sample_109_Question
+# text = แมวดำตัวไหน
+# text_en = Which black cat is it?
+# tokenised text = แมว ดำ ตัว ไหน
+# gloss = cat black body(used as a classifier) which
+# translit = /mɛɛw/ /dam/ /tua/ /nǎj/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	แมว	แมว	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=cat|Translit=mɛɛw
+2	ดำ	ดำ	ADJ	_	_	1	amod	_	SpaceAfter=No|Gloss=black|Translit=dam
+3	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+4	ไหน	ไหน	ADJ	_	_	3	amod	_	Gloss=which|Translit=nǎj
+
+# sent_id = Thai_CLF_Sample_109_Answer
+# text = ตัวที่อยู่บนโต๊ะ
+# text_en = the one that is on a table
+# tokenised text = ตัว ที่ อยู่ บน โต๊ะ
+# gloss = body(used as a classifier) that(REL) stay on table
+# translit = /tua/ /thîi/ /jùu/ /bon/ /tóʔ/
+# phrase_type = noun phrase modified with a relative clause
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+# note = The noun phrase "แมวดำ" /mɛɛw/ /dam/ (black cat) is omitted in case we know what we talk about or previously mentioned. The noun used as a classifier turns to be the head of the noun phrase.
+1	ตัว	ตัว	NOUN	_	NounType=Clf	0	root	_	SpaceAfter=No|Gloss=body|Translit=tua
+2	ที่	ที่	PRON	_	_	3	nsubj	_	SpaceAfter=No|Gloss=that|Translit=thîi
+3	อยู่	อยู่	VERB	_	_	1	acl:relc	_	SpaceAfter=No|Gloss=stay|Translit=jùu
+4	บน	บน	ADP	_	_	5	case	_	SpaceAfter=No|Gloss=on|Translit=bon
+5	โต๊ะ	โต๊ะ	NOUN	_	_	3	obl	_	Gloss=table|Translit=tóʔ
+
+# sent_id = Thai_CLF_Sample_110_Question
+# text = เขาซื้อจานมากี่ใบ
+# text_en = How many plates did he buy?
+# tokenised text = เขา ซื้อ จาน มา กี่ ใบ
+# gloss = he buy plate come(expressing aspect) how-many leaf(used as a classifier)
+# translit = /khǎw/ /sɯ́ɯ/ /caan/ /maa/ /kìi/ /baj/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	เขา	เขา	PRON	_	_	2	nsubj	_	SpaceAfter=No|Gloss=he|Translit=khǎw
+2	ซื้อ	ซื้อ	VERB	_	_	6	acl	_	SpaceAfter=No|Gloss=buy|Translit=sɯ́ɯ
+3	จาน	จาน	NOUN	_	_	2	obj	_	SpaceAfter=No|Gloss=plate|Translit=caan
+4	มา	มา	ADV	_	_	2	advmod	_	SpaceAfter=No|Gloss=come|Translit=maa
+5	กี่	กี่	DET	_	_	6	det	_	SpaceAfter=No|Gloss=how-many|Translit=kìi
+6	ใบ	ใบ	NOUN	_	NounType=Clf	0	root	_	Gloss=leaf|Translit=baj
+
+# sent_id = Thai_CLF_Sample_110_Answer
+# text = หลายใบ
+# text_en = several (plates)
+# tokenised text = หลาย ใบ
+# gloss = several leaf(used as a classifier)
+# translit = /lǎaj/ /baj/
+# phrase_type = noun phrase
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+# note = The head noun "จาน" /caan/ (plate) is omitted in case we know what we talk about or previously mentioned. The noun used as a classifier turns to be the head of the noun / numeric phrase.
+1	หลาย	หลาย	DET	_	_	2	det	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
+2	ใบ	ใบ	NOUN	_	NounType=Clf	0	root	_	Gloss=leaf|Translit=baj
+
+# sent_id = Thai_CLF_Sample_111_Question
+# text = จะสั่งอาหารอะไรบ้างคะ
+# text_en = What would you like to order?
+# tokenised text = จะ สั่ง อาหาร อะไร บ้าง คะ
+# gloss = will(expressing the future time) order food what some female-final-particle(expressing politeness and question)
+# translit = /càʔ/ /sàŋ/ /ʔaa-hǎan/ /ʔàʔ-raj/ /bâaŋ/ /kháʔ/
+# phrase_type = sentence
+# acceptability = OK
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+1	จะ	จะ	AUX	_	_	2	aux	_	SpaceAfter=No|Gloss=will|Translit=càʔ
+2	สั่ง	สั่ง	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=order|Translit=sàŋ
+3	อาหาร	อาหาร	NOUN	_	_	2	obj	_	SpaceAfter=No|Gloss=food|Translit=ʔaa-hǎan
+4	อะไร	อะไร	ADJ	_	_	3	amod	_	SpaceAfter=No|Gloss=what|Translit=ʔàʔ-raj
+5	บ้าง	บ้าง	ADV	_	_	4	advmod	_	SpaceAfter=No|Gloss=some|Translit=bâaŋ
+6	คะ	คะ	PART	_	Gender=Fem|Polite=Form	2	discourse	_	Gloss=female-final-particle|Translit=kháʔ
+
+# sent_id = Thai_CLF_Sample_111_Answer
+# text = ขอข้าวผัดไก่ 2 ก๋วยเตี๋ยวต้มยำ 2 และน้ำอัดลม 2 ค่ะ
+# text_en = I would like 2 stir-fried rice with chicken, 2 spicy noodles, and 2 soft drinks, please.
+# tokenised text = ขอ ข้าว ผัด ไก่ 2 ก๋วยเตี๋ยว ต้ม ยำ 2 และ น้ำ อัด ลม 2 ค่ะ
+# gloss = ask rice stir-fry chicken 2 noodles boil mix 2 and water pack wind 2 female-final-particle(expressing politeness and confirmation)
+# translit = /khɔ̌ɔ/ /khâaw/ /pàt/ /kàj/ /sɔ̌ɔŋ/ /kǔaj-tǐaw/ /tôm/ /jam/ /sɔ̌ɔŋ/ /lɛ́ʔ/ /nám/ /ʔàt/ /lom/ /sɔ̌ɔŋ/ /khàʔ/
+# phrase_type = sentence
+# acceptability = OK
+# variant = no-clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+# note = When a noun used as a classifier is omitted in a numeric phrase, and a numeral turns to modify the head noun, the numeral signifies quantities even it is placed after the modified noun because of the sentence context. 
+1	ขอ	ขอ	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=ask|Translit=khɔ̌ɔ
+2	ข้าว	ข้าว	NOUN	_	ExtPos=PROPN|NameEnt=Yes	1	obj	_	SpaceAfter=No|Gloss=rice|Translit=khâaw
+3	ผัด	ผัด	VERB	_	InNameEnt=Yes	2	acl	_	SpaceAfter=No|Gloss=stir-fry|Translit=pàt
+4	ไก่	ไก่	NOUN	_	InNameEnt=Yes	2	nmod	_	Gloss=chicken|Translit=kàj
+5	2	2	NUM	_	_	2	nummod	_	Gloss=two|Translit=sɔ̌ɔŋ
+6	ก๋วยเตี๋ยว	ก๋วยเตี๋ยว	NOUN	_	ExtPos=PROPN|NameEnt=Yes	2	conj	_	SpaceAfter=No|Gloss=noodle|Translit=kǔaj-tǐaw
+7	ต้ม	ต้ม	NOUN	_	ExtPos=PROPN|NameEnt=Yes|InNameEnt=Yes	6	nmod	_	SpaceAfter=No|Gloss=boil|Translit=tôm
+8	ยำ	ยำ	NOUN	_	InNameEnt=Yes	7	flat	_	Gloss=Thai-spicy-salad|Translit=jam
+9	2	2	NUM	_	_	6	nummod	_	Gloss=two|Translit=sɔ̌ɔŋ
+10	และ	และ	CCONJ	_	_	11	cc	_	SpaceAfter=No|Gloss=and|Translit=lɛ́ʔ
+11	น้ำ	น้ำ	NOUN	_	_	2	conj	_	SpaceAfter=No|Gloss=water|Translit=nám
+12	อัด	อัด	VERB	_	_	11	acl	_	SpaceAfter=No|Gloss=pack|Translit=ʔàt
+13	ลม	ลม	NOUN	_	_	12	obj	_	Gloss=wind|Translit=lom
+14	2	2	NUM	_	_	11	nummod	_	Gloss=two|Translit=sɔ̌ɔŋ
+15	ค่ะ	ค่ะ	PART	_	Gender=Fem|Polite=Form	1	discourse	_	Gloss=female-final-particle|Translit=khàʔ
+
+# sent_id = Thai_CLF_Sample_112
+# text = จานใหญ่หลายบนโต๊ะ
+# text_en = several big plate on a table
+# tokenised text = จาน ใหญ่ หลาย บน โต๊ะ
+# gloss = plate big several on table
+# translit = /caan/ /jàj/ /lǎaj/ /bon/ /tóʔ/
+# phrase_type = noun phrase
+# acceptability = *
+# variant = no-clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+# note = The noun used as a classifier ใบ /baj/ (leaf) is not used in the noun phrase, so the quantifier หลาย /lǎaj/ (several) does not modify any nouns. It cannot modify the head noun จาน /caan/ (plate) because it must be placed before a noun to be modified to denote quantities. And such noun is used as a classifier. That means it cannot modify common nouns. The noun used as a classifier is obligatory in the noun phrase. Therefore, the quantifier is left with no possible syntactic annotation in the noun phrase.
+1	จาน	จาน	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=plate|Translit=caan
+2	ใหญ่	ใหญ่	ADJ	_	_	1	amod	_	SpaceAfter=No|Gloss=big|Translit=jàj
+3	หลาย	หลาย	DET	_	_	_	_	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
+4	บน	บน	ADP	_	_	5	case	_	SpaceAfter=No|Gloss=on|Translit=bon
+5	โต๊ะ	โต๊ะ	NOUN	_	_	1	nmod	_	Gloss=table|Translit=tóʔ
+
+# sent_id = Thai_CLF_Sample_113
+# text = จานใหญ่ใบใบบนโต๊ะ
+# text_en = a a big plate on a table
+# tokenised text = จาน ใหญ่ ใบ ใบ บน โต๊ะ
+# gloss = plate big leaf(used as a classifier) leaf(used as a classifier) on table
+# translit = /caan/ /jàj/ /baj/ /baj/ /bon/ /tóʔ/
+# phrase_type = noun phrase
+# acceptability = *
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+# note = Two same classifiers cannot be used and placed next to each other in a noun phrase.
+1	จาน	จาน	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=plate|Translit=caan
+2	ใหญ่	ใหญ่	ADJ	_	_	1	amod	_	SpaceAfter=No|Gloss=big|Translit=jàj
+3	ใบ	ใบ	NOUN	_	NounType=Clf	_	_	_	SpaceAfter=No|Gloss=leaf|Translit=baj
+4	ใบ	ใบ	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=leaf|Translit=baj
+5	บน	บน	ADP	_	_	6	case	_	SpaceAfter=No|Gloss=on|Translit=bon
+6	โต๊ะ	โต๊ะ	NOUN	_	_	4	nmod	_	Gloss=table|Translit=tóʔ
+
+# sent_id = Thai_CLF_Sample_114
+# text = จานใหญ่สองใบใบบนโต๊ะ
+# text_en = two big plates a plate on a table
+# tokenised text = จาน ใหญ่ สอง ใบ ใบ บน โต๊ะ
+# gloss = plate big two leaf(used as a classifier) leaf(used as a classifier) on table
+# translit = /caan/ /jàj/ /sɔ̌ɔŋ/ /baj/ /baj/ /bon/ /tóʔ/
+# phrase_type = noun phrase
+# acceptability = *
+# variant = clf-as-head
+# source = coined
+# genre = informal_writing
+# year = 2025
+# note = Two same classifiers cannot be used and placed next to each other in a numeric phrase because a classifier itself without a numeral means "one". Therefore, the second classifier ใบ /baj/ (leaf) means "one" cannot be used to modify the antecedent numeric / noun phrase or the head of the noun phrase จานใหญ่ /caan/ /jàj/ (big plate) because the exact quantities of the big plates are specified. In addition, as the head of the prepositional phrase บนโต๊ะ /bon/ /tóʔ/ (on table), it means " one plate on a table". It cannot modify the antecedent noun phrase จานใหญ่สองใบ /caan/ /jàj/ /sɔ̌ɔŋ/ /baj/ (plate big two leaf) because the specific quantities of the big plates are specified. Only one classifier can be used in the noun phrase.
+1	จาน	จาน	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=plate|Translit=caan
+2	ใหญ่	ใหญ่	ADJ	_	_	1	amod	_	SpaceAfter=No|Gloss=big|Translit=jàj
+3	สอง	สอง	NUM	_	_	4	nummod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ɔŋ
+4	ใบ	ใบ	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=leaf|Translit=baj
+5	ใบ	ใบ	NOUN	_	NounType=Clf	_	_	_	SpaceAfter=No|Gloss=leaf|Translit=baj
+6	บน	บน	ADP	_	_	7	case	_	SpaceAfter=No|Gloss=on|Translit=bon
+7	โต๊ะ	โต๊ะ	NOUN	_	_	5	nmod	_	Gloss=table|Translit=tóʔ
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
