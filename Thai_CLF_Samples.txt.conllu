@@ -2004,9 +2004,9 @@
 12	ตัว	ตัว	NOUN	_	NounType=Clf	9	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
 13	ออก	ออก	VERB	_	_	7	advcl	_	SpaceAfter=No|Gloss=exit|Translit=ʔɔ̀ɔk
 14	มา	มา	VERB	_	_	13	compound:svc	_	SpaceAfter=No|Gloss=come|Translit=maa
-15	หา	หา	VERB	_	_	13	compound:svc	_	SpaceAfter=No|Gloss=find|Translit=hǎa
+15	หา	หา	VERB	_	_	14	conj	_	SpaceAfter=No|Gloss=find|Translit=hǎa
 16	อาหาร	อาหาร	NOUN	_	_	15	obj	_	SpaceAfter=No|Gloss=food|Translit=ʔaa-hǎan
-17	กิน	กิน	VERB	_	_	13	compound:svc	_	Gloss=eat|Translit=kin
+17	กิน	กิน	VERB	_	_	15	advcl	_	Gloss=eat|Translit=kin
 
 # sent_id = Thai_CLF_Sample_97
 # text = หมูมากกว่าสิบตัวเริ่มกินอาหารได้แล้ว
