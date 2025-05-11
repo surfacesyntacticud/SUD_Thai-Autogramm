@@ -1619,17 +1619,17 @@
 # source = coined
 # genre = informal_writing
 # year = 2025
-1	หมู	_	NOUN	_	_	9	nsubj	_	SpaceAfter=No|Gloss=pig|Translit=mǒo
-2	ตัว	_	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
-3	เล็ก	_	ADJ	_	_	2	amod	_	SpaceAfter=No|Gloss=small|Translit=lék
-4	หลาย	_	DET	_	_	5	det	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
-5	ตัว	_	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
-6	เหล่า	_	NOUN	_	_	1	nmod	_	SpaceAfter=No|Gloss=group|Translit=làw
-7	นั้น	_	DET	_	_	6	det	_	SpaceAfter=No|Gloss=that|Translit=nán
-8	เป็น	_	AUX	_	_	9	cop	_	SpaceAfter=No|Gloss=BE|Translit=pen
-9	ของ	_	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=thing|Translit=khɔ̌ɔŋ
-10	เพื่อน	_	NOUN	_	_	9	nmod:poss	_	SpaceAfter=No|Gloss=friend|Translit=phɯ̂an
-11	ฉัน	_	PRON	_	PronType=Prs|Person=1|Number=Sing	10	nmod:poss	_	Gloss=I|Translit=chán
+1	หมู	หมู	NOUN	_	_	9	nsubj	_	SpaceAfter=No|Gloss=pig|Translit=mǒo
+2	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+3	เล็ก	เล็ก	ADJ	_	_	2	amod	_	SpaceAfter=No|Gloss=small|Translit=lék
+4	หลาย	หลาย	DET	_	_	5	det	_	SpaceAfter=No|Gloss=several|Translit=lǎaj
+5	ตัว	ตัว	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=body|Translit=tua
+6	เหล่า	เหล่า	NOUN	_	_	1	nmod	_	SpaceAfter=No|Gloss=group|Translit=làw
+7	นั้น	นั้น	DET	_	_	6	det	_	SpaceAfter=No|Gloss=that|Translit=nán
+8	เป็น	เป็น	AUX	_	_	9	cop	_	SpaceAfter=No|Gloss=BE|Translit=pen
+9	ของ	ของ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=thing|Translit=khɔ̌ɔŋ
+10	เพื่อน	เพื่อน	NOUN	_	_	9	nmod:poss	_	SpaceAfter=No|Gloss=friend|Translit=phɯ̂an
+11	ฉัน	ฉัน	PRON	_	PronType=Prs|Person=1|Number=Sing	10	nmod:poss	_	Gloss=I|Translit=chán
 
 # sent_id = Thai_CLF_Sample_82
 # text = เขาเห็นหมูที่กำลังวิ่งบางตัวมีแผลที่ขาหลัง
@@ -2236,7 +2236,7 @@
 7	เธอ	เธอ	PRON	_	PronType=Prs|Person=2|Number=Sing	8	nsubj	_	SpaceAfter=No|Gloss=you|Translit=thɤɤ
 8	ซื้อ	ซื้อ	VERB	_	_	5	acl:relcl	_	SpaceAfter=No|Gloss=buy|Translit=sɯ́ɯ
 9	ให้	ให้	ADP	_	_	10	case	_	SpaceAfter=No|Gloss=for|Translit=hâj
-10	ฉัน	ฉัน	PRON	_	_	8	obl	_	SpaceAfter=No|Gloss=I|Translit=chán
+10	ฉัน	ฉัน	PRON	_	PronType=Prs|Person=1|Number=Sing	8	obl	_	SpaceAfter=No|Gloss=I|Translit=chán
 11	มี	มี	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=have|Translit=mii
 12	รอย	รอย	NOUN	_	_	11	obj	_	SpaceAfter=No|Gloss=scratch|Translit=rɔɔj
 13	ขีดฆ่า	ขีดฆ่า	VERB	_	_	12	acl	_	SpaceAfter=No|Gloss=cross-out|Translit=khìit-khâa
@@ -2440,7 +2440,7 @@
 # source = coined
 # genre = informal_writing
 # year = 2025
-1	เขา	เขา	PRON	_	_	2	nsubj	_	SpaceAfter=No|Gloss=he|Translit=khǎw
+1	เขา	เขา	PRON	_	PronType=Prs|Person=3|Number=Sing	2	nsubj	_	SpaceAfter=No|Gloss=he|Translit=khǎw
 2	ซื้อ	ซื้อ	VERB	_	_	6	acl	_	SpaceAfter=No|Gloss=buy|Translit=sɯ́ɯ
 3	จาน	จาน	NOUN	_	_	2	obj	_	SpaceAfter=No|Gloss=plate|Translit=caan
 4	มา	มา	ADV	_	_	2	advmod	_	SpaceAfter=No|Gloss=come|Translit=maa
