@@ -1775,7 +1775,7 @@
 4	หลัง	หลัง	NOUN	_	NounType=Clf	1	classifying	_	SpaceAfter=No|Gloss=dwelling|Translit=lǎŋ
 5	โดน	โดน	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=touch|Translit=doon
 6	น้ำ	น้ำ	NOUN	_	_	5	obj	_	SpaceAfter=No|Gloss=water|Translit=nám
-7	ท่วม	ท่วม	VERB	_	_	6	compound	_	Gloss=flood|Translit=thûam
+7	ท่วม	ท่วม	VERB	_	_	6	acl	_	Gloss=flood|Translit=thûam
 
 # sent_id = Thai_CLF_Sample_87
 # text = หมู 2 ใน 10 ตัวที่เล้าแรกติดเชื้อแบคทีเรีย
@@ -2496,13 +2496,13 @@
 # year = 2025
 # note = When a noun used as a classifier is omitted in a numeric phrase, and a numeral turns to modify the head noun, the numeral signifies quantities even it is placed after the modified noun because of the sentence context. 
 1	ขอ	ขอ	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=ask|Translit=khɔ̌ɔ
-2	ข้าว	ข้าว	NOUN	_	ExtPos=PROPN|NameEnt=Yes	1	obj	_	SpaceAfter=No|Gloss=rice|Translit=khâaw
-3	ผัด	ผัด	VERB	_	InNameEnt=Yes	2	acl	_	SpaceAfter=No|Gloss=stir-fry|Translit=pàt
-4	ไก่	ไก่	NOUN	_	InNameEnt=Yes	2	nmod	_	Gloss=chicken|Translit=kàj
+2	ข้าว	ข้าว	NOUN	_	_	1	obj	_	SpaceAfter=No|ExtPos=PROPN|NameEnt=Yes|Gloss=rice|Translit=khâaw
+3	ผัด	ผัด	VERB	_	_	2	acl	_	SpaceAfter=No|InNameEnt=Yes|Gloss=stir-fry|Translit=pàt
+4	ไก่	ไก่	NOUN	_	_	2	nmod	_	InNameEnt=Yes|Gloss=chicken|Translit=kàj
 5	2	2	NUM	_	_	2	nummod	_	Gloss=two|Translit=sɔ̌ɔŋ
-6	ก๋วยเตี๋ยว	ก๋วยเตี๋ยว	NOUN	_	ExtPos=PROPN|NameEnt=Yes	2	conj	_	SpaceAfter=No|Gloss=noodle|Translit=kǔaj-tǐaw
-7	ต้ม	ต้ม	NOUN	_	ExtPos=PROPN|NameEnt=Yes|InNameEnt=Yes	6	nmod	_	SpaceAfter=No|Gloss=boil|Translit=tôm
-8	ยำ	ยำ	NOUN	_	InNameEnt=Yes	7	flat	_	Gloss=Thai-spicy-salad|Translit=jam
+6	ก๋วยเตี๋ยว	ก๋วยเตี๋ยว	NOUN	_	_	2	conj	_	SpaceAfter=No|ExtPos=PROPN|NameEnt=Yes|Gloss=noodle|Translit=kǔaj-tǐaw
+7	ต้ม	ต้ม	NOUN	_	_	6	nmod	_	SpaceAfter=No|ExtPos=PROPN|NameEnt=Yes|InNameEnt=Yes|Gloss=boil|Translit=tôm
+8	ยำ	ยำ	NOUN	_	_	7	flat	_	InNameEnt=Yes|Gloss=Thai-spicy-salad|Translit=jam
 9	2	2	NUM	_	_	6	nummod	_	Gloss=two|Translit=sɔ̌ɔŋ
 10	และ	และ	CCONJ	_	_	11	cc	_	SpaceAfter=No|Gloss=and|Translit=lɛ́ʔ
 11	น้ำ	น้ำ	NOUN	_	_	2	conj	_	SpaceAfter=No|Gloss=water|Translit=nám
