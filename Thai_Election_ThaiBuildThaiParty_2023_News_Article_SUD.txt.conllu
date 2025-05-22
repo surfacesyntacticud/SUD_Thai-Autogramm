@@ -72,7 +72,7 @@
 # phrase_type = sentence
 # sentence_position = dateline
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 1	เผยแพร่	เผยแพร่	VERB	_	_	0	root	_	Gloss=publicize|Translit=phɤ̌ɤj-phrɛ̂ɛ
 2	วัน	วัน	NOUN	_	_	1	obl:tmod	_	SpaceAfter=No|Gloss=day|Translit=wan
@@ -91,7 +91,7 @@
 # phrase_type = sentence
 # sentence_position = sub-headline
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 1	ไทย	ไทย	PROPN	_	ExtPos=PROPN	7	dislocated	_	SpaceAfter=No|Gloss=Thai|Translit=thaj
 2	สร้าง	สร้าง	VERB	_	_	1	acl	_	SpaceAfter=No|Gloss=build|Translit=sâaŋ
@@ -115,7 +115,7 @@
 # phrase_type = sentence
 # sentence_position = sub-headline
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 1	ไทย	ไทย	PROPN	_	ExtPos=PROPN	7	dislocated	_	SpaceAfter=No|Gloss=Thai|Translit=thaj
 2	สร้าง	สร้าง	VERB	_	_	1	acl	_	SpaceAfter=No|Gloss=build|Translit=sâaŋ
@@ -139,7 +139,7 @@
 # phrase_type = sentence
 # sentence_position = sub-headline
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_5
@@ -150,7 +150,7 @@
 # phrase_type = sentence
 # sentence_position = sub-headline
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 1	ชู	_	VERB	_	_	_	_	_	_
 2	“	_	PUNCT	_	_	_	_	_	_
@@ -186,7 +186,7 @@
 # phrase_type = sentence
 # sentence_position = 
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_7
@@ -197,7 +197,7 @@
 # phrase_type = sentence
 # sentence_position = 
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_8
@@ -208,7 +208,7 @@
 # phrase_type = sentence
 # sentence_position = 
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_9
@@ -219,7 +219,7 @@
 # phrase_type = sentence
 # sentence_position = 
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_10
@@ -230,7 +230,7 @@
 # phrase_type = sentence
 # sentence_position = 
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_11
@@ -241,7 +241,7 @@
 # phrase_type = sentence
 # sentence_position = 
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_12
@@ -252,7 +252,7 @@
 # phrase_type = sentence
 # sentence_position = 
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_13
@@ -263,7 +263,7 @@
 # phrase_type = sentence
 # sentence_position = 
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_14
@@ -274,7 +274,7 @@
 # phrase_type = sentence
 # sentence_position = 
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_15
@@ -285,7 +285,7 @@
 # phrase_type = sentence
 # sentence_position = 
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_16
@@ -296,7 +296,7 @@
 # phrase_type = sentence
 # sentence_position = 
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_17
@@ -307,7 +307,7 @@
 # phrase_type = sentence
 # sentence_position = 
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_18
@@ -318,7 +318,7 @@
 # phrase_type = sentence
 # sentence_position = 
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_19
@@ -329,7 +329,7 @@
 # phrase_type = sentence
 # sentence_position = 
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_20
@@ -340,7 +340,7 @@
 # phrase_type = sentence
 # sentence_position = 
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_21
@@ -351,7 +351,7 @@
 # phrase_type = sentence
 # sentence_position = 
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_22
@@ -362,7 +362,7 @@
 # phrase_type = sentence
 # sentence_position = 
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_23
@@ -373,7 +373,7 @@
 # phrase_type = sentence
 # sentence_position = 
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_24
@@ -384,7 +384,7 @@
 # phrase_type = sentence
 # sentence_position = 
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_25
@@ -395,7 +395,7 @@
 # phrase_type = sentence
 # sentence_position = 
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_26
@@ -406,7 +406,7 @@
 # phrase_type = sentence
 # sentence_position = 
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_27
@@ -417,7 +417,7 @@
 # phrase_type = sentence
 # sentence_position = 
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_28
@@ -428,7 +428,7 @@
 # phrase_type = sentence
 # sentence_position = 
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 
 # sent_id = Election_Thailand_2023_News_Article_29
@@ -450,7 +450,7 @@
 # phrase_type = sentence
 # sentence_position = 
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 
 
