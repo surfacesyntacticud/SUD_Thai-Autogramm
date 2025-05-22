@@ -1532,7 +1532,6 @@
 11	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
 12	วิทยาศาสตร์	วิทยาศาสตร์	NOUN	_	_	11	nmod	_	Gloss=science|Translit=wít-thà-yaa-sàat
 
-
 # sent_id = Thai_CLF_Sample_80_Variant
 # text = หนังสือเล่มที่ 1 ที่วางอยู่บนโต๊ะเป็นหนังสือวิทยาศาสตร์
 # text_en = The 1st book which is placed on a table is a science book.
@@ -1557,7 +1556,6 @@
 10	เป็น	เป็น	AUX	_	_	11	cop	_	SpaceAfter=No|Gloss=BE|Translit=pen
 11	หนังสือ	หนังสือ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=book|Translit=nǎŋ-sɯ̌ɯ
 12	วิทยาศาสตร์	วิทยาศาสตร์	NOUN	_	_	11	nmod	_	SpaceAfter=No|Gloss=science|Translit=wít-thà-yaa-sàat
-
 
 # sent_id = Thai_CLF_Sample_81
 # text = หมูตัวเล็กหลายตัวเหล่านั้นเป็นของเพื่อนฉัน
