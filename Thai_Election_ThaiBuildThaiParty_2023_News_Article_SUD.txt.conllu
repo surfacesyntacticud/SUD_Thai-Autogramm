@@ -2,140 +2,140 @@
 # text = “สุดารัตน์” ประกาศกลางเวทีปราศรัยใหญ่ดอนเมือง “แก้ ทุกข์ มหานคร” ทันทีทั้งฝุ่นพิษ น้ำท่วมซ้ำซาก
 # text_en = "Sudarat" announced and addressed in the centre stage at Don Mueang "We will solve the problems of smog and repeated flooding in Bangkok immediately". 
 # tokenised_text = “ สุดารัตน์ ” ประกาศ กลาง เวที ปราศรัย ใหญ่ ดอน เมือง “ แก้ ทุกข์ มหานคร ” ทันที ทั้ง ฝุ่น พิษ น้ำ ท่วม ซ้ำซาก
-# translit = /sù-daa-rát/ /pràʔ-kàat/ /klaaŋ/ /wee-thii/ /praa-sǎj/ /jàj/ /dɔɔn/ /mɯaŋ/ /kɛ̂ɛ/ /thúk/ /má-hǎa-ná-khɔɔn/ /than-thii/ /tháŋ/ /fùn/ /pít/ /náam/ /thûam/ /sám-sâak/
+# translit = /sù-daː-rát/ /pràʔ-kàːt/ /klaːŋ/ /weː-thiː/ /praː-sǎj/ /jàj/ /dɔːn/ /mɯaŋ/ /kɛ̂ː/ /thúk/ /má-hǎː-ná-khɔːn/ /than-thiː/ /tháŋ/ /fùn/ /pít/ /náːm/ /thûam/ /sám-sâːk/
 # phrase_type = sentence
 # sentence_position = headline
 # genre = political_news_article
 # source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 1	“	“	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	สุดารัตน์	สุดารัตน์	PROPN	_	ExtPos=PROPN	4	nsubj	_	SpaceAfter=No|Gloss=Sudarat|Translit=sù-daa-rát
+2	สุดารัตน์	สุดารัตน์	PROPN	_	ExtPos=PROPN	4	nsubj	_	SpaceAfter=No|Gloss=Sudarat|Translit=sù-daː-rát
 3	”	”	PUNCT	_	_	2	punct	_	_
-4	ประกาศ	ประกาศ	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=announce|Translit=pràʔ-kàat
-5	กลาง	กลาง	ADP	_	_	6	case	_	SpaceAfter=No|Gloss=center|Translit=klaaŋ
-6	เวที	เวที	NOUN	_	_	4	obl	_	SpaceAfter=No|Gloss=stage|Translit=wee-thii
-7	ปราศรัย	ปราศรัย	VERB	_	_	4	conj	_	SpaceAfter=No|Gloss=address|Translit=praa-sǎj
+4	ประกาศ	ประกาศ	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=announce|Translit=pràʔ-kàːt
+5	กลาง	กลาง	ADP	_	_	6	case	_	SpaceAfter=No|Gloss=center|Translit=klaːŋ
+6	เวที	เวที	NOUN	_	_	4	obl	_	SpaceAfter=No|Gloss=stage|Translit=weː-thiː
+7	ปราศรัย	ปราศรัย	VERB	_	_	4	conj	_	SpaceAfter=No|Gloss=address|Translit=praː-sǎj
 8	ใหญ่	ใหญ่	ADV	_	_	7	advmod	_	SpaceAfter=No|Gloss=big|Translit=jàj
-9	ดอน	ดอน	NOUN	_	ExtPos=PROPN	4	obl:lmod	_	SpaceAfter=No|Gloss=hill|Translit=dɔɔn
+9	ดอน	ดอน	NOUN	_	ExtPos=PROPN	4	obl:lmod	_	SpaceAfter=No|Gloss=hill|Translit=dɔːn
 10	เมือง	เมือง	NOUN	_	_	9	nmod	_	Gloss=city|Translit=mɯaŋ
 11	“	“	PUNCT	_	_	12	punct	_	SpaceAfter=No
-12	แก้	แก้	VERB	_	_	4	ccomp	_	Gloss=solve|Translit=kɛ̂ɛ
+12	แก้	แก้	VERB	_	_	4	ccomp	_	Gloss=solve|Translit=kɛ̂ː
 13	ทุกข์	ทุกข์	NOUN	_	_	12	obj	_	Gloss=suffer|Translit=thúk
-14	มหานคร	มหานคร	NOUN	_	_	13	nmod	_	SpaceAfter=No|Gloss=metropolis|Translit=má-hǎa-ná-khɔɔn
+14	มหานคร	มหานคร	NOUN	_	_	13	nmod	_	SpaceAfter=No|Gloss=metropolis|Translit=má-hǎː-ná-khɔːn
 15	”	”	PUNCT	_	_	12	punct	_	_
-16	ทันที	ทันที	ADV	_	_	12	advmod	_	SpaceAfter=No|Gloss=immediately|Translit=than-thii
+16	ทันที	ทันที	ADV	_	_	12	advmod	_	SpaceAfter=No|Gloss=immediately|Translit=than-thiː
 17	ทั้ง	ทั้ง	DET	_	_	18	det	_	SpaceAfter=No|Gloss=both|Translit=tháŋ
 18	ฝุ่น	ฝุ่น	NOUN	_	_	13	appos	_	SpaceAfter=No|Gloss=dust|Translit=fùn
 19	พิษ	พิษ	NOUN	_	_	18	nmod	_	Gloss=poison|Translit=pít
-20	น้ำ	น้ำ	NOUN	_	_	18	conj	_	SpaceAfter=No|Gloss=water|Translit=náam
+20	น้ำ	น้ำ	NOUN	_	_	18	conj	_	SpaceAfter=No|Gloss=water|Translit=náːm
 21	ท่วม	ท่วม	VERB	_	_	20	acl	_	SpaceAfter=No|Gloss=flood|Translit=thûam
-22	ซ้ำซาก	ซ้ำซาก	VERB	_	_	21	advcl	_	Gloss=repeat|Translit=sám-sâak
+22	ซ้ำซาก	ซ้ำซาก	VERB	_	_	21	advcl	_	Gloss=repeat|Translit=sám-sâːk
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_1_Variant
 # text = “สุดารัตน์” ประกาศกลางเวทีปราศรัยใหญ่ดอนเมือง “แก้ ทุกข์ มหานคร” ทันทีทั้งฝุ่นพิษ น้ำท่วมซ้ำซาก
 # text_en = "Sudarat" announced and addressed in the centre stage at Don Mueang "We will solve the problems of smog and repeated flooding in Bangkok immediately". 
 # tokenised_text = “ สุดารัตน์ ” ประกาศ กลาง เวที ปราศรัย ใหญ่ ดอน เมือง “ แก้ ทุกข์ มหานคร ” ทันที ทั้ง ฝุ่น พิษ น้ำ ท่วม ซ้ำซาก
-# translit = /sù-daa-rát/ /pràʔ-kàat/ /klaaŋ/ /wee-thii/ /praa-sǎj/ /jàj/ /dɔɔn/ /mɯaŋ/ /kɛ̂ɛ/ /thúk/ /má-hǎa-ná-khɔɔn/ /than-thii/ /tháŋ/ /fùn/ /pít/ /náam/ /thûam/ /sám-sâak/
+# translit = /sù-daː-rát/ /pràʔ-kàːt/ /klaːŋ/ /weː-thiː/ /praː-sǎj/ /jàj/ /dɔːn/ /mɯaŋ/ /kɛ̂ː/ /thúk/ /má-hǎː-ná-khɔːn/ /than-thiː/ /tháŋ/ /fùn/ /pít/ /náːm/ /thûam/ /sám-sâːk/
 # phrase_type = sentence
 # sentence_position = headline
 # genre = political_news_article
 # source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 1	“	“	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	สุดารัตน์	สุดารัตน์	PROPN	_	ExtPos=PROPN	4	nsubj	_	SpaceAfter=No|Gloss=Sudarat|Translit=sù-daa-rát
+2	สุดารัตน์	สุดารัตน์	PROPN	_	ExtPos=PROPN	4	nsubj	_	SpaceAfter=No|Gloss=Sudarat|Translit=sù-daː-rát
 3	”	”	PUNCT	_	_	2	punct	_	_
-4	ประกาศ	ประกาศ	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=announce|Translit=pràʔ-kàat
-5	กลาง	กลาง	ADP	_	_	6	case	_	SpaceAfter=No|Gloss=center|Translit=klaaŋ
-6	เวที	เวที	NOUN	_	_	4	obl	_	SpaceAfter=No|Gloss=stage|Translit=wee-thii
-7	ปราศรัย	ปราศรัย	VERB	_	_	6	acl	_	SpaceAfter=No|Gloss=address|Translit=praa-sǎj
+4	ประกาศ	ประกาศ	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=announce|Translit=pràʔ-kàːt
+5	กลาง	กลาง	ADP	_	_	6	case	_	SpaceAfter=No|Gloss=center|Translit=klaːŋ
+6	เวที	เวที	NOUN	_	_	4	obl	_	SpaceAfter=No|Gloss=stage|Translit=weː-thiː
+7	ปราศรัย	ปราศรัย	VERB	_	_	6	acl	_	SpaceAfter=No|Gloss=address|Translit=praː-sǎj
 8	ใหญ่	ใหญ่	ADJ	_	_	6	amod	_	SpaceAfter=No|Gloss=big|Translit=jàj
-9	ดอน	ดอน	NOUN	_	ExtPos=PROPN	6	nmod	_	SpaceAfter=No|Gloss=hill|Translit=dɔɔn
+9	ดอน	ดอน	NOUN	_	ExtPos=PROPN	6	nmod	_	SpaceAfter=No|Gloss=hill|Translit=dɔːn
 10	เมือง	เมือง	NOUN	_	_	9	nmod	_	Gloss=city|Translit=mɯaŋ
 11	“	“	PUNCT	_	_	12	punct	_	SpaceAfter=No
-12	แก้	แก้	VERB	_	_	4	ccomp	_	Gloss=solve|Translit=kɛ̂ɛ
+12	แก้	แก้	VERB	_	_	4	ccomp	_	Gloss=solve|Translit=kɛ̂ː
 13	ทุกข์	ทุกข์	NOUN	_	_	12	obj	_	Gloss=suffer|Translit=thúk
-14	มหานคร	มหานคร	NOUN	_	_	13	nmod	_	SpaceAfter=No|Gloss=metropolis|Translit=má-hǎa-ná-khɔɔn
+14	มหานคร	มหานคร	NOUN	_	_	13	nmod	_	SpaceAfter=No|Gloss=metropolis|Translit=má-hǎː-ná-khɔːn
 15	”	”	PUNCT	_	_	12	punct	_	_
-16	ทันที	ทันที	ADV	_	_	12	advmod	_	SpaceAfter=No|Gloss=immediately|Translit=than-thii
+16	ทันที	ทันที	ADV	_	_	12	advmod	_	SpaceAfter=No|Gloss=immediately|Translit=than-thiː
 17	ทั้ง	ทั้ง	DET	_	_	18	det	_	SpaceAfter=No|Gloss=both|Translit=tháŋ
 18	ฝุ่น	ฝุ่น	NOUN	_	_	13	appos	_	SpaceAfter=No|Gloss=dust|Translit=fùn
 19	พิษ	พิษ	NOUN	_	_	18	nmod	_	Gloss=poison|Translit=pít
-20	น้ำ	น้ำ	NOUN	_	_	18	conj	_	SpaceAfter=No|Gloss=water|Translit=náam
+20	น้ำ	น้ำ	NOUN	_	_	18	conj	_	SpaceAfter=No|Gloss=water|Translit=náːm
 21	ท่วม	ท่วม	VERB	_	_	20	acl	_	SpaceAfter=No|Gloss=flood|Translit=thûam
-22	ซ้ำซาก	ซ้ำซาก	VERB	_	_	21	advcl	_	Gloss=repeat|Translit=sám-sâak
+22	ซ้ำซาก	ซ้ำซาก	VERB	_	_	21	advcl	_	Gloss=repeat|Translit=sám-sâːk
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_2
 # text = เผยแพร่	วันอาทิตย์ที่ 12 มีนาคม พ.ศ.2566
 # text_en = (The news article) was publicised on Sunday 12th March 2023.
 # tokenised text = เผยแพร่ วัน อาทิตย์ ที่ 12 มีนาคม พ.ศ. 2566
-# translit = /phɤ̌ɤj-phrɛ̂ɛ/ /wan/ /ʔaa-thít/ /thîi/ /sìp-sɔ̌ɔŋ/ /mii-naa-khom/ /phɔɔ-sɔ̌ɔ/ /sɔ̌ɔŋ-phan-hâa-rɔ́j-hòk-sìp-hòk/
+# translit = /phɤ̌ːj-phrɛ̂ː/ /wan/ /ʔaː-thít/ /thîː/ /sìp-sɔ̌ːŋ/ /miː-naː-khom/ /phɔː-sɔ̌ː/ /sɔ̌ːŋ-phan-hâː-rɔ́j-hòk-sìp-hòk/
 # phrase_type = sentence
 # sentence_position = dateline
 # genre = political_news_article
 # source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
-1	เผยแพร่	เผยแพร่	VERB	_	_	0	root	_	Gloss=publicize|Translit=phɤ̌ɤj-phrɛ̂ɛ
+1	เผยแพร่	เผยแพร่	VERB	_	_	0	root	_	Gloss=publicize|Translit=phɤ̌ːj-phrɛ̂ː
 2	วัน	วัน	NOUN	_	_	1	obl:tmod	_	SpaceAfter=No|Gloss=day|Translit=wan
-3	อาทิตย์	อาทิตย์	NOUN	_	_	2	nmod	_	SpaceAfter=No|Gloss=Sunday|Translit=ʔaa-thít
-4	ที่	ที่	NOUN	_	_	2	nmod	_	Gloss=rank|Translit=thîi
-5	12	12	NUM	_	_	4	nmod	_	Gloss=12|Translit=sìp-sɔ̌ɔŋ
-6	มีนาคม	มีนาคม	NOUN	_	_	2	nmod	_	Gloss=March|Translit=mii-naa-khom
-7	พ.ศ.	พ.ศ.	NOUN	_	_	6	nmod	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=B.E.|Translit=phɔɔ-sɔ̌ɔ
-8	2566	2566	NUM	_	_	7	nmod	_	Gloss=2566|Translit=sɔ̌ɔŋ-phan-hâa-rɔ́j-hòk-sìp-hòk
+3	อาทิตย์	อาทิตย์	NOUN	_	_	2	nmod	_	SpaceAfter=No|Gloss=Sunday|Translit=ʔaː-thít
+4	ที่	ที่	NOUN	_	_	2	nmod	_	Gloss=rank|Translit=thîː
+5	12	12	NUM	_	_	4	nmod	_	Gloss=12|Translit=sìp-sɔ̌ːŋ
+6	มีนาคม	มีนาคม	NOUN	_	_	2	nmod	_	Gloss=March|Translit=miː-naː-khom
+7	พ.ศ.	พ.ศ.	NOUN	_	_	6	nmod	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=B.E.|Translit=phɔː-sɔ̌ː
+8	2566	2566	NUM	_	_	7	nmod	_	Gloss=2566|Translit=sɔ̌ːŋ-phan-hâː-rɔ́j-hòk-sìp-hòk
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_3
 # text = ไทยสร้างไทยดอนเมือง “พรึบ” เวทีปราศรัยกว่า 3,000 คน
 # text_en = The Thai Build Thai Party at Don Mueang, more than 3,000 people came and gathered together at the stage for a political speech.
 # tokenised text = ไทย สร้าง ไทย ดอน เมือง “ พรึบ ” เวที ปราศรัย กว่า 3,000 คน
-# translit = /thaj/ /sâaŋ/ /thaj/ /dɔɔn/ /mɯaŋ/ /phrɯ̂p/ /wee-thii/ /praa-sǎj/ /kwàa/ /sǎam-phan/ /khon/
+# translit = /thaj/ /sâːŋ/ /thaj/ /dɔːn/ /mɯaŋ/ /phrɯ̂p/ /weː-thiː/ /praː-sǎj/ /kwàː/ /sǎːm-phan/ /khon/
 # phrase_type = sentence
 # sentence_position = sub-headline
 # genre = political_news_article
 # source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 1	ไทย	ไทย	PROPN	_	ExtPos=PROPN	7	dislocated	_	SpaceAfter=No|Gloss=Thai|Translit=thaj
-2	สร้าง	สร้าง	VERB	_	_	1	acl	_	SpaceAfter=No|Gloss=build|Translit=sâaŋ
+2	สร้าง	สร้าง	VERB	_	_	1	acl	_	SpaceAfter=No|Gloss=build|Translit=sâːŋ
 3	ไทย	ไทย	PROPN	_	_	2	obj	_	SpaceAfter=No|Gloss=Thai|Translit=thaj
-4	ดอน	ดอน	NOUN	_	ExtPos=PROPN	1	nmod	_	SpaceAfter=No|Gloss=hill|Translit=dɔɔn
+4	ดอน	ดอน	NOUN	_	ExtPos=PROPN	1	nmod	_	SpaceAfter=No|Gloss=hill|Translit=dɔːn
 5	เมือง	เมือง	NOUN	_	_	4	nmod	_	Gloss=city|Translit=mɯaŋ
 6	“	“	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	พรึบ	พรึบ	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=come-altogether|Translit=phrɯ̂p
 8	”	”	PUNCT	_	_	7	punct	_	_
-9	เวที	เวที	NOUN	_	_	7	obl:lmod	_	SpaceAfter=No|Gloss=stage|Translit=wee-thii
-10	ปราศรัย	ปราศรัย	VERB	_	_	9	acl	_	SpaceAfter=No|Gloss=address|Translit=praa-sǎj
-11	กว่า	กว่า	DET	_	_	13	det	_	Gloss=more-than|Translit=kwàa
-12	3,000	3,000	NUM	_	_	13	nummod	_	Gloss=3,000|Translit=sǎam-phan
+9	เวที	เวที	NOUN	_	_	7	obl:lmod	_	SpaceAfter=No|Gloss=stage|Translit=weː-thiː
+10	ปราศรัย	ปราศรัย	VERB	_	_	9	acl	_	SpaceAfter=No|Gloss=address|Translit=praː-sǎj
+11	กว่า	กว่า	DET	_	_	13	det	_	Gloss=more-than|Translit=kwàː
+12	3,000	3,000	NUM	_	_	13	nummod	_	Gloss=3,000|Translit=sǎːm-phan
 13	คน	คน	NOUN	_	NounType=Clf	7	dislocated	_	Gloss=person|Translit=khon
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_3_Variant
 # text = ไทยสร้างไทยดอนเมือง “พรึบ” เวทีปราศรัยกว่า 3,000 คน
 # text_en = The Thai Build Thai Party, more than 3,000 Don Mueang people came and gathered at the stage for a political speech.
 # tokenised text = ไทย สร้าง ไทย ดอน เมือง “ พรึบ ” เวที ปราศรัย กว่า 3,000 คน
-# translit = /thaj/ /sâaŋ/ /thaj/ /dɔɔn/ /mɯaŋ/ /phrɯ̂p/ /wee-thii/ /praa-sǎj/ /kwàa/ /sǎam-phan/ /khon/
+# translit = /thaj/ /sâːŋ/ /thaj/ /dɔːn/ /mɯaŋ/ /phrɯ̂p/ /weː-thiː/ /praː-sǎj/ /kwàː/ /sǎːm-phan/ /khon/
 # phrase_type = sentence
 # sentence_position = sub-headline
 # genre = political_news_article
 # source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 1	ไทย	ไทย	PROPN	_	ExtPos=PROPN	7	dislocated	_	SpaceAfter=No|Gloss=Thai|Translit=thaj
-2	สร้าง	สร้าง	VERB	_	_	1	acl	_	SpaceAfter=No|Gloss=build|Translit=sâaŋ
+2	สร้าง	สร้าง	VERB	_	_	1	acl	_	SpaceAfter=No|Gloss=build|Translit=sâːŋ
 3	ไทย	ไทย	PROPN	_	_	2	obj	_	SpaceAfter=No|Gloss=Thai|Translit=thaj
-4	ดอน	ดอน	NOUN	_	ExtPos=PROPN	7	nsubj	_	SpaceAfter=No|Gloss=hill|Translit=dɔɔn
+4	ดอน	ดอน	NOUN	_	ExtPos=PROPN	7	nsubj	_	SpaceAfter=No|Gloss=hill|Translit=dɔːn
 5	เมือง	เมือง	NOUN	_	_	4	nmod	_	Gloss=city|Translit=mɯaŋ
 6	“	“	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	พรึบ	พรึบ	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=come-altogether|Translit=phrɯ̂p
 8	”	”	PUNCT	_	_	7	punct	_	_
-9	เวที	เวที	NOUN	_	_	7	obl:lmod	_	SpaceAfter=No|Gloss=stage|Translit=wee-thii
-10	ปราศรัย	ปราศรัย	VERB	_	_	9	acl	_	SpaceAfter=No|Gloss=address|Translit=praa-sǎj
-11	กว่า	กว่า	DET	_	_	13	det	_	Gloss=more-than|Translit=kwàa
-12	3,000	3,000	NUM	_	_	13	nummod	_	Gloss=3,000|Translit=sǎam-phan
+9	เวที	เวที	NOUN	_	_	7	obl:lmod	_	SpaceAfter=No|Gloss=stage|Translit=weː-thiː
+10	ปราศรัย	ปราศรัย	VERB	_	_	9	acl	_	SpaceAfter=No|Gloss=address|Translit=praː-sǎj
+11	กว่า	กว่า	DET	_	_	13	det	_	Gloss=more-than|Translit=kwàː
+12	3,000	3,000	NUM	_	_	13	nummod	_	Gloss=3,000|Translit=sǎːm-phan
 13	คน	คน	NOUN	_	NounType=Clf	4	clf	_	Gloss=person|Translit=khon
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_4
 # text = “สุดารัตน์” ประกาศ “แก้ ทุกข์ มหานคร” ทันทีทั้งฝุ่นพิษ น้ำท่วมซ้ำซาก ดันศึกษา Project สร้างเขื่อนในอ่าวไทย ก่อนกรุงเทพฯ จะจมบาดาลใน 10 ปีข้างหน้า จากสภาวะโลกร้อน พร้อมใช้เทคโนโลยี ลุยจัดการปัญหา การันตีบอกลา ฝุ่นพิษภายใน 3 ปีต้องจบ 
 # text_en = 
-# tokenised text = “ สุดารัตน์ ” ประกาศ “ แก้ ทุกข์ มหา นคร ” ทันที ทั้ง ฝุ่น พิษ น้ำ ท่วม ซ้ำซาก 
-# translit = 
+# tokenised text = “ สุดารัตน์ ” ประกาศ “ แก้ ทุกข์ มหานคร ” ทันที ทั้ง ฝุ่น พิษ น้ำ ท่วม ซ้ำซาก ดัน ศึกษา Project สร้าง เขื่อน ใน อ่าว ไทย ก่อน กรุง เทพ ฯ จะ จม บาดาล ใน 10 ปี ข้าง หน้า จาก สภาวะ โลก ร้อน พร้อม ใช้ เทคโนโลยี ลุย จัดการ ปัญหา การันตี บอก ลา ฝุ่น พิษ ภาย ใน 3 ปี ต้อง จบ
+# translit = /sù-daː-rát/ /pràʔ-kàːt/ /kɛ̂ː/ /thúk/ /má-hǎː-ná-khɔːn/ /than-thiː/ /tháŋ/ /fùn/ /pít/ /náːm/ /thûam/ /sám-sâːk/ /dan/ /sɯ̀k-sǎː/ /phroː-cèk/ /sâːŋ/ /khɯ̀an/ /naj/ /ʔàːw/ /thaj/ /kɔ̀ːn/ /kruŋ/ /thêːp/ /càʔ/ /com/ /baː-daːn/ /naj/ /sìp/ /piː/ /khâːŋ/ /nâː/ /càːk/ /sà-phaː-wáʔ/ /lôːk/ /rɔ́ːn/ /phrɔ́ːm/ /cháj/ /thék-noː-loː-jiː/ /luj/ /càt-kaːn/ /pan-hǎː/ /kaː-ran-tiː/ /bɔ̀ːk/ /laː/ /fùn/ /pít/ /phaːj/ /naj/ /sǎːm/ /piː/ /tɔ̂ŋ/ /còp/
 # phrase_type = sentence
 # sentence_position = sub-headline
 # genre = political_news_article
@@ -144,50 +144,130 @@
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_5
 # text = ชู “เก่ง การุณ” นักสู้เพื่อประชาธิปไตยตัวจริง อ้อนคนดอนเมือง เลือกเก่ง คนที่ไม่เคยทิ้งชาวดอนเมือง 
-# text_en = 
+# text_en = (Sudarat) raised and admired "Keng Kaarun" for being a real fighter of Thai democracy, and begged Don Mueang people to vote for him who never left the people behind.
 # tokenised text =  ชู “ เก่ง การุณ ” นัก สู้ เพื่อ ประชาธิปไตย ตัว จริง อ้อน คน ดอน เมือง เลือก เก่ง คน ที่ ไม่ เคย ทิ้ง ชาว ดอน เมือง
-# translit = 
+# translit = /chuː/ /kèŋ/ /kaː-run/ /nák/ /sûː/ /phɯ̂a/ /pràʔ-chaː-thíp-pà-taj/ /tua/ /ciŋ/ /ʔɔ̂ːn/ /khon/ /dɔːn/ /mɯaŋ/ /lɯ̂ak/ /kèŋ/ /khon/ /thîː/ /mâj/ /khɤːj/ /thíŋ/ /chaːw/ /dɔːn/ /mɯaŋ/
 # phrase_type = sentence
 # sentence_position = sub-headline
 # genre = political_news_article
 # source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
-1	ชู	_	VERB	_	_	_	_	_	_
-2	“	_	PUNCT	_	_	_	_	_	_
-3	เก่ง	_	PROPN	_	_	_	_	_	_
-4	การุณ	_	PROPN	_	_	_	_	_	_
-5	”	_	PUNCT	_	_	_	_	_	_
-6	นัก	_	NOUN	_	_	_	_	_	_
-7	สู้	_	VERB	_	_	_	_	_	_
-8	เพื่อ	_	ADP	_	_	_	_	_	_
-9	ประชาธิปไตย	_	NOUN	_	_	_	_	_	_
-10	ตัว	_	NOUN	_	_	_	_	_	_
-11	จริง	_	ADJ	_	_	_	_	_	_
-12	อ้อน	_	VERB	_	_	_	_	_	_
-13	คน	_	NOUN	_	_	_	_	_	_
-14	ดอน	_	NOUN	_	_	_	_	_	_
-15	เมือง	_	NOUN	_	_	_	_	_	_
-16	เลือก	_	VERB	_	_	_	_	_	_
-17	เก่ง	_	PROPN	_	_	_	_	_	_
-18	คน	_	NOUN	_	_	_	_	_	_
-19	ที่	_	PRON	_	_	_	_	_	_
-20	ไม่	_	PART	_	_	_	_	_	_
-21	เคย	_	AUX	_	_	_	_	_	_
-22	ทิ้ง	_	VERB	_	_	_	_	_	_
-23	ชาว	_	NOUN	_	_	_	_	_	_
-24	ดอน	_	NOUN	_	_	_	_	_	_
-25	เมือง	_	NOUN	_	_	_	_	_	_
+1	ชู	ชู	VERB	_	_	0	root	_	Gloss=raise|Translit=chuː
+2	“	“	PUNCT	_	_	3	punct	_	SpaceAfter=No
+3	เก่ง	เก่ง	PROPN	_	ExtPos=PROPN	1	obj	_	Gloss=Keng|Translit=kèŋ
+4	การุณ	การุณ	PROPN	_	ExtPos=PROPN	3	flat	_	SpaceAfter=No|Gloss=Kaarun|Translit=kaː-run
+5	”	”	PUNCT	_	_	3	punct	_	_
+6	นัก	นัก	NOUN	_	_	1	xcomp	_	SpaceAfter=No|Gloss=doer|Translit=nák
+7	สู้	สู้	VERB	_	_	6	acl	_	SpaceAfter=No|Gloss=fight|Translit=sûː
+8	เพื่อ	เพื่อ	ADP	_	_	9	case	_	SpaceAfter=No|Gloss=for|Translit=phɯ̂a
+9	ประชาธิปไตย	ประชาธิปไตย	NOUN	_	_	7	obl	_	SpaceAfter=No|Gloss=democracy|Translit=pràʔ-chaː-thíp-pà-taj
+10	ตัว	ตัว	NOUN	_	_	6	nmod	_	SpaceAfter=No|Gloss=person|Translit=tua
+11	จริง	จริง	ADJ	_	_	10	amod	_	SpaceAfter=No|Gloss=real|Translit=ciŋ
+12	อ้อน	อ้อน	VERB	_	_	1	conj	_	SpaceAfter=No|Gloss=beg|Translit=ʔɔ̂ːn
+13	คน	คน	NOUN	_	_	12	obj	_	SpaceAfter=No|Gloss=person|Translit=khon
+14	ดอน	ดอน	NOUN	_	ExtPos=PROPN	13	nmod	_	SpaceAfter=No|Gloss=hill|Translit=dɔːn
+15	เมือง	เมือง	NOUN	_	_	14	nmod	_	Gloss=city|Translit=mɯaŋ
+16	เลือก	เลือก	VERB	_	_	12	xcomp	_	SpaceAfter=No|Gloss=choose|Translit=lɯ̂ak
+17	เก่ง	เก่ง	PROPN	_	ExtPos=PROPN	16	obj	_	Gloss=Keng|Translit=kèŋ
+18	คน	คน	NOUN	_	_	17	nmod	_	SpaceAfter=No|Gloss=person|Translit=khon
+19	ที่	ที่	PRON	_	_	22	nsubj	_	SpaceAfter=No|Gloss=that(REL)|Translit=thîː
+20	ไม่	ไม่	PART	_	_	21	advmod	_	SpaceAfter=No|Gloss=not|Translit=khon
+21	เคย	เคย	AUX	_	_	22	aux	_	SpaceAfter=No|Gloss=once(expressing an action done in the past)|Translit=khɤːj
+22	ทิ้ง	ทิ้ง	VERB	_	_	18	acl:relcl	_	SpaceAfter=No|Gloss=leave|Translit=thíŋ
+23	ชาว	ชาว	NOUN	_	_	22	obj	_	SpaceAfter=No|Gloss=people|Translit=chaːw
+24	ดอน	ดอน	NOUN	_	ExtPos=PROPN	23	nmod	_	SpaceAfter=No|Gloss=hill|Translit=dɔːn
+25	เมือง	เมือง	NOUN	_	_	24	nmod	_	Gloss=city|Translit=mɯaŋ
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_6
 # text = 16.00น.ที่ ชุมชนปิ่นเจริญ 2 เขตดอนเมือง คุณหญิงสุดารัตน์ เกยุราพันธุ์ หัวหน้าพรรค น.ต.ศิธาทิวารี เลขาธิการพรรค นายสุพันธุ์ มงคลสุธี รองหัวหน้าพรรค น.อ.อนุดิษฐ์ นาครทรรพ ผอ.สำนักงานปราบโกง นายการุณ โหสกุล ว่าที่ผู้สมัคร ส.ส.เขตดอนเมือง พรรคไทยสร้างไทย ขึ้นเวทีปราศรัย “แก้ ทุกข์ มหานคร กทม.”พบปะพี่น้องประชาชนชาวดอนเมือง ที่ปิ่นเจริญ 2 ซึ่งมีพี่น้องชาวดอนเมืองแห่ฟังกว่า 3,000 คน
 # text_en = 
-# tokenised text = 
+# tokenised text = 16.00 น. ที่ ชุมชน ปิ่น เจริญ 2 เขต ดอน เมือง คุณหญิง สุดารัตน์ เกยุราพันธุ์ หัวหน้า พรรค น.ต. ศิธา ทิวารี เลขาธิการ พรรค นาย สุพันธุ์ มงคลสุธี รอง หัวหน้า พรรค น.อ. อนุดิษฐ์ นาครทรรพ ผอ. สำนัก งาน ปราบ โกง นาย การุณ โหสกุล ว่าที่ ผู้ สมัคร ส.ส. เขต ดอน เมือง พรรค ไทย สร้าง ไทย ขึ้น เวที ปราศรัย “ แก้ ทุกข์ มหานคร กทม. ” พบปะ พี่ น้อง ประชาชน ชาว ดอน เมือง ที่ ปิ่น เจริญ 2 ซึ่ง มี พี่ น้อง ชาว ดอน เมือง แห่ ฟัง กว่า 3,000 คน
 # translit = 
 # phrase_type = sentence
 # sentence_position = 
 # genre = political_news_article
 # source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
+1	16.00	_	_	_	_	_	_	_	_
+2	น.	_	_	_	_	_	_	_	_
+3	ที่	_	_	_	_	_	_	_	_
+4	ชุมชน	_	_	_	_	_	_	_	_
+5	ปิ่น	_	_	_	_	_	_	_	_
+6	เจริญ	_	_	_	_	_	_	_	_
+7	2	_	_	_	_	_	_	_	_
+8	เขต	_	_	_	_	_	_	_	_
+9	ดอน	_	_	_	_	_	_	_	_
+10	เมือง	_	_	_	_	_	_	_	_
+11	คุณหญิง	_	_	_	_	_	_	_	_
+12	สุดารัตน์	_	_	_	_	_	_	_	_
+13	เกยุราพันธุ์	_	_	_	_	_	_	_	_
+14	หัวหน้า	_	_	_	_	_	_	_	_
+15	พรรค	_	_	_	_	_	_	_	_
+16	น.ต.	_	_	_	_	_	_	_	_
+17	ศิธา	_	_	_	_	_	_	_	_
+18	ทิวารี	_	_	_	_	_	_	_	_
+19	เลขาธิการ	_	_	_	_	_	_	_	_
+20	พรรค	_	_	_	_	_	_	_	_
+21	นาย	_	_	_	_	_	_	_	_
+22	สุพันธุ์	_	_	_	_	_	_	_	_
+23	มงคลสุธี	_	_	_	_	_	_	_	_
+24	รอง	_	_	_	_	_	_	_	_
+25	หัวหน้า	_	_	_	_	_	_	_	_
+26	พรรค	_	_	_	_	_	_	_	_
+27	น.อ.	_	_	_	_	_	_	_	_
+28	อนุดิษฐ์	_	_	_	_	_	_	_	_
+29	นาครทรรพ	_	_	_	_	_	_	_	_
+30	ผอ.	_	_	_	_	_	_	_	_
+31	สำนัก	_	_	_	_	_	_	_	_
+32	งาน	_	_	_	_	_	_	_	_
+33	ปราบ	_	_	_	_	_	_	_	_
+34	โกง	_	_	_	_	_	_	_	_
+35	นาย	_	_	_	_	_	_	_	_
+36	การุณ	_	_	_	_	_	_	_	_
+37	โหสกุล	_	_	_	_	_	_	_	_
+38	ว่าที่	_	_	_	_	_	_	_	_
+39	ผู้	_	_	_	_	_	_	_	_
+40	สมัคร	_	_	_	_	_	_	_	_
+41	ส.ส.	_	_	_	_	_	_	_	_
+42	เขต	_	_	_	_	_	_	_	_
+43	ดอน	_	_	_	_	_	_	_	_
+44	เมือง	_	_	_	_	_	_	_	_
+45	พรรค	_	_	_	_	_	_	_	_
+46	ไทย	_	_	_	_	_	_	_	_
+47	สร้าง	_	_	_	_	_	_	_	_
+48	ไทย	_	_	_	_	_	_	_	_
+49	ขึ้น	_	_	_	_	_	_	_	_
+50	เวที	_	_	_	_	_	_	_	_
+51	ปราศรัย	_	_	_	_	_	_	_	_
+52	“	_	_	_	_	_	_	_	_
+53	แก้	_	_	_	_	_	_	_	_
+54	ทุกข์	_	_	_	_	_	_	_	_
+55	มหานคร	_	_	_	_	_	_	_	_
+56	กทม.	_	_	_	_	_	_	_	_
+57	”	_	_	_	_	_	_	_	_
+58	พบปะ	_	_	_	_	_	_	_	_
+59	พี่	_	_	_	_	_	_	_	_
+60	น้อง	_	_	_	_	_	_	_	_
+61	ประชาชน	_	_	_	_	_	_	_	_
+62	ชาว	_	_	_	_	_	_	_	_
+63	ดอน	_	_	_	_	_	_	_	_
+64	เมือง	_	_	_	_	_	_	_	_
+65	ที่	_	_	_	_	_	_	_	_
+66	ปิ่น	_	_	_	_	_	_	_	_
+67	เจริญ	_	_	_	_	_	_	_	_
+68	2	_	_	_	_	_	_	_	_
+69	ซึ่ง	_	_	_	_	_	_	_	_
+70	มี	_	_	_	_	_	_	_	_
+71	พี่	_	_	_	_	_	_	_	_
+72	น้อง	_	_	_	_	_	_	_	_
+73	ชาว	_	_	_	_	_	_	_	_
+74	ดอน	_	_	_	_	_	_	_	_
+75	เมือง	_	_	_	_	_	_	_	_
+76	แห่	_	_	_	_	_	_	_	_
+77	ฟัง	_	_	_	_	_	_	_	_
+78	กว่า	_	_	_	_	_	_	_	_
+79	3,000	_	_	_	_	_	_	_	_
+80	คน	_	_	_	_	_	_	_	_
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_7
 # text = คุณหญิงสุดารัตน์ กล่าวว่า ลงพื้นที่ดอนเมืองครั้งใดอบอุ่นหัวใจทุกครั้ง มีความผูกพันกับพี่น้องชาวดอนเมืองเนื่องจากเป็นส.ส.ครั้งแรกในพื้นที่แห่งนี้ เห็นปัญหาเห็นความทุกข์ยากและคอยดูแลช่วยเหลือกันมาตลอด ได้ผลักดันหลายนโยบายจนสำเร็จเป็นรูปธรรม แต่ก็ยังมีอีกหลากหลายปัญหาที่เกิดขึ้นและยังไม่ได้รับการแก้ไขอย่างจริงจัง
@@ -420,7 +500,7 @@
 # source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 
-# sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_28
+# sent_id = Election_Thailand_2023_News_Article_28
 # text = 
 # text_en = 
 # tokenised text = 
@@ -439,7 +519,7 @@
 # phrase_type = sentence
 # sentence_position = 
 # genre = political_news_article
-# source https://www.matichonweekly.com/hot-news/article_656027 
+# source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 
 # sent_id = Election_Thailand_2023_News_Article_30
