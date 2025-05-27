@@ -133,7 +133,7 @@
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_4
 # text = “สุดารัตน์” ประกาศ “แก้ ทุกข์ มหานคร” ทันทีทั้งฝุ่นพิษ น้ำท่วมซ้ำซาก ดันศึกษา Project สร้างเขื่อนในอ่าวไทย ก่อนกรุงเทพฯ จะจมบาดาลใน 10 ปีข้างหน้า จากสภาวะโลกร้อน พร้อมใช้เทคโนโลยี ลุยจัดการปัญหา การันตีบอกลา ฝุ่นพิษภายใน 3 ปีต้องจบ 
-# text_en = 
+# text_en = "Sudarat" announced "We will solve the problems of smog and repeated flooding in Bangkok immediately, promote a study on constructing a dam in Gulf of Thailand to prevent Bangkok from sinking in the next 10 years as a result of the global warming, promptly use the technology to solve the problems, and guarantee to certainly eliminate smog in the city within 3 years". 
 # tokenised text = “ สุดารัตน์ ” ประกาศ “ แก้ ทุกข์ มหานคร ” ทันที ทั้ง ฝุ่น พิษ น้ำ ท่วม ซ้ำซาก ดัน ศึกษา Project สร้าง เขื่อน ใน อ่าว ไทย ก่อน กรุง เทพ ฯ จะ จม บาดาล ใน 10 ปี ข้าง หน้า จาก สภาวะ โลก ร้อน พร้อม ใช้ เทคโนโลยี ลุย จัดการ ปัญหา การันตี บอก ลา ฝุ่น พิษ ภาย ใน 3 ปี ต้อง จบ
 # translit = /sù-daː-rát/ /pràʔ-kàːt/ /kɛ̂ː/ /thúk/ /má-hǎː-ná-khɔːn/ /than-thiː/ /tháŋ/ /fùn/ /pít/ /náːm/ /thûam/ /sám-sâːk/ /dan/ /sɯ̀k-sǎː/ /phroː-cèk/ /sâːŋ/ /khɯ̀an/ /naj/ /ʔàːw/ /thaj/ /kɔ̀ːn/ /kruŋ/ /thêːp/ /càʔ/ /com/ /baː-daːn/ /naj/ /sìp/ /piː/ /khâːŋ/ /nâː/ /càːk/ /sà-phaː-wáʔ/ /lôːk/ /rɔ́ːn/ /phrɔ́ːm/ /cháj/ /thék-noː-loː-jiː/ /luj/ /càt-kaːn/ /pan-hǎː/ /kaː-ran-tiː/ /bɔ̀ːk/ /laː/ /fùn/ /pít/ /phaːj/ /naj/ /sǎːm/ /piː/ /tɔ̂ŋ/ /còp/
 # phrase_type = sentence
@@ -141,6 +141,131 @@
 # genre = political_news_article
 # source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
+1	“	“	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	สุดารัตน์	สุดารัตน์	PROPN	_	ExtPos=PROPN	4	nsubj	_	SpaceAfter=No|Gloss=Sudarat|Translit=sù-daː-rát
+3	”	”	PUNCT	_	_	2	punct	_	_
+4	ประกาศ	ประกาศ	VERB	_	_	0	root	_	Gloss=announce|Translit=pràʔ-kàːt
+5	“	“	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	แก้	แก้	VERB	_	_	4	ccomp	_	Gloss=solve|Translit=kɛ̂ː
+7	ทุกข์	ทุกข์	NOUN	_	_	6	obj	_	Gloss=suffer|Translit=thúk
+8	มหานคร	มหานคร	NOUN	_	_	7	nmod	_	SpaceAfter=No|Gloss=metropolis|Translit=má-hǎː-ná-khɔːn
+9	”	”	PUNCT	_	_	6	punct	_	_
+10	ทันที	ทันที	ADV	_	_	6	advmod	_	SpaceAfter=No|Gloss=immediately|Translit=than-thiː
+11	ทั้ง	ทั้ง	DET	_	_	12	det	_	SpaceAfter=No|Gloss=both|Translit=tháŋ
+12	ฝุ่น	ฝุ่น	NOUN	_	_	7	appos	_	SpaceAfter=No|Gloss=dust|Translit=fùn
+13	พิษ	พิษ	NOUN	_	_	12	nmod	_	Gloss=poison|Translit=pít
+14	น้ำ	น้ำ	NOUN	_	_	12	conj	_	SpaceAfter=No|Gloss=water|Translit=náːm
+15	ท่วม	ท่วม	VERB	_	_	14	acl	_	SpaceAfter=No|Gloss=flood|Translit=thûam
+16	ซ้ำซาก	ซ้ำซาก	VERB	_	_	15	advcl	_	Gloss=repeat|Translit=sám-sâːk
+17	ดัน	ดัน	VERB	_	_	4	conj	_	SpaceAfter=No|Gloss=push|Translit=dan
+18	ศึกษา	ศึกษา	VERB	_	_	17	advcl	_	Gloss=study|Translit=sɯ̀k-sǎː
+19	Project	Project	NOUN	_	_	18	obj	_	Gloss=Project|Translit=phroː-cèk
+20	สร้าง	สร้าง	VERB	_	_	19	acl	_	SpaceAfter=No|Gloss=build|Translit=sâːŋ
+21	เขื่อน	เขื่อน	NOUN	_	_	20	obj	_	SpaceAfter=No|Gloss=dam|Translit=khɯ̀an
+22	ใน	ใน	ADP	_	_	23	case	_	SpaceAfter=No|Gloss=in|Translit=naj
+23	อ่าว	อ่าว	NOUN	_	ExtPos=PROPN	20	obl	_	SpaceAfter=No|Gloss=gulf|Translit=ʔàːw
+24	ไทย	ไทย	PROPN	_	_	23	nmod	_	Gloss=Thai|Translit=thaj
+25	ก่อน	ก่อน	SCONJ	_	_	30	mark	_	SpaceAfter=No|Gloss=before|Translit=kɔ̀ːn
+26	กรุง	กรุง	NOUN	_	ExtPos=PROPN	30	nsubj	_	SpaceAfter=No|Gloss=city|Translit=kruŋ
+27	เทพ	เทพ	NOUN	_	_	26	nmod	_	SpaceAfter=No|Gloss=angel|Translit=thêːp
+28	ฯ	ฯ	PUNCT	_	_	26	punct	_	_
+29	จะ	จะ	ADV	_	_	30	advmod	_	SpaceAfter=No|Gloss=will|Translit=càʔ
+30	จม	จม	VERB	_	_	17	advcl	_	SpaceAfter=No|Gloss=sink|Translit=com
+31	บาดาล	บาดาล	NOUN	_	_	30	obl:lmod	_	SpaceAfter=No|Gloss=subterranean|Translit=baː-daːn
+32	ใน	ใน	ADP	_	_	34	case	_	Gloss=in|Translit=naj
+33	10	10	NUM	_	_	34	nummod	_	Gloss=10|Translit=sìp
+34	ปี	ปี	NOUN	_	NounType=Clf	30	obl	_	SpaceAfter=No|Gloss=year|Translit=piː
+35	ข้าง	ข้าง	NOUN	_	_	34	nmod	_	SpaceAfter=No|Gloss=side|Translit=khâːŋ
+36	หน้า	หน้า	ADJ	_	_	35	amod	_	Gloss=front|Translit=nâː
+37	จาก	จาก	ADP	_	_	38	case	_	SpaceAfter=No|Gloss=from|Translit=càːk
+38	สภาวะ	สภาวะ	NOUN	_	_	30	obl	_	SpaceAfter=No|Gloss=condition|Translit=sà-phaː-wáʔ
+39	โลก	โลก	NOUN	_	_	38	nmod	_	SpaceAfter=No|Gloss=earth|Translit=lôːk
+40	ร้อน	ร้อน	ADJ	_	_	39	amod	_	Gloss=hot|Translit=rɔ́ːn
+41	พร้อม	พร้อม	VERB	_	_	4	conj	_	SpaceAfter=No|Gloss=ready|Translit=phrɔ́ːm
+42	ใช้	ใช้	VERB	_	_	41	compound:svc	_	SpaceAfter=No|Gloss=use|Translit=cháj
+43	เทคโนโลยี	เทคโนโลยี	NOUN	_	Foreign=Yes	42	obj	_	Gloss=technology|Translit=thék-noː-loː-jiː
+44	ลุย	ลุย	VERB	_	_	41	advcl	_	SpaceAfter=No|Gloss=go through|Translit=luj
+45	จัดการ	จัดการ	VERB	_	_	44	compound:svc	_	SpaceAfter=No|Gloss=manage|Translit=càt-kaːn
+46	ปัญหา	ปัญหา	NOUN	_	_	45	obj	_	Gloss=problem|Translit=pan-hǎː
+47	การันตี	การันตี	VERB	_	Foreign=Yes	4	conj	_	SpaceAfter=No|Gloss=guarantee|Translit=kaː-ran-tiː
+48	บอก	บอก	VERB	_	_	47	ccomp	_	SpaceAfter=No|Gloss=tell|Translit=bɔ̀ːk
+49	ลา	ลา	VERB	_	_	48	compound:svc	_	Gloss=say goodbye|Translit=laː
+50	ฝุ่น	ฝุ่น	NOUN	_	_	49	obj	_	SpaceAfter=No|Gloss=dust|Translit=fùn
+51	พิษ	พิษ	NOUN	_	_	50	nmod	_	SpaceAfter=No|Gloss=poison|Translit=pít
+52	ภาย	ภาย	NOUN	_	_	57	obl:tmod	_	SpaceAfter=No|Gloss=period|Translit=phaːj
+53	ใน	ใน	ADP	_	_	55	case	_	Gloss=in|Translit=naj
+54	3	3	NUM	_	_	55	nummod	_	Gloss=3|Translit=sǎːm
+55	ปี	ปี	NOUN	_	NounType=Clf	52	nmod	_	SpaceAfter=No|Gloss=year|Translit=piː
+56	ต้อง	ต้อง	AUX	_	_	57	aux	_	SpaceAfter=No|Gloss=must|Translit=tɔ̂ŋ
+57	จบ	จบ	VERB	_	_	50	acl	_	Gloss=end|Translit=còp
+
+# sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_4_Variant
+# text = “สุดารัตน์” ประกาศ “แก้ ทุกข์ มหานคร” ทันทีทั้งฝุ่นพิษ น้ำท่วมซ้ำซาก ดันศึกษา Project สร้างเขื่อนในอ่าวไทย ก่อนกรุงเทพฯ จะจมบาดาลใน 10 ปีข้างหน้า จากสภาวะโลกร้อน พร้อมใช้เทคโนโลยี ลุยจัดการปัญหา การันตีบอกลา ฝุ่นพิษภายใน 3 ปีต้องจบ 
+# text_en = "Sudarat" announced "We will solve the problems of smog and repeated flooding in Bangkok immediately, promote a study on constructing a dam in Gulf of Thailand to prevent Bangkok from sinking in the next 10 years as a result of the global warming, promptly use the technology to solve the problems, and guarantee to certainly eliminate smog in the city within 3 years". 
+# tokenised text = “ สุดารัตน์ ” ประกาศ “ แก้ ทุกข์ มหานคร ” ทันที ทั้ง ฝุ่น พิษ น้ำ ท่วม ซ้ำซาก ดัน ศึกษา Project สร้าง เขื่อน ใน อ่าว ไทย ก่อน กรุง เทพ ฯ จะ จม บาดาล ใน 10 ปี ข้าง หน้า จาก สภาวะ โลก ร้อน พร้อม ใช้ เทคโนโลยี ลุย จัดการ ปัญหา การันตี บอก ลา ฝุ่น พิษ ภาย ใน 3 ปี ต้อง จบ
+# translit = /sù-daː-rát/ /pràʔ-kàːt/ /kɛ̂ː/ /thúk/ /má-hǎː-ná-khɔːn/ /than-thiː/ /tháŋ/ /fùn/ /pít/ /náːm/ /thûam/ /sám-sâːk/ /dan/ /sɯ̀k-sǎː/ /phroː-cèk/ /sâːŋ/ /khɯ̀an/ /naj/ /ʔàːw/ /thaj/ /kɔ̀ːn/ /kruŋ/ /thêːp/ /càʔ/ /com/ /baː-daːn/ /naj/ /sìp/ /piː/ /khâːŋ/ /nâː/ /càːk/ /sà-phaː-wáʔ/ /lôːk/ /rɔ́ːn/ /phrɔ́ːm/ /cháj/ /thék-noː-loː-jiː/ /luj/ /càt-kaːn/ /pan-hǎː/ /kaː-ran-tiː/ /bɔ̀ːk/ /laː/ /fùn/ /pít/ /phaːj/ /naj/ /sǎːm/ /piː/ /tɔ̂ŋ/ /còp/
+# phrase_type = sentence
+# sentence_position = sub-headline
+# genre = political_news_article
+# source = https://www.matichonweekly.com/hot-news/article_656027 
+# year = 2023
+1	“	“	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	สุดารัตน์	สุดารัตน์	PROPN	_	ExtPos=PROPN	4	nsubj	_	SpaceAfter=No|Gloss=Sudarat|Translit=sù-daː-rát
+3	”	”	PUNCT	_	_	2	punct	_	_
+4	ประกาศ	ประกาศ	VERB	_	_	0	root	_	Gloss=announce|Translit=pràʔ-kàːt
+5	“	“	PUNCT	_	_	6	punct	_	SpaceAfter=No
+6	แก้	แก้	VERB	_	_	4	ccomp	_	Gloss=solve|Translit=kɛ̂ː
+7	ทุกข์	ทุกข์	NOUN	_	_	6	obj	_	Gloss=solve|Translit=kɛ̂ː
+8	มหานคร	มหานคร	NOUN	_	_	7	nmod	_	SpaceAfter=No|Gloss=metropolis|Translit=má-hǎː-ná-khɔːn
+9	”	”	PUNCT	_	_	6	punct	_	_
+10	ทันที	ทันที	ADV	_	_	6	advmod	_	SpaceAfter=No|Gloss=immediately|Translit=than-thiː
+11	ทั้ง	ทั้ง	DET	_	_	12	det	_	SpaceAfter=No|Gloss=both|Translit=tháŋ
+12	ฝุ่น	ฝุ่น	NOUN	_	_	7	appos	_	SpaceAfter=No|Gloss=dust|Translit=fùn
+13	พิษ	พิษ	NOUN	_	_	12	nmod	_	Gloss=poison|Translit=pít
+14	น้ำ	น้ำ	NOUN	_	_	12	conj	_	SpaceAfter=No|Gloss=water|Translit=náːm
+15	ท่วม	ท่วม	VERB	_	_	14	acl	_	SpaceAfter=No|Gloss=flood|Translit=thûam
+16	ซ้ำซาก	ซ้ำซาก	VERB	_	_	15	advcl	_	Gloss=repeat|Translit=sám-sâːk
+17	ดัน	ดัน	VERB	_	_	4	conj	_	SpaceAfter=No|Gloss=push|Translit=dan
+18	ศึกษา	ศึกษา	VERB	_	_	17	advcl	_	Gloss=study|Translit=sɯ̀k-sǎː
+19	Project	Project	NOUN	_	_	18	obj	_	Gloss=Project|Translit=phroː-cèk
+20	สร้าง	สร้าง	VERB	_	_	19	acl	_	SpaceAfter=No|Gloss=build|Translit=sâːŋ
+21	เขื่อน	เขื่อน	NOUN	_	_	20	obj	_	SpaceAfter=No|Gloss=dam|Translit=khɯ̀an
+22	ใน	ใน	ADP	_	_	23	case	_	SpaceAfter=No|Gloss=in|Translit=naj
+23	อ่าว	อ่าว	NOUN	_	ExtPos=PROPN	20	obl	_	SpaceAfter=No|Gloss=gulf|Translit=ʔàːw
+24	ไทย	ไทย	PROPN	_	_	23	nmod	_	Gloss=Thai|Translit=thaj
+25	ก่อน	ก่อน	SCONJ	_	_	30	mark	_	SpaceAfter=No|Gloss=before|Translit=kɔ̀ːn
+26	กรุง	กรุง	NOUN	_	ExtPos=PROPN	30	nsubj	_	SpaceAfter=No|Gloss=city|Translit=kruŋ
+27	เทพ	เทพ	NOUN	_	_	26	nmod	_	SpaceAfter=No|Gloss=angel|Translit=thêːp
+28	ฯ	ฯ	PUNCT	_	_	26	punct	_	_
+29	จะ	จะ	ADV	_	_	30	advmod	_	SpaceAfter=No|Gloss=will|Translit=càʔ
+30	จม	จม	VERB	_	_	17	advcl	_	SpaceAfter=No|Gloss=sink|Translit=com
+31	บาดาล	บาดาล	NOUN	_	_	30	obl:lmod	_	SpaceAfter=No|Gloss=subterranean|Translit=baː-daːn
+32	ใน	ใน	ADP	_	_	34	case	_	Gloss=in|Translit=naj
+33	10	10	NUM	_	_	34	nummod	_	Gloss=10|Translit=sìp
+34	ปี	ปี	NOUN	_	NounType=Clf	30	obl	_	SpaceAfter=No|Gloss=year|Translit=piː
+35	ข้าง	ข้าง	NOUN	_	_	34	nmod	_	SpaceAfter=No|Gloss=side|Translit=khâːŋ
+36	หน้า	หน้า	ADJ	_	_	35	amod	_	Gloss=front|Translit=nâː
+37	จาก	จาก	ADP	_	_	38	case	_	SpaceAfter=No|Gloss=from|Translit=càːk
+38	สภาวะ	สภาวะ	NOUN	_	_	30	obl	_	SpaceAfter=No|Gloss=condition|Translit=sà-phaː-wáʔ
+39	โลก	โลก	NOUN	_	_	38	nmod	_	SpaceAfter=No|Gloss=earth|Translit=lôːk
+40	ร้อน	ร้อน	ADJ	_	_	39	amod	_	Gloss=hot|Translit=rɔ́ːn
+41	พร้อม	พร้อม	ADP	_	_	42	mark	_	SpaceAfter=No|Gloss=ready|Translit=phrɔ́ːm
+42	ใช้	ใช้	VERB	_	_	18	advcl	_	SpaceAfter=No|Gloss=use|Translit=cháj
+43	เทคโนโลยี	เทคโนโลยี	NOUN	_	Foreign=Yes	42	obj	_	Gloss=technology|Translit=thék-noː-loː-jiː
+44	ลุย	ลุย	VERB	_	_	43	acl	_	SpaceAfter=No|Gloss=go through|Translit=luj
+45	จัดการ	จัดการ	VERB	_	_	44	compound:svc	_	SpaceAfter=No|Gloss=manage|Translit=càt-kaːn
+46	ปัญหา	ปัญหา	NOUN	_	_	45	obj	_	Gloss=problem|Translit=pan-hǎː
+47	การันตี	การันตี	VERB	_	Foreign=Yes	4	conj	_	SpaceAfter=No|Gloss=guarantee|Translit=kaː-ran-tiː
+48	บอก	บอก	VERB	_	_	47	ccomp	_	SpaceAfter=No|Gloss=tell|Translit=bɔ̀ːk
+49	ลา	ลา	VERB	_	_	48	compound:svc	_	Gloss=say goodbye|Translit=laː
+50	ฝุ่น	ฝุ่น	NOUN	_	_	49	obj	_	SpaceAfter=No|Gloss=dust|Translit=fùn
+51	พิษ	พิษ	NOUN	_	_	50	nmod	_	SpaceAfter=No|Gloss=poison|Translit=pít
+52	ภาย	ภาย	NOUN	_	_	57	obl:tmod	_	SpaceAfter=No|Gloss=period|Translit=phaːj
+53	ใน	ใน	ADP	_	_	55	case	_	Gloss=in|Translit=naj
+54	3	3	NUM	_	_	55	nummod	_	Gloss=3|Translit=sǎːm
+55	ปี	ปี	NOUN	_	NounType=Clf	52	nmod	_	SpaceAfter=No|Gloss=year|Translit=piː
+56	ต้อง	ต้อง	AUX	_	_	57	aux	_	SpaceAfter=No|Gloss=must|Translit=tɔ̂ŋ
+57	จบ	จบ	VERB	_	_	50	acl	_	Gloss=end|Translit=còp
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_5
 # text = ชู “เก่ง การุณ” นักสู้เพื่อประชาธิปไตยตัวจริง อ้อนคนดอนเมือง เลือกเก่ง คนที่ไม่เคยทิ้งชาวดอนเมือง 
