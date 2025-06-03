@@ -331,11 +331,11 @@
 16	น.ต.	น.ต.	NOUN	_	_	11	conj	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=|Translit=
 17	ศิธา	ศิธา	PROPN	_	_	16	flat	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=Sitha|Translit=
 18	ทิวารี	ทิวารี	PROPN	_	_	17	flat	_	Gloss=|Translit=
-19	เลขาธิการ	เลขาธิการ	NOUN	_	_	16	appos	_	SpaceAfter=No|Gloss=|Translit=
+19	เลขาธิการ	เลขาธิการ	NOUN	_	_	16	appos	_	SpaceAfter=No|Gloss=Thiwaree|Translit=
 20	พรรค	พรรค	NOUN	_	_	19	nmod	_	Gloss=Party|Translit=phák
 21	นาย	นาย	NOUN	_	_	11	conj	_	SpaceAfter=No|Gloss=Mister|Translit=
 22	สุพันธุ์	สุพันธุ์	PROPN	_	_	21	flat	_	Gloss=Suphan|Translit=
-23	มงคลสุธี	มงคลสุธี	PROPN	_	_	22	flat	_	Gloss=|Translit=
+23	มงคลสุธี	มงคลสุธี	PROPN	_	_	22	flat	_	Gloss=Mongkhonsuthee|Translit=
 24	รอง	รอง	VERB	_	_	21	obj	_	SpaceAfter=No|Gloss=|Translit=
 25	หัวหน้า	หัวหน้า	NOUN	_	_	24	obj	_	SpaceAfter=No|Gloss=|Translit=
 26	พรรค	พรรค	NOUN	_	_	25	nmod	_	Gloss=Party|Translit=phák
@@ -353,7 +353,7 @@
 38	ผู้	ผู้	NOUN	_	_	37	obj	_	SpaceAfter=No|Gloss=|Translit=
 39	สมัคร	สมัคร	VERB	_	_	38	acl	_	Gloss=apply|Translit=
 40	ส.ส.	ส.ส.	NOUN	_	_	39	obj	_	SpaceAfter=No|Gloss=|Translit=
-41	เขต	เขต	NOUN	_	_	40	nmod	_	SpaceAfter=No|Gloss=|Translit=
+41	เขต	เขต	NOUN	_	_	40	nmod	_	SpaceAfter=No|Gloss=district|Translit=
 42	ดอน	ดอน	NOUN	_	ExtPos=PROPN	41	nmod	_	SpaceAfter=No|Gloss=hill|Translit=dɔːn
 43	เมือง	เมือง	NOUN	_	_	42	nmod	_	Gloss=city|Translit=mɯaŋ
 44	พรรค	พรรค	NOUN	_	_	40	nmod	_	SpaceAfter=No|Gloss=Party|Translit=phák
@@ -368,7 +368,7 @@
 53	ทุกข์	ทุกข์	NOUN	_	_	52	obj	_	Gloss=suffer|Translit=thúk
 54	มหานคร	มหานคร	NOUN	_	_	53	nmod	_	Gloss=metropolis|Translit=má-hǎː-ná-khɔːn
 55	กทม.	กทม.	PROPN	_	_	54	appos	_	SpaceAfter=No|Gloss=BKK|Translit=
-56	”	”	PUNCT	_	_	52	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=|Translit=
+56	”	”	PUNCT	_	_	52	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 57	พบปะ	พบปะ	VERB	_	_	48	conj	_	SpaceAfter=No|Gloss=meet|Translit=
 58	พี่	พี่	NOUN	_	_	57	obj	_	SpaceAfter=No|Gloss=|Translit=
 59	น้อง	น้อง	NOUN	_	_	58	flat	_	SpaceAfter=No|Gloss=|Translit=
