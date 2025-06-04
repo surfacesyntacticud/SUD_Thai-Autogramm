@@ -423,7 +423,7 @@
 16	น.ต.	น.ต.	NOUN	_	_	11	conj	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=Lieutenant Commander|Translit=nɔː-tɔː
 17	ศิธา	ศิธา	PROPN	_	_	16	flat	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=Sita|Translit=sì-thaː
 18	ทิวารี	ทิวารี	PROPN	_	_	17	flat	_	Gloss=Tiwari|Translit=thí-waː-riː
-19	เลขาธิการ	เลขาธิการ		NOUN	_	_	16	appos	_	SpaceAfter=No|Gloss=secretary|Translit=leː-khǎː-thí-kaːn
+19	เลขาธิการ	เลขาธิการ	NOUN	_	_	16	appos	_	SpaceAfter=No|Gloss=secretary|Translit=leː-khǎː-thí-kaːn
 20	พรรค	พรรค	NOUN	_	_	19	nmod	_	Gloss=Party|Translit=phák
 21	นาย	นาย	NOUN	_	_	11	conj	_	SpaceAfter=No|Gloss=Mister|Translit=naːj
 22	สุพันธุ์	สุพันธุ์	PROPN	_	_	21	flat	_	Gloss=Supant|Translit=sù-phan
