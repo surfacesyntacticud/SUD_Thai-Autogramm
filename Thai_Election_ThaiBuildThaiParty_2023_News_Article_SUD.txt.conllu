@@ -67,7 +67,7 @@
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_2
 # text = เผยแพร่	วันอาทิตย์ที่ 12 มีนาคม พ.ศ.2566
 # text_en = (The news article) was publicised on Sunday 12th March 2023.
-# tokenised text = เผยแพร่ วัน อาทิตย์ ที่ 12 มีนาคม พ.ศ. 2566
+# tokenised_text = เผยแพร่ วัน อาทิตย์ ที่ 12 มีนาคม พ.ศ. 2566
 # translit = /phɤ̌ːj-phrɛ̂ː/ /wan/ /ʔaː-thít/ /thîː/ /sìp-sɔ̌ːŋ/ /miː-naː-khom/ /phɔː-sɔ̌ː/ /sɔ̌ːŋ-phan-hâː-rɔ́j-hòk-sìp-hòk/
 # phrase_type = sentence
 # sentence_position = dateline
@@ -86,7 +86,7 @@
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_3
 # text = ไทยสร้างไทยดอนเมือง “พรึบ” เวทีปราศรัยกว่า 3,000 คน
 # text_en = The Thai Build Thai Party at Don Mueang, more than 3,000 people came and gathered together at the stage for a political speech.
-# tokenised text = ไทย สร้าง ไทย ดอน เมือง “ พรึบ ” เวที ปราศรัย กว่า 3,000 คน
+# tokenised_text = ไทย สร้าง ไทย ดอน เมือง “ พรึบ ” เวที ปราศรัย กว่า 3,000 คน
 # translit = /thaj/ /sâːŋ/ /thaj/ /dɔːn/ /mɯaŋ/ /phrɯ̂p/ /weː-thiː/ /praː-sǎj/ /kwàː/ /sǎːm-phan/ /khon/
 # phrase_type = sentence
 # sentence_position = sub-headline
@@ -110,7 +110,7 @@
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_3_Variant
 # text = ไทยสร้างไทยดอนเมือง “พรึบ” เวทีปราศรัยกว่า 3,000 คน
 # text_en = The Thai Build Thai Party, more than 3,000 Don Mueang people came and gathered at the stage for a political speech.
-# tokenised text = ไทย สร้าง ไทย ดอน เมือง “ พรึบ ” เวที ปราศรัย กว่า 3,000 คน
+# tokenised_text = ไทย สร้าง ไทย ดอน เมือง “ พรึบ ” เวที ปราศรัย กว่า 3,000 คน
 # translit = /thaj/ /sâːŋ/ /thaj/ /dɔːn/ /mɯaŋ/ /phrɯ̂p/ /weː-thiː/ /praː-sǎj/ /kwàː/ /sǎːm-phan/ /khon/
 # phrase_type = sentence
 # sentence_position = sub-headline
@@ -134,7 +134,7 @@
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_4
 # text = “สุดารัตน์” ประกาศ “แก้ ทุกข์ มหานคร” ทันทีทั้งฝุ่นพิษ น้ำท่วมซ้ำซาก ดันศึกษา Project สร้างเขื่อนในอ่าวไทย ก่อนกรุงเทพฯ จะจมบาดาลใน 10 ปีข้างหน้า จากสภาวะโลกร้อน พร้อมใช้เทคโนโลยี ลุยจัดการปัญหา การันตีบอกลา ฝุ่นพิษภายใน 3 ปีต้องจบ 
 # text_en = "Sudarat" announced "We will solve the problems of smog and repeated flooding in Bangkok immediately, promote a study on constructing a dam in Gulf of Thailand to prevent Bangkok from sinking in the next 10 years as a result of the global warming, promptly use the technology to solve the problems, and guarantee to certainly eliminate smog in the city within 3 years". 
-# tokenised text = “ สุดารัตน์ ” ประกาศ “ แก้ ทุกข์ มหานคร ” ทันที ทั้ง ฝุ่น พิษ น้ำ ท่วม ซ้ำซาก ดัน ศึกษา Project สร้าง เขื่อน ใน อ่าว ไทย ก่อน กรุง เทพ ฯ จะ จม บาดาล ใน 10 ปี ข้าง หน้า จาก สภาวะ โลก ร้อน พร้อม ใช้ เทคโนโลยี ลุย จัดการ ปัญหา การันตี บอก ลา ฝุ่น พิษ ภาย ใน 3 ปี ต้อง จบ
+# tokenised_text = “ สุดารัตน์ ” ประกาศ “ แก้ ทุกข์ มหานคร ” ทันที ทั้ง ฝุ่น พิษ น้ำ ท่วม ซ้ำซาก ดัน ศึกษา Project สร้าง เขื่อน ใน อ่าว ไทย ก่อน กรุง เทพ ฯ จะ จม บาดาล ใน 10 ปี ข้าง หน้า จาก สภาวะ โลก ร้อน พร้อม ใช้ เทคโนโลยี ลุย จัดการ ปัญหา การันตี บอก ลา ฝุ่น พิษ ภาย ใน 3 ปี ต้อง จบ
 # translit = /sù-daː-rát/ /pràʔ-kàːt/ /kɛ̂ː/ /thúk/ /má-hǎː-ná-khɔːn/ /than-thiː/ /tháŋ/ /fùn/ /pít/ /náːm/ /thûam/ /sám-sâːk/ /dan/ /sɯ̀k-sǎː/ /phroː-cèk/ /sâːŋ/ /khɯ̀an/ /naj/ /ʔàːw/ /thaj/ /kɔ̀ːn/ /kruŋ/ /thêːp/ /càʔ/ /com/ /baː-daːn/ /naj/ /sìp/ /piː/ /khâːŋ/ /nâː/ /càːk/ /sà-phaː-wáʔ/ /lôːk/ /rɔ́ːn/ /phrɔ́ːm/ /cháj/ /thék-noː-loː-jiː/ /luj/ /càt-kaːn/ /pan-hǎː/ /kaː-ran-tiː/ /bɔ̀ːk/ /laː/ /fùn/ /pít/ /phaːj/ /naj/ /sǎːm/ /piː/ /tɔ̂ŋ/ /còp/
 # phrase_type = sentence
 # sentence_position = sub-headline
@@ -202,7 +202,7 @@
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_4_Variant
 # text = “สุดารัตน์” ประกาศ “แก้ ทุกข์ มหานคร” ทันทีทั้งฝุ่นพิษ น้ำท่วมซ้ำซาก ดันศึกษา Project สร้างเขื่อนในอ่าวไทย ก่อนกรุงเทพฯ จะจมบาดาลใน 10 ปีข้างหน้า จากสภาวะโลกร้อน พร้อมใช้เทคโนโลยี ลุยจัดการปัญหา การันตีบอกลา ฝุ่นพิษภายใน 3 ปีต้องจบ 
 # text_en = "Sudarat" announced "We will solve the problems of smog and repeated flooding in Bangkok immediately, promote a study on constructing a dam in Gulf of Thailand to prevent Bangkok from sinking in the next 10 years as a result of the global warming, promptly use the technology to solve the problems, and guarantee to certainly eliminate smog in the city within 3 years". 
-# tokenised text = “ สุดารัตน์ ” ประกาศ “ แก้ ทุกข์ มหานคร ” ทันที ทั้ง ฝุ่น พิษ น้ำ ท่วม ซ้ำซาก ดัน ศึกษา Project สร้าง เขื่อน ใน อ่าว ไทย ก่อน กรุง เทพ ฯ จะ จม บาดาล ใน 10 ปี ข้าง หน้า จาก สภาวะ โลก ร้อน พร้อม ใช้ เทคโนโลยี ลุย จัดการ ปัญหา การันตี บอก ลา ฝุ่น พิษ ภาย ใน 3 ปี ต้อง จบ
+# tokenised_text = “ สุดารัตน์ ” ประกาศ “ แก้ ทุกข์ มหานคร ” ทันที ทั้ง ฝุ่น พิษ น้ำ ท่วม ซ้ำซาก ดัน ศึกษา Project สร้าง เขื่อน ใน อ่าว ไทย ก่อน กรุง เทพ ฯ จะ จม บาดาล ใน 10 ปี ข้าง หน้า จาก สภาวะ โลก ร้อน พร้อม ใช้ เทคโนโลยี ลุย จัดการ ปัญหา การันตี บอก ลา ฝุ่น พิษ ภาย ใน 3 ปี ต้อง จบ
 # translit = /sù-daː-rát/ /pràʔ-kàːt/ /kɛ̂ː/ /thúk/ /má-hǎː-ná-khɔːn/ /than-thiː/ /tháŋ/ /fùn/ /pít/ /náːm/ /thûam/ /sám-sâːk/ /dan/ /sɯ̀k-sǎː/ /phroː-cèk/ /sâːŋ/ /khɯ̀an/ /naj/ /ʔàːw/ /thaj/ /kɔ̀ːn/ /kruŋ/ /thêːp/ /càʔ/ /com/ /baː-daːn/ /naj/ /sìp/ /piː/ /khâːŋ/ /nâː/ /càːk/ /sà-phaː-wáʔ/ /lôːk/ /rɔ́ːn/ /phrɔ́ːm/ /cháj/ /thék-noː-loː-jiː/ /luj/ /càt-kaːn/ /pan-hǎː/ /kaː-ran-tiː/ /bɔ̀ːk/ /laː/ /fùn/ /pít/ /phaːj/ /naj/ /sǎːm/ /piː/ /tɔ̂ŋ/ /còp/
 # phrase_type = sentence
 # sentence_position = sub-headline
@@ -270,7 +270,7 @@
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_5
 # text = ชู “เก่ง การุณ” นักสู้เพื่อประชาธิปไตยตัวจริง อ้อนคนดอนเมือง เลือกเก่ง คนที่ไม่เคยทิ้งชาวดอนเมือง 
 # text_en = (Sudarat) raised and admired "Keng Kaarun" for being a real fighter of Thai democracy, and begged Don Mueang people to vote for him who never left the people behind.
-# tokenised text =  ชู “ เก่ง การุณ ” นัก สู้ เพื่อ ประชาธิปไตย ตัว จริง อ้อน คน ดอน เมือง เลือก เก่ง คน ที่ ไม่ เคย ทิ้ง ชาว ดอน เมือง
+# tokenised_text =  ชู “ เก่ง การุณ ” นัก สู้ เพื่อ ประชาธิปไตย ตัว จริง อ้อน คน ดอน เมือง เลือก เก่ง คน ที่ ไม่ เคย ทิ้ง ชาว ดอน เมือง
 # translit = /chuː/ /kèŋ/ /kaː-run/ /nák/ /sûː/ /phɯ̂a/ /pràʔ-chaː-thíp-pà-taj/ /tua/ /ciŋ/ /ʔɔ̂ːn/ /khon/ /dɔːn/ /mɯaŋ/ /lɯ̂ak/ /kèŋ/ /khon/ /thîː/ /mâj/ /khɤːj/ /thíŋ/ /chaːw/ /dɔːn/ /mɯaŋ/
 # phrase_type = sentence
 # sentence_position = sub-headline
@@ -306,7 +306,7 @@
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_6
 # text = 16.00น.ที่ ชุมชนปิ่นเจริญ 2 เขตดอนเมือง คุณหญิงสุดารัตน์ เกยุราพันธุ์ หัวหน้าพรรค น.ต.ศิธาทิวารี เลขาธิการพรรค นายสุพันธุ์ มงคลสุธี รองหัวหน้าพรรค น.อ.อนุดิษฐ์ นาครทรรพ ผอ.สำนักงานปราบโกง นายการุณ โหสกุล ว่าที่ผู้สมัคร ส.ส.เขตดอนเมือง พรรคไทยสร้างไทย ขึ้นเวทีปราศรัย “แก้ ทุกข์ มหานคร กทม.”พบปะพี่น้องประชาชนชาวดอนเมือง ที่ปิ่นเจริญ 2 ซึ่งมีพี่น้องชาวดอนเมืองแห่ฟังกว่า 3,000 คน
 # text_en = 
-# tokenised text = 16.00 น. ที่ ชุมชน ปิ่น เจริญ 2 เขต ดอน เมือง คุณหญิง สุดารัตน์ เกยุราพันธุ์ หัวหน้า พรรค น.ต. ศิธา ทิวารี เลขาธิการ พรรค นาย สุพันธุ์ มงคลสุธี รอง หัวหน้า พรรค น.อ. อนุดิษฐ์ นาครทรรพ ผอ. สำนักงาน ปราบ โกง นาย การุณ โหสกุล ว่าที่ ผู้ สมัคร ส.ส. เขต ดอน เมือง พรรค ไทย สร้าง ไทย ขึ้น เวที ปราศรัย “ แก้ ทุกข์ มหานคร กทม. ” พบปะ พี่ น้อง ประชาชน ชาว ดอน เมือง ที่ ปิ่น เจริญ 2 ซึ่ง มี พี่ น้อง ชาว ดอน เมือง แห่ ฟัง กว่า 3,000 คน
+# tokenised_text = 16.00 น. ที่ ชุมชน ปิ่น เจริญ 2 เขต ดอน เมือง คุณหญิง สุดารัตน์ เกยุราพันธุ์ หัวหน้า พรรค น.ต. ศิธา ทิวารี เลขาธิการ พรรค นาย สุพันธุ์ มงคลสุธี รอง หัวหน้า พรรค น.อ. อนุดิษฐ์ นาครทรรพ ผอ. สำนักงาน ปราบ โกง นาย การุณ โหสกุล ว่าที่ ผู้ สมัคร ส.ส. เขต ดอน เมือง พรรค ไทย สร้าง ไทย ขึ้น เวที ปราศรัย “ แก้ ทุกข์ มหานคร กทม. ” พบปะ พี่ น้อง ประชาชน ชาว ดอน เมือง ที่ ปิ่น เจริญ 2 ซึ่ง มี พี่ น้อง ชาว ดอน เมือง แห่ ฟัง กว่า 3,000 คน
 # tokenised_translit =
 # tokenised_transcript = /sìp-hòk/ /naː-lí-kaː/ /thîː/ /chum-chon/ /pìn/ /cà-rɤːn/ /sɔ̌ːŋ/ /khèːt/ /dɔːn/ /mɯaŋ/ /khun-jǐŋ/ /sù-daː-rát/ /keː-jú-raː-phan/ /hǔa-nâː/ /phák/ /nɔː-tɔː/ /sì-thaː/ /thí-waː-riː/ /leː-khǎː-thí-kaːn/ /phák/ /naːj/ /sù-phan/ /moŋ-khon-sù-thiː/ /rɔːŋ/ /hǔa-nâː/ /phák/ /nɔː-ʔɔː/ /ʔà-nú-dìt/ /naː-khɔːn-tháp/ /phɔ̌ː-ʔɔː/ /sǎm-nák-ŋaːn/ /pràːp/ /koːŋ/ /naːj/ /kaː-run/ /hǒː-sà-kun/ /wâː-thîː/ /phûː/ /sà-màk/ /sɔ̌ː-sɔ̌ː/ /khèːt/ /dɔːn/ /mɯaŋ/ /phák/ /thaj/ /sâːŋ/ /thaj/ /khɯ̂n/ /weː-thiː/ /praː-sǎj/ /kɛ̂ː/ /thúk/ /má-hǎː-ná-khɔːn/ /kɔː-thɔː-mɔː/ /phóp-pàʔ/ /phîː/ /nɔ́ːŋ/ /pràʔ-chaː-chon/ /chaːw/ /dɔːn/ /mɯaŋ/ /thîː/ /pìn/ /cà-rɤːn/ /sɔ̌ːŋ/ /sɯ̂ŋ/ /miː/ /phîː/ /nɔ́ːŋ/ /chaːw/ /dɔːn/ /mɯaŋ/ /hɛ̀ː/ /faŋ/ /kwàː/ /sǎːm-phan/ /khon/
 # phrase_type = sentence
@@ -394,10 +394,125 @@
 78	3,000	3,000	NUM	_	_	79	nummod	_	Gloss=3,000|Translit=sǎːm-phan
 79	คน	คน	NOUN	_	NounType=Clf	70	clf	_	Gloss=person|Translit=khon
 
+# sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_6_Variant_1
+# text = 16.00น.ที่ ชุมชนปิ่นเจริญ 2 เขตดอนเมือง คุณหญิงสุดารัตน์ เกยุราพันธุ์ หัวหน้าพรรค น.ต.ศิธาทิวารี เลขาธิการพรรค นายสุพันธุ์ มงคลสุธี รองหัวหน้าพรรค น.อ.อนุดิษฐ์ นาครทรรพ ผอ.สำนักงานปราบโกง นายการุณ โหสกุล ว่าที่ผู้สมัคร ส.ส.เขตดอนเมือง พรรคไทยสร้างไทย ขึ้นเวทีปราศรัย “แก้ ทุกข์ มหานคร กทม.”พบปะพี่น้องประชาชนชาวดอนเมือง ที่ปิ่นเจริญ 2 ซึ่งมีพี่น้องชาวดอนเมืองแห่ฟังกว่า 3,000 คน
+# text_en = 
+# tokenised text = 16.00 น. ที่ ชุมชน ปิ่น เจริญ 2 เขต ดอน เมือง คุณหญิง สุดารัตน์ เกยุราพันธุ์ หัวหน้า พรรค น.ต. ศิธา ทิวารี เลขาธิการ พรรค นาย สุพันธุ์ มงคลสุธี รอง หัวหน้า พรรค น.อ. อนุดิษฐ์ นาครทรรพ ผอ. สำนัก งาน ปราบ โกง นาย การุณ โหสกุล ว่าที่ ผู้ สมัคร ส.ส. เขต ดอน เมือง พรรค ไทย สร้าง ไทย ขึ้น เวที ปราศรัย “ แก้ ทุกข์ มหานคร กทม. ” พบปะ พี่ น้อง ประชาชน ชาว ดอน เมือง ที่ ปิ่น เจริญ 2 ซึ่ง มี พี่ น้อง ชาว ดอน เมือง แห่ ฟัง กว่า 3,000 คน
+# tokenised_translit =
+# tokenised_transcript = /sìp-hòk/ /naː-lí-kaː/ /thîː/ /chum-chon/ /pìn/ /cà-rɤːn/ /sɔ̌ːŋ/ /khèːt/ /dɔːn/ /mɯaŋ/ /khun-jǐŋ/ /sù-daː-rát/ /keː-jú-raː-phan/ /hǔa-nâː/ /phák/ /nɔː-tɔː/ /sì-thaː/ /thí-waː-riː/ /leː-khǎː-thí-kaːn/ /phák/ /naːj/ /sù-phan/ /moŋ-khon-sù-thiː/ /rɔːŋ/ /hǔa-nâː/ /phák/ /nɔː-ʔɔː/ /ʔà-nú-dìt/ /naː-khɔːn-tháp/ /phɔ̌ː-ʔɔː/ /sǎm-nák-ŋaːn/ /pràːp/ /koːŋ/ /naːj/ /kaː-run/ /hǒː-sà-kun/ /wâː-thîː/ /phûː/ /sà-màk/ /sɔ̌ː-sɔ̌ː/ /khèːt/ /dɔːn/ /mɯaŋ/ /phák/ /thaj/ /sâːŋ/ /thaj/ /khɯ̂n/ /weː-thiː/ /praː-sǎj/ /kɛ̂ː/ /thúk/ /má-hǎː-ná-khɔːn/ /kɔː-thɔː-mɔː/ /phóp-pàʔ/ /phîː/ /nɔ́ːŋ/ /pràʔ-chaː-chon/ /chaːw/ /dɔːn/ /mɯaŋ/ /thîː/ /pìn/ /cà-rɤːn/ /sɔ̌ːŋ/ /sɯ̂ŋ/ /miː/ /phîː/ /nɔ́ːŋ/ /chaːw/ /dɔːn/ /mɯaŋ/ /hɛ̀ː/ /faŋ/ /kwàː/ /sǎːm-phan/ /khon/
+# phrase_type = sentence
+# sentence_position = body
+# genre = political_news_article
+# source = https://www.matichonweekly.com/hot-news/article_656027 
+# year = 2023
+1	16.00	16.00	NUM	_	_	48	obl:tmod	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=16.00|Translit=sìp-hòk
+2	น.	น.	NOUN	_	_	1	nmod	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=clock|Translit=naː-lí-kaː
+3	ที่	ที่	ADP	_	_	4	case	_	CorrectSpaceAfter=No|Gloss=at|Translit=thîː
+4	ชุมชน	ชุมชน	NOUN	_	_	48	obl	_	SpaceAfter=No|Gloss=community|Translit=chum-chon
+5	ปิ่น	ปิ่น	NOUN	_	ExtPos=PROPN	4	nmod	_	SpaceAfter=No|Gloss=summit|Translit=pìn
+6	เจริญ	เจริญ	VERB	_	_	5	acl	_	Gloss=prosper|Translit=cà-rɤːn
+7	2	2	NUM	_	_	5	nmod	_	Gloss=2|Translit=sɔ̌ːŋ
+8	เขต	เขต	NOUN	_	_	4	nmod	_	SpaceAfter=No|Gloss=district|Translit=khèːt
+9	ดอน	ดอน	NOUN	_	ExtPos=PROPN	8	nmod	_	SpaceAfter=No|Gloss=hill|Translit=dɔːn
+10	เมือง	เมือง	NOUN	_	_	9	nmod	_	Gloss=city|Translit=mɯaŋ
+11	คุณหญิง	คุณหญิง	NOUN	_	_	48	nsubj	_	SpaceAfter=No|Gloss=Lady|Translit=khun-jǐŋ
+12	สุดารัตน์	สุดารัตน์	PROPN	_	_	11	flat	_	Gloss=Sudarat|Translit=sù-daː-rát
+13	เกยุราพันธุ์	เกยุราพันธุ์	PROPN	_	_	12	flat	_	Gloss=Keyuraphan|Translit=keː-jú-raː-phan
+14	หัวหน้า	หัวหน้า	NOUN	_	_	11	appos	_	SpaceAfter=No|Gloss=chief|Translit=hǔa-nâː
+15	พรรค	พรรค	NOUN	_	_	14	nmod	_	Gloss=Party|Translit=phák
+16	น.ต.	น.ต.	NOUN	_	_	11	conj	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=Lieutenant Commander|Translit=nɔː-tɔː
+17	ศิธา	ศิธา	PROPN	_	_	16	flat	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=Sita|Translit=sì-thaː
+18	ทิวารี	ทิวารี	PROPN	_	_	17	flat	_	Gloss=Tiwari|Translit=thí-waː-riː
+19	เลขาธิการ	เลขาธิการ		NOUN	_	_	16	appos	_	SpaceAfter=No|Gloss=secretary|Translit=leː-khǎː-thí-kaːn
+20	พรรค	พรรค	NOUN	_	_	19	nmod	_	Gloss=Party|Translit=phák
+21	นาย	นาย	NOUN	_	_	11	conj	_	SpaceAfter=No|Gloss=Mister|Translit=naːj
+22	สุพันธุ์	สุพันธุ์	PROPN	_	_	21	flat	_	Gloss=Supant|Translit=sù-phan
+23	มงคลสุธี	มงคลสุธี	PROPN	_	_	22	flat	_	Gloss=Mongkolsuthree|Translit=moŋ-khon-sù-thiː
+24	รอง	รอง	VERB	_	_	21	appos	_	SpaceAfter=No|Gloss=subordinate|Translit=rɔːŋ
+25	หัวหน้า	หัวหน้า	NOUN	_	_	24	obj	_	SpaceAfter=No|Gloss=chief|Translit=hǔa-nâː
+26	พรรค	พรรค	NOUN	_	_	25	nmod	_	Gloss=Party|Translit=phák
+27	น.อ.	น.อ.	NOUN	_	_	11	conj	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=Captain|Translit=nɔː-ʔɔː
+28	อนุดิษฐ์	อนุดิษฐ์	PROPN	_	_	27	flat	_	Gloss=Anudith|Translit=ʔà-nú-dìt
+29	นาครทรรพ	นาครทรรพ	PROPN	_	_	28	flat	_	Gloss=Nakornthap|Translit=naː-khɔːn-tháp
+30	ผอ.	ผอ.	NOUN	_	_	27	appos	_	SpaceAfter=No|Gloss=director|Translit=phɔ̌ː-ʔɔː
+31	สำนักงาน	สำนักงาน	NOUN	_	_	30	nmod	_	SpaceAfter=No|Gloss=office|Translit=sǎm-nák-ŋaːn
+32	ปราบ	ปราบ	VERB	_	ExtPos=PROPN	31	acl	_	SpaceAfter=No|Gloss=subdue|Translit=pràːp
+33	โกง	โกง	VERB	_	_	32	advcl	_	Gloss=cheat|Translit=koːŋ
+34	นาย	นาย	NOUN	_	_	11	conj	_	SpaceAfter=No|Gloss=Mister|Translit=naːj
+35	การุณ	การุณ	PROPN	_	_	34	flat	_	Gloss=Karun|Translit=kaː-run
+36	โหสกุล	โหสกุล	PROPN	_	_	35	flat	_	Gloss=Hosakul|Translit=hǒː-sà-kun
+37	ว่าที่	ว่าที่	VERB	_	_	34	appos	_	SpaceAfter=No|Gloss=prospective|Translit=wâː-thîː
+38	ผู้	ผู้	NOUN	_	_	37	obj	_	SpaceAfter=No|Gloss=person|Translit=phûː
+39	สมัคร	สมัคร	VERB	_	_	38	acl	_	Gloss=apply|Translit=sà-màk
+40	ส.ส.	ส.ส.	NOUN	_	_	39	obj	_	SpaceAfter=No|Gloss=Member of the House of Representatives|Translit=sɔ̌ː-sɔ̌ː
+41	เขต	เขต	NOUN	_	_	40	nmod	_	SpaceAfter=No|Gloss=district|Translit=khèːt
+42	ดอน	ดอน	NOUN	_	ExtPos=PROPN	41	nmod	_	SpaceAfter=No|Gloss=hill|Translit=dɔːn
+43	เมือง	เมือง	NOUN	_	_	42	nmod	_	Gloss=city|Translit=mɯaŋ
+44	พรรค	พรรค	NOUN	_	_	40	nmod	_	SpaceAfter=No|Gloss=Party|Translit=phák
+45	ไทย	ไทย	PROPN	_	ExtPos=PROPN	44	nmod	_	SpaceAfter=No|Gloss=Thai|Translit=thaj
+46	สร้าง	สร้าง	VERB	_	_	45	acl	_	SpaceAfter=No|Gloss=build|Translit=sâːŋ
+47	ไทย	ไทย	PROPN	_	_	46	obj	_	Gloss=Thai|Translit=thaj
+48	ขึ้น	ขึ้น	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=ascend|Translit=khɯ̂n
+49	เวที	เวที	NOUN	_	_	48	obl:lmod	_	SpaceAfter=No|Gloss=stage|Translit=weː-thiː
+50	ปราศรัย	ปราศรัย	VERB	_	_	49	acl	_	Gloss=address|Translit=praː-sǎj
+51	“	“	PUNCT	_	_	52	punct	_	SpaceAfter=No
+52	แก้	แก้	VERB	_	_	50	ccomp	_	Gloss=solve|Translit=kɛ̂ː
+53	ทุกข์	ทุกข์	NOUN	_	_	52	obj	_	Gloss=suffer|Translit=thúk
+54	มหานคร	มหานคร	NOUN	_	_	53	nmod	_	Gloss=metropolis|Translit=má-hǎː-ná-khɔːn
+55	กทม.	กทม.	PROPN	_	_	54	appos	_	SpaceAfter=No|Gloss=Bangkok|Translit=kɔː-thɔː-mɔː
+56	”	”	PUNCT	_	_	52	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
+57	พบปะ	พบปะ	VERB	_	_	48	conj	_	SpaceAfter=No|Gloss=meet|Translit=phóp-pàʔ
+58	พี่	พี่	NOUN	_	_	57	obj	_	SpaceAfter=No|Gloss=older sibling|Translit=phîː
+59	น้อง	น้อง	NOUN	_	_	58	flat	_	SpaceAfter=No|Gloss=younger sibling|Translit=nɔ́ːŋ
+60	ประชาชน	ประชาชน	NOUN	_	_	58	nmod	_	SpaceAfter=No|Gloss=population|Translit=pràʔ-chaː-chon
+61	ชาว	ชาว	NOUN	_	_	60	nmod	_	SpaceAfter=No|Gloss=folk|Translit=chaːw
+62	ดอน	ดอน	NOUN	_	ExtPos=PROPN	61	nmod	_	SpaceAfter=No|Gloss=hill|Translit=dɔːn
+63	เมือง	เมือง	NOUN	_	_	62	nmod	_	Gloss=city|Translit=mɯaŋ
+64	ที่	ที่	ADP	_	_	65	case	_	SpaceAfter=No|Gloss=at|Translit=thîː
+65	ปิ่น	ปิ่น	NOUN	_	ExtPos=PROPN	57	obl	_	SpaceAfter=No|Gloss=summit|Translit=pìn
+66	เจริญ	เจริญ	VERB	_	_	65	acl	_	Gloss=prosper|Translit=cà-rɤːn
+67	2	2	NUM	_	_	65	nmod	_	Gloss=2|Translit=sɔ̌ːŋ
+68	ซึ่ง	ซึ่ง	PRON	_	_	69	nsubj	_	SpaceAfter=No|Gloss=where(REL)|Translit=sɯ̂ŋ
+69	มี	มี	VERB	_	_	65	acl:relcl	_	SpaceAfter=No|Gloss=have|Translit=miː
+70	พี่	พี่	NOUN	_	_	69	obj	_	SpaceAfter=No|Gloss=older sibling|Translit=phîː
+71	น้อง	น้อง	NOUN	_	_	70	flat	_	SpaceAfter=No|Gloss=younger sibling|Translit=nɔ́ːŋ
+72	ชาว	ชาว	NOUN	_	_	70	nmod	_	SpaceAfter=No|Gloss=folk|Translit=chaːw
+73	ดอน	ดอน	NOUN	_	ExtPos=PROPN	72	nmod	_	SpaceAfter=No|Gloss=hill|Translit=dɔːn
+74	เมือง	เมือง	NOUN	_	_	73	nmod	_	SpaceAfter=No|Gloss=city|Translit=mɯaŋ
+75	แห่	แห่	VERB	_	_	70	acl	_	SpaceAfter=No|Gloss=flock|Translit=hɛ̀ː
+76	ฟัง	ฟัง	VERB	_	_	75	compound:svc	_	SpaceAfter=No|Gloss=listen|Translit=faŋ
+77	กว่า	กว่า	DET	_	_	79	det	_	Gloss=more than|Translit=kwàː
+78	3,000	3,000	NUM	_	_	79	nummod	_	Gloss=3,000|Translit=sǎːm-phan
+79	คน	คน	NOUN	_	NounType=Clf	70	clf	_	Gloss=person|Translit=khon
+
+# sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_6_Variant_2
+# text = 16.00น.ที่ ชุมชนปิ่นเจริญ 2 เขตดอนเมือง คุณหญิงสุดารัตน์ เกยุราพันธุ์ หัวหน้าพรรค น.ต.ศิธาทิวารี เลขาธิการพรรค นายสุพันธุ์ มงคลสุธี รองหัวหน้าพรรค น.อ.อนุดิษฐ์ นาครทรรพ ผอ.สำนักงานปราบโกง นายการุณ โหสกุล ว่าที่ผู้สมัคร ส.ส.เขตดอนเมือง พรรคไทยสร้างไทย ขึ้นเวทีปราศรัย “แก้ ทุกข์ มหานคร กทม.”พบปะพี่น้องประชาชนชาวดอนเมือง ที่ปิ่นเจริญ 2 ซึ่งมีพี่น้องชาวดอนเมืองแห่ฟังกว่า 3,000 คน
+# text_en = 
+# tokenised_text = 16.00 น. ที่ ชุมชน ปิ่น เจริญ 2 เขต ดอน เมือง คุณหญิง สุดารัตน์ เกยุราพันธุ์ หัวหน้า พรรค น.ต. ศิธา ทิวารี เลขาธิการ พรรค นาย สุพันธุ์ มงคลสุธี รอง หัวหน้า พรรค น.อ. อนุดิษฐ์ นาครทรรพ ผอ. สำนักงาน ปราบ โกง นาย การุณ โหสกุล ว่าที่ ผู้ สมัคร ส.ส. เขต ดอน เมือง พรรค ไทย สร้าง ไทย ขึ้น เวที ปราศรัย “ แก้ ทุกข์ มหานคร กทม. ” พบปะ พี่ น้อง ประชาชน ชาว ดอน เมือง ที่ ปิ่น เจริญ 2 ซึ่ง มี พี่ น้อง ชาว ดอน เมือง แห่ ฟัง กว่า 3,000 คน
+# tokenised_translit =
+# tokenised_transcript = /sìp-hòk/ /naː-lí-kaː/ /thîː/ /chum-chon/ /pìn/ /cà-rɤːn/ /sɔ̌ːŋ/ /khèːt/ /dɔːn/ /mɯaŋ/ /khun-jǐŋ/ /sù-daː-rát/ /keː-jú-raː-phan/ /hǔa-nâː/ /phák/ /nɔː-tɔː/ /sì-thaː/ /thí-waː-riː/ /leː-khǎː-thí-kaːn/ /phák/ /naːj/ /sù-phan/ /moŋ-khon-sù-thiː/ /rɔːŋ/ /hǔa-nâː/ /phák/ /nɔː-ʔɔː/ /ʔà-nú-dìt/ /naː-khɔːn-tháp/ /phɔ̌ː-ʔɔː/ /sǎm-nák-ŋaːn/ /pràːp/ /koːŋ/ /naːj/ /kaː-run/ /hǒː-sà-kun/ /wâː-thîː/ /phûː/ /sà-màk/ /sɔ̌ː-sɔ̌ː/ /khèːt/ /dɔːn/ /mɯaŋ/ /phák/ /thaj/ /sâːŋ/ /thaj/ /khɯ̂n/ /weː-thiː/ /praː-sǎj/ /kɛ̂ː/ /thúk/ /má-hǎː-ná-khɔːn/ /kɔː-thɔː-mɔː/ /phóp-pàʔ/ /phîː/ /nɔ́ːŋ/ /pràʔ-chaː-chon/ /chaːw/ /dɔːn/ /mɯaŋ/ /thîː/ /pìn/ /cà-rɤːn/ /sɔ̌ːŋ/ /sɯ̂ŋ/ /miː/ /phîː/ /nɔ́ːŋ/ /chaːw/ /dɔːn/ /mɯaŋ/ /hɛ̀ː/ /faŋ/ /kwàː/ /sǎːm-phan/ /khon/
+# phrase_type = sentence
+# sentence_position = body
+# genre = political_news_article
+# source = https://www.matichonweekly.com/hot-news/article_656027 
+# year = 2023
+
+# sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_6_Variant_3
+# text = 16.00น.ที่ ชุมชนปิ่นเจริญ 2 เขตดอนเมือง คุณหญิงสุดารัตน์ เกยุราพันธุ์ หัวหน้าพรรค น.ต.ศิธาทิวารี เลขาธิการพรรค นายสุพันธุ์ มงคลสุธี รองหัวหน้าพรรค น.อ.อนุดิษฐ์ นาครทรรพ ผอ.สำนักงานปราบโกง นายการุณ โหสกุล ว่าที่ผู้สมัคร ส.ส.เขตดอนเมือง พรรคไทยสร้างไทย ขึ้นเวทีปราศรัย “แก้ ทุกข์ มหานคร กทม.”พบปะพี่น้องประชาชนชาวดอนเมือง ที่ปิ่นเจริญ 2 ซึ่งมีพี่น้องชาวดอนเมืองแห่ฟังกว่า 3,000 คน
+# text_en = 
+# tokenised_text = 16.00 น. ที่ ชุมชน ปิ่น เจริญ 2 เขต ดอน เมือง คุณหญิง สุดารัตน์ เกยุราพันธุ์ หัวหน้า พรรค น.ต. ศิธา ทิวารี เลขาธิการ พรรค นาย สุพันธุ์ มงคลสุธี รอง หัวหน้า พรรค น.อ. อนุดิษฐ์ นาครทรรพ ผอ. สำนักงาน ปราบ โกง นาย การุณ โหสกุล ว่าที่ ผู้ สมัคร ส.ส. เขต ดอน เมือง พรรค ไทย สร้าง ไทย ขึ้น เวที ปราศรัย “ แก้ ทุกข์ มหานคร กทม. ” พบปะ พี่ น้อง ประชาชน ชาว ดอน เมือง ที่ ปิ่น เจริญ 2 ซึ่ง มี พี่ น้อง ชาว ดอน เมือง แห่ ฟัง กว่า 3,000 คน
+# tokenised_translit =
+# tokenised_transcript = /sìp-hòk/ /naː-lí-kaː/ /thîː/ /chum-chon/ /pìn/ /cà-rɤːn/ /sɔ̌ːŋ/ /khèːt/ /dɔːn/ /mɯaŋ/ /khun-jǐŋ/ /sù-daː-rát/ /keː-jú-raː-phan/ /hǔa-nâː/ /phák/ /nɔː-tɔː/ /sì-thaː/ /thí-waː-riː/ /leː-khǎː-thí-kaːn/ /phák/ /naːj/ /sù-phan/ /moŋ-khon-sù-thiː/ /rɔːŋ/ /hǔa-nâː/ /phák/ /nɔː-ʔɔː/ /ʔà-nú-dìt/ /naː-khɔːn-tháp/ /phɔ̌ː-ʔɔː/ /sǎm-nák-ŋaːn/ /pràːp/ /koːŋ/ /naːj/ /kaː-run/ /hǒː-sà-kun/ /wâː-thîː/ /phûː/ /sà-màk/ /sɔ̌ː-sɔ̌ː/ /khèːt/ /dɔːn/ /mɯaŋ/ /phák/ /thaj/ /sâːŋ/ /thaj/ /khɯ̂n/ /weː-thiː/ /praː-sǎj/ /kɛ̂ː/ /thúk/ /má-hǎː-ná-khɔːn/ /kɔː-thɔː-mɔː/ /phóp-pàʔ/ /phîː/ /nɔ́ːŋ/ /pràʔ-chaː-chon/ /chaːw/ /dɔːn/ /mɯaŋ/ /thîː/ /pìn/ /cà-rɤːn/ /sɔ̌ːŋ/ /sɯ̂ŋ/ /miː/ /phîː/ /nɔ́ːŋ/ /chaːw/ /dɔːn/ /mɯaŋ/ /hɛ̀ː/ /faŋ/ /kwàː/ /sǎːm-phan/ /khon/
+# phrase_type = sentence
+# sentence_position = body
+# genre = political_news_article
+# source = https://www.matichonweekly.com/hot-news/article_656027 
+# year = 2023
+
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_7
 # text = คุณหญิงสุดารัตน์ กล่าวว่า ลงพื้นที่ดอนเมืองครั้งใดอบอุ่นหัวใจทุกครั้ง มีความผูกพันกับพี่น้องชาวดอนเมืองเนื่องจากเป็นส.ส.ครั้งแรกในพื้นที่แห่งนี้ เห็นปัญหาเห็นความทุกข์ยากและคอยดูแลช่วยเหลือกันมาตลอด ได้ผลักดันหลายนโยบายจนสำเร็จเป็นรูปธรรม แต่ก็ยังมีอีกหลากหลายปัญหาที่เกิดขึ้นและยังไม่ได้รับการแก้ไขอย่างจริงจัง
 # text_en = 
-# tokenised text = 
+# tokenised_text = 
 # translit = 
 # phrase_type = sentence
 # sentence_position = 
@@ -408,7 +523,7 @@
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_8
 # text = เช่น ปัญหาฝุ่นพิษPM2.5 ผู้รับผิดชอบไม่ใส่ใจแก้ปัญหาอย่างจริงจัง ทำให้ปัญหาหนักหน่วงมากขึ้นทุกปี  
 # text_en = 
-# tokenised text =  
+# tokenised_text =  
 # translit = 
 # phrase_type = sentence
 # sentence_position = 
@@ -419,7 +534,7 @@
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_9
 # text = หลายสัปดาห์ที่ผ่านมา ฝุ่นพิษเกินค่ามาตรฐาน กระทบสุขภาพของประชาชน ซึ่งถือเป็นเมืองที่มีคุณภาพอากาศแย่ติดท๊อปของโลกต่อเนื่องทุกปี
 # text_en = 
-# tokenised text = 
+# tokenised_text = 
 # translit = 
 # phrase_type = sentence
 # sentence_position = 
@@ -430,7 +545,7 @@
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_10
 # text = ดังนั้นพรรคไทยสร้างไทยจึงขอประกาศว่า “การแก้ไขปัญหาฝุ่นพิษต้องเป็นวาระแห่งชาติ ”
 # text_en = 
-# tokenised text = 
+# tokenised_text = 
 # translit = 
 # phrase_type = sentence
 # sentence_position = 
@@ -441,7 +556,7 @@
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_11
 # text = และหากไทยสร้างไทยเป็นรัฐบาล สิ่งที่ต้องทำทันทีคือการห้ามรถที่มีควันดำวิ่งในท้องถนนเขตกรุงเทพฯ โดยเฉพาะรถขนส่งสาธารณะและรถบรรทุก รวมถึงการขนถ่ายสินค้าต้องทำได้เฉพาะเขตที่อยู่นอกเมืองเท่านั้น พร้อมเข้มงวดการตรวจสภาพรถก่อนที่จะอนุญาตให้มีการต่อภาษีประจำปี
 # text_en = 
-# tokenised text = 
+# tokenised_text = 
 # translit = 
 # phrase_type = sentence
 # sentence_position = 
@@ -452,7 +567,7 @@
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_12
 # text = ใช้มาตรการ เหลื่อมเวลาการทำงาน และเวลาเรียน หรือ Work from home และ Learn from home ในองค์กรหรือโรงเรียนที่สามารถทำได้ เพื่อลดการปล่อยควันดำ ซึ่งเป็นสาเหตุของฝุ่นพิษ
 # text_en = 
-# tokenised text = 
+# tokenised_text = 
 # translit = 
 # phrase_type = sentence
 # sentence_position = 
@@ -463,7 +578,7 @@
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_13
 # text = รวมถึงต้องเข้มงวด การก่อสร้างรถไฟฟ้าหรือการก่อสร้างโครงการขนาดใหญ่ที่ปล่อยปละละเลย จนทำให้เกิดฝุ่นพิษ และการใช้ฝนเทียมเพื่อชำระฝุ่นพิษในวันที่มีค่าฝุ่นสูงเกินกว่ามาตรฐาน
 # text_en = 
-# tokenised text = 
+# tokenised_text = 
 # translit = 
 # phrase_type = sentence
 # sentence_position = 
@@ -474,7 +589,7 @@
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_14
 # text = ส่วนมาตรการระยะยาว จะต้องปรับเปลี่ยนรถสาธารณะ รถมอเตอร์ไซค์ รวมถึงรถยนต์ที่มีสภาพเก่าให้เป็น EV โดยมีภาครัฐเป็นผู้สนับสนุน
 # text_en = 
-# tokenised text = 
+# tokenised_text = 
 # translit = 
 # phrase_type = sentence
 # sentence_position = 
@@ -485,7 +600,7 @@
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_15
 # text = นอกจากนี้จะต้องส่งเสริมให้ภาคการเกษตร ได้เข้าถึงเครื่องมือเพื่อกำจัดเศษซากวัชพืช ที่เหลือใช้ เพื่อนำมาสร้างประโยชน์สร้างรายได้ ซึ่งจะช่วยลดการเผาอันก่อให้เกิดฝุ่นพิษตามมาได้
 # text_en = 
-# tokenised text = 
+# tokenised_text = 
 # translit = 
 # phrase_type = sentence
 # sentence_position = 
@@ -496,7 +611,7 @@
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_16
 # text = ส่วนปัญหาและความทุกข์ของพี่น้องอีกเรื่องที่สำคัญคือปัญหาน้ำท่วมซึ่งจากรายงานของ “กรีนพีซ” ระบุว่าในอีก 10 ปีข้างหน้ากรุงเทพมหานครมีโอกาสถูกน้ำท่วม เนื่องมาจากสภาวะโลกร้อนและการละลายของน้ำแข็งขั้วโลกหนุนให้น้ำทะเลสูง
 # text_en = 
-# tokenised text = 
+# tokenised_text = 
 # translit = 
 # phrase_type = sentence
 # sentence_position = 
@@ -507,7 +622,7 @@
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_17
 # text = พรรคไทยสร้างไทย จึงเตรียมศึกษาเรื่องการสร้างเขื่อนกั้นอ่าวไทย โดยหยิบยกกรณีศึกษา Delta Works ในเนเธอร์แลนด์มาศึกษาอย่างจริงจัง เพื่อไม่ให้กระทบเศรษฐกิจของประเทศและความเป็นอยู่ของพี่น้องชาวกรุงเทพฯ จึงต้องเร่งศึกษาตั้งแต่วันนี้
 # text_en = 
-# tokenised text = 
+# tokenised_text = 
 # translit = 
 # phrase_type = sentence
 # sentence_position = 
@@ -518,7 +633,7 @@
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_18
 # text = คุณหญิงสุดารัตน์ยังกล่าวถึง นายการุณ โหสกุลซึ่งถือเป็นนักต่อสู้เพื่อประชาธิปไตย จนถูกตั้งข้อหา ก่อการร้ายจนถึงวันนี้ ก็ยังต้องต่อสู้ตามกระบวนการ นอกจากนี้ยังเป็นคนที่มีจิตวิญญาณรับใช้พี่น้องชาวดอนเมืองมาอย่างยาวนาน เป็นคนที่ทุ่มเททำงานเรียกใช้ได้ทุกพื้นที่ทุกเวลา เป็นคนทำงานจริงจังจริงใจ ไม่เคยทอดทิ้งพี่น้องชาวดอนเมืองยามยากลำบาก ตามสโลแกนที่ว่า “ดอนเมืองไม่ทิ้งกัน การุณไม่ทิ้งใคร”
 # text_en = 
-# tokenised text = 
+# tokenised_text = 
 # translit = 
 # phrase_type = sentence
 # sentence_position = 
@@ -529,7 +644,7 @@
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_19
 # text = จึงมั่นใจว่านายการุณ จะสามารถปักธงในเขตดอนเมืองได้อีกครั้ง และจะเป็นอีกหนึ่งกำลังของไทยสร้างไทยที่ช่วยกันสร้างทางรอดให้กับประเทศไทยได้
 # text_en = 
-# tokenised text = 
+# tokenised_text = 
 # translit = 
 # phrase_type = sentence
 # sentence_position = 
@@ -540,7 +655,7 @@
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_20
 # text = ด้าน น.อ.อนุดิษฐ์ ประกาศลดค่าใช้จ่ายให้พี่น้องประชาชน โดยเฉพาะค่าไฟฟ้าที่แพงแสนแพง 
 # text_en = 
-# tokenised text = 
+# tokenised_text = 
 # translit = 
 # phrase_type = sentence
 # sentence_position = 
@@ -551,7 +666,7 @@
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_21
 # text = หากเลือกไทยสร้างไทยให้เป็นรัฐบาล ขอประกาศลดค่าไฟฟ้าทันที ให้เหลือไม่เกิน 3.5บาท/หน่วย 
 # text_en = 
-# tokenised text = 
+# tokenised_text = 
 # translit = 
 # phrase_type = sentence
 # sentence_position = 
@@ -562,7 +677,7 @@
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_22
 # text = เรามั่นใจเราพูดจริง ทำได้ เลือกไทยสร้างไทย ค่าไฟถูกลงแน่
 # text_en = 
-# tokenised text = 
+# tokenised_text = 
 # translit = 
 # phrase_type = sentence
 # sentence_position = 
@@ -573,7 +688,7 @@
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_23
 # text = เพราะประเทศถูกปล้นค่าไฟฟ้า เพื่อไปสร้างความร่ำรวยให้นายทุน ทำให้คนไทยต้องจ่ายค่าไฟแพงกว่าความเป็นจริง
 # text_en = 
-# tokenised text = 
+# tokenised_text = 
 # translit = 
 # phrase_type = sentence
 # sentence_position = 
@@ -584,7 +699,7 @@
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_24
 # text = โดยรัฐฯ เอื้อนายทุนโรงไฟฟ้า ทำสัญญาผลิตไฟล่วงหน้าเกินจำเป็น สูงถึง 53,000 กิโลวัตต์ชั่วโมง แต่ประชาชนใช้ไฟฟ้าจริง ๆ ไม่เคยเกิน 33,000 กิโลวัตต์ชั่วโมง
 # text_en = 
-# tokenised text = 
+# tokenised_text = 
 # translit = 
 # phrase_type = sentence
 # sentence_position = 
@@ -595,7 +710,7 @@
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_25
 # text = ทำให้ประเทศไทยมีการสำรองไฟฟ้าเกินความต้องการใช้จริงสูงถึง 20,000 กิโลวัตต์ชั่วโมง หรือเกือบ 60% โดยที่โรงไฟฟ้าขนาดใหญ่เหล่านี้ 
 # text_en = 
-# tokenised text = 
+# tokenised_text = 
 # translit = 
 # phrase_type = sentence
 # sentence_position = 
@@ -606,7 +721,7 @@
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_26
 # text = แต่ประชาชนต้องจ่ายค่าไฟฟ้าที่ไม่ได้ใช้ ให้นายทุนเหล่านี้ไปฟรี ๆ ถึงปีละ 26,000 ล้านบาท ทั้งที่โรงไฟฟ้าของนายทุนใหญ่ไม่ได้เดินเครื่องผลิตจริงแม้แต่เมกกะวัตต์เดียว
 # text_en = 
-# tokenised text = 
+# tokenised_text = 
 # translit = 
 # phrase_type = sentence
 # sentence_position = 
@@ -617,7 +732,7 @@
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_27
 # text = 
 # text_en = 
-# tokenised text = 
+# tokenised_text = 
 # translit = 
 # phrase_type = sentence
 # sentence_position = 
@@ -628,7 +743,7 @@
 # sent_id = Election_Thailand_2023_News_Article_28
 # text = 
 # text_en = 
-# tokenised text = 
+# tokenised_text = 
 # translit = 
 # phrase_type = sentence
 # sentence_position = 
@@ -639,7 +754,7 @@
 # sent_id = Election_Thailand_2023_News_Article_29
 # text = 
 # text_en = 
-# tokenised text = 
+# tokenised_text = 
 # translit = 
 # phrase_type = sentence
 # sentence_position = 
@@ -650,7 +765,7 @@
 # sent_id = Election_Thailand_2023_News_Article_30
 # text = 
 # text_en = 
-# tokenised text = 
+# tokenised_text = 
 # translit = 
 # phrase_type = sentence
 # sentence_position = 
