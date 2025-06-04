@@ -327,7 +327,7 @@
 12	สุดารัตน์	สุดารัตน์	PROPN	_	_	11	flat	_	Gloss=Sudarat|Translit=sù-daː-rát
 13	เกยุราพันธุ์	เกยุราพันธุ์	PROPN	_	_	12	flat	_	Gloss=|Translit=keː-jú-raː-phan
 14	หัวหน้า	หัวหน้า	NOUN	_	_	11	appos	_	SpaceAfter=No|Gloss=|Translit=hǔa-nâː
-15	พรรค	พรรค	NOUN	_	_	14	nmod	-	Gloss=Party|Translit=phák
+15	พรรค	พรรค	NOUN	_	_	14	nmod	_	Gloss=Party|Translit=phák
 16	น.ต.	น.ต.	NOUN	_	_	11	conj	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=|Translit=
 17	ศิธา	ศิธา	PROPN	_	_	16	flat	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=Sitha|Translit=
 18	ทิวารี	ทิวารี	PROPN	_	_	17	flat	_	Gloss=|Translit=
