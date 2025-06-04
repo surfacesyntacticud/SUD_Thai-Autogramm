@@ -307,7 +307,7 @@
 # text = 16.00น.ที่ ชุมชนปิ่นเจริญ 2 เขตดอนเมือง คุณหญิงสุดารัตน์ เกยุราพันธุ์ หัวหน้าพรรค น.ต.ศิธาทิวารี เลขาธิการพรรค นายสุพันธุ์ มงคลสุธี รองหัวหน้าพรรค น.อ.อนุดิษฐ์ นาครทรรพ ผอ.สำนักงานปราบโกง นายการุณ โหสกุล ว่าที่ผู้สมัคร ส.ส.เขตดอนเมือง พรรคไทยสร้างไทย ขึ้นเวทีปราศรัย “แก้ ทุกข์ มหานคร กทม.”พบปะพี่น้องประชาชนชาวดอนเมือง ที่ปิ่นเจริญ 2 ซึ่งมีพี่น้องชาวดอนเมืองแห่ฟังกว่า 3,000 คน
 # text_en = 
 # tokenised text = 16.00 น. ที่ ชุมชน ปิ่น เจริญ 2 เขต ดอน เมือง คุณหญิง สุดารัตน์ เกยุราพันธุ์ หัวหน้า พรรค น.ต. ศิธา ทิวารี เลขาธิการ พรรค นาย สุพันธุ์ มงคลสุธี รอง หัวหน้า พรรค น.อ. อนุดิษฐ์ นาครทรรพ ผอ. สำนักงาน ปราบ โกง นาย การุณ โหสกุล ว่าที่ ผู้ สมัคร ส.ส. เขต ดอน เมือง พรรค ไทย สร้าง ไทย ขึ้น เวที ปราศรัย “ แก้ ทุกข์ มหานคร กทม. ” พบปะ พี่ น้อง ประชาชน ชาว ดอน เมือง ที่ ปิ่น เจริญ 2 ซึ่ง มี พี่ น้อง ชาว ดอน เมือง แห่ ฟัง กว่า 3,000 คน
-# translit = 
+# translit = /phɔ̌ː-ʔɔː/ /naːj/
 # phrase_type = sentence
 # sentence_position = 
 # genre = political_news_article
@@ -333,7 +333,7 @@
 18	ทิวารี	ทิวารี	PROPN	_	_	17	flat	_	Gloss=|Translit=
 19	เลขาธิการ	เลขาธิการ	NOUN	_	_	16	appos	_	SpaceAfter=No|Gloss=Thiwaree|Translit=
 20	พรรค	พรรค	NOUN	_	_	19	nmod	_	Gloss=Party|Translit=phák
-21	นาย	นาย	NOUN	_	_	11	conj	_	SpaceAfter=No|Gloss=Mister|Translit=
+21	นาย	นาย	NOUN	_	_	11	conj	_	SpaceAfter=No|Gloss=Mister|Translit=naːj
 22	สุพันธุ์	สุพันธุ์	PROPN	_	_	21	flat	_	Gloss=Suphan|Translit=
 23	มงคลสุธี	มงคลสุธี	PROPN	_	_	22	flat	_	Gloss=Mongkhonsuthee|Translit=
 24	รอง	รอง	VERB	_	_	21	obj	_	SpaceAfter=No|Gloss=|Translit=
@@ -341,12 +341,12 @@
 26	พรรค	พรรค	NOUN	_	_	25	nmod	_	Gloss=Party|Translit=phák
 27	น.อ.	น.อ.	NOUN	_	_	11	conj	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=|Translit=
 28	อนุดิษฐ์	อนุดิษฐ์	PROPN	_	_	27	flat	_	Gloss=Anudit|Translit=
-29	นาครทรรพ	นาครทรรพ	PROPN	_	_	28	flat	_	Gloss=|Translit=
-30	ผอ.	ผอ.	NOUN	_	_	27	appos	_	SpaceAfter=No|Gloss=|Translit=
+29	นาครทรรพ	นาครทรรพ	PROPN	_	_	28	flat	_	Gloss=Nakornthap|Translit=
+30	ผอ.	ผอ.	NOUN	_	_	27	appos	_	SpaceAfter=No|Gloss=director|Translit=phɔ̌ː-ʔɔː
 31	สำนักงาน	สำนักงาน	NOUN	_	_	30	nmod	_	SpaceAfter=No|Gloss=office|Translit=sǎm-nák-ŋaːn
 32	ปราบ	ปราบ	VERB	_	ExtPos=PROPN	31	acl	_	SpaceAfter=No|Gloss=subdue|Translit=pràːp
 33	โกง	โกง	VERB	_	_	32	ccomp	_	Gloss=cheat|Translit=koːŋ
-34	นาย	นาย	NOUN	_	_	11	conj	_	SpaceAfter=No|Gloss=Mister|Translit=
+34	นาย	นาย	NOUN	_	_	11	conj	_	SpaceAfter=No|Gloss=Mister|Translit=naːj
 35	การุณ	การุณ	PROPN	_	_	34	flat	_	Gloss=Karun|Translit=
 36	โหสกุล	โหสกุล	PROPN	_	_	35	flat	_	Gloss=|Translit=
 37	ว่าที่	ว่าที่	VERB	_	_	34	appos	_	SpaceAfter=No|Gloss=|Translit=
