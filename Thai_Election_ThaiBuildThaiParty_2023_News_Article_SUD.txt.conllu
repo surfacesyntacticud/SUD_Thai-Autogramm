@@ -307,90 +307,92 @@
 # text = 16.00น.ที่ ชุมชนปิ่นเจริญ 2 เขตดอนเมือง คุณหญิงสุดารัตน์ เกยุราพันธุ์ หัวหน้าพรรค น.ต.ศิธาทิวารี เลขาธิการพรรค นายสุพันธุ์ มงคลสุธี รองหัวหน้าพรรค น.อ.อนุดิษฐ์ นาครทรรพ ผอ.สำนักงานปราบโกง นายการุณ โหสกุล ว่าที่ผู้สมัคร ส.ส.เขตดอนเมือง พรรคไทยสร้างไทย ขึ้นเวทีปราศรัย “แก้ ทุกข์ มหานคร กทม.”พบปะพี่น้องประชาชนชาวดอนเมือง ที่ปิ่นเจริญ 2 ซึ่งมีพี่น้องชาวดอนเมืองแห่ฟังกว่า 3,000 คน
 # text_en = 
 # tokenised text = 16.00 น. ที่ ชุมชน ปิ่น เจริญ 2 เขต ดอน เมือง คุณหญิง สุดารัตน์ เกยุราพันธุ์ หัวหน้า พรรค น.ต. ศิธา ทิวารี เลขาธิการ พรรค นาย สุพันธุ์ มงคลสุธี รอง หัวหน้า พรรค น.อ. อนุดิษฐ์ นาครทรรพ ผอ. สำนักงาน ปราบ โกง นาย การุณ โหสกุล ว่าที่ ผู้ สมัคร ส.ส. เขต ดอน เมือง พรรค ไทย สร้าง ไทย ขึ้น เวที ปราศรัย “ แก้ ทุกข์ มหานคร กทม. ” พบปะ พี่ น้อง ประชาชน ชาว ดอน เมือง ที่ ปิ่น เจริญ 2 ซึ่ง มี พี่ น้อง ชาว ดอน เมือง แห่ ฟัง กว่า 3,000 คน
-# translit = /phɔ̌ː-ʔɔː/ /naːj/
+# tokenised_translit =
+# tokenised_transcript = /sìp-hòk/ /naː-lí-kaː/ /thîː/ /chum-chon/ /pìn/ /cà-rɤːn/ /sɔ̌ːŋ/ /khèːt/ /dɔːn/ /mɯaŋ/ /khun-jǐŋ/ /sù-daː-rát/ /keː-jú-raː-phan/ /hǔa-nâː/ /phák/ /nɔː-tɔː/ /sì-thaː/ /thí-waː-riː/ /leː-khǎː-thí-kaːn/ /phák/ /naːj/ /sù-phan/ /moŋ-khon-sù-thiː/ /rɔːŋ/ /hǔa-nâː/ /phák/ /nɔː-ʔɔː/ /ʔà-nú-dìt/ /naː-khɔːn-tháp/ /phɔ̌ː-ʔɔː/ /sǎm-nák-ŋaːn/ /pràːp/ /koːŋ/ /naːj/ /kaː-run/ /hǒː-sà-kun/ /wâː-thîː/ /phûː/ /sà-màk/ /sɔ̌ː-sɔ̌ː/ /khèːt/ /dɔːn/ /mɯaŋ/ /phák/ /thaj/ /sâːŋ/ /thaj/ /khɯ̂n/ /weː-thiː/ /praː-sǎj/ /kɛ̂ː/ /thúk/ /má-hǎː-ná-khɔːn/ /kɔː-thɔː-mɔː/ /phóp-pàʔ/ /phîː/ /nɔ́ːŋ/ /pràʔ-chaː-chon/ /chaːw/ /dɔːn/ /mɯaŋ/ /thîː/ /pìn/ /cà-rɤːn/ /sɔ̌ːŋ/ /sɯ̂ŋ/ /miː/ /phîː/ /nɔ́ːŋ/ /chaːw/ /dɔːn/ /mɯaŋ/ /hɛ̀ː/ /faŋ/ /kwàː/ /sǎːm-phan/ /khon/
 # phrase_type = sentence
-# sentence_position = 
+# sentence_position = body
 # genre = political_news_article
 # source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
 1	16.00	16.00	NUM	_	_	48	obl:tmod	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=16.00|Translit=sìp-hòk
-2	น.	น.	NOUN	_	_	1	nmod	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=|Translit=naː-lí-kaː
+2	น.	น.	NOUN	_	_	1	nmod	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=clock|Translit=naː-lí-kaː
 3	ที่	ที่	ADP	_	_	4	case	_	CorrectSpaceAfter=No|Gloss=at|Translit=thîː
 4	ชุมชน	ชุมชน	NOUN	_	_	48	obl	_	SpaceAfter=No|Gloss=community|Translit=chum-chon
-5	ปิ่น	ปิ่น	NOUN	_	ExtPos=PROPN	4	nmod	_	SpaceAfter=No|Gloss=|Translit=pìn
-6	เจริญ	เจริญ	VERB	_	_	5	acl	_	Gloss=|Translit=cà-rɤːn
+5	ปิ่น	ปิ่น	NOUN	_	ExtPos=PROPN	4	nmod	_	SpaceAfter=No|Gloss=summit|Translit=pìn
+6	เจริญ	เจริญ	VERB	_	_	5	acl	_	Gloss=prosper|Translit=cà-rɤːn
 7	2	2	NUM	_	_	5	nmod	_	Gloss=2|Translit=sɔ̌ːŋ
-8	เขต	เขต	NOUN	_	_	4	nmod	_	SpaceAfter=No|Gloss=|Translit=khèːt
+8	เขต	เขต	NOUN	_	_	4	nmod	_	SpaceAfter=No|Gloss=district|Translit=khèːt
 9	ดอน	ดอน	NOUN	_	ExtPos=PROPN	8	nmod	_	SpaceAfter=No|Gloss=hill|Translit=dɔːn
 10	เมือง	เมือง	NOUN	_	_	9	nmod	_	Gloss=city|Translit=mɯaŋ
 11	คุณหญิง	คุณหญิง	NOUN	_	_	48	nsubj	_	SpaceAfter=No|Gloss=Lady|Translit=khun-jǐŋ
 12	สุดารัตน์	สุดารัตน์	PROPN	_	_	11	flat	_	Gloss=Sudarat|Translit=sù-daː-rát
-13	เกยุราพันธุ์	เกยุราพันธุ์	PROPN	_	_	12	flat	_	Gloss=|Translit=keː-jú-raː-phan
-14	หัวหน้า	หัวหน้า	NOUN	_	_	11	appos	_	SpaceAfter=No|Gloss=|Translit=hǔa-nâː
-15	พรรค	พรรค	NOUN	_	_	14	nmod	_	Gloss=Party|Translit=phák
-16	น.ต.	น.ต.	NOUN	_	_	11	conj	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=|Translit=
-17	ศิธา	ศิธา	PROPN	_	_	16	flat	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=Sitha|Translit=
-18	ทิวารี	ทิวารี	PROPN	_	_	17	flat	_	Gloss=|Translit=
-19	เลขาธิการ	เลขาธิการ	NOUN	_	_	16	appos	_	SpaceAfter=No|Gloss=Thiwaree|Translit=
+13	เกยุราพันธุ์	เกยุราพันธุ์	PROPN	_	_	12	flat	_	Gloss=Keyuraphan|Translit=keː-jú-raː-phan
+14	หัวหน้า	หัวหน้า	NOUN	_	_	11	appos	_	SpaceAfter=No|Gloss=chief|Translit=hǔa-nâː
+15	พรรค	พรรค	NOUN	_	_	14	nmod	-	Gloss=Party|Translit=phák
+16	น.ต.	น.ต.	NOUN	_	_	11	conj	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=Lieutenant Commander|Translit=nɔː-tɔː
+17	ศิธา	ศิธา	PROPN	_	_	16	flat	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=Sita|Translit=sì-thaː
+18	ทิวารี	ทิวารี	PROPN	_	_	17	flat	_	Gloss=Tiwari|Translit=thí-waː-riː
+19	เลขาธิการ	เลขาธิการ	NOUN	_	_	16	appos	_	SpaceAfter=No|Gloss=secretary|Translit=leː-khǎː-thí-kaːn
 20	พรรค	พรรค	NOUN	_	_	19	nmod	_	Gloss=Party|Translit=phák
 21	นาย	นาย	NOUN	_	_	11	conj	_	SpaceAfter=No|Gloss=Mister|Translit=naːj
-22	สุพันธุ์	สุพันธุ์	PROPN	_	_	21	flat	_	Gloss=Suphan|Translit=
-23	มงคลสุธี	มงคลสุธี	PROPN	_	_	22	flat	_	Gloss=Mongkhonsuthee|Translit=
-24	รอง	รอง	VERB	_	_	21	obj	_	SpaceAfter=No|Gloss=|Translit=
-25	หัวหน้า	หัวหน้า	NOUN	_	_	24	obj	_	SpaceAfter=No|Gloss=|Translit=
+22	สุพันธุ์	สุพันธุ์	PROPN	_	_	21	flat	_	Gloss=Supant|Translit=sù-phan
+23	มงคลสุธี	มงคลสุธี	PROPN	_	_	22	flat	_	Gloss=Mongkolsuthree|Translit=moŋ-khon-sù-thiː
+24	รอง	รอง	VERB	_	_	21	obj	_	SpaceAfter=No|Gloss=subordinate|Translit=rɔːŋ
+25	หัวหน้า	หัวหน้า	NOUN	_	_	24	obj	_	SpaceAfter=No|Gloss=chief|Translit=hǔa-nâː
 26	พรรค	พรรค	NOUN	_	_	25	nmod	_	Gloss=Party|Translit=phák
-27	น.อ.	น.อ.	NOUN	_	_	11	conj	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=|Translit=
-28	อนุดิษฐ์	อนุดิษฐ์	PROPN	_	_	27	flat	_	Gloss=Anudit|Translit=
-29	นาครทรรพ	นาครทรรพ	PROPN	_	_	28	flat	_	Gloss=Nakornthap|Translit=
+27	น.อ.	น.อ.	NOUN	_	_	11	conj	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=Captain|Translit=nɔː-ʔɔː
+28	อนุดิษฐ์	อนุดิษฐ์	PROPN	_	_	27	flat	_	Gloss=
+Anudith|Translit=ʔà-nú-dìt
+29	นาครทรรพ	นาครทรรพ	PROPN	_	_	28	flat	_	Gloss=Nakornthap|Translit=naː-khɔːn-tháp
 30	ผอ.	ผอ.	NOUN	_	_	27	appos	_	SpaceAfter=No|Gloss=director|Translit=phɔ̌ː-ʔɔː
 31	สำนักงาน	สำนักงาน	NOUN	_	_	30	nmod	_	SpaceAfter=No|Gloss=office|Translit=sǎm-nák-ŋaːn
 32	ปราบ	ปราบ	VERB	_	ExtPos=PROPN	31	acl	_	SpaceAfter=No|Gloss=subdue|Translit=pràːp
 33	โกง	โกง	VERB	_	_	32	ccomp	_	Gloss=cheat|Translit=koːŋ
 34	นาย	นาย	NOUN	_	_	11	conj	_	SpaceAfter=No|Gloss=Mister|Translit=naːj
-35	การุณ	การุณ	PROPN	_	_	34	flat	_	Gloss=Karun|Translit=
-36	โหสกุล	โหสกุล	PROPN	_	_	35	flat	_	Gloss=|Translit=
-37	ว่าที่	ว่าที่	VERB	_	_	34	appos	_	SpaceAfter=No|Gloss=|Translit=
-38	ผู้	ผู้	NOUN	_	_	37	obj	_	SpaceAfter=No|Gloss=|Translit=
-39	สมัคร	สมัคร	VERB	_	_	38	acl	_	Gloss=apply|Translit=
-40	ส.ส.	ส.ส.	NOUN	_	_	39	obj	_	SpaceAfter=No|Gloss=|Translit=
-41	เขต	เขต	NOUN	_	_	40	nmod	_	SpaceAfter=No|Gloss=district|Translit=
+35	การุณ	การุณ	PROPN	_	_	34	flat	_	Gloss=Karun|Translit=kaː-run
+36	โหสกุล	โหสกุล	PROPN	_	_	35	flat	_	Gloss=Hosakul|Translit=hǒː-sà-kun
+37	ว่าที่	ว่าที่	VERB	_	_	34	appos	_	SpaceAfter=No|Gloss=prospective|Translit=wâː-thîː
+38	ผู้	ผู้	NOUN	_	_	37	obj	_	SpaceAfter=No|Gloss=person|Translit=phûː
+39	สมัคร	สมัคร	VERB	_	_	38	acl	_	Gloss=apply|Translit=sà-màk
+40	ส.ส.	ส.ส.	NOUN	_	_	39	obj	_	SpaceAfter=No|Gloss=Member of the House of Representatives|Translit=sɔ̌ː-sɔ̌ː
+41	เขต	เขต	NOUN	_	_	40	nmod	_	SpaceAfter=No|Gloss=district|Translit=khèːt
 42	ดอน	ดอน	NOUN	_	ExtPos=PROPN	41	nmod	_	SpaceAfter=No|Gloss=hill|Translit=dɔːn
 43	เมือง	เมือง	NOUN	_	_	42	nmod	_	Gloss=city|Translit=mɯaŋ
 44	พรรค	พรรค	NOUN	_	_	40	nmod	_	SpaceAfter=No|Gloss=Party|Translit=phák
 45	ไทย	ไทย	PROPN	_	ExtPos=PROPN	44	nmod	_	SpaceAfter=No|Gloss=Thai|Translit=thaj
 46	สร้าง	สร้าง	VERB	_	_	45	acl	_	SpaceAfter=No|Gloss=build|Translit=sâːŋ
 47	ไทย	ไทย	PROPN	_	_	46	obj	_	Gloss=Thai|Translit=thaj
-48	ขึ้น	ขึ้น	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=|Translit=
+48	ขึ้น	ขึ้น	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=ascend|Translit=khɯ̂n
 49	เวที	เวที	NOUN	_	_	48	obl:lmod	_	SpaceAfter=No|Gloss=stage|Translit=weː-thiː
 50	ปราศรัย	ปราศรัย	VERB	_	_	49	acl	_	Gloss=address|Translit=praː-sǎj
-51	“	“	PUNCT	_	_	52	punct	_	SpaceAfter=No|Gloss=|Translit=
+51	“	“	PUNCT	_	_	52	punct	_	SpaceAfter=No
 52	แก้	แก้	VERB	_	_	50	obj	_	Gloss=solve|Translit=kɛ̂ː
 53	ทุกข์	ทุกข์	NOUN	_	_	52	obj	_	Gloss=suffer|Translit=thúk
 54	มหานคร	มหานคร	NOUN	_	_	53	nmod	_	Gloss=metropolis|Translit=má-hǎː-ná-khɔːn
-55	กทม.	กทม.	PROPN	_	_	54	appos	_	SpaceAfter=No|Gloss=BKK|Translit=
+55	กทม.	กทม.	PROPN	_	_	54	appos	_	SpaceAfter=No|Gloss=Bangkok|Translit=kɔː-thɔː-mɔː
 56	”	”	PUNCT	_	_	52	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
-57	พบปะ	พบปะ	VERB	_	_	48	conj	_	SpaceAfter=No|Gloss=meet|Translit=
-58	พี่	พี่	NOUN	_	_	57	obj	_	SpaceAfter=No|Gloss=|Translit=
-59	น้อง	น้อง	NOUN	_	_	58	flat	_	SpaceAfter=No|Gloss=|Translit=
-60	ประชาชน	ประชาชน	NOUN	_	_	58	nmod	_	SpaceAfter=No|Gloss=population|Translit=
-61	ชาว	ชาว	NOUN	_	_	60	nmod	_	SpaceAfter=No|Gloss=|Translit=
+57	พบปะ	พบปะ	VERB	_	_	48	conj	_	SpaceAfter=No|Gloss=meet|Translit=phóp-pàʔ
+58	พี่	พี่	NOUN	_	_	57	obj	_	SpaceAfter=No|Gloss=older sibling|Translit=phîː
+59	น้อง	น้อง	NOUN	_	_	58	flat	_	SpaceAfter=No|Gloss=younger sibling|Translit=nɔ́ːŋ
+60	ประชาชน	ประชาชน	NOUN	_	_	58	nmod	_	SpaceAfter=No|Gloss=population|Translit=pràʔ-chaː-chon
+61	ชาว	ชาว	NOUN	_	_	60	nmod	_	SpaceAfter=No|Gloss=folk|Translit=chaːw
 62	ดอน	ดอน	NOUN	_	ExtPos=PROPN	61	nmod	_	SpaceAfter=No|Gloss=hill|Translit=dɔːn
 63	เมือง	เมือง	NOUN	_	_	62	nmod	_	Gloss=city|Translit=mɯaŋ
 64	ที่	ที่	ADP	_	_	65	case	_	SpaceAfter=No|Gloss=at|Translit=thîː
-65	ปิ่น	ปิ่น	NOUN	_	ExtPos=PROPN	57	obl	_	SpaceAfter=No|Gloss=|Translit=
-66	เจริญ	เจริญ	VERB	_	_	65	acl	_	Gloss=|Translit=
-67	2	2	NUM	_	_	65	nmod	_	Gloss=2|Translit=
-68	ซึ่ง	ซึ่ง	PRON	_	_	69	nsubj	_	SpaceAfter=No|Gloss=where(REL)|Translit=
-69	มี	มี	VERB	_	_	65	acl:relcl	_	SpaceAfter=No|Gloss=have|Translit=
-70	พี่	พี่	NOUN	_	_	69	obj	_	SpaceAfter=No|Gloss=|Translit=
-71	น้อง	น้อง	NOUN	_	_	70	flat	_	SpaceAfter=No|Gloss=|Translit=
-72	ชาว	ชาว	NOUN	_	_	70	nmod	_	SpaceAfter=No|Gloss=|Translit=
+65	ปิ่น	ปิ่น	NOUN	_	ExtPos=PROPN	57	obl	_	SpaceAfter=No|Gloss=summit|Translit=pìn
+66	เจริญ	เจริญ	VERB	_	_	65	acl	_	Gloss=prosper|Translit=cà-rɤːn
+67	2	2	NUM	_	_	65	nmod	_	Gloss=2|Translit=sɔ̌ːŋ
+68	ซึ่ง	ซึ่ง	PRON	_	_	69	nsubj	_	SpaceAfter=No|Gloss=where(REL)|Translit=sɯ̂ŋ
+69	มี	มี	VERB	_	_	65	acl:relcl	_	SpaceAfter=No|Gloss=have|Translit=miː
+70	พี่	พี่	NOUN	_	_	69	obj	_	SpaceAfter=No|Gloss=older sibling|Translit=phîː
+71	น้อง	น้อง	NOUN	_	_	70	flat	_	SpaceAfter=No|Gloss=younger sibling|Translit=nɔ́ːŋ
+72	ชาว	ชาว	NOUN	_	_	70	nmod	_	SpaceAfter=No|Gloss=folk|Translit=chaːw
 73	ดอน	ดอน	NOUN	_	ExtPos=PROPN	72	nmod	_	SpaceAfter=No|Gloss=hill|Translit=dɔːn
 74	เมือง	เมือง	NOUN	_	_	73	nmod	_	SpaceAfter=No|Gloss=city|Translit=mɯaŋ
-75	แห่	แห่	VERB	_	_	70	acl	_	SpaceAfter=No|Gloss=|Translit=
-76	ฟัง	ฟัง	VERB	_	_	75	compound:svc	_	SpaceAfter=No|Gloss=listen|Translit=
-77	กว่า	กว่า	DET	_	_	79	det	_	Gloss=|Translit=
-78	3,000	3,000	NUM	_	_	79	nummod	_	Gloss=3,000|Translit=
+75	แห่	แห่	VERB	_	_	70	acl	_	SpaceAfter=No|Gloss=flock|Translit=hɛ̀ː
+76	ฟัง	ฟัง	VERB	_	_	75	compound:svc	_	SpaceAfter=No|Gloss=listen|Translit=faŋ
+77	กว่า	กว่า	DET	_	_	79	det	_	Gloss=more than|Translit=kwàː
+78	3,000	3,000	NUM	_	_	79	nummod	_	Gloss=3,000|Translit=sǎːm-phan
 79	คน	คน	NOUN	_	NounType=Clf	70	clf	_	Gloss=person|Translit=khon
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_7
