@@ -504,7 +504,7 @@
 # genre = political_news_article
 # source = https://www.matichonweekly.com/hot-news/article_656027 
 # year = 2023
-1	16.00	16.00	NUM	_	_	48	obl:tmod	-	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=16.00|Translit=sìp-hòk
+1	16.00	16.00	NUM	_	_	48	obl:tmod	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=16.00|Translit=sìp-hòk
 2	น.	น.	NOUN	_	_	1	nmod	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=clock|Translit=naː-lí-kaː
 3	ที่	ที่	ADP	_	_	4	case	_	CorrectSpaceAfter=No|Gloss=at|Translit=thîː
 4	ชุมชน	ชุมชน	NOUN	_	_	48	obl	_	SpaceAfter=No|Gloss=community|Translit=chum-chon
@@ -668,7 +668,7 @@
 71	น้อง	น้อง	NOUN	_	_	70	flat	_	SpaceAfter=No|Gloss=younger sibling|Translit=nɔ́ːŋ
 72	ชาว	ชาว	NOUN	_	_	70	nmod	_	SpaceAfter=No|Gloss=folk|Translit=chaːw
 73	ดอน	ดอน	NOUN	_	ExtPos=PROPN	72	nmod	_	SpaceAfter=No|Gloss=hill|Translit=dɔːn
-74	เมือง	เมือง	NOUN	_	_	73	nmod	-	SpaceAfter=No|Gloss=city|Translit=mɯaŋ
+74	เมือง	เมือง	NOUN	_	_	73	nmod	_	SpaceAfter=No|Gloss=city|Translit=mɯaŋ
 75	แห่	แห่	VERB	_	_	70	acl	_	SpaceAfter=No|Gloss=flock|Translit=hɛ̀ː
 76	ฟัง	ฟัง	VERB	_	_	75	compound:svc	_	SpaceAfter=No|Gloss=listen|Translit=faŋ
 77	กว่า	กว่า	DET	_	_	79	det	_	Gloss=more than|Translit=kwàː
