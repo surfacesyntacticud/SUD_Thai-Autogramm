@@ -313,7 +313,7 @@
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_6
 # text = 16.00น.ที่ ชุมชนปิ่นเจริญ 2 เขตดอนเมือง คุณหญิงสุดารัตน์ เกยุราพันธุ์ หัวหน้าพรรค น.ต.ศิธาทิวารี เลขาธิการพรรค นายสุพันธุ์ มงคลสุธี รองหัวหน้าพรรค น.อ.อนุดิษฐ์ นาครทรรพ ผอ.สำนักงานปราบโกง นายการุณ โหสกุล ว่าที่ผู้สมัคร ส.ส.เขตดอนเมือง พรรคไทยสร้างไทย ขึ้นเวทีปราศรัย “แก้ ทุกข์ มหานคร กทม.”พบปะพี่น้องประชาชนชาวดอนเมือง ที่ปิ่นเจริญ 2 ซึ่งมีพี่น้องชาวดอนเมืองแห่ฟังกว่า 3,000 คน
-# text_en = 
+# text_en = At 4:00 PM at the Pin Charoen 2 Community in Don Mueang District, Lady Sudarat Keyuraphan, the Party Leader; Lt. Cmdr. Sita Tiwari, the Party Secretary-General; Mr. Supant Mongkolsuthree, the Party Deputy Leader; Group Capt. Anudith Nakornthap, the Director of the Anti-Corruption Office; and Mr. Karun Hosakul, Prospective MP Candidate for Don Mueang District from the Thai Build Thai Party, took the stage for a campaign rally under the theme “Solving Bangkok’s Suffering.” They met with local residents of Don Mueang at Pin Charoen 2, where more than 3,000 people gathered to listen.
 # tokenised text = 16.00 น. ที่ ชุมชน ปิ่น เจริญ 2 เขต ดอน เมือง คุณหญิง สุดารัตน์ เกยุราพันธุ์ หัวหน้า พรรค น.ต. ศิธา ทิวารี เลขาธิการ พรรค นาย สุพันธุ์ มงคลสุธี รอง หัวหน้า พรรค น.อ. อนุดิษฐ์ นาครทรรพ ผอ. สำนัก งาน ปราบ โกง นาย การุณ โหสกุล ว่าที่ ผู้ สมัคร ส.ส. เขต ดอน เมือง พรรค ไทย สร้าง ไทย ขึ้น เวที ปราศรัย “ แก้ ทุกข์ มหานคร กทม. ” พบปะ พี่ น้อง ประชาชน ชาว ดอน เมือง ที่ ปิ่น เจริญ 2 ซึ่ง มี พี่ น้อง ชาว ดอน เมือง แห่ ฟัง กว่า 3,000 คน
 # tokenised_translit =
 # tokenised_transcript = /sìp-hòk/ /naː-lí-kaː/ /thîː/ /chum-chon/ /pìn/ /cà-rɤːn/ /sɔ̌ːŋ/ /khèːt/ /dɔːn/ /mɯaŋ/ /khun-jǐŋ/ /sù-daː-rát/ /keː-jú-raː-phan/ /hǔa-nâː/ /phák/ /nɔː-tɔː/ /sì-thaː/ /thí-waː-riː/ /leː-khǎː-thí-kaːn/ /phák/ /naːj/ /sù-phan/ /moŋ-khon-sù-thiː/ /rɔːŋ/ /hǔa-nâː/ /phák/ /nɔː-ʔɔː/ /ʔà-nú-dìt/ /naː-khɔːn-tháp/ /phɔ̌ː-ʔɔː/ /sǎm-nák-ŋaːn/ /pràːp/ /koːŋ/ /naːj/ /kaː-run/ /hǒː-sà-kun/ /wâː-thîː/ /phûː/ /sà-màk/ /sɔ̌ː-sɔ̌ː/ /khèːt/ /dɔːn/ /mɯaŋ/ /phák/ /thaj/ /sâːŋ/ /thaj/ /khɯ̂n/ /weː-thiː/ /praː-sǎj/ /kɛ̂ː/ /thúk/ /má-hǎː-ná-khɔːn/ /kɔː-thɔː-mɔː/ /phóp-pàʔ/ /phîː/ /nɔ́ːŋ/ /pràʔ-chaː-chon/ /chaːw/ /dɔːn/ /mɯaŋ/ /thîː/ /pìn/ /cà-rɤːn/ /sɔ̌ːŋ/ /sɯ̂ŋ/ /miː/ /phîː/ /nɔ́ːŋ/ /chaːw/ /dɔːn/ /mɯaŋ/ /hɛ̀ː/ /faŋ/ /kwàː/ /sǎːm-phan/ /khon/
@@ -348,7 +348,7 @@
 24	รอง	รอง	VERB	_	_	21	obj	_	SpaceAfter=No|Gloss=subordinate|Translit=rɔːŋ
 25	หัวหน้า	หัวหน้า	NOUN	_	_	24	obj	_	SpaceAfter=No|Gloss=chief|Translit=hǔa-nâː
 26	พรรค	พรรค	NOUN	_	_	25	nmod	_	Gloss=Party|Translit=phák
-27	น.อ.	น.อ.	NOUN	_	_	11	conj	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=Captain|Translit=nɔː-ʔɔː
+27	น.อ.	น.อ.	NOUN	_	_	11	conj	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=Group Captain|Translit=nɔː-ʔɔː
 28	อนุดิษฐ์	อนุดิษฐ์	PROPN	_	_	27	flat	_	Gloss=Anudith|Translit=ʔà-nú-dìt
 29	นาครทรรพ	นาครทรรพ	PROPN	_	_	28	flat	_	Gloss=Nakornthap|Translit=naː-khɔːn-tháp
 30	ผอ.	ผอ.	NOUN	_	_	27	appos	_	SpaceAfter=No|Gloss=director|Translit=phɔ̌ː-ʔɔː
@@ -404,7 +404,7 @@
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_6_Variant_1
 # text = 16.00น.ที่ ชุมชนปิ่นเจริญ 2 เขตดอนเมือง คุณหญิงสุดารัตน์ เกยุราพันธุ์ หัวหน้าพรรค น.ต.ศิธาทิวารี เลขาธิการพรรค นายสุพันธุ์ มงคลสุธี รองหัวหน้าพรรค น.อ.อนุดิษฐ์ นาครทรรพ ผอ.สำนักงานปราบโกง นายการุณ โหสกุล ว่าที่ผู้สมัคร ส.ส.เขตดอนเมือง พรรคไทยสร้างไทย ขึ้นเวทีปราศรัย “แก้ ทุกข์ มหานคร กทม.”พบปะพี่น้องประชาชนชาวดอนเมือง ที่ปิ่นเจริญ 2 ซึ่งมีพี่น้องชาวดอนเมืองแห่ฟังกว่า 3,000 คน
-# text_en = 
+# text_en = At 4:00 PM at the Pin Charoen 2 Community in Don Mueang District, Lady Sudarat Keyuraphan, the Party Leader; Lt. Cmdr. Sita Tiwari, the Party Secretary-General; Mr. Supant Mongkolsuthree, the Party Deputy Leader; Group Capt. Anudith Nakornthap, the Director of the Anti-Corruption Office; and Mr. Karun Hosakul, Prospective MP Candidate for Don Mueang District from the Thai Build Thai Party, took the stage for a campaign rally under the theme “Solving Bangkok’s Suffering.” They met with local residents of Don Mueang at Pin Charoen 2, where more than 3,000 people gathered to listen.
 # tokenised text = 16.00 น. ที่ ชุมชน ปิ่น เจริญ 2 เขต ดอน เมือง คุณหญิง สุดารัตน์ เกยุราพันธุ์ หัวหน้า พรรค น.ต. ศิธา ทิวารี เลขาธิการ พรรค นาย สุพันธุ์ มงคลสุธี รอง หัวหน้า พรรค น.อ. อนุดิษฐ์ นาครทรรพ ผอ. สำนัก งาน ปราบ โกง นาย การุณ โหสกุล ว่าที่ ผู้ สมัคร ส.ส. เขต ดอน เมือง พรรค ไทย สร้าง ไทย ขึ้น เวที ปราศรัย “ แก้ ทุกข์ มหานคร กทม. ” พบปะ พี่ น้อง ประชาชน ชาว ดอน เมือง ที่ ปิ่น เจริญ 2 ซึ่ง มี พี่ น้อง ชาว ดอน เมือง แห่ ฟัง กว่า 3,000 คน
 # tokenised_translit =
 # tokenised_transcript = /sìp-hòk/ /naː-lí-kaː/ /thîː/ /chum-chon/ /pìn/ /cà-rɤːn/ /sɔ̌ːŋ/ /khèːt/ /dɔːn/ /mɯaŋ/ /khun-jǐŋ/ /sù-daː-rát/ /keː-jú-raː-phan/ /hǔa-nâː/ /phák/ /nɔː-tɔː/ /sì-thaː/ /thí-waː-riː/ /leː-khǎː-thí-kaːn/ /phák/ /naːj/ /sù-phan/ /moŋ-khon-sù-thiː/ /rɔːŋ/ /hǔa-nâː/ /phák/ /nɔː-ʔɔː/ /ʔà-nú-dìt/ /naː-khɔːn-tháp/ /phɔ̌ː-ʔɔː/ /sǎm-nák-ŋaːn/ /pràːp/ /koːŋ/ /naːj/ /kaː-run/ /hǒː-sà-kun/ /wâː-thîː/ /phûː/ /sà-màk/ /sɔ̌ː-sɔ̌ː/ /khèːt/ /dɔːn/ /mɯaŋ/ /phák/ /thaj/ /sâːŋ/ /thaj/ /khɯ̂n/ /weː-thiː/ /praː-sǎj/ /kɛ̂ː/ /thúk/ /má-hǎː-ná-khɔːn/ /kɔː-thɔː-mɔː/ /phóp-pàʔ/ /phîː/ /nɔ́ːŋ/ /pràʔ-chaː-chon/ /chaːw/ /dɔːn/ /mɯaŋ/ /thîː/ /pìn/ /cà-rɤːn/ /sɔ̌ːŋ/ /sɯ̂ŋ/ /miː/ /phîː/ /nɔ́ːŋ/ /chaːw/ /dɔːn/ /mɯaŋ/ /hɛ̀ː/ /faŋ/ /kwàː/ /sǎːm-phan/ /khon/
@@ -439,7 +439,7 @@
 24	รอง	รอง	VERB	_	_	21	appos	_	SpaceAfter=No|Gloss=subordinate|Translit=rɔːŋ
 25	หัวหน้า	หัวหน้า	NOUN	_	_	24	obj	_	SpaceAfter=No|Gloss=chief|Translit=hǔa-nâː
 26	พรรค	พรรค	NOUN	_	_	25	nmod	_	Gloss=Party|Translit=phák
-27	น.อ.	น.อ.	NOUN	_	_	11	conj	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=Captain|Translit=nɔː-ʔɔː
+27	น.อ.	น.อ.	NOUN	_	_	11	conj	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=Group Captain|Translit=nɔː-ʔɔː
 28	อนุดิษฐ์	อนุดิษฐ์	PROPN	_	_	27	flat	_	Gloss=Anudith|Translit=ʔà-nú-dìt
 29	นาครทรรพ	นาครทรรพ	PROPN	_	_	28	flat	_	Gloss=Nakornthap|Translit=naː-khɔːn-tháp
 30	ผอ.	ผอ.	NOUN	_	_	27	appos	_	SpaceAfter=No|Gloss=director|Translit=phɔ̌ː-ʔɔː
@@ -495,7 +495,7 @@
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_6_Variant_2
 # text = 16.00น.ที่ ชุมชนปิ่นเจริญ 2 เขตดอนเมือง คุณหญิงสุดารัตน์ เกยุราพันธุ์ หัวหน้าพรรค น.ต.ศิธาทิวารี เลขาธิการพรรค นายสุพันธุ์ มงคลสุธี รองหัวหน้าพรรค น.อ.อนุดิษฐ์ นาครทรรพ ผอ.สำนักงานปราบโกง นายการุณ โหสกุล ว่าที่ผู้สมัคร ส.ส.เขตดอนเมือง พรรคไทยสร้างไทย ขึ้นเวทีปราศรัย “แก้ ทุกข์ มหานคร กทม.”พบปะพี่น้องประชาชนชาวดอนเมือง ที่ปิ่นเจริญ 2 ซึ่งมีพี่น้องชาวดอนเมืองแห่ฟังกว่า 3,000 คน
-# text_en = 
+# text_en = At 4:00 PM at the Pin Charoen 2 Community in Don Mueang District, Lady Sudarat Keyuraphan, the Party Leader; Lt. Cmdr. Sita Tiwari, the Party Secretary-General; Mr. Supant Mongkolsuthree, the Party Deputy Leader; Group Capt. Anudith Nakornthap, the Director of the Anti-Corruption Office; and Mr. Karun Hosakul, Prospective MP Candidate for Don Mueang District from the Thai Build Thai Party, took the stage for a campaign rally under the theme “Solving Bangkok’s Suffering.” They met with local residents of Don Mueang at Pin Charoen 2, where more than 3,000 people gathered to listen.
 # tokenised text = 16.00 น. ที่ ชุมชน ปิ่น เจริญ 2 เขต ดอน เมือง คุณหญิง สุดารัตน์ เกยุราพันธุ์ หัวหน้า พรรค น.ต. ศิธา ทิวารี เลขาธิการ พรรค นาย สุพันธุ์ มงคลสุธี รอง หัวหน้า พรรค น.อ. อนุดิษฐ์ นาครทรรพ ผอ. สำนัก งาน ปราบ โกง นาย การุณ โหสกุล ว่าที่ ผู้ สมัคร ส.ส. เขต ดอน เมือง พรรค ไทย สร้าง ไทย ขึ้น เวที ปราศรัย “ แก้ ทุกข์ มหานคร กทม. ” พบปะ พี่ น้อง ประชาชน ชาว ดอน เมือง ที่ ปิ่น เจริญ 2 ซึ่ง มี พี่ น้อง ชาว ดอน เมือง แห่ ฟัง กว่า 3,000 คน
 # tokenised_translit =
 # tokenised_transcript = /sìp-hòk/ /naː-lí-kaː/ /thîː/ /chum-chon/ /pìn/ /cà-rɤːn/ /sɔ̌ːŋ/ /khèːt/ /dɔːn/ /mɯaŋ/ /khun-jǐŋ/ /sù-daː-rát/ /keː-jú-raː-phan/ /hǔa-nâː/ /phák/ /nɔː-tɔː/ /sì-thaː/ /thí-waː-riː/ /leː-khǎː-thí-kaːn/ /phák/ /naːj/ /sù-phan/ /moŋ-khon-sù-thiː/ /rɔːŋ/ /hǔa-nâː/ /phák/ /nɔː-ʔɔː/ /ʔà-nú-dìt/ /naː-khɔːn-tháp/ /phɔ̌ː-ʔɔː/ /sǎm-nák-ŋaːn/ /pràːp/ /koːŋ/ /naːj/ /kaː-run/ /hǒː-sà-kun/ /wâː-thîː/ /phûː/ /sà-màk/ /sɔ̌ː-sɔ̌ː/ /khèːt/ /dɔːn/ /mɯaŋ/ /phák/ /thaj/ /sâːŋ/ /thaj/ /khɯ̂n/ /weː-thiː/ /praː-sǎj/ /kɛ̂ː/ /thúk/ /má-hǎː-ná-khɔːn/ /kɔː-thɔː-mɔː/ /phóp-pàʔ/ /phîː/ /nɔ́ːŋ/ /pràʔ-chaː-chon/ /chaːw/ /dɔːn/ /mɯaŋ/ /thîː/ /pìn/ /cà-rɤːn/ /sɔ̌ːŋ/ /sɯ̂ŋ/ /miː/ /phîː/ /nɔ́ːŋ/ /chaːw/ /dɔːn/ /mɯaŋ/ /hɛ̀ː/ /faŋ/ /kwàː/ /sǎːm-phan/ /khon/
@@ -530,7 +530,7 @@
 24	รอง	รอง	VERB	_	_	21	appos	_	SpaceAfter=No|Gloss=subordinate|Translit=rɔːŋ
 25	หัวหน้า	หัวหน้า	NOUN	_	_	24	obj	_	SpaceAfter=No|Gloss=chief|Translit=hǔa-nâː
 26	พรรค	พรรค	NOUN	_	_	25	nmod	_	Gloss=Party|Translit=phák
-27	น.อ.	น.อ.	NOUN	_	_	11	conj	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=Captain|Translit=nɔː-ʔɔː
+27	น.อ.	น.อ.	NOUN	_	_	11	conj	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=Group Captain|Translit=nɔː-ʔɔː
 28	อนุดิษฐ์	อนุดิษฐ์	PROPN	_	_	27	flat	_	Gloss=Anudith|Translit=ʔà-nú-dìt
 29	นาครทรรพ	นาครทรรพ	PROPN	_	_	28	flat	_	Gloss=Nakornthap|Translit=naː-khɔːn-tháp
 30	ผอ.	ผอ.	NOUN	_	_	27	appos	_	SpaceAfter=No|Gloss=director|Translit=phɔ̌ː-ʔɔː
@@ -586,7 +586,7 @@
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_6_Variant_3
 # text = 16.00น.ที่ ชุมชนปิ่นเจริญ 2 เขตดอนเมือง คุณหญิงสุดารัตน์ เกยุราพันธุ์ หัวหน้าพรรค น.ต.ศิธาทิวารี เลขาธิการพรรค นายสุพันธุ์ มงคลสุธี รองหัวหน้าพรรค น.อ.อนุดิษฐ์ นาครทรรพ ผอ.สำนักงานปราบโกง นายการุณ โหสกุล ว่าที่ผู้สมัคร ส.ส.เขตดอนเมือง พรรคไทยสร้างไทย ขึ้นเวทีปราศรัย “แก้ ทุกข์ มหานคร กทม.”พบปะพี่น้องประชาชนชาวดอนเมือง ที่ปิ่นเจริญ 2 ซึ่งมีพี่น้องชาวดอนเมืองแห่ฟังกว่า 3,000 คน
-# text_en = 
+# text_en = At 4:00 PM at the Pin Charoen 2 Community in Don Mueang District, Lady Sudarat Keyuraphan, the Party Leader; Lt. Cmdr. Sita Tiwari, the Party Secretary-General; Mr. Supant Mongkolsuthree, the Party Deputy Leader; Group Capt. Anudith Nakornthap, the Director of the Anti-Corruption Office; and Mr. Karun Hosakul, Prospective MP Candidate for Don Mueang District from the Thai Build Thai Party, took the stage for a campaign rally under the theme “Solving Bangkok’s Suffering.” They met with local residents of Don Mueang at Pin Charoen 2, where more than 3,000 people gathered to listen.
 # tokenised text = 16.00 น. ที่ ชุมชน ปิ่น เจริญ 2 เขต ดอน เมือง คุณหญิง สุดารัตน์ เกยุราพันธุ์ หัวหน้า พรรค น.ต. ศิธา ทิวารี เลขาธิการ พรรค นาย สุพันธุ์ มงคลสุธี รอง หัวหน้า พรรค น.อ. อนุดิษฐ์ นาครทรรพ ผอ. สำนัก งาน ปราบ โกง นาย การุณ โหสกุล ว่าที่ ผู้ สมัคร ส.ส. เขต ดอน เมือง พรรค ไทย สร้าง ไทย ขึ้น เวที ปราศรัย “ แก้ ทุกข์ มหานคร กทม. ” พบปะ พี่ น้อง ประชาชน ชาว ดอน เมือง ที่ ปิ่น เจริญ 2 ซึ่ง มี พี่ น้อง ชาว ดอน เมือง แห่ ฟัง กว่า 3,000 คน
 # tokenised_translit =
 # tokenised_transcript = /sìp-hòk/ /naː-lí-kaː/ /thîː/ /chum-chon/ /pìn/ /cà-rɤːn/ /sɔ̌ːŋ/ /khèːt/ /dɔːn/ /mɯaŋ/ /khun-jǐŋ/ /sù-daː-rát/ /keː-jú-raː-phan/ /hǔa-nâː/ /phák/ /nɔː-tɔː/ /sì-thaː/ /thí-waː-riː/ /leː-khǎː-thí-kaːn/ /phák/ /naːj/ /sù-phan/ /moŋ-khon-sù-thiː/ /rɔːŋ/ /hǔa-nâː/ /phák/ /nɔː-ʔɔː/ /ʔà-nú-dìt/ /naː-khɔːn-tháp/ /phɔ̌ː-ʔɔː/ /sǎm-nák-ŋaːn/ /pràːp/ /koːŋ/ /naːj/ /kaː-run/ /hǒː-sà-kun/ /wâː-thîː/ /phûː/ /sà-màk/ /sɔ̌ː-sɔ̌ː/ /khèːt/ /dɔːn/ /mɯaŋ/ /phák/ /thaj/ /sâːŋ/ /thaj/ /khɯ̂n/ /weː-thiː/ /praː-sǎj/ /kɛ̂ː/ /thúk/ /má-hǎː-ná-khɔːn/ /kɔː-thɔː-mɔː/ /phóp-pàʔ/ /phîː/ /nɔ́ːŋ/ /pràʔ-chaː-chon/ /chaːw/ /dɔːn/ /mɯaŋ/ /thîː/ /pìn/ /cà-rɤːn/ /sɔ̌ːŋ/ /sɯ̂ŋ/ /miː/ /phîː/ /nɔ́ːŋ/ /chaːw/ /dɔːn/ /mɯaŋ/ /hɛ̀ː/ /faŋ/ /kwàː/ /sǎːm-phan/ /khon/
@@ -621,7 +621,7 @@
 24	รอง	รอง	VERB	_	_	21	appos	_	SpaceAfter=No|Gloss=subordinate|Translit=rɔːŋ
 25	หัวหน้า	หัวหน้า	NOUN	_	_	24	obj	_	SpaceAfter=No|Gloss=chief|Translit=hǔa-nâː
 26	พรรค	พรรค	NOUN	_	_	25	nmod	_	Gloss=Party|Translit=phák
-27	น.อ.	น.อ.	NOUN	_	_	11	conj	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=Captain|Translit=nɔː-ʔɔː
+27	น.อ.	น.อ.	NOUN	_	_	11	conj	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=Group Captain|Translit=nɔː-ʔɔː
 28	อนุดิษฐ์	อนุดิษฐ์	PROPN	_	_	27	flat	_	Gloss=Anudith|Translit=ʔà-nú-dìt
 29	นาครทรรพ	นาครทรรพ	PROPN	_	_	28	flat	_	Gloss=Nakornthap|Translit=naː-khɔːn-tháp
 30	ผอ.	ผอ.	NOUN	_	_	27	appos	_	SpaceAfter=No|Gloss=director|Translit=phɔ̌ː-ʔɔː
