@@ -657,7 +657,7 @@
 60	ประชาชน	ประชาชน	NOUN	_	_	58	nmod	_	SpaceAfter=No|Gloss=population|Translit=pràʔ-chaː-chon
 61	ชาว	ชาว	NOUN	_	_	60	nmod	_	SpaceAfter=No|Gloss=folk|Translit=chaːw
 62	ดอน	ดอน	NOUN	_	ExtPos=PROPN	61	nmod	_	SpaceAfter=No|Gloss=hill|Translit=dɔːn
-63	เมือง	เมือง	NOUN	_	_	62	nmod	-	Gloss=city|Translit=mɯaŋ
+63	เมือง	เมือง	NOUN	_	_	62	nmod	_	Gloss=city|Translit=mɯaŋ
 64	ที่	ที่	ADP	_	_	65	case	_	SpaceAfter=No|Gloss=at|Translit=thîː
 65	ปิ่น	ปิ่น	NOUN	_	ExtPos=PROPN	57	obl	_	SpaceAfter=No|Gloss=summit|Translit=pìn
 66	เจริญ	เจริญ	VERB	_	_	65	acl	_	Gloss=prosper|Translit=cà-rɤːn
