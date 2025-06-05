@@ -287,7 +287,7 @@
 # year = 2023
 1	ชู	ชู	VERB	_	_	0	root	_	Gloss=raise|Translit=chuː
 2	“	“	PUNCT	_	_	3	punct	_	SpaceAfter=No
-3	เก่ง	เก่ง	PROPN	_	-	1	obj	_	Gloss=Keng|Translit=kèŋ
+3	เก่ง	เก่ง	PROPN	_	_	1	obj	_	Gloss=Keng|Translit=kèŋ
 4	การุณ	การุณ	PROPN	_	_	3	flat	_	SpaceAfter=No|Gloss=Kaarun|Translit=kaː-run
 5	”	”	PUNCT	_	_	3	punct	_	_
 6	นัก	นัก	NOUN	_	_	1	xcomp	_	SpaceAfter=No|Gloss=doer|Translit=nák
@@ -532,7 +532,7 @@
 26	พรรค	พรรค	NOUN	_	_	25	nmod	_	Gloss=Party|Translit=phák
 27	น.อ.	น.อ.	NOUN	_	_	11	conj	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=Captain|Translit=nɔː-ʔɔː
 28	อนุดิษฐ์	อนุดิษฐ์	PROPN	_	_	27	flat	_	Gloss=Anudith|Translit=ʔà-nú-dìt
-29	นาครทรรพนาครทรรพ	PROPN	_	_	28	flat	_	Gloss=Nakornthap|Translit=naː-khɔːn-tháp
+29	นาครทรรพ	นาครทรรพ	PROPN	_	_	28	flat	_	Gloss=Nakornthap|Translit=naː-khɔːn-tháp
 30	ผอ.	ผอ.	NOUN	_	_	27	appos	_	SpaceAfter=No|Gloss=director|Translit=phɔ̌ː-ʔɔː
 31	สำนักงาน	สำนักงาน	NOUN	_	_	30	nmod	_	SpaceAfter=No|Gloss=office|Translit=sǎm-nák-ŋaːn
 32	ปราบ	ปราบ	VERB	_	ExtPos=PROPN	31	acl	_	SpaceAfter=No|Gloss=subdue|Translit=pràːp
@@ -671,7 +671,7 @@
 74	เมือง	เมือง	NOUN	_	_	73	nmod	-	SpaceAfter=No|Gloss=city|Translit=mɯaŋ
 75	แห่	แห่	VERB	_	_	70	acl	_	SpaceAfter=No|Gloss=flock|Translit=hɛ̀ː
 76	ฟัง	ฟัง	VERB	_	_	75	compound:svc	_	SpaceAfter=No|Gloss=listen|Translit=faŋ
-77	กว่า	กว่า	DET	_	_	79	det	-	Gloss=more than|Translit=kwàː
+77	กว่า	กว่า	DET	_	_	79	det	_	Gloss=more than|Translit=kwàː
 78	3,000	3,000	NUM	_	_	79	nummod	_	Gloss=3,000|Translit=sǎːm-phan
 79	คน	คน	NOUN	_	NounType=Clf	70	clf	_	Gloss=person|Translit=khon
 
