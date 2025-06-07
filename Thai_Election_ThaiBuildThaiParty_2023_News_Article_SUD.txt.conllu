@@ -109,7 +109,7 @@
 10	ปราศรัย	ปราศรัย	VERB	_	_	9	acl	_	SpaceAfter=No|Gloss=address|Translit=praː-sǎj
 11	กว่า	กว่า	DET	_	_	13	det	_	Gloss=more-than|Translit=kwàː
 12	3,000	3,000	NUM	_	_	13	nummod	_	Gloss=3,000|Translit=sǎːm-phan
-13	คน	คน	NOUN	_	NounType=Clf	7	dislocated	_	Gloss=person|Translit=khon
+13	คน	คน	NOUN	_	NounType=Clf	7	nsubj	_	Gloss=person|Translit=khon
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_3_Variant
 # text = ไทยสร้างไทยดอนเมือง “พรึบ” เวทีปราศรัยกว่า 3,000 คน
