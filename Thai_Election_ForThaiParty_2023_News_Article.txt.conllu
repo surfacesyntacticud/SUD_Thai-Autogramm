@@ -1,0 +1,103 @@
+# sent_id = Thai_Election_ForThaiParty_2023_NewsArticle_1
+# text = ‘ชลน่าน’ขีดเส้น หากได้เสียง 310 ไม่จับมือใคร โดยเฉพาะฝั่งเผด็จการ
+# text_en = 'Cholanan' draws the line: if he gets 310 votes, he won’t join hands with anyone, especially the authoritarian side.
+# tokenised_text = ‘ ชลน่าน ’ ขีดเส้น หาก ได้ เสียง 310 ไม่ จับ มือ ใคร โดย เฉพาะ ฝั่ง เผด็จการ
+# tokenised_translit =
+# tokenised_transcript = /chon-la-nâː/ /kìːt-sên/ /hàːk/ /dâj/ /sǐaŋ/ /sǎːm-rɔ́j-sìp/ /mâj/ /càp/ /mɯː/ /khraj/ /doːj/ /chà-phɔ́ʔ/ /fàŋ/ /phà-dèt-kaːn/
+# phrase_type = sentence
+# sentence_position = headline
+# genre = political_news_article
+# source = https://www.matichon.co.th/weekly/hot-news/article_656016 
+# year = 2023
+1	‘	‘	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	ชลน่าน	ชลน่าน	PROPN	_	_	4	nsubj	_	SpaceAfter=No|Gloss=Cholanan|Translit=chon-la-nâː
+3	’	’	PUNCT	_	_	2	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
+4	ขีดเส้น	ขีดเส้น	VERB	_	_	0	root	_	Gloss=draw the line|Translit=kìːt-sên
+5	หาก	หาก	SCONJ	_	_	6	mark	_	SpaceAfter=No|Gloss=if|Translit=hàːk
+6	ได้	ได้	VERB	_	_	10	advcl	_	SpaceAfter=No|Gloss=get|Translit=dâj
+7	เสียง	เสียง	NOUN	_	_	6	obj	_	Gloss=voice|Translit=sǐaŋ
+8	310	310	NUM	_	_	7	nummod	_	Gloss=310|Translit=sǎːm-rɔ́j-sìp
+9	ไม่	ไม่	PART	_	_	10	advmod	_	SpaceAfter=No|Gloss=not|Translit=mâj
+10	จับ	จับ	VERB	_	_	4	ccomp	_	SpaceAfter=No|Gloss=hold|Translit=càp
+11	มือ	มือ	NOUN	_	_	10	obj	_	SpaceAfter=No|Gloss=hand|Translit=mɯː
+12	ใคร	ใคร	PRON	_	_	11	nmod	_	Gloss=who|Translit=khraj
+13	โดย	โดย	ADP	_	_	14	mark	_	SpaceAfter=No|Gloss=with|Translit=doːj
+14	เฉพาะ	เฉพาะ	VERB	_	_	12	acl	_	SpaceAfter=No|Gloss=specific|Translit=chà-phɔ́ʔ
+15	ฝั่ง	ฝั่ง	NOUN	_	_	14	obj	_	SpaceAfter=No|Gloss=side|Translit=fàŋ
+16	เผด็จการ	เผด็จการ	NOUN	_	_	15	nmod	_	Gloss=dictatorship|Translit=phà-dèt-kaːn
+
+# sent_id = Thai_Election_ForThaiParty_2023_NewsArticle_2
+# text = เผยแพร่	วันอาทิตย์ที่ 12 มีนาคม พ.ศ.2566
+# text_en = (The news article) was publicised on Sunday 12th March 2023.
+# tokenised_text = เผยแพร่ วัน อาทิตย์ ที่ 12 มีนาคม พ.ศ. 2566
+# tokenised_translit =
+# tokenised_transcript = /phɤ̌ːj-phrɛ̂ː/ /wan/ /ʔaː-thít/ /thîː/ /sìp-sɔ̌ːŋ/ /miː-naː-khom/ /phɔː-sɔ̌ː/ /sɔ̌ːŋ-phan-hâː-rɔ́j-hòk-sìp-hòk/
+# phrase_type = sentence
+# sentence_position = dateline
+# genre = political_news_article
+# source = https://www.matichon.co.th/weekly/hot-news/article_656016 
+# year = 2023
+1	เผยแพร่	เผยแพร่	VERB	_	_	0	root	_	Gloss=publicize|Translit=phɤ̌ːj-phrɛ̂ː
+2	วัน	วัน	NOUN	_	_	1	obl:tmod	_	SpaceAfter=No|Gloss=day|Translit=wan
+3	อาทิตย์	อาทิตย์	NOUN	_	_	2	nmod	_	SpaceAfter=No|Gloss=Sunday|Translit=ʔaː-thít
+4	ที่	ที่	NOUN	_	_	2	nmod	_	Gloss=rank|Translit=thîː
+5	12	12	NUM	_	_	4	nmod	_	Gloss=12|Translit=sìp-sɔ̌ːŋ
+6	มีนาคม	มีนาคม	NOUN	_	_	2	nmod	_	Gloss=March|Translit=miː-naː-khom
+7	พ.ศ.	พ.ศ.	NOUN	_	Abbr=Yes	6	nmod	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=Buddhist Era|Translit=phɔː-sɔ̌ː
+8	2566	2566	NUM	_	_	7	nmod	_	Gloss=2566|Translit=sɔ̌ːŋ-phan-hâː-rɔ́j-hòk-sìp-hòk
+
+# sent_id = Thai_Election_ForThaiParty_2023_NewsArticle_3
+# text = เมื่อเวลา 12.00 น. วันที่ 12 มีนาคม ที่อาคารวังเป็ดร่วมใจ อ.บางระกำ จ.พิษณุโลก น.ส.แพทองธาร ชินวัตร หัวหน้าครอบครัวเพื่อไทย ให้สัมภาษณ์ถึงความมั่นใจได้ส.ส.พิษณุโลก ยกจังหวัดว่า เรามั่นใจในเรื่องดังกล่าว 
+# text_en = At 12:00 p.m. on March 12, at the Wang Ped Ruamjai Building in Bang Rakam District, Phitsanulok Province, Ms. Paetongtarn Shinawatra, the head of the Pheu Thai Family, gave an interview regarding her confidence in winning all MP seats in Phitsanulok Province, saying, "We are confident in this matter."
+# tokenised_text = เมื่อ เวลา 12.00 น. วัน ที่ 12 มีนาคม ที่ อาคาร วัง เป็ด ร่วมใจ อ. บาง ระกำ จ. พิษณุ โลก น.ส. แพทองธาร ชินวัตร หัวหน้า ครอบครัว เพื่อ ไทย ให้ สัมภาษณ์ ถึง ความ มั่นใจ ได้ ส.ส. พิษณุ โลก ยก จังหวัด ว่า เรา มั่นใจ ใน เรื่อง ดัง กล่าว
+# tokenised_translit =
+# tokenised_transcript = /mɯ̂a/ /weː-laː/ /sìp-sɔːŋ/ /naː-lí-kaː/ /wan/ /thîː/ /sìp-sɔːŋ/ /miː-naː-khom/ /thîː/ /ʔaː-khaːn/ /waŋ/ /pèt/ /rûam-caj/ /ʔam-phɤː/ /baːŋ/ /ráʔ-kam/ /caŋ-wàt/ /phít-sà-nú/ /lôːk/ /naːŋ-sǎːw/ /phɛː-thɔːŋ-thaːn/ /chin-ná-wat/ /hǔa-nâː/ /khrɔ̂ːp-khrua/ /phɯa/ /thaj/ /hâj/ /sǎm-phaːt/ /thɯ̌ŋ/ /khwaːm/ /mân-caj/ /dâj/ /sɔ̌ː-sɔ̌ː/ /phít-sà-nú/ /lôːk/ /jók/ /caŋ-wàt/ /wâː/ /raw/ /mân-caj/ /naj/ /rɯ̂aŋ/ /daŋ/ /klàːw/
+# phrase_type = sentence
+# sentence_position = body
+# genre = political_news_article
+# source = https://www.matichon.co.th/weekly/hot-news/article_656016 
+# year = 2023
+1	เมื่อ	เมื่อ	NOUN	_	_	27	obl:tmod	_	SpaceAfter=No|Gloss=when|Translit=mɯ̂a
+2	เวลา	เวลา	NOUN	_	_	1	nmod	_	Gloss=time|Translit=weː-laː
+3	12.00	12.00	NUM	_	_	2	nmod	_	Gloss=12.00|Translit=sìp-sɔːŋ
+4	น.	น.	NOUN	_	Abbr=Yes	3	nmod	_	Gloss=o'clock|Translit=naː-lí-kaː
+5	วัน	วัน	NOUN	_	_	2	nmod	_	SpaceAfter=No|Gloss=day|Translit=wan
+6	ที่	ที่	NOUN	_	_	5	nmod	_	Gloss=rank|Translit=thîː
+7	12	12	NUM	_	_	6	nmod	_	Gloss=12|Translit=sìp-sɔːŋ
+8	มีนาคม	มีนาคม	NOUN	_	_	5	nmod	_	Gloss=March|Translit=miː-naː-khom
+9	ที่	ที่	ADP	_	_	10	case	_	SpaceAfter=No|Gloss=at|Translit=thîː
+10	อาคาร	อาคาร	NOUN	_	_	27	obl	_	SpaceAfter=No|Gloss=building|Translit=ʔaː-khaːn
+11	วัง	วัง	NOUN	_	ExtPos=PROPN	10	nmod	_	SpaceAfter=No|Gloss=palace|Translit=waŋ
+12	เป็ด	เป็ด	NOUN	_	_	11	nmod	_	SpaceAfter=No|Gloss=duck|Translit=pèt
+13	ร่วมใจ	ร่วมใจ	VERB	_	_	12	acl	_	Gloss=unite in spirit|Translit=rûam-caj
+14	อ.	อ.	NOUN	_	Abbr=Yes	10	nmod	_	SpaceAfter=No|Gloss=district|Translit=ʔam-phɤː
+15	บาง	บาง	NOUN	_	ExtPos=PROPN	14	nmod	_	SpaceAfter=No|Gloss=a settlement near a river|Translit=baːŋ
+16	ระกำ	ระกำ	NOUN	_	_	15	nmod	_	Gloss=salacca|Translit=ráʔ-kam
+17	จ.	จ.	NOUN	_	Abbr=Yes	14	nmod	_	SpaceAfter=No|Gloss=province|Translit=caŋ-wàt
+18	พิษณุ	พิษณุ	NOUN	_	ExtPos=PROPN	17	nmod	_	SpaceAfter=No|Gloss=Vishnu|Translit=phít-sà-nú
+19	โลก	โลก	NOUN	_	_	18	nmod	_	Gloss=earth|Translit=lôːk
+20	น.ส.	น.ส.	NOUN	_	Abbr=Yes	27	nsubj	_	SpaceAfter=No|Gloss=Miss|Translit=naːŋ-sǎːw
+21	แพทองธาร	แพทองธาร	PROPN	_	_	20	flat	_	Gloss=Paetongtarn|Translit=phɛː-thɔːŋ-thaːn
+22	ชินวัตร	ชินวัตร	PROPN	_	_	21	flat	_	Gloss=Shinawatra|Translit=chin-ná-wat
+23	หัวหน้า	หัวหน้า	NOUN	_	_	20	appos	_	SpaceAfter=No|Gloss=chief|Translit=hǔa-nâː
+24	ครอบครัว	ครอบครัว	NOUN	_	_	23	nmod	_	SpaceAfter=No|Gloss=family|Translit=khrɔ̂ːp-khrua
+25	เพื่อ	เพื่อ	ADP	_	ExtPos=PROPN	26	case	_	SpaceAfter=No|Gloss=for|Translit=phɯa
+26	ไทย	ไทย	PROPN	_	_	24	nmod	_	Gloss=Thai|Translit=thaj
+27	ให้	ให้	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=give|Translit=hâj
+28	สัมภาษณ์	สัมภาษณ์	VERB	_	_	27	compound:svc	_	SpaceAfter=No|Gloss=interview|Translit=sǎm-phaːt
+29	ถึง	ถึง	ADP	_	_	30	case	_	SpaceAfter=No|Gloss=to|Translit=thɯ̌ŋ
+30	ความ	ความ	NOUN	_	_	28	obl	_	SpaceAfter=No|Gloss=condition|Translit=khwaːm
+31	มั่นใจ	มั่นใจ	VERB	_	_	30	acl	_	SpaceAfter=No|Gloss=confident|Translit=mân-caj
+32	ได้	ได้	VERB	_	_	31	advcl	_	SpaceAfter=No|Gloss=get|Translit=dâj
+33	ส.ส.	ส.ส.	NOUN	_	Abbr=Yes	32	obj	_	SpaceAfter=No|Gloss=Member of the House of Representatives|Translit=sɔ̌ː-sɔ̌ː
+34	พิษณุ	พิษณุ	NOUN	_	ExtPos=PROPN	33	nmod	_	SpaceAfter=No|Gloss=Vishnu|Translit=phít-sà-nú
+35	โลก	โลก	NOUN	_	_	34	nmod	_	Gloss=earth|Translit=lôːk
+36	ยก	ยก	VERB	_	_	32	advcl	_	SpaceAfter=No|Gloss=lift|Translit=jók
+37	จังหวัด	จังหวัด	NOUN	_	_	36	obj	_	SpaceAfter=No|Gloss=province|Translit=caŋ-wàt
+38	ว่า	ว่า	SCONJ	_	_	40	mark	_	Gloss=that|Translit=wâː
+39	เรา	เรา	PRON	_	_	40	nsubj	_	SpaceAfter=No|Gloss=we|Translit=raw
+40	มั่นใจ	มั่นใจ	VERB	_	_	28	ccomp	_	SpaceAfter=No|Gloss=confident|Translit=mân-caj
+41	ใน	ใน	ADP	_	_	42	case	_	SpaceAfter=No|Gloss=in|Translit=naj
+42	เรื่อง	เรื่อง	NOUN	_	_	40	obl	_	SpaceAfter=No|Gloss=story|Translit=rɯ̂aŋ
+43	ดัง	ดัง	ADP	_	_	44	mark	_	SpaceAfter=No|Gloss=as|Translit=daŋ
+44	กล่าว	กล่าว	VERB	_	_	42	acl	_	Gloss=say|Translit=klàːw

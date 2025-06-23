@@ -83,7 +83,7 @@
 4	ที่	ที่	NOUN	_	_	2	nmod	_	Gloss=rank|Translit=thîː
 5	12	12	NUM	_	_	4	nmod	_	Gloss=12|Translit=sìp-sɔ̌ːŋ
 6	มีนาคม	มีนาคม	NOUN	_	_	2	nmod	_	Gloss=March|Translit=miː-naː-khom
-7	พ.ศ.	พ.ศ.	NOUN	_	_	6	nmod	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=B.E.|Translit=phɔː-sɔ̌ː
+7	พ.ศ.	พ.ศ.	NOUN	_	_	6	nmod	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=Buddhist Era|Translit=phɔː-sɔ̌ː
 8	2566	2566	NUM	_	_	7	nmod	_	Gloss=2566|Translit=sɔ̌ːŋ-phan-hâː-rɔ́j-hòk-sìp-hòk
 
 # sent_id = Thai_Election_ThaiBuildThaiParty_2023_NewsArticle_3
