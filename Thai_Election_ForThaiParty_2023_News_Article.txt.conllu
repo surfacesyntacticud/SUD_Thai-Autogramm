@@ -3,14 +3,14 @@
 # text_en = 'Cholanan' draws the line: if he gets 310 votes, he won’t join hands with anyone, especially the authoritarian side.
 # tokenised_text = ‘ ชลน่าน ’ ขีดเส้น หาก ได้ เสียง 310 ไม่ จับ มือ ใคร โดย เฉพาะ ฝั่ง เผด็จการ
 # tokenised_translit =
-# tokenised_transcript = /chon-la-nâː/ /kìːt-sên/ /hàːk/ /dâj/ /sǐaŋ/ /sǎːm-rɔ́j-sìp/ /mâj/ /càp/ /mɯː/ /khraj/ /doːj/ /chà-phɔ́ʔ/ /fàŋ/ /phà-dèt-kaːn/
+# tokenised_transcript = /chon-la-nâːn/ /kìːt-sên/ /hàːk/ /dâj/ /sǐaŋ/ /sǎːm-rɔ́j-sìp/ /mâj/ /càp/ /mɯː/ /khraj/ /doːj/ /chà-phɔ́ʔ/ /fàŋ/ /phà-dèt-kaːn/
 # phrase_type = sentence
 # sentence_position = headline
 # genre = political_news_article
 # source = https://www.matichon.co.th/weekly/hot-news/article_656016 
 # year = 2023
 1	‘	‘	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	ชลน่าน	ชลน่าน	PROPN	_	_	4	nsubj	_	SpaceAfter=No|Gloss=Cholanan|Translit=chon-la-nâː
+2	ชลน่าน	ชลน่าน	PROPN	_	_	4	nsubj	_	SpaceAfter=No|Gloss=Cholanan|Translit=chon-la-nâːn
 3	’	’	PUNCT	_	_	2	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 4	ขีดเส้น	ขีดเส้น	VERB	_	_	0	root	_	Gloss=draw the line|Translit=kìːt-sên
 5	หาก	หาก	SCONJ	_	_	6	mark	_	SpaceAfter=No|Gloss=if|Translit=hàːk
@@ -196,7 +196,7 @@
 21	จะ	จะ	ADV	_	_	23	advmod	_	SpaceAfter=No|Gloss=will|Translit=càʔ
 22	สามารถ	สามารถ	AUX	_	_	23	aux	_	SpaceAfter=No|Gloss=can|Translit=sǎː-mâːt
 23	แลนด์สไลด์	แลนด์สไลด์	VERB	_	Foreign=Yes	2	obl	_	SpaceAfter=No|Gloss=landslide|Translit=lɛːn-sà-láj
-24	ได้	ได้	AUX	_	_	23	aux	_	SpaceAfter=No|Gloss=canBhumjaithai|Translit=dâj
+24	ได้	ได้	AUX	_	_	23	aux	_	SpaceAfter=No|Gloss=can|Translit=dâj
 25	หรือ	หรือ	CCONJ	_	_	26	cc	_	SpaceAfter=No|Gloss=or|Translit=rɯ̌ː
 26	ไม่	ไม่	PART	_	_	23	conj	_	Gloss=not|Translit=mâj
 
