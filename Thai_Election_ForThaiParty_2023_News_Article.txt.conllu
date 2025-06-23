@@ -89,7 +89,7 @@
 30	ความ	ความ	NOUN	_	_	28	obl	_	SpaceAfter=No|Gloss=condition|Translit=khwaːm
 31	มั่นใจ	มั่นใจ	VERB	_	_	30	acl	_	SpaceAfter=No|Gloss=confident|Translit=mân-caj
 32	ได้	ได้	VERB	_	_	31	advcl	_	SpaceAfter=No|Gloss=get|Translit=dâj
-33	ส.ส.	ส.ส.	NOUN	_	Abbr=Yes	32	obj	_	SpaceAfter=No|Gloss=Member of the House of Representatives|Translit=sɔ̌ː-sɔ̌ː
+33	ส.ส.	สส.	NOUN	_	Abbr=Yes	32	obj	_	SpaceAfter=No|Gloss=Member of the House of Representatives|Translit=sɔ̌ː-sɔ̌ː
 34	พิษณุ	พิษณุ	NOUN	_	ExtPos=PROPN	33	nmod	_	SpaceAfter=No|Gloss=Vishnu|Translit=phít-sà-nú
 35	โลก	โลก	NOUN	_	_	34	nmod	_	Gloss=earth|Translit=lôːk
 36	ยก	ยก	VERB	_	_	32	advcl	_	SpaceAfter=No|Gloss=lift|Translit=jók
@@ -101,3 +101,63 @@
 42	เรื่อง	เรื่อง	NOUN	_	_	40	obl	_	SpaceAfter=No|Gloss=story|Translit=rɯ̂aŋ
 43	ดัง	ดัง	ADP	_	_	44	mark	_	SpaceAfter=No|Gloss=as|Translit=daŋ
 44	กล่าว	กล่าว	VERB	_	_	42	acl	_	Gloss=say|Translit=klàːw
+
+# sent_id = Thai_Election_ForThaiParty_2023_NewsArticle_4
+# text = เรานำนโยบายมาเสนอให้ประชาชน
+# text_en = "We are presenting our policies to the people."
+# tokenised_text = เรา นำ นโยบาย มา เสนอ ให้ ประชาชน
+# tokenised_translit =
+# tokenised_transcript = /raw/ /nam/ /ná-joː-baːj/ /maː/ /sà-nɤ̌ː/ /hâj/ /pràʔ-chaː-chon/
+# phrase_type = sentence
+# sentence_position = body
+# genre = political_news_article
+# source = https://www.matichon.co.th/weekly/hot-news/article_656016 
+# year = 2023
+1	เรา	เรา	PRON	_	_	2	nsubj	_	SpaceAfter=No|Gloss=we|Translit=raw
+2	นำ	นำ	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=bring|Translit=nam
+3	นโยบาย	นโยบาย	NOUN	_	_	2	obj	_	SpaceAfter=No|Gloss=policy|Translit=ná-joː-baːj
+4	มา	มา	VERB	_	_	2	compound:svc	_	SpaceAfter=No|Gloss=come|Translit=maː
+5	เสนอ	เสนอ	VERB	_	_	4	compound:svc	_	SpaceAfter=No|Gloss=offer|Translit=sà-nɤ̌ː
+6	ให้	ให้	ADP	_	_	7	case	_	SpaceAfter=No|Gloss=give|Translit=hâj
+7	ประชาชน	ประชาชน	NOUN	_	_	5	obl	_	Gloss=population|Translit=pràʔ-chaː-chon
+
+# sent_id = Thai_Election_ForThaiParty_2023_NewsArticle_5
+# text = และว่าที่ผู้สมัครเองก็ทำงานอย่างหนัก
+# text_en = "And our prospective candidates are putting in a lot of effort."
+# tokenised_text = และ ว่าที่ ผู้ สมัคร เอง ก็ ทำงาน อย่าง หนัก
+# tokenised_translit =
+# tokenised_transcript = /lɛ́ʔ/ /wâː-thîː/ /phûː/ /sà-màk/ /ʔeːŋ/ /kɔ̂ː/ /tham-ŋaːn/ /jàːŋ/ /nàk/
+# phrase_type = sentence
+# sentence_position = body
+# genre = political_news_article
+# source = https://www.matichon.co.th/weekly/hot-news/article_656016 
+# year = 2023
+1	และ	และ	CCONJ	_	_	7	cc	_	SpaceAfter=No|Gloss=and|Translit=lɛ́ʔ
+2	ว่าที่	ว่าที่	NOUN	_	_	7	nsubj	_	SpaceAfter=No|Gloss=prospective|Translit=wâː-thîː
+3	ผู้	ผู้	NOUN	_	_	2	nmod	_	SpaceAfter=No|Gloss=person|Translit=phûː
+4	สมัคร	สมัคร	VERB	_	_	3	acl	_	SpaceAfter=No|Gloss=apply|Translit=sà-màk
+5	เอง	เอง	ADJ	_	_	2	amod	_	SpaceAfter=No|Gloss=oneself|Translit=ʔeːŋ
+6	ก็	ก็	ADV	_	_	7	advmod	_	SpaceAfter=No|Gloss=also|Translit=kɔ̂ː
+7	ทำงาน	ทำงาน	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=work|Translit=tham-ŋaːn
+8	อย่าง	อย่าง	NOUN	_	_	7	obl	_	SpaceAfter=No|Gloss=as|Translit=jàːŋ
+9	หนัก	หนัก	ADJ	_	_	8	amod	_	Gloss=heavy|Translit=nàk
+
+# sent_id = Thai_Election_ForThaiParty_2023_NewsArticle_6
+# text = เราจึงมั่นใจและมีกำลังใจอย่างมาก
+# text_en = "So we feel really confident and motivated."
+# tokenised_text = เรา จึง มั่นใจ และ มี กำลังใจ อย่าง มาก
+# tokenised_translit =
+# tokenised_transcript = /raw/ /cɯŋ/ /mân-caj/ /lɛ́ʔ/ /miː/ /kam-laŋ-caj/ /jàːŋ/ /mâːk/
+# phrase_type = sentence
+# sentence_position = body
+# genre = political_news_article
+# source = https://www.matichon.co.th/weekly/hot-news/article_656016 
+# year = 2023
+1	เรา	เรา	PRON	_	_	3	nsubj	_	SpaceAfter=No|Gloss=we|Translit=raw
+2	จึง	จึง	ADV	_	_	3	advmod	_	SpaceAfter=No|Gloss=therefore|Translit=cɯŋ
+3	มั่นใจ	มั่นใจ	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=confident|Translit=mân-caj
+4	และ	และ	CCONJ	_	_	5	cc	_	SpaceAfter=No|Gloss=and|Translit=lɛ́ʔ
+5	มี	มี	VERB	_	_	3	conj	_	SpaceAfter=No|Gloss=have|Translit=miː
+6	กำลังใจ	กำลังใจ	NOUN	_	_	5	obj	_	SpaceAfter=No|Gloss=morale|Translit=kam-laŋ-caj
+7	อย่าง	อย่าง	NOUN	_	_	6	nmod	_	SpaceAfter=No|Gloss=as|Translit=jàːŋ
+8	มาก	มาก	ADJ	_	_	7	amod	_	Gloss=very|Translit=mâːk
