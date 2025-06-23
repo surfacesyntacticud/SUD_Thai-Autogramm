@@ -51,7 +51,7 @@
 # text_en = At 12:00 p.m. on March 12, at the Wang Ped Ruamjai Building in Bang Rakam District, Phitsanulok Province, Ms. Paetongtarn Shinawatra, the head of the Pheu Thai Family, gave an interview regarding her confidence in winning all MP seats in Phitsanulok Province, saying, "We are confident in this matter."
 # tokenised_text = เมื่อ เวลา 12.00 น. วัน ที่ 12 มีนาคม ที่ อาคาร วัง เป็ด ร่วมใจ อ. บาง ระกำ จ. พิษณุ โลก น.ส. แพทองธาร ชินวัตร หัวหน้า ครอบครัว เพื่อ ไทย ให้ สัมภาษณ์ ถึง ความ มั่นใจ ได้ ส.ส. พิษณุ โลก ยก จังหวัด ว่า เรา มั่นใจ ใน เรื่อง ดัง กล่าว
 # tokenised_translit =
-# tokenised_transcript = /mɯ̂a/ /weː-laː/ /sìp-sɔːŋ/ /naː-lí-kaː/ /wan/ /thîː/ /sìp-sɔːŋ/ /miː-naː-khom/ /thîː/ /ʔaː-khaːn/ /waŋ/ /pèt/ /rûam-caj/ /ʔam-phɤː/ /baːŋ/ /ráʔ-kam/ /caŋ-wàt/ /phít-sà-nú/ /lôːk/ /naːŋ-sǎːw/ /phɛː-thɔːŋ-thaːn/ /chin-ná-wat/ /hǔa-nâː/ /khrɔ̂ːp-khrua/ /phɯa/ /thaj/ /hâj/ /sǎm-phaːt/ /thɯ̌ŋ/ /khwaːm/ /mân-caj/ /dâj/ /sɔ̌ː-sɔ̌ː/ /phít-sà-nú/ /lôːk/ /jók/ /caŋ-wàt/ /wâː/ /raw/ /mân-caj/ /naj/ /rɯ̂aŋ/ /daŋ/ /klàːw/
+# tokenised_transcript = /mɯ̂a/ /weː-laː/ /sìp-sɔːŋ/ /naː-lí-kaː/ /wan/ /thîː/ /sìp-sɔːŋ/ /miː-naː-khom/ /thîː/ /ʔaː-khaːn/ /waŋ/ /pèt/ /rûam-caj/ /ʔam-phɤː/ /baːŋ/ /ráʔ-kam/ /caŋ-wàt/ /phít-sà-nú/ /lôːk/ /naːŋ-sǎːw/ /phɛː-thɔːŋ-thaːn/ /chin-ná-wat/ /hǔa-nâː/ /khrɔ̂ːp-khrua/ /phɯ̂a/ /thaj/ /hâj/ /sǎm-phaːt/ /thɯ̌ŋ/ /khwaːm/ /mân-caj/ /dâj/ /sɔ̌ː-sɔ̌ː/ /phít-sà-nú/ /lôːk/ /jók/ /caŋ-wàt/ /wâː/ /raw/ /mân-caj/ /naj/ /rɯ̂aŋ/ /daŋ/ /klàːw/
 # phrase_type = sentence
 # sentence_position = body
 # genre = political_news_article
@@ -81,7 +81,7 @@
 22	ชินวัตร	ชินวัตร	PROPN	_	_	21	flat	_	Gloss=Shinawatra|Translit=chin-ná-wat
 23	หัวหน้า	หัวหน้า	NOUN	_	_	20	appos	_	SpaceAfter=No|Gloss=chief|Translit=hǔa-nâː
 24	ครอบครัว	ครอบครัว	NOUN	_	_	23	nmod	_	SpaceAfter=No|Gloss=family|Translit=khrɔ̂ːp-khrua
-25	เพื่อ	เพื่อ	ADP	_	ExtPos=PROPN	26	case	_	SpaceAfter=No|Gloss=for|Translit=phɯa
+25	เพื่อ	เพื่อ	ADP	_	ExtPos=PROPN	26	case	_	SpaceAfter=No|Gloss=for|Translit=phɯ̂a
 26	ไทย	ไทย	PROPN	_	_	24	nmod	_	Gloss=Thai|Translit=thaj
 27	ให้	ให้	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=give|Translit=hâj
 28	สัมภาษณ์	สัมภาษณ์	VERB	_	_	27	compound:svc	_	SpaceAfter=No|Gloss=interview|Translit=sǎm-phaːt
@@ -94,7 +94,7 @@
 35	โลก	โลก	NOUN	_	_	34	nmod	_	Gloss=earth|Translit=lôːk
 36	ยก	ยก	VERB	_	_	32	advcl	_	SpaceAfter=No|Gloss=lift|Translit=jók
 37	จังหวัด	จังหวัด	NOUN	_	_	36	obj	_	SpaceAfter=No|Gloss=province|Translit=caŋ-wàt
-38	ว่า	ว่า	SCONJ	_	_	40	mark	_	Gloss=that|Translit=wâː
+38	ว่า	ว่า	SCONJ	_	_	40	mark	_	Gloss=that(COMP)|Translit=wâː
 39	เรา	เรา	PRON	_	_	40	nsubj	_	SpaceAfter=No|Gloss=we|Translit=raw
 40	มั่นใจ	มั่นใจ	VERB	_	_	28	ccomp	_	SpaceAfter=No|Gloss=confident|Translit=mân-caj
 41	ใน	ใน	ADP	_	_	42	case	_	SpaceAfter=No|Gloss=in|Translit=naj
@@ -161,3 +161,74 @@
 6	กำลังใจ	กำลังใจ	NOUN	_	_	5	obj	_	SpaceAfter=No|Gloss=morale|Translit=kam-laŋ-caj
 7	อย่าง	อย่าง	NOUN	_	_	6	nmod	_	SpaceAfter=No|Gloss=as|Translit=jàːŋ
 8	มาก	มาก	ADJ	_	_	7	amod	_	Gloss=very|Translit=mâːk
+
+# sent_id = Thai_Election_ForThaiParty_2023_NewsArticle_7
+# text = เมื่อถามถึงกรณี นายนิยม ช่างพินิจ อดีตส.ส.เพื่อไทยย้ายไปสังกัดพรรคภูมิใจไทย (ภท.) จะสามารถแลนด์สไลด์ได้หรือไม่ 
+# text_en = (The reporter) asked whether a landslide victory would be still possible after Mr. Niyom Changpinij, a former Pheu Thai MP, moved to the Bhumjaithai Party. 
+# tokenised_text = เมื่อ ถาม ถึง กรณี นาย นิยม ช่างพินิจ อดีต ส.ส. เพื่อ ไทย ย้าย ไป สังกัด พรรค ภูมิใจ ไทย ( ภท. ) จะ สามารถ แลนด์สไลด์ ได้ หรือ ไม่
+# tokenised_translit =
+# tokenised_transcript = /mɯ̂a/ /thǎːm/ /thɯ̌ŋ/ /kɔː-rà-niː/ /naːj/ /ní-jom/ /chaːŋ-phí-nit/ /ʔà-dìːt/ /sɔ̌ː-sɔ̌ː/ /phɯ̂a/ /thaj/ /jáːj/ /paj/ /sáŋ-kat/ /phák/ /phuːm-caj/ /thaj/ (/phɔː-thɔː/) /càʔ/ /sǎː-mâːt/ /lɛːn-sà-láj/ /dâj/ /rɯ̌ː/ /mâj/
+# phrase_type = sentence
+# sentence_position = body
+# genre = political_news_article
+# source = https://www.matichon.co.th/weekly/hot-news/article_656016 
+# year = 2023
+1	เมื่อ	เมื่อ	NOUN	_	_	2	obl:tmod	_	SpaceAfter=No|Gloss=when|Translit=mɯ̂a
+2	ถาม	ถาม	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=ask|Translit=thǎːm
+3	ถึง	ถึง	ADP	_	_	4	case	_	SpaceAfter=No|Gloss=to|Translit=thɯ̌ŋ
+4	กรณี	กรณี	NOUN	_	_	23	nsubj	_	Gloss=case|Translit=kɔː-rà-niː
+5	นาย	นาย	NOUN	_	_	12	nsubj	_	SpaceAfter=No|Gloss=Mister|Translit=naːj
+6	นิยม	นิยม	PROPN	_	_	5	flat	_	Gloss=Niyom|Translit=ní-jom
+7	ช่างพินิจ	ช่างพินิจ	PROPN	_	_	6	flat	_	Gloss=Changpinij|Translit=chaːŋ-phí-nit
+8	อดีต	อดีต	VERB	_	_	5	appos	_	SpaceAfter=No|Gloss=past|Translit=ʔà-dìːt
+9	ส.ส.	สส.	NOUN	_	Abbr=Yes	8	obj	_	SpaceAfter=No|Gloss=Member of the House of Representatives|Translit=sɔ̌ː-sɔ̌ː
+10	เพื่อ	เพื่อ	ADP	_	ExtPos=PROPN	11	case	_	SpaceAfter=No|Gloss=for|Translit=phɯ̂a
+11	ไทย	ไทย	PROPN	_	_	9	nmod	_	SpaceAfter=No|Gloss=Thai|Translit=thaj
+12	ย้าย	ย้าย	VERB	_	_	4	acl	_	SpaceAfter=No|Gloss=move|Translit=jáːj
+13	ไป	ไป	VERB	_	_	12	conj	_	SpaceAfter=No|Gloss=go|Translit=paj
+14	สังกัด	สังกัด	VERB	_	_	13	compound:svc	_	SpaceAfter=No|Gloss=affiliated with|Translit=sáŋ-kat
+15	พรรค	พรรค	NOUN	_	_	14	obj	_	SpaceAfter=No|Gloss=Party|Translit=phák
+16	ภูมิใจ	ภูมิใจ	VERB	_	ExtPos=PROPN	15	acl	_	SpaceAfter=No|Gloss=proud|Translit=phuːm-caj
+17	ไทย	ไทย	PROPN	_	_	16	obj	_	Gloss=Thai|Translit=thaj
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	ภท.	ภท.	PROPN	_	Abbr=Yes	15	appos	_	SpaceAfter=No|Gloss=Bhumjaithai|Translit=phɔː-thɔː
+20	)	)	PUNCT	_	_	19	punct	_	_
+21	จะ	จะ	ADV	_	_	23	advmod	_	SpaceAfter=No|Gloss=will|Translit=càʔ
+22	สามารถ	สามารถ	AUX	_	_	23	aux	_	SpaceAfter=No|Gloss=can|Translit=sǎː-mâːt
+23	แลนด์สไลด์	แลนด์สไลด์	VERB	_	Foreign=Yes	2	obl	_	SpaceAfter=No|Gloss=landslide|Translit=lɛːn-sà-láj
+24	ได้	ได้	AUX	_	_	23	aux	_	SpaceAfter=No|Gloss=canBhumjaithai|Translit=dâj
+25	หรือ	หรือ	CCONJ	_	_	26	cc	_	SpaceAfter=No|Gloss=or|Translit=rɯ̌ː
+26	ไม่	ไม่	PART	_	_	23	conj	_	Gloss=not|Translit=mâj
+
+# sent_id = Thai_Election_ForThaiParty_2023_NewsArticle_8
+# text = น.ส.แพทองธาร กล่าวว่า ว่าที่ผู้สมัครที่จะลงเขตนี้ก็เป็นคนที่ประชาชนรู้จักดีอยู่แล้ว 
+# text_en = Ms. Paetongtarn stated that the prospective candidates expected to run in this district were the people the public was already familiar with.
+# tokenised_text = น.ส. แพทองธาร กล่าว ว่า ว่าที่ ผู้ สมัคร ที่ จะ ลง เขต นี้ ก็ เป็น คน ที่ ประชาชน รู้จัก ดี อยู่ แล้ว
+# tokenised_translit =
+# tokenised_transcript = /naːŋ-sǎːw/ /phɛː-thɔːŋ-thaːn/ /klàːw/ /wâː/ /wâː-thîː/ /phûː/ /sà-màk/ /thîː/ /càʔ/ /loŋ/ /khèːt/ /níː/ /kɔ̂ː/ /pen/ /khon/ /thîː/ /pràʔ-chaː-chon/ /rúː-càk/ /diː/ /jùː/ /lɛ́ːw/
+# phrase_type = sentence
+# sentence_position = body
+# genre = political_news_article
+# source = https://www.matichon.co.th/weekly/hot-news/article_656016 
+# year = 2023
+1	น.ส.	น.ส.	NOUN	_	Abbr=Yes	3	nsubj	_	SpaceAfter=No|Gloss=Miss|Translit=naːŋ-sǎːw
+2	แพทองธาร	แพทองธาร	PROPN	_	_	1	flat	_	Gloss=Paetongtarn|Translit=phɛː-thɔːŋ-thaːn
+3	กล่าว	กล่าว	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=say|Translit=klàːw
+4	ว่า	ว่า	SCONJ	_	_	15	mark	_	Gloss=that(COMP)|Translit=wâː
+5	ว่าที่	ว่าที่	NOUN	_	_	15	nsubj	_	SpaceAfter=No|Gloss=prospective|Translit=wâː-thîː
+6	ผู้	ผู้	NOUN	_	_	5	nmod	_	SpaceAfter=No|Gloss=person|Translit=phûː
+7	สมัคร	สมัคร	VERB	_	_	6	acl	_	SpaceAfter=No|Gloss=apply|Translit=sà-màk
+8	ที่	ที่	PRON	_	_	10	nsubj	_	SpaceAfter=No|Gloss=who(REL)|Translit=thîː
+9	จะ	จะ	ADV	_	_	10	advmod	_	SpaceAfter=No|Gloss=will|Translit=càʔ
+10	ลง	ลง	VERB	_	_	5	acl:relcl	_	SpaceAfter=No|Gloss=descend|Translit=loŋ
+11	เขต	เขต	NOUN	_	_	10	obl:lmod	_	SpaceAfter=No|Gloss=district|Translit=khèːt
+12	นี้	นี้	DET	_	_	11	det	_	SpaceAfter=No|Gloss=this(DEM)|Translit=níː
+13	ก็	ก็	ADV	_	_	15	advmod	_	SpaceAfter=No|Gloss=also|Translit=kɔ̂ː
+14	เป็น	เป็น	AUX	_	_	15	cop	_	SpaceAfter=No|Gloss=BE|Translit=pen
+15	คน	คน	NOUN	_	_	3	ccomp	_	SpaceAfter=No|Gloss=person|Translit=khon
+16	ที่	ที่	PRON	_	_	18	obj	_	SpaceAfter=No|Gloss=who(REL)|Translit=thîː
+17	ประชาชน	ประชาชน	NOUN	_	_	18	nsubj	_	SpaceAfter=No|Gloss=population|Translit=pràʔ-chaː-chon
+18	รู้จัก	รู้จัก	VERB	_	_	15	acl:relcl	_	SpaceAfter=No|Gloss=know|Translit=rúː-càk
+19	ดี	ดี	ADV	_	_	18	advmod	_	SpaceAfter=No|Gloss=good|Translit=diː
+20	อยู่	อยู่	ADV	_	_	18	advmod	_	SpaceAfter=No|Gloss=currently|Translit=jùː
+21	แล้ว	แล้ว	ADV	_	_	18	advmod	_	Gloss=already|Translit=lɛ́ːw
