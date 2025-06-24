@@ -344,7 +344,7 @@
 35	มา	มา	VERB	_	_	34	acl	_	SpaceAfter=No|Gloss=come|Translit=maː
 36	ปิด	ปิด	VERB	_	_	35	compound:svc	_	SpaceAfter=No|Gloss=close|Translit=pìt
 37	กั้น	กั้น	VERB	_	_	36	conj	_	SpaceAfter=No|Gloss=block|Translit=kân
-38	ยุทธศาสตร์		ยุทธศาสตร์		NOUN	_	_	37	obj	_	SpaceAfter=No|Gloss=strategy|Translit=jút-thà-sàːt
+38	ยุทธศาสตร์	ยุทธศาสตร์	NOUN	_	_	37	obj	_	SpaceAfter=No|Gloss=strategy|Translit=jút-thà-sàːt
 39	แลนด์สไลด์	แลนด์สไลด์	VERB	_	Foreign=Yes	38	acl	_	SpaceAfter=No|Gloss=landslide|Translit=lɛːn-sà-láj
 40	ของ	ของ	ADP	_	_	41	case	_	SpaceAfter=No|Gloss=of|Translit=khɔ̌ːŋ
 41	พรรค	พรรค	NOUN	_	_	38	nmod	_	CorrectSpaceAfter=No|Gloss=Party|Translit=phák
