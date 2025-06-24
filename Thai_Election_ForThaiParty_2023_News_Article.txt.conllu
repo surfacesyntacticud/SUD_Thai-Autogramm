@@ -180,8 +180,8 @@
 5	นาย	นาย	NOUN	_	_	12	nsubj	_	SpaceAfter=No|Gloss=Mister|Translit=naːj
 6	นิยม	นิยม	PROPN	_	_	5	flat	_	Gloss=Niyom|Translit=ní-jom
 7	ช่างพินิจ	ช่างพินิจ	PROPN	_	_	6	flat	_	Gloss=Changpinij|Translit=chaːŋ-phí-nit
-8	อดีต	อดีต	VERB	_	_	5	appos	_	SpaceAfter=No|Gloss=past|Translit=ʔà-dìːt
-9	ส.ส.	สส.	NOUN	_	Abbr=Yes	8	obj	_	SpaceAfter=No|Gloss=Member of the House of Representatives|Translit=sɔ̌ː-sɔ̌ː
+8	อดีต	อดีต	NOUN	_	_	5	appos	_	SpaceAfter=No|Gloss=past|Translit=ʔà-dìːt
+9	ส.ส.	สส.	NOUN	_	Abbr=Yes	8	nmod	_	SpaceAfter=No|Gloss=Member of the House of Representatives|Translit=sɔ̌ː-sɔ̌ː
 10	เพื่อ	เพื่อ	ADP	_	ExtPos=PROPN	11	case	_	SpaceAfter=No|Gloss=for|Translit=phɯ̂a
 11	ไทย	ไทย	PROPN	_	_	9	nmod	_	SpaceAfter=No|Gloss=Thai|Translit=thaj
 12	ย้าย	ย้าย	VERB	_	_	4	acl	_	SpaceAfter=No|Gloss=move|Translit=jáːj
