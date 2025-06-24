@@ -89,7 +89,7 @@
 30	ความ	ความ	NOUN	_	_	28	obl	_	SpaceAfter=No|Gloss=condition|Translit=khwaːm
 31	มั่นใจ	มั่นใจ	VERB	_	_	30	acl	_	SpaceAfter=No|Gloss=confident|Translit=mân-caj
 32	ได้	ได้	VERB	_	_	31	advcl	_	SpaceAfter=No|Gloss=get|Translit=dâj
-33	ส.ส.	สส.	NOUN	_	Abbr=Yes	32	obj	_	SpaceAfter=No|Gloss=Member of the House of Representatives|Translit=sɔ̌ː-sɔ̌ː
+33	ส.ส.	สส.	NOUN	_	Abbr=Yes	32	obj	_	SpaceAfter=No|Gloss=Members of the House of Representatives of Thailand|Translit=sɔ̌ː-sɔ̌ː
 34	พิษณุ	พิษณุ	NOUN	_	ExtPos=PROPN	33	nmod	_	SpaceAfter=No|Gloss=Vishnu|Translit=phít-sà-nú
 35	โลก	โลก	NOUN	_	_	34	nmod	_	Gloss=earth|Translit=lôːk
 36	ยก	ยก	VERB	_	_	32	advcl	_	SpaceAfter=No|Gloss=lift|Translit=jók
@@ -181,7 +181,7 @@
 6	นิยม	นิยม	PROPN	_	_	5	flat	_	Gloss=Niyom|Translit=ní-jom
 7	ช่างพินิจ	ช่างพินิจ	PROPN	_	_	6	flat	_	Gloss=Changpinij|Translit=chaːŋ-phí-nit
 8	อดีต	อดีต	NOUN	_	_	5	appos	_	SpaceAfter=No|Gloss=past|Translit=ʔà-dìːt
-9	ส.ส.	สส.	NOUN	_	Abbr=Yes	8	nmod	_	SpaceAfter=No|Gloss=Member of the House of Representatives|Translit=sɔ̌ː-sɔ̌ː
+9	ส.ส.	สส.	NOUN	_	Abbr=Yes	8	nmod	_	SpaceAfter=No|Gloss=Members of the House of Representatives of Thailand|Translit=sɔ̌ː-sɔ̌ː
 10	เพื่อ	เพื่อ	ADP	_	ExtPos=PROPN	11	case	_	SpaceAfter=No|Gloss=for|Translit=phɯ̂a
 11	ไทย	ไทย	PROPN	_	_	9	nmod	_	SpaceAfter=No|Gloss=Thai|Translit=thaj
 12	ย้าย	ย้าย	VERB	_	_	4	acl	_	SpaceAfter=No|Gloss=move|Translit=jáːj
@@ -202,7 +202,7 @@
 
 # sent_id = Thai_Election_ForThaiParty_2023_NewsArticle_8
 # text = น.ส.แพทองธาร กล่าวว่า ว่าที่ผู้สมัครที่จะลงเขตนี้ก็เป็นคนที่ประชาชนรู้จักดีอยู่แล้ว 
-# text_en = Ms. Paetongtarn stated that the prospective candidates expected to run in this district were the people the public was already familiar with.
+# text_en = Ms. Paetongtarn said "The prospective candidates expected to run in this district are the people the public is already familiar with."
 # tokenised_text = น.ส. แพทองธาร กล่าว ว่า ว่าที่ ผู้ สมัคร ที่ จะ ลง เขต นี้ ก็ เป็น คน ที่ ประชาชน รู้จัก ดี อยู่ แล้ว
 # tokenised_translit =
 # tokenised_transcript = /naːŋ-sǎːw/ /phɛː-thɔːŋ-thaːn/ /klàːw/ /wâː/ /wâː-thîː/ /phûː/ /sà-màk/ /thîː/ /càʔ/ /loŋ/ /khèːt/ /níː/ /kɔ̂ː/ /pen/ /khon/ /thîː/ /pràʔ-chaː-chon/ /rúː-càk/ /diː/ /jùː/ /lɛ́ːw/
@@ -262,15 +262,15 @@
 16	นี้	นี้	DET	_	_	15	det	_	SpaceAfter=No|Gloss=this(DEM)|Translit=níː
 17	เพื่อ	เพื่อ	ADP	_	_	18	mark	_	SpaceAfter=No|Gloss=for|Translit=phɯ̂a
 18	ให้	ให้	VERB	_	_	11	advcl	_	SpaceAfter=No|Gloss=give|Translit=hâj
-19	ส.ส.	สส.	NOUN	_	Abbr=Yes	18	obj	_	SpaceAfter=No|Gloss=Member of the House of Representatives|Translit=sɔ̌ː-sɔ̌ː
+19	ส.ส.	สส.	NOUN	_	Abbr=Yes	18	obj	_	SpaceAfter=No|Gloss=Members of the House of Representatives of Thailand|Translit=sɔ̌ː-sɔ̌ː
 20	ของ	ของ	ADP	_	_	21	case	_	SpaceAfter=No|Gloss=of|Translit=khɔ̌ːŋ
 21	เรา	เรา	PRON	_	_	19	nmod	_	SpaceAfter=No|Gloss=we|Translit=raw
 22	เข้า	เข้า	VERB	_	_	18	xcomp	_	SpaceAfter=No|Gloss=enter|Translit=khâw
 23	มา	มา	VERB	_	_	22	compound:svc	_	SpaceAfter=No|Gloss=come|Translit=maː
 24	ทำงาน	ทำงาน	VERB	_	_	22	advcl	_	SpaceAfter=No|Gloss=work|Translit=tham-ŋaːn
 25	ใน	ใน	ADP	_	_	26	case	_	SpaceAfter=No|Gloss=in|Translit=naj
-26	สภา	สภา	NOUN	_	_	24	obl	_	SpaceAfter=No|Gloss=House of Representatives|Translit=sà-phaː
-27	ฯ	ฯ	PUNCT	_	_	26	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=|Translit=
+26	สภา	สภา	NOUN	_	_	24	obl	_	SpaceAfter=No|Gloss=the House of Representatives of Thailand|Translit=sà-phaː
+27	ฯ	ผู้แทนราษฎรไทย	PUNCT	_	_	26	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=the House of Representatives of Thailand|Translit=phûː-thɛːn-râːt-sà-dɔːn-thaj
 28	เพื่อ	เพื่อ	ADP	_	_	29	mark	_	SpaceAfter=No|Gloss=for|Translit=phɯ̂a
 29	ผลักดัน	ผลักดัน	VERB	_	_	24	advcl	_	SpaceAfter=No|Gloss=push|Translit=phlàk-dan
 30	นโยบาย	นโยบาย	NOUN	_	_	29	obj	_	Gloss=policy|Translit=ná-joː-baːj
@@ -295,3 +295,61 @@
 3	มั่นใจ	มั่นใจ	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=confident|Translit=mân-caj
 4	มาก	มาก	ADV	_	_	3	advmod	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=very|Translit=mâːk
 5	ๆ	ๆ	SYM	_	ExtPos=ADV	4	compound:redup	_	Gloss=very|Translit=mâːk
+
+# sent_id = Thai_Election_ForThaiParty_2023_NewsArticle_11
+# text = ด้าน นพ.ชลน่าน ศรีแก้ว ส.ส.น่าน และหัวหน้าพรรคเพื่อไทย (พท.) ให้สัมภาษณ์กรณีประกาศไม่จับมือกับพรรคพลังประชารัฐ (พปชร.) ว่า เรื่องนี้มีกระแสมาปิดกั้นยุทธศาสตร์แลนด์สไลด์ของพรรค พท.ที่เราประกาศไว้
+# text_en = Dr. Cholanan Srikaew, the MP for Nan Province and leader of the Pheu Thai Party (PT), gave an interview regarding the Party’s announcement not to join hands with the Palang Pracharath Party (PPRP), saying "This issue has been used as a narrative to block the Pheu Thai Party’s landslide strategy that we had previously declared."
+# tokenised_text = ด้าน นพ. ชลน่าน ศรีแก้ว ส.ส. น่าน และ หัวหน้า พรรค เพื่อ ไทย ( พท. ) ให้ สัมภาษณ์ กรณี ประกาศ ไม่ จับ มือ กับ พรรค พลัง ประชา รัฐ ( พปชร. ) ว่า เรื่อง นี้ มี กระแส มา ปิด กั้น ยุทธศาสตร์ แลนด์สไลด์ ของ พรรค พท. ที่ เรา ประกาศ ไว้
+# tokenised_translit =
+# tokenised_transcript = /dâːn/ /naːj-phɛ̂ːt/ /chon-là-nâːn/ /sǐː-kɛ̂ːw/ /sɔ̌ː-sɔ̌ː/ /nâːn/ /lɛ́ʔ/ /hǔa-nâː/ /phák/ /phɯ̂a/ /thaj/ (/phɔː-thɔː/) /hâj/ /sǎm-phaːt/ /kɔː-rà-niː/ /pràʔ-kàːt/ /mâj/ /càp/ /mɯː/ /kàp/ /phák/ /phà-laŋ/ /pràʔ-chaː/ /rát/ (/phɔː-pɔː-chɔː-rɔː/) /wâː/ /rɯ̂aŋ/ /níː/ /miː/ /kràʔ-sɛ̌ː/ /maː/ /pìt/ /kân/ /jút-thà-sàːt/ /lɛːn-sà-láj/ /khɔ̌ːŋ/ /phák/ /phɔː-thɔː/ /thîː/ /raw/ /pràʔ-kàːt/ /wáj/ 
+# phrase_type = sentence
+# sentence_position = body
+# genre = political_news_article
+# source = https://www.matichon.co.th/weekly/hot-news/article_656016 
+# year = 2023
+1	ด้าน	ด้าน	NOUN	_	_	_	_	_	Gloss=side|Translit=dâːn
+2	นพ.	นพ.	NOUN	_	Abbr=Yes	15	nsubj	_	SpaceAfter=No|Gloss=Doctor|Translit=naːj-phɛ̂ːt
+3	ชลน่าน	ชลน่าน	PROPN	_	_	2	flat	_	Gloss=Cholanan|Translit=chon-là-nâːn
+4	ศรีแก้ว	ศรีแก้ว	PROPN	_	_	3	flat	_	Gloss=Srikaew|Translit=sǐː-kɛ̂ːw
+5	ส.ส.	สส.	NOUN	_	Abbr=Yes	2	appos	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=Members of the House of Representatives of Thailand|Translit=sɔ̌ː-sɔ̌ː
+6	น่าน	น่าน	PROPN	_	_	5	nmod	_	Gloss=Nan|Translit=nâːn
+7	และ	และ	CCONJ	_	_	8	cc	_	SpaceAfter=No|Gloss=and|Translit=lɛ́ʔ
+8	หัวหน้า	หัวหน้า	NOUN	_	_	5	conj	_	SpaceAfter=No|Gloss=chief|Translit=hǔa-nâː
+9	พรรค	พรรค	NOUN	_	_	8	nmod	_	SpaceAfter=No|Gloss=Party|Translit=phák
+10	เพื่อ	เพื่อ	ADP	_	_	11	case	_	SpaceAfter=No|Gloss=for|Translit=phɯ̂a
+11	ไทย	ไทย	PROPN	_	_	9	nmod	_	Gloss=Thai|Translit=thaj
+12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
+13	พท.	พท.	PROPN	_	Abbr=Yes	11	appos	_	SpaceAfter=No|Gloss=Pheu Thai|Translit=phɔː-thɔː
+14	)	)	PUNCT	_	_	13	punct	_	_
+15	ให้	ให้	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=give|Translit=hâj
+16	สัมภาษณ์	สัมภาษณ์	VERB	_	_	15	compound:svc	_	SpaceAfter=No|Gloss=interview|Translit=sǎm-phaːt
+17	กรณี	กรณี	NOUN	_	_	16	obj	_	SpaceAfter=No|Gloss=case|Translit=kɔː-rà-niː
+18	ประกาศ	ประกาศ	VERB	_	_	17	acl	_	SpaceAfter=No|Gloss=announce|Translit=pràʔ-kàːt
+19	ไม่	ไม่	PART	_	_	20	advmod	_	SpaceAfter=No|Gloss=not|Translit=mâj
+20	จับ	จับ	VERB	_	_	18	ccomp	_	SpaceAfter=No|Gloss=hold|Translit=càp
+21	มือ	มือ	NOUN	_	_	20	obj	_	SpaceAfter=No|Gloss=hands|Translit=mɯː
+22	กับ	กับ	ADP	_	_	23	case	_	SpaceAfter=No|Gloss=with|Translit=kàp
+23	พรรค	พรรค	NOUN	_	_	20	obl	_	SpaceAfter=No|Gloss=Party|Translit=phák
+24	พลัง	พลัง	NOUN	_	_	23	nmod	_	SpaceAfter=No|Gloss=power|Translit=phà-laŋ
+25	ประชา	ประชา	NOUN	_	_	24	nmod	_	SpaceAfter=No|Gloss=people|Translit=pràʔ-chaː
+26	รัฐ	รัฐ	NOUN	_	_	25	nmod	_	Gloss=State|Translit=rát
+27	(	(	PUNCT	_	_	28	parataxis	_	SpaceAfter=No
+28	พปชร.	พปชร.	PROPN	_	Abbr=Yes	24	appos	_	SpaceAfter=No|Gloss=Palang Pracharath|Translit=phɔː-pɔː-chɔː-rɔː
+29	)	)	PUNCT	_	_	28	parataxis	_	_
+30	ว่า	ว่า	SCONJ	_	_	33	mark	_	Gloss=that(COMP)|Translit=wâː
+31	เรื่อง	เรื่อง	NOUN	_	_	33	nsubj	_	SpaceAfter=No|Gloss=story|Translit=rɯ̂aŋ
+32	นี้	นี้	DET	_	_	31	det	_	SpaceAfter=No|Gloss=this(DEM)|Translit=níː
+33	มี	มี	VERB	_	_	16	ccomp	_	SpaceAfter=No|Gloss=have|Translit=miː
+34	กระแส	กระแส	NOUN	_	_	33	obj	_	SpaceAfter=No|Gloss=sentiment|Translit=kràʔ-sɛ̌ː
+35	มา	มา	VERB	_	_	34	acl	_	SpaceAfter=No|Gloss=come|Translit=maː
+36	ปิด	ปิด	VERB	_	_	35	compound:svc	_	SpaceAfter=No|Gloss=close|Translit=pìt
+37	กั้น	กั้น	VERB	_	_	36	conj	_	SpaceAfter=No|Gloss=block|Translit=kân
+38	ยุทธศาสตร์	ยุทธศาสตร์		NOUN	_	_	37	obj	_	SpaceAfter=No|Gloss=strategy|Translit=jút-thà-sàːt
+39	แลนด์สไลด์	แลนด์สไลด์	VERB	_	Foreign=Yes	38	acl	_	SpaceAfter=No|Gloss=landslide|Translit=lɛːn-sà-láj
+40	ของ	ของ	ADP	_	_	41	case	_	SpaceAfter=No|Gloss=of|Translit=khɔ̌ːŋ
+41	พรรค	พรรค	NOUN	_	_	38	nmod	_	CorrectSpaceAfter=No|Gloss=Party|Translit=phák
+42	พท.	พท.	PROPN	_	Abbr=Yes	41	nmod	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=Pheu Thai|Translit=phɔː-thɔː
+43	ที่	ที่	PRON	_	_	45	obj	_	SpaceAfter=No|Gloss=which(REL)|Translit=thîː
+44	เรา	เรา	PRON	_	_	45	nsubj	_	SpaceAfter=No|Gloss=we|Translit=raw
+45	ประกาศ	ประกาศ	VERB	_	_	38	acl:relcl	_	SpaceAfter=No|Gloss=announce|Translit=pràʔ-kàːt
+46	ไว้	ไว้	ADV	_	_	45	advmod	_	Gloss=(used to emphasise and/or complete the meaning of a verb)|Translit=wáj
