@@ -316,7 +316,7 @@
 7	และ	และ	CCONJ	_	_	8	cc	_	SpaceAfter=No|Gloss=and|Translit=lɛ́ʔ
 8	หัวหน้า	หัวหน้า	NOUN	_	_	5	conj	_	SpaceAfter=No|Gloss=chief|Translit=hǔa-nâː
 9	พรรค	พรรค	NOUN	_	_	8	nmod	_	SpaceAfter=No|Gloss=Party|Translit=phák
-10	เพื่อ	เพื่อ	ADP	_	_	11	case	_	SpaceAfter=No|Gloss=for|Translit=phɯ̂a
+10	เพื่อ	เพื่อ	ADP	_	ExtPos=PROPN	11	case	_	SpaceAfter=No|Gloss=for|Translit=phɯ̂a
 11	ไทย	ไทย	PROPN	_	_	9	nmod	_	Gloss=Thai|Translit=thaj
 12	(	(	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	พท.	พท.	PROPN	_	Abbr=Yes	11	appos	_	SpaceAfter=No|Gloss=Pheu Thai|Translit=phɔː-thɔː
@@ -330,7 +330,7 @@
 21	มือ	มือ	NOUN	_	_	20	obj	_	SpaceAfter=No|Gloss=hands|Translit=mɯː
 22	กับ	กับ	ADP	_	_	23	case	_	SpaceAfter=No|Gloss=with|Translit=kàp
 23	พรรค	พรรค	NOUN	_	_	20	obl	_	SpaceAfter=No|Gloss=Party|Translit=phák
-24	พลัง	พลัง	NOUN	_	_	23	nmod	_	SpaceAfter=No|Gloss=power|Translit=phà-laŋ
+24	พลัง	พลัง	NOUN	_	ExtPos=PROPN	23	nmod	_	SpaceAfter=No|Gloss=power|Translit=phà-laŋ
 25	ประชา	ประชา	NOUN	_	_	24	nmod	_	SpaceAfter=No|Gloss=people|Translit=pràʔ-chaː
 26	รัฐ	รัฐ	NOUN	_	_	25	nmod	_	Gloss=State|Translit=rát
 27	(	(	PUNCT	_	_	28	parataxis	_	SpaceAfter=No
