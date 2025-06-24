@@ -307,7 +307,7 @@
 # genre = political_news_article
 # source = https://www.matichon.co.th/weekly/hot-news/article_656016 
 # year = 2023
-1	ด้าน	ด้าน	NOUN	_	_	_	_	_	Gloss=side|Translit=dâːn
+1	ด้าน	ด้าน	ADP	_	_	2	case	_	Gloss=side|Translit=dâːn
 2	นพ.	นพ.	NOUN	_	Abbr=Yes	15	nsubj	_	SpaceAfter=No|Gloss=Doctor|Translit=naːj-phɛ̂ːt
 3	ชลน่าน	ชลน่าน	PROPN	_	_	2	flat	_	Gloss=Cholanan|Translit=chon-là-nâːn
 4	ศรีแก้ว	ศรีแก้ว	PROPN	_	_	3	flat	_	Gloss=Srikaew|Translit=sǐː-kɛ̂ːw
