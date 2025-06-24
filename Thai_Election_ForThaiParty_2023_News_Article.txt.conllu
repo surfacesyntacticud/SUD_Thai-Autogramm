@@ -333,9 +333,9 @@
 24	พลัง	พลัง	NOUN	_	ExtPos=PROPN	23	nmod	_	SpaceAfter=No|Gloss=power|Translit=phà-laŋ
 25	ประชา	ประชา	NOUN	_	_	24	nmod	_	SpaceAfter=No|Gloss=people|Translit=pràʔ-chaː
 26	รัฐ	รัฐ	NOUN	_	_	25	nmod	_	Gloss=State|Translit=rát
-27	(	(	PUNCT	_	_	28	parataxis	_	SpaceAfter=No
+27	(	(	PUNCT	_	_	28	punct	_	SpaceAfter=No
 28	พปชร.	พปชร.	PROPN	_	Abbr=Yes	24	appos	_	SpaceAfter=No|Gloss=Palang Pracharath|Translit=phɔː-pɔː-chɔː-rɔː
-29	)	)	PUNCT	_	_	28	parataxis	_	_
+29	)	)	PUNCT	_	_	28	punct	_	_
 30	ว่า	ว่า	SCONJ	_	_	33	mark	_	Gloss=that(COMP)|Translit=wâː
 31	เรื่อง	เรื่อง	NOUN	_	_	33	nsubj	_	SpaceAfter=No|Gloss=story|Translit=rɯ̂aŋ
 32	นี้	นี้	DET	_	_	31	det	_	SpaceAfter=No|Gloss=this(DEM)|Translit=níː
