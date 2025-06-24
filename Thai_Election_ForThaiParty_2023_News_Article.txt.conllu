@@ -3,14 +3,14 @@
 # text_en = 'Cholanan' draws the line: if he gets 310 votes, he won’t join hands with anyone, especially the authoritarian side.
 # tokenised_text = ‘ ชลน่าน ’ ขีดเส้น หาก ได้ เสียง 310 ไม่ จับ มือ ใคร โดย เฉพาะ ฝั่ง เผด็จการ
 # tokenised_translit =
-# tokenised_transcript = /chon-la-nâːn/ /kìːt-sên/ /hàːk/ /dâj/ /sǐaŋ/ /sǎːm-rɔ́j-sìp/ /mâj/ /càp/ /mɯː/ /khraj/ /doːj/ /chà-phɔ́ʔ/ /fàŋ/ /phà-dèt-kaːn/
+# tokenised_transcript = /chon-là-nâːn/ /kìːt-sên/ /hàːk/ /dâj/ /sǐaŋ/ /sǎːm-rɔ́j-sìp/ /mâj/ /càp/ /mɯː/ /khraj/ /doːj/ /chà-phɔ́ʔ/ /fàŋ/ /phà-dèt-kaːn/
 # phrase_type = sentence
 # sentence_position = headline
 # genre = political_news_article
 # source = https://www.matichon.co.th/weekly/hot-news/article_656016 
 # year = 2023
 1	‘	‘	PUNCT	_	_	2	punct	_	SpaceAfter=No
-2	ชลน่าน	ชลน่าน	PROPN	_	_	4	nsubj	_	SpaceAfter=No|Gloss=Cholanan|Translit=chon-la-nâːn
+2	ชลน่าน	ชลน่าน	PROPN	_	_	4	nsubj	_	SpaceAfter=No|Gloss=Cholanan|Translit=chon-là-nâːn
 3	’	’	PUNCT	_	_	2	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 4	ขีดเส้น	ขีดเส้น	VERB	_	_	0	root	_	Gloss=draw the line|Translit=kìːt-sên
 5	หาก	หาก	SCONJ	_	_	6	mark	_	SpaceAfter=No|Gloss=if|Translit=hàːk
@@ -232,3 +232,66 @@
 19	ดี	ดี	ADV	_	_	18	advmod	_	SpaceAfter=No|Gloss=good|Translit=diː
 20	อยู่	อยู่	ADV	_	_	18	advmod	_	SpaceAfter=No|Gloss=currently|Translit=jùː
 21	แล้ว	แล้ว	ADV	_	_	18	advmod	_	Gloss=already|Translit=lɛ́ːw
+
+# sent_id = Thai_Election_ForThaiParty_2023_NewsArticle_9
+# text = แน่นอนว่าเราต้องเพิ่มเติมเรื่องการแนะนำว่าเรามาแบบนี้ตั้งใจแบบนี้เพื่อให้ส.ส.ของเราเข้ามาทำงานในสภาฯเพื่อผลักดันนโยบาย เพื่อพี่น้องประชาชน 
+# text_en = "It is certain that we need to further explain that we’ve come with clear intentions — to have our MPs enter the Parliament and work to push forward the policies for the benefit of the people."
+# tokenised_text = แน่นอน ว่า เรา ต้อง เพิ่มเติม เรื่อง การ แนะนำ ว่า เรา มา แบบ นี้ ตั้งใจ แบบ นี้ เพื่อ ให้ ส.ส. ของ เรา เข้า มา ทำงาน ใน สภา ฯ เพื่อ ผลักดัน นโยบาย เพื่อ พี่ น้อง ประชาชน
+# tokenised_translit =
+# tokenised_transcript = /nɛ̂ː-nɔːn/ /wâː/ /raw/ /thɔ̂ŋ/ /phɤ̂ːm-thɤːm/ /rɯ̂aŋ/ /kaːn/ /nɛ́ʔ-nam/ /wâː/ /raw/ /maː/ /bɛ̀ːp/ /níː/ /tâŋ-caj/ /bɛ̀ːp/ /níː/ /phɯ̂a/ /hâj/ /sɔ̌ː-sɔ̌ː/ /khɔ̌ːŋ/ /raw/ /khâw/ /maː/ /tham-ŋaːn/ /naj/ /sà-phaː/ /phɯ̂a/ /phlàk-dan/ /ná-joː-baːj/ /phɯ̂a/ /phîː/ /nɔ́ːŋ/ /pràʔ-chaː-chon/
+# phrase_type = sentence
+# sentence_position = body
+# genre = political_news_article
+# source = https://www.matichon.co.th/weekly/hot-news/article_656016 
+# year = 2023
+1	แน่นอน	แน่นอน	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=certain|Translit=nɛ̂ː-nɔːn
+2	ว่า	ว่า	SCONJ	_	_	5	mark	_	SpaceAfter=No|Gloss=that(COMP)|Translit=wâː
+3	เรา	เรา	PRON	_	_	5	nsubj	_	SpaceAfter=No|Gloss=we|Translit=raw
+4	ต้อง	ต้อง	AUX	_	_	5	aux	_	SpaceAfter=No|Gloss=must|Translit=thɔ̂ŋ
+5	เพิ่มเติม	เพิ่มเติม	VERB	_	_	1	ccomp	_	SpaceAfter=No|Gloss=add|Translit=phɤ̂ːm-thɤːm
+6	เรื่อง	เรื่อง	NOUN	_	_	5	obj	_	SpaceAfter=No|Gloss=story|Translit=rɯ̂aŋ
+7	การ	การ	NOUN	_	_	6	nmod	_	SpaceAfter=No|Gloss=the act of doing a thing|Translit=kaːn
+8	แนะนำ	แนะนำ	VERB	_	_	7	acl	_	SpaceAfter=No|Gloss=introduce|Translit=nɛ́ʔ-nam
+9	ว่า	ว่า	SCONJ	_	_	11	mark	_	SpaceAfter=No|Gloss=that(COMP)|Translit=wâː
+10	เรา	เรา	PRON	_	_	11	nsubj	_	SpaceAfter=No|Gloss=we|Translit=raw
+11	มา	มา	VERB	_	_	8	ccomp	_	SpaceAfter=No|Gloss=come|Translit=maː
+12	แบบ	แบบ	NOUN	_	_	11	obl	_	SpaceAfter=No|Gloss=manner|Translit=bɛ̀ːp
+13	นี้	นี้	DET	_	_	12	det	_	SpaceAfter=No|Gloss=this(DEM)|Translit=níː
+14	ตั้งใจ	ตั้งใจ	VERB	_	_	11	conj	_	SpaceAfter=No|Gloss=determined|Translit=tâŋ-caj
+15	แบบ	แบบ	NOUN	_	_	14	obl	_	SpaceAfter=No|Gloss=manner|Translit=bɛ̀ːp
+16	นี้	นี้	DET	_	_	15	det	_	SpaceAfter=No|Gloss=this(DEM)|Translit=níː
+17	เพื่อ	เพื่อ	ADP	_	_	18	mark	_	SpaceAfter=No|Gloss=for|Translit=phɯ̂a
+18	ให้	ให้	VERB	_	_	11	advcl	_	SpaceAfter=No|Gloss=give|Translit=hâj
+19	ส.ส.	สส.	NOUN	_	Abbr=Yes	18	obj	_	SpaceAfter=No|Gloss=Member of the House of Representatives|Translit=sɔ̌ː-sɔ̌ː
+20	ของ	ของ	ADP	_	_	21	case	_	SpaceAfter=No|Gloss=of|Translit=khɔ̌ːŋ
+21	เรา	เรา	PRON	_	_	19	nmod	_	SpaceAfter=No|Gloss=we|Translit=raw
+22	เข้า	เข้า	VERB	_	_	18	xcomp	_	SpaceAfter=No|Gloss=enter|Translit=khâw
+23	มา	มา	VERB	_	_	22	compound:svc	_	SpaceAfter=No|Gloss=come|Translit=maː
+24	ทำงาน	ทำงาน	VERB	_	_	22	advcl	_	SpaceAfter=No|Gloss=work|Translit=tham-ŋaːn
+25	ใน	ใน	ADP	_	_	26	case	_	SpaceAfter=No|Gloss=in|Translit=naj
+26	สภา	สภา	NOUN	_	_	24	obl	_	SpaceAfter=No|Gloss=House of Representatives|Translit=sà-phaː
+27	ฯ	ฯ	PUNCT	_	_	26	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=|Translit=
+28	เพื่อ	เพื่อ	ADP	_	_	29	mark	_	SpaceAfter=No|Gloss=for|Translit=phɯ̂a
+29	ผลักดัน	ผลักดัน	VERB	_	_	24	advcl	_	SpaceAfter=No|Gloss=push|Translit=phlàk-dan
+30	นโยบาย	นโยบาย	NOUN	_	_	29	obj	_	Gloss=policy|Translit=ná-joː-baːj
+31	เพื่อ	เพื่อ	ADP	_	_	32	case	_	SpaceAfter=No|Gloss=for|Translit=phɯ̂a
+32	พี่	พี่	NOUN	_	_	29	obl	_	SpaceAfter=No|Gloss=older sibling|Translit=phîː
+33	น้อง	น้อง	NOUN	_	_	32	flat	_	SpaceAfter=No|Gloss=younger sibling|Translit=nɔ́ːŋ
+34	ประชาชน	ประชาชน	NOUN	_	_	32	nmod	_	Gloss=population|Translit=pràʔ-chaː-chon
+
+# sent_id = Thai_Election_ForThaiParty_2023_NewsArticle_10
+# text = ฉะนั้นเรามั่นใจมากๆ
+# text_en = "So, we are very confident."
+# tokenised_text = ฉะนั้น เรา มั่นใจ มาก ๆ
+# tokenised_translit =
+# tokenised_transcript = /chàʔ-nán/ /raw/ /mân-caj/ /mâːk/ /mâːk/
+# phrase_type = sentence
+# sentence_position = body
+# genre = political_news_article
+# source = https://www.matichon.co.th/weekly/hot-news/article_656016 
+# year = 2023
+1	ฉะนั้น	ฉะนั้น	ADV	_	_	3	advmod	_	SpaceAfter=No|Gloss=so|Translit=chàʔ-nán
+2	เรา	เรา	PRON	_	_	3	nsubj	_	SpaceAfter=No|Gloss=we|Translit=raw
+3	มั่นใจ	มั่นใจ	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=confident|Translit=mân-caj
+4	มาก	มาก	ADV	_	_	3	advmod	_	SpaceAfter=No|CorrectSpaceAfter=Yes|Gloss=very|Translit=mâːk
+5	ๆ	ๆ	SYM	_	ExtPos=ADV	4	compound:redup	_	Gloss=very|Translit=mâːk
