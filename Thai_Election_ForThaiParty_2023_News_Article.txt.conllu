@@ -1154,7 +1154,7 @@
 6	มา	มา	VERB	_	_	3	ccomp	_	SpaceAfter=No|Gloss=come|Translit=maː
 7	จาก	จาก	ADP	_	_	8	case	_	SpaceAfter=No|Gloss=from|Translit=càːk
 8	ความ	ความ	NOUN	_	NounType=Nmlz	6	obl	_	SpaceAfter=No|Gloss=condition|Translit=khwaːm
-9	อัดอั้นตันใจ		อัดอั้นตันใจ		VERB	_	_	8	acl	_	Gloss=deeply frustrated|Translit=ʔàt-ʔân-tan-caj
+9	อัดอั้นตันใจอัดอั้นตันใจVERB	_	_	8	acl	_	Gloss=deeply frustrated|Translit=ʔàt-ʔân-tan-caj
 
 # sent_id = Thai_Election_ForThaiParty_2023_NewsArticle_25
 # text = ถามต่อว่า พอได้ปราศรัยแล้วเริ่มติดใจการขึ้นเวทีแล้วหรือยัง
