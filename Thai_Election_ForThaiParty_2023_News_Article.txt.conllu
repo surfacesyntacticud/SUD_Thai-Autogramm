@@ -973,7 +973,7 @@
 21	ที่	ที่	NOUN	_	_	20	nmod	_	SpaceAfter=No|Gloss=rank|Translit=thîː
 22	สอง	สอง	NUM	_	_	21	nmod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ːŋ
 23	ว่า	ว่า	SCONJ	_	_	25	mark	_	Gloss=that(COMP)|Translit=wâː
-24	ตน	ตน	NOUN	_	_	25	nsubj	_	SpaceAfter=No|Gloss=I|Translit=ton
+24	ตน	ตน	NOUN	_	ExtPos=PRON	25	nsubj	_	SpaceAfter=No|Gloss=I|Translit=ton
 25	ตื่นเต้น	ตื่นเต้น	VERB	_	_	14	ccomp	_	Gloss=excited|Translit=tɯ̀ːn-tên
 26	และ	และ	CCONJ	_	_	27	cc	_	SpaceAfter=No|Gloss=and|Translit=lɛ́ʔ
 27	ดีใจ	ดีใจ	VERB	_	_	25	conj	_	Gloss=glad|Translit=diː-caj
@@ -1021,7 +1021,7 @@
 21	ที่	ที่	NOUN	_	_	20	nmod	_	SpaceAfter=No|Gloss=rank|Translit=thîː
 22	สอง	สอง	NUM	_	_	21	nmod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ːŋ
 23	ว่า	ว่า	SCONJ	_	_	25	mark	_	Gloss=that(COMP)|Translit=wâː
-24	ตน	ตน	NOUN	_	_	25	nsubj	_	SpaceAfter=No|Gloss=I|Translit=ton
+24	ตน	ตน	NOUN	_	ExtPos=PRON	25	nsubj	_	SpaceAfter=No|Gloss=I|Translit=ton
 25	ตื่นเต้น	ตื่นเต้น	VERB	_	_	14	ccomp	_	Gloss=excited|Translit=tɯ̀ːn-tên
 26	และ	และ	CCONJ	_	_	27	cc	_	SpaceAfter=No|Gloss=and|Translit=lɛ́ʔ
 27	ดีใจ	ดีใจ	VERB	_	_	25	conj	_	Gloss=glad|Translit=diː-caj
@@ -1046,7 +1046,7 @@
 # genre = political_news_article
 # source = https://www.matichon.co.th/weekly/hot-news/article_656016 
 # year = 2023
-1	ตน	ตน	NOUN	_	_	2	nsubj	_	SpaceAfter=No|Gloss=I|Translit=ton
+1	ตน	ตน	NOUN	_	ExtPos=PRON	2	nsubj	_	SpaceAfter=No|Gloss=I|Translit=ton
 2	มี	มี	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=have|Translit=miː
 3	หัวหน้า	หัวหน้า	NOUN	_	_	2	obj	_	SpaceAfter=No|Gloss=chief|Translit=hùa-nâː
 4	พรรค	พรรค	NOUN	_	_	3	nmod	_	CorrectSpaceAfter=No|Gloss=Party|Translit=phák
@@ -1072,7 +1072,7 @@
 # genre = political_news_article
 # source = https://www.matichon.co.th/weekly/hot-news/article_656016 
 # year = 2023
-1	ตน	ตน	NOUN	_	_	2	nsubj	_	SpaceAfter=No|Gloss=I|Translit=ton
+1	ตน	ตน	NOUN	_	ExtPos=PRON	2	nsubj	_	SpaceAfter=No|Gloss=I|Translit=ton
 2	มี	มี	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=have|Translit=miː
 3	หัวหน้า	หัวหน้า	NOUN	_	_	2	obj	_	SpaceAfter=No|Gloss=chief|Translit=hùa-nâː
 4	พรรค	พรรค	NOUN	_	_	3	nmod	_	CorrectSpaceAfter=No|Gloss=Party|Translit=phák
