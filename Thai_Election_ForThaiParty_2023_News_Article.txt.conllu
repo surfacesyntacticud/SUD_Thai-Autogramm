@@ -950,41 +950,41 @@
 # genre = political_news_article
 # source = https://www.matichon.co.th/weekly/hot-news/article_656016 
 # year = 2023
-1	ขณะ	ขณะ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=time|Translit=khà-nàʔ
-2	ที่	ที่	PRON	_	_	13	obl:tmod	_	Gloss=|Translit=thîː
+1	ขณะ	ขณะ	NOUN	_	_	0	root	_	SpaceAfter=No|Gloss=time|Translit=khà-nàʔ
+2	ที่	ที่	PRON	_	_	13	obl:tmod	_	Gloss=|Translit=thîː
 3	นาย	นาย	NOUN	_	_	13	nsubj	_	SpaceAfter=No|Gloss=Mister|Translit=naːj
-4	เศรษฐา	เศรษฐา	PROPN	_	_	3	flat	_	Gloss=Srettha|Translit=sèːt-thǎː
-5	ทวีสิน	ทวีสิน	PROPN	_	_	4	flat	_	Gloss=Thavisin|Translit=thà-wiː-sǐn
-6	ประธาน	ประธาน	NOUN	_	_	3	appos	_	SpaceAfter=No|Gloss=chairman|Translit=pràʔ-thaːn
-7	ที่	ที่	NOUN	_	_	6	nmod	_	SpaceAfter=No|Gloss=position|Translit=thîː
-8	ปรึกษา	ปรึกษา	VERB	_	_	7	acl	_	SpaceAfter=No|Gloss=consult|Translit=prɯ̀k-sǎː
-9	หัวหน้า	หัวหน้า	NOUN	_	_	6	nmod	_	SpaceAfter=No|Gloss=chief|Translit=hǔa-nâː
+4	เศรษฐา	เศรษฐา	PROPN	_	_	3	flat	_	Gloss=Srettha|Translit=sèːt-thǎː
+5	ทวีสิน	ทวีสิน	PROPN	_	_	4	flat	_	Gloss=Thavisin|Translit=thà-wiː-sǐn
+6	ประธาน	ประธาน	NOUN	_	_	3	appos	_	SpaceAfter=No|Gloss=chairman|Translit=pràʔ-thaːn
+7	ที่	ที่	NOUN	_	_	6	nmod	_	SpaceAfter=No|Gloss=position|Translit=thîː
+8	ปรึกษา	ปรึกษา	VERB	_	_	7	acl	_	SpaceAfter=No|Gloss=consult|Translit=prɯ̀k-sǎː
+9	หัวหน้า	หัวหน้า	NOUN	_	_	6	nmod	_	SpaceAfter=No|Gloss=chief|Translit=hǔa-nâː
 10	ครอบครัว	ครอบครัว	NOUN	_	_	9	nmod	_	SpaceAfter=No|Gloss=family|Translit=khrɔ̂ːp-khrua
 11	เพื่อ	เพื่อ	ADP	_	ExtPos=PROPN	12	case	_	SpaceAfter=No|Gloss=for|Translit=phɯ̂a
 12	ไทย	ไทย	PROPN	_	_	10	nmod	_	Gloss=Thai|Translit=thaj
-13	ให้	ให้	VERB	_	_	0	root	_	SpaceAfter=No|Gloss=give|Translit=hâj
-14	สัมภาษณ์	สัมภาษณ์	VERB	_	_	13	compound:svc	_	SpaceAfter=No|Gloss=interview|Translit=sǎm-phaːt
+13	ให้	ให้	VERB	_	_	1	acl:relcl	_	SpaceAfter=No|Gloss=give|Translit=hâj
+14	สัมภาษณ์	สัมภาษณ์	VERB	_	_	13	compound:svc	_	SpaceAfter=No|Gloss=interview|Translit=sǎm-phaːt
 15	ถึง	ถึง	ADP	_	_	16	case	_	SpaceAfter=No|Gloss=to|Translit=thɯ̌ŋ
 16	การ	การ	NOUN	_	NounType=Nmlz	14	obl	_	SpaceAfter=No|Gloss=the act of doing a thing|Translit=kaːn
 17	ขึ้น	ขึ้น	VERB	_	_	16	acl	_	SpaceAfter=No|Gloss=ascend|Translit=khɯ̂n
 18	เวที	เวที	NOUN	_	_	17	obl:lmod	_	SpaceAfter=No|Gloss=stage|Translit=weː-thiː
-19	ปราศรัย	ปราศรัย	VERB	_	_	18	acl	_	SpaceAfter=No|Gloss=make a speech|Translit=praː-sǎj
+19	ปราศรัย	ปราศรัย	VERB	_	_	18	acl	_	SpaceAfter=No|Gloss=make a speech|Translit=praː-sǎj
 20	วัน	วัน	NOUN	_	_	17	obl:tmod	_	SpaceAfter=No|Gloss=day|Translit=wan
-21	ที่	ที่	NOUN	_	_	20	nmod	_	SpaceAfter=No|Gloss=rank|Translit=thîː
+21	ที่	ที่	NOUN	_	_	20	nmod	_	SpaceAfter=No|Gloss=rank|Translit=thîː
 22	สอง	สอง	NUM	_	_	21	nmod	_	SpaceAfter=No|Gloss=two|Translit=sɔ̌ːŋ
-23	ว่า	ว่า	SCONJ	_	_	25	mark	_	Gloss=that(COMP)|Translit=wâː
+23	ว่า	ว่า	SCONJ	_	_	25	mark	_	Gloss=that(COMP)|Translit=wâː
 24	ตน	ตน	NOUN	_	ExtPos=PRON	25	nsubj	_	SpaceAfter=No|Gloss=I|Translit=ton
-25	ตื่นเต้น	ตื่นเต้น	VERB	_	_	14	ccomp	_	Gloss=excited|Translit=tɯ̀ːn-tên
+25	ตื่นเต้น	ตื่นเต้น	VERB	_	_	14	ccomp	_	Gloss=excited|Translit=tɯ̀ːn-tên
 26	และ	และ	CCONJ	_	_	27	cc	_	SpaceAfter=No|Gloss=and|Translit=lɛ́ʔ
 27	ดีใจ	ดีใจ	VERB	_	_	25	conj	_	Gloss=glad|Translit=diː-caj
-28	ทราบซึ้ง	ซาบซึ้ง	VERB	_	Typo=Yes	25	conj	_	CorrectForm=ซาบซึ้ง|SpaceAfter=No|Gloss=touched|Translit=sâːp-sɯ́ŋ
+28	ทราบซึ้ง	ซาบซึ้ง	VERB	_	Typo=Yes	25	conj	_	CorrectForm=ซาบซึ้ง|SpaceAfter=No|Gloss=touched|Translit=sâːp-sɯ́ŋ
 29	ใจ	ใจ	NOUN	_	_	28	obj	_	SpaceAfter=No|Gloss=heart|Translit=caj
-30	ที่	ที่	SCONJ	_	_	32	mark	_	SpaceAfter=No|Gloss=that(COMP)|Translit=thîː
-31	ประชาชาชน	ประชาชน	NOUN	Typo=Yes	_	32	nsubj	_	CorrectForm=ประชาชน|SpaceAfter=No|Gloss=population|Translit=pràʔ-chaː-chon
-32	ให้	ให้	VERB	_	_	25	advcl	_	SpaceAfter=No|Gloss=give|Translit=hâj
+30	ที่	ที่	SCONJ	_	_	32	mark	_	SpaceAfter=No|Gloss=that(COMP)|Translit=thîː
+31	ประชาชาชน	ประชาชน	NOUN	Typo=Yes	_	32	nsubj	_	CorrectForm=ประชาชน|SpaceAfter=No|Gloss=population|Translit=pràʔ-chaː-chon
+32	ให้	ให้	VERB	_	_	25	advcl	_	SpaceAfter=No|Gloss=give|Translit=hâj
 33	การ	การ	NOUN	_	NounType=Nmlz	32	obj	_	SpaceAfter=No|Gloss=the act of doing a thing|Translit=kaːn
-34	ต้อนรับ	ต้อนรับ	VERB	_	_	33	acl	_	SpaceAfter=No|Gloss=welcome|Translit=tɔ̂ːn-ráp
-35	ที่	ที่	PRON	_	_	36	nsubj	_	SpaceAfter=No|Gloss=that(REL)|Translit=thîː
+34	ต้อนรับ	ต้อนรับ	VERB	_	_	33	acl	_	SpaceAfter=No|Gloss=welcome|Translit=tɔ̂ːn-ráp
+35	ที่	ที่	PRON	_	_	36	nsubj	_	SpaceAfter=No|Gloss=that(REL)|Translit=thîː
 36	ดี	ดี	VERB	_	_	33	acl:relcl	_	Gloss=good|Translit=diː
 
 # sent_id = Thai_Election_ForThaiParty_2023_NewsArticle_20_Variant
